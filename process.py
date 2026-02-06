@@ -1,5 +1,6 @@
 import feedparser
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 import json
 import os
 from datetime import datetime
@@ -56,17 +57,15 @@ Return as JSON with this structure:
 
 # RSS feeds
 FEEDS = [
-    "https://www.anthropic.com/news/rss.xml",
-    "https://openai.com/blog/rss/",
+    "https://www.anthropic.com/rss",
+    "https://openai.com/index/rss.xml",
     "https://blog.google/technology/ai/rss/",
-    "https://www.deepmind.com/blog/rss.xml"
 ]
 
 print("🔄 Starting curriculum generation...")
 
 # Configure Gemini
-genai.configure(api_key=os.environ['GEMINI_API_KEY'])
-model = genai.GenerativeModel('gemini-2.0-flash-exp')
+client = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
 
 # Fetch articles
 print("\n📡 Fetching RSS feeds...")
@@ -114,7 +113,10 @@ for i, article in enumerate(articles, 1):
         
         prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
         
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model='gemini-2.0-flash-exp',
+            contents=prompt
+        )
         
         # Extract JSON from response
         response_text = response.text
@@ -184,3 +186,4 @@ for topic, count in sorted(topic_counts.items(), key=lambda x: x[1], reverse=Tru
     print(f"  • {topic}: {count} articles")
 
 print("\n✨ Done!")
+
