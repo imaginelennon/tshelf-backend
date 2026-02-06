@@ -1,0 +1,36 @@
+name: Update Curriculum
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Run daily at 9am UTC
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install feedparser google-generativeai
+      
+      - name: Run processing script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python process.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add curriculum.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update curriculum - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
