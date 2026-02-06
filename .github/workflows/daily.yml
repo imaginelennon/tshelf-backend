@@ -20,7 +20,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install feedparser google-generativeai
+          pip install feedparser google-genai
       
       - name: Run processing script
         env:
@@ -34,3 +34,4 @@ jobs:
           git add curriculum.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update curriculum - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+
