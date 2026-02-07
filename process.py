@@ -103,7 +103,7 @@ If skipping:
 """
 
 # RSS feeds
-FEEDS = FEEDS = [
+FEEDS = [
     "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feed_anthropic_news.xml",
     "https://openai.com/news/rss.xml",
     "https://blog.google/technology/ai/rss/",
@@ -119,7 +119,7 @@ print("\n📡 Fetching RSS feeds...")
 articles = []
 for feed_url in FEEDS:
     try:
-        feed = feedparser.parse(feed_url)
+        feed = feedparser.parse(feed_url, agent='TShelf/1.0')
         source_name = feed.feed.get('title', feed_url)
         
         for entry in feed.entries[:10]:  # Last 10 posts per feed
@@ -133,8 +133,7 @@ for feed_url in FEEDS:
                 content = entry.description
             
             # Skip if too short
-            if len(content) < 100:
-                continue
+            #if len(content) < 100: continue
                 
             articles.append({
                 "title": entry.title,
