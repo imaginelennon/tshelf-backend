@@ -119,7 +119,7 @@ print("\n📡 Fetching RSS feeds...")
 articles = []
 for feed_url in FEEDS:
     try:
-        feed = feedparser.parse(feed_url, agent='TShelf/1.0')
+        feed = feedparser.parse(feed_url)
         source_name = feed.feed.get('title', feed_url)
         
         for entry in feed.entries[:10]:  # Last 10 posts per feed
