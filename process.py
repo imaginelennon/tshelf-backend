@@ -133,7 +133,8 @@ for feed_url in FEEDS:
                 content = entry.description
             
             # Skip if too short
-            #if len(content) < 100: continue
+            if len(content) < 50: 
+               continue
                 
             articles.append({
                 "title": entry.title,
