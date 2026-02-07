@@ -135,7 +135,7 @@ for feed_url in FEEDS:
                 content = entry.description
             
             # Skip if too short
-            if len(content) < 500:
+            if len(content) < 100:
                 continue
                 
             articles.append({
@@ -163,7 +163,7 @@ for i, article in enumerate(articles, 1):
         prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
         
         response = client.models.generate_content(
-            model='gemini-3-flash-preview',
+            model='gemini-2.5-flash',
             contents=prompt
         )
         
