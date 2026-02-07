@@ -1,6 +1,550 @@
 {
-  "generated_at": "2026-02-07T16:15:12.550971",
-  "total_articles": 0,
-  "topics": {},
-  "articles": []
+  "generated_at": "2026-02-07T16:34:20.402712",
+  "total_articles": 4,
+  "topics": {
+    "AI Applications": {
+      "name": "AI Applications",
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+          "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "Natively Adaptive Interfaces (NAI) framework",
+                "confidence": 1.0
+              },
+              {
+                "name": "AI for enhanced accessibility",
+                "confidence": 0.9
+              },
+              {
+                "name": "Principles of adaptive technology",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "General understanding of AI concepts",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 4,
+              "reading_time_minutes": 8
+            },
+            "learning_outcomes": [
+              "Identify the core purpose and potential benefits of Google's Natively Adaptive Interfaces (NAI) framework.",
+              "Explain how AI can be leveraged to create more inclusive and adaptive technological experiences.",
+              "Recognize the importance of adaptive technology in making digital tools accessible to a broader user base."
+            ],
+            "strategic_questions": [
+              "How might a Natively Adaptive Interface framework fundamentally shift expectations for personalized user experiences across different devices and platforms?",
+              "What are the ethical implications and potential biases that AI-driven adaptive interfaces must address to truly ensure inclusive accessibility?",
+              "Beyond individual user adaptation, how could frameworks like NAI influence the design and development processes for future technologies?"
+            ]
+          }
+        },
+        {
+          "title": "How Google Cloud is helping Team USA elevate their tricks with AI",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
+          "published": "Thu, 05 Feb 2026 16:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "AI in sports performance analysis",
+                "confidence": 0.9
+              },
+              {
+                "name": "Custom AI tool development",
+                "confidence": 0.8
+              },
+              {
+                "name": "Cloud platform utilization for AI solutions",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [],
+            "difficulty": {
+              "level": 1,
+              "technical_depth": 2,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Recognize that AI can be applied to enhance athletic performance in various sports.",
+              "Understand the role of cloud providers in developing and deploying specialized AI tools for specific industry needs."
+            ],
+            "strategic_questions": [
+              "What specific types of data (e.g., biomechanics, environmental) would an AI tool analyze to improve an athlete's performance in a sport like skiing or snowboarding?",
+              "Beyond individual athlete performance, how else might AI benefit a national sports team or organization in areas like strategy, training, or injury prevention?"
+            ]
+          }
+        },
+        {
+          "title": "How we\u2019re helping preserve the genetic information of endangered species with AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/",
+          "published": "Mon, 02 Feb 2026 18:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "AI in biodiversity conservation",
+                "confidence": 0.9
+              },
+              {
+                "name": "Genomic sequencing for species preservation",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI for scientific data analysis",
+                "confidence": 0.75
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Basic AI concepts",
+                "confidence": 0.9
+              },
+              {
+                "concept": "Introduction to genomics",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 4,
+              "reading_time_minutes": 7
+            },
+            "learning_outcomes": [
+              "Recognize how artificial intelligence can be applied to address challenges in biodiversity conservation.",
+              "Understand the high-level goal of genomic sequencing as a method for preserving endangered species.",
+              "Identify potential roles for AI in processing and managing biological data for scientific research."
+            ],
+            "strategic_questions": [
+              "What are the long-term ethical implications of using AI to manage and potentially modify the genetic information of endangered species?",
+              "How can AI-powered genomic sequencing be made accessible and equitable to conservation efforts globally, especially in regions with limited resources?",
+              "Beyond sequencing, what other aspects of biodiversity conservation could benefit from AI integration, and what challenges might arise?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [
+          {
+            "title": "How Google Cloud is helping Team USA elevate their tricks with AI",
+            "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
+            "published": "Thu, 05 Feb 2026 16:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "AI in sports performance analysis",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Custom AI tool development",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Cloud platform utilization for AI solutions",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [],
+              "difficulty": {
+                "level": 1,
+                "technical_depth": 2,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Recognize that AI can be applied to enhance athletic performance in various sports.",
+                "Understand the role of cloud providers in developing and deploying specialized AI tools for specific industry needs."
+              ],
+              "strategic_questions": [
+                "What specific types of data (e.g., biomechanics, environmental) would an AI tool analyze to improve an athlete's performance in a sport like skiing or snowboarding?",
+                "Beyond individual athlete performance, how else might AI benefit a national sports team or organization in areas like strategy, training, or injury prevention?"
+              ]
+            }
+          }
+        ],
+        "2": [
+          {
+            "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+            "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+            "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "Natively Adaptive Interfaces (NAI) framework",
+                  "confidence": 1.0
+                },
+                {
+                  "name": "AI for enhanced accessibility",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Principles of adaptive technology",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "General understanding of AI concepts",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 4,
+                "reading_time_minutes": 8
+              },
+              "learning_outcomes": [
+                "Identify the core purpose and potential benefits of Google's Natively Adaptive Interfaces (NAI) framework.",
+                "Explain how AI can be leveraged to create more inclusive and adaptive technological experiences.",
+                "Recognize the importance of adaptive technology in making digital tools accessible to a broader user base."
+              ],
+              "strategic_questions": [
+                "How might a Natively Adaptive Interface framework fundamentally shift expectations for personalized user experiences across different devices and platforms?",
+                "What are the ethical implications and potential biases that AI-driven adaptive interfaces must address to truly ensure inclusive accessibility?",
+                "Beyond individual user adaptation, how could frameworks like NAI influence the design and development processes for future technologies?"
+              ]
+            }
+          },
+          {
+            "title": "How we\u2019re helping preserve the genetic information of endangered species with AI",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/",
+            "published": "Mon, 02 Feb 2026 18:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "AI in biodiversity conservation",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Genomic sequencing for species preservation",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI for scientific data analysis",
+                  "confidence": 0.75
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Basic AI concepts",
+                  "confidence": 0.9
+                },
+                {
+                  "concept": "Introduction to genomics",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 4,
+                "reading_time_minutes": 7
+              },
+              "learning_outcomes": [
+                "Recognize how artificial intelligence can be applied to address challenges in biodiversity conservation.",
+                "Understand the high-level goal of genomic sequencing as a method for preserving endangered species.",
+                "Identify potential roles for AI in processing and managing biological data for scientific research."
+              ],
+              "strategic_questions": [
+                "What are the long-term ethical implications of using AI to manage and potentially modify the genetic information of endangered species?",
+                "How can AI-powered genomic sequencing be made accessible and equitable to conservation efforts globally, especially in regions with limited resources?",
+                "Beyond sequencing, what other aspects of biodiversity conservation could benefit from AI integration, and what challenges might arise?"
+              ]
+            }
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    },
+    "AI Evals & Benchmarking": {
+      "name": "AI Evals & Benchmarking",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Advancing AI benchmarking with Game Arena",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+          "published": "Mon, 02 Feb 2026 17:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Evals & Benchmarking",
+            "concepts_taught": [
+              {
+                "name": "AI Benchmarking in Games",
+                "confidence": 0.3
+              },
+              {
+                "name": "Game AI Evaluation",
+                "confidence": 0.3
+              },
+              {
+                "name": "AI Model Leaderboards",
+                "confidence": 0.4
+              }
+            ],
+            "prerequisites": [],
+            "difficulty": {
+              "level": 1,
+              "technical_depth": 1,
+              "reading_time_minutes": 1
+            },
+            "learning_outcomes": [
+              "Identify Game Arena as a platform for AI benchmarking.",
+              "Recall Poker and Werewolf as new games integrated into Game Arena for AI evaluation.",
+              "Recognize Gemini 3 Pro and Flash as top-performing AI models on the chess leaderboard within Game Arena."
+            ],
+            "strategic_questions": [
+              "How do game-based environments like Game Arena contribute to the evaluation and advancement of AI capabilities beyond traditional, task-specific benchmarks?",
+              "What are the unique challenges and benefits of using complex, human-centric games like Poker and Werewolf for assessing AI performance, compared to more structured games like Chess?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [
+          {
+            "title": "Advancing AI benchmarking with Game Arena",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+            "published": "Mon, 02 Feb 2026 17:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Evals & Benchmarking",
+              "concepts_taught": [
+                {
+                  "name": "AI Benchmarking in Games",
+                  "confidence": 0.3
+                },
+                {
+                  "name": "Game AI Evaluation",
+                  "confidence": 0.3
+                },
+                {
+                  "name": "AI Model Leaderboards",
+                  "confidence": 0.4
+                }
+              ],
+              "prerequisites": [],
+              "difficulty": {
+                "level": 1,
+                "technical_depth": 1,
+                "reading_time_minutes": 1
+              },
+              "learning_outcomes": [
+                "Identify Game Arena as a platform for AI benchmarking.",
+                "Recall Poker and Werewolf as new games integrated into Game Arena for AI evaluation.",
+                "Recognize Gemini 3 Pro and Flash as top-performing AI models on the chess leaderboard within Game Arena."
+              ],
+              "strategic_questions": [
+                "How do game-based environments like Game Arena contribute to the evaluation and advancement of AI capabilities beyond traditional, task-specific benchmarks?",
+                "What are the unique challenges and benefits of using complex, human-centric games like Poker and Werewolf for assessing AI performance, compared to more structured games like Chess?"
+              ]
+            }
+          }
+        ],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    }
+  },
+  "articles": [
+    {
+      "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+      "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "Natively Adaptive Interfaces (NAI) framework",
+            "confidence": 1.0
+          },
+          {
+            "name": "AI for enhanced accessibility",
+            "confidence": 0.9
+          },
+          {
+            "name": "Principles of adaptive technology",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "General understanding of AI concepts",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 4,
+          "reading_time_minutes": 8
+        },
+        "learning_outcomes": [
+          "Identify the core purpose and potential benefits of Google's Natively Adaptive Interfaces (NAI) framework.",
+          "Explain how AI can be leveraged to create more inclusive and adaptive technological experiences.",
+          "Recognize the importance of adaptive technology in making digital tools accessible to a broader user base."
+        ],
+        "strategic_questions": [
+          "How might a Natively Adaptive Interface framework fundamentally shift expectations for personalized user experiences across different devices and platforms?",
+          "What are the ethical implications and potential biases that AI-driven adaptive interfaces must address to truly ensure inclusive accessibility?",
+          "Beyond individual user adaptation, how could frameworks like NAI influence the design and development processes for future technologies?"
+        ]
+      }
+    },
+    {
+      "title": "How Google Cloud is helping Team USA elevate their tricks with AI",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
+      "published": "Thu, 05 Feb 2026 16:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "AI in sports performance analysis",
+            "confidence": 0.9
+          },
+          {
+            "name": "Custom AI tool development",
+            "confidence": 0.8
+          },
+          {
+            "name": "Cloud platform utilization for AI solutions",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [],
+        "difficulty": {
+          "level": 1,
+          "technical_depth": 2,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Recognize that AI can be applied to enhance athletic performance in various sports.",
+          "Understand the role of cloud providers in developing and deploying specialized AI tools for specific industry needs."
+        ],
+        "strategic_questions": [
+          "What specific types of data (e.g., biomechanics, environmental) would an AI tool analyze to improve an athlete's performance in a sport like skiing or snowboarding?",
+          "Beyond individual athlete performance, how else might AI benefit a national sports team or organization in areas like strategy, training, or injury prevention?"
+        ]
+      }
+    },
+    {
+      "title": "How we\u2019re helping preserve the genetic information of endangered species with AI",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/",
+      "published": "Mon, 02 Feb 2026 18:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "AI in biodiversity conservation",
+            "confidence": 0.9
+          },
+          {
+            "name": "Genomic sequencing for species preservation",
+            "confidence": 0.8
+          },
+          {
+            "name": "AI for scientific data analysis",
+            "confidence": 0.75
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Basic AI concepts",
+            "confidence": 0.9
+          },
+          {
+            "concept": "Introduction to genomics",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 4,
+          "reading_time_minutes": 7
+        },
+        "learning_outcomes": [
+          "Recognize how artificial intelligence can be applied to address challenges in biodiversity conservation.",
+          "Understand the high-level goal of genomic sequencing as a method for preserving endangered species.",
+          "Identify potential roles for AI in processing and managing biological data for scientific research."
+        ],
+        "strategic_questions": [
+          "What are the long-term ethical implications of using AI to manage and potentially modify the genetic information of endangered species?",
+          "How can AI-powered genomic sequencing be made accessible and equitable to conservation efforts globally, especially in regions with limited resources?",
+          "Beyond sequencing, what other aspects of biodiversity conservation could benefit from AI integration, and what challenges might arise?"
+        ]
+      }
+    },
+    {
+      "title": "Advancing AI benchmarking with Game Arena",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+      "published": "Mon, 02 Feb 2026 17:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Evals & Benchmarking",
+        "concepts_taught": [
+          {
+            "name": "AI Benchmarking in Games",
+            "confidence": 0.3
+          },
+          {
+            "name": "Game AI Evaluation",
+            "confidence": 0.3
+          },
+          {
+            "name": "AI Model Leaderboards",
+            "confidence": 0.4
+          }
+        ],
+        "prerequisites": [],
+        "difficulty": {
+          "level": 1,
+          "technical_depth": 1,
+          "reading_time_minutes": 1
+        },
+        "learning_outcomes": [
+          "Identify Game Arena as a platform for AI benchmarking.",
+          "Recall Poker and Werewolf as new games integrated into Game Arena for AI evaluation.",
+          "Recognize Gemini 3 Pro and Flash as top-performing AI models on the chess leaderboard within Game Arena."
+        ],
+        "strategic_questions": [
+          "How do game-based environments like Game Arena contribute to the evaluation and advancement of AI capabilities beyond traditional, task-specific benchmarks?",
+          "What are the unique challenges and benefits of using complex, human-centric games like Poker and Werewolf for assessing AI performance, compared to more structured games like Chess?"
+        ]
+      }
+    }
+  ]
 }
