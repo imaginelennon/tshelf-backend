@@ -1,6 +1,297 @@
 {
-  "generated_at": "2026-02-07T09:28:19.041601",
-  "total_articles": 0,
-  "topics": {},
-  "articles": []
+  "generated_at": "2026-02-07T16:01:18.827340",
+  "total_articles": 2,
+  "topics": {
+    "AI Applications": {
+      "name": "AI Applications",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+          "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "Natively Adaptive Interfaces (NAI)",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI for accessibility",
+                "confidence": 0.9
+              },
+              {
+                "name": "Adaptive User Interface (UI) design",
+                "confidence": 0.85
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Basic understanding of AI",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 4,
+              "reading_time_minutes": 7
+            },
+            "learning_outcomes": [
+              "Understand the core concept and purpose of the Natively Adaptive Interfaces (NAI) framework.",
+              "Recognize how AI can be leveraged to create more adaptive, inclusive, and accessible technology."
+            ],
+            "strategic_questions": [
+              "What ethical considerations arise when AI systems are designed to proactively adapt interfaces based on user behavior and needs?",
+              "How might the NAI framework influence future design philosophies for digital products across various industries?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [],
+        "2": [
+          {
+            "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+            "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+            "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "Natively Adaptive Interfaces (NAI)",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI for accessibility",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Adaptive User Interface (UI) design",
+                  "confidence": 0.85
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Basic understanding of AI",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 4,
+                "reading_time_minutes": 7
+              },
+              "learning_outcomes": [
+                "Understand the core concept and purpose of the Natively Adaptive Interfaces (NAI) framework.",
+                "Recognize how AI can be leveraged to create more adaptive, inclusive, and accessible technology."
+              ],
+              "strategic_questions": [
+                "What ethical considerations arise when AI systems are designed to proactively adapt interfaces based on user behavior and needs?",
+                "How might the NAI framework influence future design philosophies for digital products across various industries?"
+              ]
+            }
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    },
+    "AI Evals & Benchmarking": {
+      "name": "AI Evals & Benchmarking",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Advancing AI benchmarking with Game Arena",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+          "published": "Mon, 02 Feb 2026 17:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Evals & Benchmarking",
+            "concepts_taught": [
+              {
+                "name": "AI benchmarking",
+                "confidence": 0.8
+              },
+              {
+                "name": "Game AI evaluation",
+                "confidence": 0.7
+              },
+              {
+                "name": "AI leaderboards",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Basic understanding of AI",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 1,
+              "technical_depth": 1,
+              "reading_time_minutes": 1
+            },
+            "learning_outcomes": [
+              "Recall that 'Game Arena' is a platform for AI benchmarking.",
+              "Identify specific games (Poker, Werewolf, Chess) used to benchmark AI models.",
+              "Recognize that AI models like Gemini 3 Pro and Flash are evaluated for performance in games."
+            ],
+            "strategic_questions": [
+              "What are the potential benefits of using complex games like Poker and Werewolf for evaluating advanced AI capabilities beyond traditional benchmarks?",
+              "How might a platform like 'Game Arena' contribute to the broader development and comparison of AI models across different research groups?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [
+          {
+            "title": "Advancing AI benchmarking with Game Arena",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+            "published": "Mon, 02 Feb 2026 17:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Evals & Benchmarking",
+              "concepts_taught": [
+                {
+                  "name": "AI benchmarking",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Game AI evaluation",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "AI leaderboards",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Basic understanding of AI",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 1,
+                "technical_depth": 1,
+                "reading_time_minutes": 1
+              },
+              "learning_outcomes": [
+                "Recall that 'Game Arena' is a platform for AI benchmarking.",
+                "Identify specific games (Poker, Werewolf, Chess) used to benchmark AI models.",
+                "Recognize that AI models like Gemini 3 Pro and Flash are evaluated for performance in games."
+              ],
+              "strategic_questions": [
+                "What are the potential benefits of using complex games like Poker and Werewolf for evaluating advanced AI capabilities beyond traditional benchmarks?",
+                "How might a platform like 'Game Arena' contribute to the broader development and comparison of AI models across different research groups?"
+              ]
+            }
+          }
+        ],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    }
+  },
+  "articles": [
+    {
+      "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+      "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "Natively Adaptive Interfaces (NAI)",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI for accessibility",
+            "confidence": 0.9
+          },
+          {
+            "name": "Adaptive User Interface (UI) design",
+            "confidence": 0.85
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Basic understanding of AI",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 4,
+          "reading_time_minutes": 7
+        },
+        "learning_outcomes": [
+          "Understand the core concept and purpose of the Natively Adaptive Interfaces (NAI) framework.",
+          "Recognize how AI can be leveraged to create more adaptive, inclusive, and accessible technology."
+        ],
+        "strategic_questions": [
+          "What ethical considerations arise when AI systems are designed to proactively adapt interfaces based on user behavior and needs?",
+          "How might the NAI framework influence future design philosophies for digital products across various industries?"
+        ]
+      }
+    },
+    {
+      "title": "Advancing AI benchmarking with Game Arena",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+      "published": "Mon, 02 Feb 2026 17:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Evals & Benchmarking",
+        "concepts_taught": [
+          {
+            "name": "AI benchmarking",
+            "confidence": 0.8
+          },
+          {
+            "name": "Game AI evaluation",
+            "confidence": 0.7
+          },
+          {
+            "name": "AI leaderboards",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Basic understanding of AI",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 1,
+          "technical_depth": 1,
+          "reading_time_minutes": 1
+        },
+        "learning_outcomes": [
+          "Recall that 'Game Arena' is a platform for AI benchmarking.",
+          "Identify specific games (Poker, Werewolf, Chess) used to benchmark AI models.",
+          "Recognize that AI models like Gemini 3 Pro and Flash are evaluated for performance in games."
+        ],
+        "strategic_questions": [
+          "What are the potential benefits of using complex games like Poker and Werewolf for evaluating advanced AI capabilities beyond traditional benchmarks?",
+          "How might a platform like 'Game Arena' contribute to the broader development and comparison of AI models across different research groups?"
+        ]
+      }
+    }
+  ]
 }
