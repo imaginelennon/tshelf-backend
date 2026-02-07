@@ -3,6 +3,7 @@ from google import genai
 from google.genai import types
 import json
 import os
+import time
 from datetime import datetime
 
 # Soul.md prompt
@@ -119,7 +120,7 @@ print("\n📡 Fetching RSS feeds...")
 articles = []
 for feed_url in FEEDS:
     try:
-        feed = feedparser.parse(feed_url)
+        feed = feedparser.parse(feed_url, agent='TShelf/1.0')
         source_name = feed.feed.get('title', feed_url)
         
         for entry in feed.entries[:10]:  # Last 10 posts per feed
@@ -132,9 +133,9 @@ for feed_url in FEEDS:
             elif hasattr(entry, 'description'):
                 content = entry.description
             
-            # Skip if too short
-            if len(content) < 50: 
-               continue
+            # Skip if no content at all
+            if not content or len(content.strip()) < 50:
+                continue
                 
             articles.append({
                 "title": entry.title,
@@ -144,7 +145,7 @@ for feed_url in FEEDS:
                 "source": source_name
             })
         
-        print(f"  ✓ {source_name}: {len([e for e in feed.entries[:10]])} articles")
+        print(f"  ✓ {source_name}: {len(feed.entries)} total, {len([a for a in articles if a['source'] == source_name])} with content")
     except Exception as e:
         print(f"  ✗ Error fetching {feed_url}: {e}")
         continue
@@ -153,6 +154,7 @@ print(f"\n📊 Total articles to process: {len(articles)}")
 
 # Process with Gemini
 print("\n🤖 Processing with Gemini...")
+print("  Note: Free tier limit = 10/min, auto-waiting when needed\n")
 processed = []
 for i, article in enumerate(articles, 1):
     try:
@@ -160,10 +162,23 @@ for i, article in enumerate(articles, 1):
         
         prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
         
-        response = client.models.generate_content(
-            model='gemini-2.5-flash-lite',
-            contents=prompt
-        )
+        # Retry with delay for rate limits
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                response = client.models.generate_content(
+                    model='gemini-2.5-flash',
+                    contents=prompt
+                )
+                break  # Success
+            except Exception as e:
+                error_str = str(e)
+                if 'RESOURCE_EXHAUSTED' in error_str or '429' in error_str:
+                    if attempt < max_retries - 1:
+                        print(f"    ⏳ Rate limit - waiting 60s...")
+                        time.sleep(60)
+                        continue
+                raise  # Not rate limit or final attempt
         
         # Extract JSON from response
         response_text = response.text
