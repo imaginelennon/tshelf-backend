@@ -1,6 +1,1107 @@
 {
-  "generated_at": "2026-02-07T17:12:49.451434",
-  "total_articles": 0,
-  "topics": {},
-  "articles": []
+  "generated_at": "2026-02-07T17:16:59.758837",
+  "total_articles": 8,
+  "topics": {
+    "AI Applications": {
+      "name": "AI Applications",
+      "article_count": 6,
+      "articles": [
+        {
+          "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+          "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+          "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "AI-driven laboratory automation",
+                "confidence": 0.95
+              },
+              {
+                "name": "Impact of large language models (LLMs) on scientific research",
+                "confidence": 0.9
+              },
+              {
+                "name": "Cost reduction through AI in scientific processes",
+                "confidence": 0.95
+              },
+              {
+                "name": "Cell-free protein synthesis",
+                "confidence": 0.85
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Basic understanding of AI",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 4,
+              "reading_time_minutes": 3
+            },
+            "learning_outcomes": [
+              "Understand how GPT-5 was integrated into a lab automation system.",
+              "Recognize the potential for AI to reduce costs in scientific research, specifically in cell-free protein synthesis.",
+              "Appreciate the concept of closed-loop experimentation driven by AI."
+            ],
+            "strategic_questions": [
+              "What are the broader implications of AI-driven cost reductions in scientific research for drug discovery and other fields?",
+              "How might autonomous AI labs like this accelerate the pace of scientific breakthroughs?",
+              "What ethical considerations arise from increasing automation in scientific processes?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing OpenAI Frontier",
+          "url": "https://openai.com/index/introducing-openai-frontier",
+          "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "Enterprise AI Platforms",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI Agent Management",
+                "confidence": 0.85
+              },
+              {
+                "name": "Context Sharing in AI Systems",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI Governance and Permissions",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Artificial Intelligence (AI)",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 1,
+              "technical_depth": 2,
+              "reading_time_minutes": 1
+            },
+            "learning_outcomes": [
+              "Understand the purpose of OpenAI Frontier as an enterprise platform.",
+              "Identify key features of OpenAI Frontier for managing AI agents.",
+              "Recognize the importance of shared context, onboarding, permissions, and governance in enterprise AI deployments."
+            ],
+            "strategic_questions": [
+              "How might an enterprise platform like OpenAI Frontier address the challenges of scaling AI agent deployments within an organization?",
+              "What are the potential implications of centralized governance and permissions for the autonomy and flexibility of AI agents?"
+            ]
+          }
+        },
+        {
+          "title": "Navigating health questions with ChatGPT",
+          "url": "https://openai.com/index/navigating-health-questions",
+          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "AI-assisted information gathering for health decisions",
+                "confidence": 0.9
+              },
+              {
+                "name": "Role of LLMs in patient empowerment",
+                "confidence": 0.85
+              },
+              {
+                "name": "Complementary use of AI with expert medical advice",
+                "confidence": 0.95
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Understanding of Large Language Models (LLMs)",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 3,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand how an LLM like ChatGPT can be used as a tool to help individuals research and prepare for complex health decisions.",
+              "Recognize the importance of using AI as a supplementary tool, not a replacement for professional medical expertise.",
+              "Appreciate the potential for AI to empower patients by providing accessible information."
+            ],
+            "strategic_questions": [
+              "What are the ethical considerations when using AI to inform critical health decisions, even when alongside expert medical advice?",
+              "How can we ensure that information provided by LLMs is accurate and trustworthy, especially in sensitive domains like healthcare?",
+              "What are the long-term implications for patient-doctor relationships as AI tools become more integrated into healthcare information seeking?"
+            ]
+          }
+        },
+        {
+          "title": "Unlocking the Codex harness: how we built the App Server",
+          "url": "https://openai.com/index/unlocking-the-codex-harness",
+          "published": "Wed, 04 Feb 2026 13:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "API Design for AI Agents",
+                "confidence": 0.9
+              },
+              {
+                "name": "Streaming Data in AI Applications",
+                "confidence": 0.85
+              },
+              {
+                "name": "Tool Use in AI Models",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "APIs and Web Services",
+                "confidence": 0.85
+              },
+              {
+                "concept": "Basic understanding of AI agent concepts",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 4,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand the purpose and functionality of the Codex App Server.",
+              "Identify key features that enable advanced AI agent interactions (streaming progress, tool use, approvals, diffs).",
+              "Grasp how a JSON-RPC API can be used to integrate AI models into applications."
+            ],
+            "strategic_questions": [
+              "What are the key trade-offs when designing a bidirectional streaming API for AI agents compared to a standard request-response model?",
+              "How might the concept of 'tool use' and 'approvals' implemented in the Codex App Server evolve in future AI applications?",
+              "Beyond code generation, what other AI agent capabilities would benefit significantly from streaming progress and explicit approval mechanisms?"
+            ]
+          }
+        },
+        {
+          "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+          "url": "https://openai.com/index/vfl-wolfsburg",
+          "published": "Wed, 04 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "Organizational AI adoption strategies",
+                "confidence": 0.9
+              },
+              {
+                "name": "Leveraging LLMs for diverse business functions",
+                "confidence": 0.85
+              },
+              {
+                "name": "Balancing AI integration with core identity",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [],
+            "difficulty": {
+              "level": 1,
+              "technical_depth": 2,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand how a professional sports club is implementing ChatGPT across various departments.",
+              "Grasp the importance of a people-centric approach to AI adoption.",
+              "See examples of how LLMs can enhance efficiency and creativity within an organization."
+            ],
+            "strategic_questions": [
+              "Beyond efficiency, what are the potential long-term impacts of widespread LLM adoption on the 'football identity' of a club like VfL Wolfsburg?",
+              "What are the key challenges a non-tech organization might face when trying to replicate VfL Wolfsburg's approach to AI integration?"
+            ]
+          }
+        },
+        {
+          "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+          "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+          "source": "AI",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Applications",
+            "concepts_taught": [
+              {
+                "name": "Adaptive User Interfaces",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI-driven Personalization",
+                "confidence": 0.85
+              },
+              {
+                "name": "AI Accessibility",
+                "confidence": 0.9
+              }
+            ],
+            "prerequisites": [
+              {
+                "concept": "Basic understanding of User Interface (UI) design",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 3,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand the concept of Natively Adaptive Interfaces (NAI).",
+              "Recognize how AI can be used to create more inclusive and accessible technology.",
+              "Appreciate the benefits of AI-driven personalization in user interfaces."
+            ],
+            "strategic_questions": [
+              "Beyond the examples provided, what are other potential applications for Natively Adaptive Interfaces in different industries?",
+              "What are the potential ethical considerations or challenges in developing and deploying AI systems that heavily adapt to individual users?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [
+          {
+            "title": "Introducing OpenAI Frontier",
+            "url": "https://openai.com/index/introducing-openai-frontier",
+            "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "Enterprise AI Platforms",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI Agent Management",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Context Sharing in AI Systems",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI Governance and Permissions",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Artificial Intelligence (AI)",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 1,
+                "technical_depth": 2,
+                "reading_time_minutes": 1
+              },
+              "learning_outcomes": [
+                "Understand the purpose of OpenAI Frontier as an enterprise platform.",
+                "Identify key features of OpenAI Frontier for managing AI agents.",
+                "Recognize the importance of shared context, onboarding, permissions, and governance in enterprise AI deployments."
+              ],
+              "strategic_questions": [
+                "How might an enterprise platform like OpenAI Frontier address the challenges of scaling AI agent deployments within an organization?",
+                "What are the potential implications of centralized governance and permissions for the autonomy and flexibility of AI agents?"
+              ]
+            }
+          },
+          {
+            "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+            "url": "https://openai.com/index/vfl-wolfsburg",
+            "published": "Wed, 04 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "Organizational AI adoption strategies",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Leveraging LLMs for diverse business functions",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Balancing AI integration with core identity",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [],
+              "difficulty": {
+                "level": 1,
+                "technical_depth": 2,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand how a professional sports club is implementing ChatGPT across various departments.",
+                "Grasp the importance of a people-centric approach to AI adoption.",
+                "See examples of how LLMs can enhance efficiency and creativity within an organization."
+              ],
+              "strategic_questions": [
+                "Beyond efficiency, what are the potential long-term impacts of widespread LLM adoption on the 'football identity' of a club like VfL Wolfsburg?",
+                "What are the key challenges a non-tech organization might face when trying to replicate VfL Wolfsburg's approach to AI integration?"
+              ]
+            }
+          }
+        ],
+        "2": [
+          {
+            "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+            "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+            "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "AI-driven laboratory automation",
+                  "confidence": 0.95
+                },
+                {
+                  "name": "Impact of large language models (LLMs) on scientific research",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Cost reduction through AI in scientific processes",
+                  "confidence": 0.95
+                },
+                {
+                  "name": "Cell-free protein synthesis",
+                  "confidence": 0.85
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Basic understanding of AI",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 4,
+                "reading_time_minutes": 3
+              },
+              "learning_outcomes": [
+                "Understand how GPT-5 was integrated into a lab automation system.",
+                "Recognize the potential for AI to reduce costs in scientific research, specifically in cell-free protein synthesis.",
+                "Appreciate the concept of closed-loop experimentation driven by AI."
+              ],
+              "strategic_questions": [
+                "What are the broader implications of AI-driven cost reductions in scientific research for drug discovery and other fields?",
+                "How might autonomous AI labs like this accelerate the pace of scientific breakthroughs?",
+                "What ethical considerations arise from increasing automation in scientific processes?"
+              ]
+            }
+          },
+          {
+            "title": "Navigating health questions with ChatGPT",
+            "url": "https://openai.com/index/navigating-health-questions",
+            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "AI-assisted information gathering for health decisions",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Role of LLMs in patient empowerment",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Complementary use of AI with expert medical advice",
+                  "confidence": 0.95
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Understanding of Large Language Models (LLMs)",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 3,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand how an LLM like ChatGPT can be used as a tool to help individuals research and prepare for complex health decisions.",
+                "Recognize the importance of using AI as a supplementary tool, not a replacement for professional medical expertise.",
+                "Appreciate the potential for AI to empower patients by providing accessible information."
+              ],
+              "strategic_questions": [
+                "What are the ethical considerations when using AI to inform critical health decisions, even when alongside expert medical advice?",
+                "How can we ensure that information provided by LLMs is accurate and trustworthy, especially in sensitive domains like healthcare?",
+                "What are the long-term implications for patient-doctor relationships as AI tools become more integrated into healthcare information seeking?"
+              ]
+            }
+          },
+          {
+            "title": "Unlocking the Codex harness: how we built the App Server",
+            "url": "https://openai.com/index/unlocking-the-codex-harness",
+            "published": "Wed, 04 Feb 2026 13:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "API Design for AI Agents",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Streaming Data in AI Applications",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Tool Use in AI Models",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "APIs and Web Services",
+                  "confidence": 0.85
+                },
+                {
+                  "concept": "Basic understanding of AI agent concepts",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 4,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand the purpose and functionality of the Codex App Server.",
+                "Identify key features that enable advanced AI agent interactions (streaming progress, tool use, approvals, diffs).",
+                "Grasp how a JSON-RPC API can be used to integrate AI models into applications."
+              ],
+              "strategic_questions": [
+                "What are the key trade-offs when designing a bidirectional streaming API for AI agents compared to a standard request-response model?",
+                "How might the concept of 'tool use' and 'approvals' implemented in the Codex App Server evolve in future AI applications?",
+                "Beyond code generation, what other AI agent capabilities would benefit significantly from streaming progress and explicit approval mechanisms?"
+              ]
+            }
+          },
+          {
+            "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+            "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+            "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+            "source": "AI",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Applications",
+              "concepts_taught": [
+                {
+                  "name": "Adaptive User Interfaces",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI-driven Personalization",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "AI Accessibility",
+                  "confidence": 0.9
+                }
+              ],
+              "prerequisites": [
+                {
+                  "concept": "Basic understanding of User Interface (UI) design",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 3,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand the concept of Natively Adaptive Interfaces (NAI).",
+                "Recognize how AI can be used to create more inclusive and accessible technology.",
+                "Appreciate the benefits of AI-driven personalization in user interfaces."
+              ],
+              "strategic_questions": [
+                "Beyond the examples provided, what are other potential applications for Natively Adaptive Interfaces in different industries?",
+                "What are the potential ethical considerations or challenges in developing and deploying AI systems that heavily adapt to individual users?"
+              ]
+            }
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    },
+    "AI Safety & Alignment": {
+      "name": "AI Safety & Alignment",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Introducing Trusted Access for Cyber",
+          "url": "https://openai.com/index/trusted-access-for-cyber",
+          "published": "Thu, 05 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "concepts_taught": [
+              {
+                "name": "Trust-based frameworks for AI access",
+                "confidence": 0.8
+              },
+              {
+                "name": "Safeguards against AI misuse",
+                "confidence": 0.85
+              },
+              {
+                "name": "Controlled release of advanced AI capabilities",
+                "confidence": 0.75
+              }
+            ],
+            "prerequisites": [],
+            "difficulty": {
+              "level": 1,
+              "technical_depth": 2,
+              "reading_time_minutes": 2
+            },
+            "learning_outcomes": [
+              "Understand OpenAI's approach to providing access to advanced cyber capabilities.",
+              "Recognize the importance of safeguards and trust-based frameworks in AI development.",
+              "Identify the tension between expanding AI access and preventing misuse."
+            ],
+            "strategic_questions": [
+              "What are the potential benefits and risks of a 'trust-based framework' for accessing powerful AI capabilities?",
+              "How can organizations effectively balance the desire to democratize access to AI with the imperative to prevent its malicious use?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [
+          {
+            "title": "Introducing Trusted Access for Cyber",
+            "url": "https://openai.com/index/trusted-access-for-cyber",
+            "published": "Thu, 05 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "Trust-based frameworks for AI access",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Safeguards against AI misuse",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Controlled release of advanced AI capabilities",
+                  "confidence": 0.75
+                }
+              ],
+              "prerequisites": [],
+              "difficulty": {
+                "level": 1,
+                "technical_depth": 2,
+                "reading_time_minutes": 2
+              },
+              "learning_outcomes": [
+                "Understand OpenAI's approach to providing access to advanced cyber capabilities.",
+                "Recognize the importance of safeguards and trust-based frameworks in AI development.",
+                "Identify the tension between expanding AI access and preventing misuse."
+              ],
+              "strategic_questions": [
+                "What are the potential benefits and risks of a 'trust-based framework' for accessing powerful AI capabilities?",
+                "How can organizations effectively balance the desire to democratize access to AI with the imperative to prevent its malicious use?"
+              ]
+            }
+          }
+        ],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    },
+    "Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)": {
+      "name": "Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "GPT-5.3-Codex System Card",
+          "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)",
+            "concepts_taught": [
+              {
+                "name": "Agentic AI Models",
+                "confidence": 0.9
+              },
+              {
+                "name": "Model Performance and Capabilities",
+                "confidence": 0.85
+              },
+              {
+                "name": "Integration of Different AI Strengths (Coding + Reasoning/Knowledge)",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [],
+            "difficulty": {
+              "level": 2,
+              "technical_depth": 3,
+              "reading_time_minutes": 2
+            },
+            "learning_outcomes": [
+              "Understand that GPT-5.3-Codex is an advanced AI model designed for coding.",
+              "Recognize that the model integrates coding expertise with reasoning and general knowledge.",
+              "Grasp the concept of 'agentic' models in the context of AI for complex tasks."
+            ],
+            "strategic_questions": [
+              "What are the potential implications of 'agentic coding models' for software development workflows?",
+              "How might the combination of coding performance and professional knowledge in GPT-5.3-Codex impact the role of human developers?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "1": [],
+        "2": [
+          {
+            "title": "GPT-5.3-Codex System Card",
+            "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)",
+              "concepts_taught": [
+                {
+                  "name": "Agentic AI Models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Model Performance and Capabilities",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Integration of Different AI Strengths (Coding + Reasoning/Knowledge)",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [],
+              "difficulty": {
+                "level": 2,
+                "technical_depth": 3,
+                "reading_time_minutes": 2
+              },
+              "learning_outcomes": [
+                "Understand that GPT-5.3-Codex is an advanced AI model designed for coding.",
+                "Recognize that the model integrates coding expertise with reasoning and general knowledge.",
+                "Grasp the concept of 'agentic' models in the context of AI for complex tasks."
+              ],
+              "strategic_questions": [
+                "What are the potential implications of 'agentic coding models' for software development workflows?",
+                "How might the combination of coding performance and professional knowledge in GPT-5.3-Codex impact the role of human developers?"
+              ]
+            }
+          }
+        ],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    }
+  },
+  "articles": [
+    {
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "AI-driven laboratory automation",
+            "confidence": 0.95
+          },
+          {
+            "name": "Impact of large language models (LLMs) on scientific research",
+            "confidence": 0.9
+          },
+          {
+            "name": "Cost reduction through AI in scientific processes",
+            "confidence": 0.95
+          },
+          {
+            "name": "Cell-free protein synthesis",
+            "confidence": 0.85
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Basic understanding of AI",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 4,
+          "reading_time_minutes": 3
+        },
+        "learning_outcomes": [
+          "Understand how GPT-5 was integrated into a lab automation system.",
+          "Recognize the potential for AI to reduce costs in scientific research, specifically in cell-free protein synthesis.",
+          "Appreciate the concept of closed-loop experimentation driven by AI."
+        ],
+        "strategic_questions": [
+          "What are the broader implications of AI-driven cost reductions in scientific research for drug discovery and other fields?",
+          "How might autonomous AI labs like this accelerate the pace of scientific breakthroughs?",
+          "What ethical considerations arise from increasing automation in scientific processes?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing Trusted Access for Cyber",
+      "url": "https://openai.com/index/trusted-access-for-cyber",
+      "published": "Thu, 05 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "concepts_taught": [
+          {
+            "name": "Trust-based frameworks for AI access",
+            "confidence": 0.8
+          },
+          {
+            "name": "Safeguards against AI misuse",
+            "confidence": 0.85
+          },
+          {
+            "name": "Controlled release of advanced AI capabilities",
+            "confidence": 0.75
+          }
+        ],
+        "prerequisites": [],
+        "difficulty": {
+          "level": 1,
+          "technical_depth": 2,
+          "reading_time_minutes": 2
+        },
+        "learning_outcomes": [
+          "Understand OpenAI's approach to providing access to advanced cyber capabilities.",
+          "Recognize the importance of safeguards and trust-based frameworks in AI development.",
+          "Identify the tension between expanding AI access and preventing misuse."
+        ],
+        "strategic_questions": [
+          "What are the potential benefits and risks of a 'trust-based framework' for accessing powerful AI capabilities?",
+          "How can organizations effectively balance the desire to democratize access to AI with the imperative to prevent its malicious use?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing OpenAI Frontier",
+      "url": "https://openai.com/index/introducing-openai-frontier",
+      "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "Enterprise AI Platforms",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI Agent Management",
+            "confidence": 0.85
+          },
+          {
+            "name": "Context Sharing in AI Systems",
+            "confidence": 0.8
+          },
+          {
+            "name": "AI Governance and Permissions",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Artificial Intelligence (AI)",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 1,
+          "technical_depth": 2,
+          "reading_time_minutes": 1
+        },
+        "learning_outcomes": [
+          "Understand the purpose of OpenAI Frontier as an enterprise platform.",
+          "Identify key features of OpenAI Frontier for managing AI agents.",
+          "Recognize the importance of shared context, onboarding, permissions, and governance in enterprise AI deployments."
+        ],
+        "strategic_questions": [
+          "How might an enterprise platform like OpenAI Frontier address the challenges of scaling AI agent deployments within an organization?",
+          "What are the potential implications of centralized governance and permissions for the autonomy and flexibility of AI agents?"
+        ]
+      }
+    },
+    {
+      "title": "Navigating health questions with ChatGPT",
+      "url": "https://openai.com/index/navigating-health-questions",
+      "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "AI-assisted information gathering for health decisions",
+            "confidence": 0.9
+          },
+          {
+            "name": "Role of LLMs in patient empowerment",
+            "confidence": 0.85
+          },
+          {
+            "name": "Complementary use of AI with expert medical advice",
+            "confidence": 0.95
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Understanding of Large Language Models (LLMs)",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 3,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand how an LLM like ChatGPT can be used as a tool to help individuals research and prepare for complex health decisions.",
+          "Recognize the importance of using AI as a supplementary tool, not a replacement for professional medical expertise.",
+          "Appreciate the potential for AI to empower patients by providing accessible information."
+        ],
+        "strategic_questions": [
+          "What are the ethical considerations when using AI to inform critical health decisions, even when alongside expert medical advice?",
+          "How can we ensure that information provided by LLMs is accurate and trustworthy, especially in sensitive domains like healthcare?",
+          "What are the long-term implications for patient-doctor relationships as AI tools become more integrated into healthcare information seeking?"
+        ]
+      }
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)",
+        "concepts_taught": [
+          {
+            "name": "Agentic AI Models",
+            "confidence": 0.9
+          },
+          {
+            "name": "Model Performance and Capabilities",
+            "confidence": 0.85
+          },
+          {
+            "name": "Integration of Different AI Strengths (Coding + Reasoning/Knowledge)",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 3,
+          "reading_time_minutes": 2
+        },
+        "learning_outcomes": [
+          "Understand that GPT-5.3-Codex is an advanced AI model designed for coding.",
+          "Recognize that the model integrates coding expertise with reasoning and general knowledge.",
+          "Grasp the concept of 'agentic' models in the context of AI for complex tasks."
+        ],
+        "strategic_questions": [
+          "What are the potential implications of 'agentic coding models' for software development workflows?",
+          "How might the combination of coding performance and professional knowledge in GPT-5.3-Codex impact the role of human developers?"
+        ]
+      }
+    },
+    {
+      "title": "Unlocking the Codex harness: how we built the App Server",
+      "url": "https://openai.com/index/unlocking-the-codex-harness",
+      "published": "Wed, 04 Feb 2026 13:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "API Design for AI Agents",
+            "confidence": 0.9
+          },
+          {
+            "name": "Streaming Data in AI Applications",
+            "confidence": 0.85
+          },
+          {
+            "name": "Tool Use in AI Models",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "APIs and Web Services",
+            "confidence": 0.85
+          },
+          {
+            "concept": "Basic understanding of AI agent concepts",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 4,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand the purpose and functionality of the Codex App Server.",
+          "Identify key features that enable advanced AI agent interactions (streaming progress, tool use, approvals, diffs).",
+          "Grasp how a JSON-RPC API can be used to integrate AI models into applications."
+        ],
+        "strategic_questions": [
+          "What are the key trade-offs when designing a bidirectional streaming API for AI agents compared to a standard request-response model?",
+          "How might the concept of 'tool use' and 'approvals' implemented in the Codex App Server evolve in future AI applications?",
+          "Beyond code generation, what other AI agent capabilities would benefit significantly from streaming progress and explicit approval mechanisms?"
+        ]
+      }
+    },
+    {
+      "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+      "url": "https://openai.com/index/vfl-wolfsburg",
+      "published": "Wed, 04 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "Organizational AI adoption strategies",
+            "confidence": 0.9
+          },
+          {
+            "name": "Leveraging LLMs for diverse business functions",
+            "confidence": 0.85
+          },
+          {
+            "name": "Balancing AI integration with core identity",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [],
+        "difficulty": {
+          "level": 1,
+          "technical_depth": 2,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand how a professional sports club is implementing ChatGPT across various departments.",
+          "Grasp the importance of a people-centric approach to AI adoption.",
+          "See examples of how LLMs can enhance efficiency and creativity within an organization."
+        ],
+        "strategic_questions": [
+          "Beyond efficiency, what are the potential long-term impacts of widespread LLM adoption on the 'football identity' of a club like VfL Wolfsburg?",
+          "What are the key challenges a non-tech organization might face when trying to replicate VfL Wolfsburg's approach to AI integration?"
+        ]
+      }
+    },
+    {
+      "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+      "published": "Thu, 05 Feb 2026 17:00:00 +0000",
+      "source": "AI",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Applications",
+        "concepts_taught": [
+          {
+            "name": "Adaptive User Interfaces",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI-driven Personalization",
+            "confidence": 0.85
+          },
+          {
+            "name": "AI Accessibility",
+            "confidence": 0.9
+          }
+        ],
+        "prerequisites": [
+          {
+            "concept": "Basic understanding of User Interface (UI) design",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": 2,
+          "technical_depth": 3,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand the concept of Natively Adaptive Interfaces (NAI).",
+          "Recognize how AI can be used to create more inclusive and accessible technology.",
+          "Appreciate the benefits of AI-driven personalization in user interfaces."
+        ],
+        "strategic_questions": [
+          "Beyond the examples provided, what are other potential applications for Natively Adaptive Interfaces in different industries?",
+          "What are the potential ethical considerations or challenges in developing and deploying AI systems that heavily adapt to individual users?"
+        ]
+      }
+    }
+  ]
 }
