@@ -161,7 +161,7 @@ for i, article in enumerate(articles, 1):
         prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
         
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='Gemini 2.5 Flash Lite',
             contents=prompt
         )
         
