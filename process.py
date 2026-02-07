@@ -12,20 +12,19 @@ Your task: Analyze this article and extract learning metadata.
 
 IMPORTANT INSTRUCTIONS:
 
-1. QUALITY FILTER - SKIP THIS ARTICLE ONLY IF:
-   - Pure marketing with zero technical content (e.g., "Watch our ad")
-   - Company news with no educational value (e.g., acquisitions, events, milestones)
-   - Job postings or hiring announcements
-   - Just links to other content with no substance
+1. QUALITY FILTER - ONLY SKIP IF:
+   - Pure advertisement with no content (e.g., "Watch our ad", "See our commercial")
+   - Job posting or hiring announcement
+   - Event-only announcement (e.g., "Join us at conference X")
    
-   KEEP articles that:
-   - Announce new models/features AND explain how they work
-   - Describe technical capabilities or improvements
-   - Provide examples, benchmarks, or demonstrations
-   - Explain concepts even if brief
+   KEEP EVERYTHING ELSE, including:
+   - Model/feature announcements (even if brief)
+   - Blog post summaries or roundups
+   - Podcast/video descriptions (they teach concepts)
+   - Application examples (sports, conservation, etc)
+   - News about AI developments
    
-   Example: "Introducing GPT-5" → KEEP (new model with technical details)
-   Example: "Watch our Super Bowl ad" → SKIP (pure marketing)
+   When in doubt, KEEP the article.
    
    If skipping, return: {"skip": true, "reason": "brief explanation"}
 
@@ -36,7 +35,7 @@ IMPORTANT INSTRUCTIONS:
    - Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)
    - AI Safety & Alignment (safety testing, RLHF, constitutional AI, red teaming)
    - Multimodal AI (vision, audio, video, cross-modal models)
-   - AI Applications (real-world use cases, industry applications)
+   - AI Applications (real-world use cases, industry applications, applied AI)
    - Generative AI (image/video/audio generation, world models, synthesis)
    - AI Research Methods (novel techniques, experiments, research papers)
    
@@ -44,12 +43,11 @@ IMPORTANT INSTRUCTIONS:
 
 3. CONCEPTS TAUGHT (3-5 concepts max):
    - Be specific but not too granular
-   - Focus on transferable concepts, not just product names
+   - Focus on transferable concepts
    - Rate confidence (0-1) that article teaches this well
-   - Example: "transformer architecture" not "GPT-4 specifically"
 
 4. PREREQUISITES:
-   - Only list if confidence > 0.8 (high confidence it's truly needed)
+   - Only list if confidence > 0.8 (truly needed)
    - Use general concept names
    - Max 3 prerequisites
    - Be realistic - don't over-gatekeep
@@ -65,11 +63,11 @@ IMPORTANT INSTRUCTIONS:
    Reading time: Realistic estimate in minutes
 
 6. LEARNING OUTCOMES (2-4 outcomes):
-   - What will reader actually understand after reading?
+   - What will reader actually understand?
    - Be concrete and specific
 
 7. STRATEGIC QUESTIONS (2-3 questions):
-   - Thought-provoking, not factual recall
+   - Thought-provoking
    - Encourage critical thinking about implications
 
 Return as JSON:
@@ -100,7 +98,7 @@ Return as JSON:
 If skipping:
 {
   "skip": true,
-  "reason": "Pure marketing announcement with no technical content"
+  "reason": "Pure advertisement with no educational content"
 }
 """
 
@@ -163,7 +161,7 @@ for i, article in enumerate(articles, 1):
         prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
         
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-2.0-flash',
             contents=prompt
         )
         
