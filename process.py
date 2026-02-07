@@ -10,48 +10,97 @@ SOUL_PROMPT = """You are an expert AI educator building a learning curriculum.
 
 Your task: Analyze this article and extract learning metadata.
 
-Please provide:
+IMPORTANT INSTRUCTIONS:
 
-1. TOPIC (which topic does this belong to?)
-   - AI Evals & Benchmarking
-   - Large Language Models
-   - AI Coding Tools
-   - AI Safety & Alignment
-   - Prompt Engineering
-   - Multimodal AI
-   - Or suggest a new topic name
+1. QUALITY FILTER - SKIP THIS ARTICLE ONLY IF:
+   - Pure marketing with zero technical content (e.g., "Watch our ad")
+   - Company news with no educational value (e.g., acquisitions, events, milestones)
+   - Job postings or hiring announcements
+   - Just links to other content with no substance
+   
+   KEEP articles that:
+   - Announce new models/features AND explain how they work
+   - Describe technical capabilities or improvements
+   - Provide examples, benchmarks, or demonstrations
+   - Explain concepts even if brief
+   
+   Example: "Introducing GPT-5" → KEEP (new model with technical details)
+   Example: "Watch our Super Bowl ad" → SKIP (pure marketing)
+   
+   If skipping, return: {"skip": true, "reason": "brief explanation"}
 
-2. CONCEPTS TAUGHT (3-7 concepts this article teaches)
-   - Use clear, specific names
-   - Rate confidence (0-1) that article teaches this
+2. TOPIC ASSIGNMENT:
+   Choose ONE topic from this list (do NOT create new topics unless truly necessary):
+   
+   - AI Evals & Benchmarking (testing, evaluation, benchmarks, performance measurement)
+   - Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)
+   - AI Safety & Alignment (safety testing, RLHF, constitutional AI, red teaming)
+   - Multimodal AI (vision, audio, video, cross-modal models)
+   - AI Applications (real-world use cases, industry applications)
+   - Generative AI (image/video/audio generation, world models, synthesis)
+   - AI Research Methods (novel techniques, experiments, research papers)
+   
+   ONLY create a new topic if the article truly doesn't fit ANY of the above.
 
-3. PREREQUISITES
-   - Which concepts must reader know first?
-   - Rate confidence (0-1) for each
+3. CONCEPTS TAUGHT (3-5 concepts max):
+   - Be specific but not too granular
+   - Focus on transferable concepts, not just product names
+   - Rate confidence (0-1) that article teaches this well
+   - Example: "transformer architecture" not "GPT-4 specifically"
 
-4. DIFFICULTY
-   - Level (1-5): 1=beginner, 5=advanced
-   - Technical depth (1-10)
-   - Recommended reading time (minutes)
+4. PREREQUISITES:
+   - Only list if confidence > 0.8 (high confidence it's truly needed)
+   - Use general concept names
+   - Max 3 prerequisites
+   - Be realistic - don't over-gatekeep
 
-5. LEARNING OUTCOMES
-   - What will reader understand after reading?
-   - What becomes unlocked?
+5. DIFFICULTY:
+   - Level 1: Intro/announcement, no background needed
+   - Level 2: Some AI familiarity helpful
+   - Level 3: Solid understanding of AI concepts required
+   - Level 4: Advanced, requires specific technical background
+   - Level 5: Expert-level, cutting-edge research
+   
+   Technical depth (1-10): How technical is the writing?
+   Reading time: Realistic estimate in minutes
 
-6. STRATEGIC QUESTIONS (2-3 questions for reflection)
+6. LEARNING OUTCOMES (2-4 outcomes):
+   - What will reader actually understand after reading?
+   - Be concrete and specific
 
-Return as JSON with this structure:
+7. STRATEGIC QUESTIONS (2-3 questions):
+   - Thought-provoking, not factual recall
+   - Encourage critical thinking about implications
+
+Return as JSON:
 {
-  "topic": "topic name",
-  "concepts_taught": [{"name": "concept", "confidence": 0.9}],
-  "prerequisites": [{"concept": "prerequisite", "confidence": 0.8}],
+  "skip": false,
+  "topic": "topic name from list above",
+  "concepts_taught": [
+    {"name": "concept name", "confidence": 0.9}
+  ],
+  "prerequisites": [
+    {"concept": "prerequisite concept", "confidence": 0.85}
+  ],
   "difficulty": {
-    "level": 3,
-    "technical_depth": 6,
-    "reading_time_minutes": 20
+    "level": 2,
+    "technical_depth": 4,
+    "reading_time_minutes": 8
   },
-  "learning_outcomes": ["outcome 1", "outcome 2"],
-  "strategic_questions": ["question 1", "question 2"]
+  "learning_outcomes": [
+    "specific outcome 1",
+    "specific outcome 2"
+  ],
+  "strategic_questions": [
+    "thought-provoking question 1?",
+    "thought-provoking question 2?"
+  ]
+}
+
+If skipping:
+{
+  "skip": true,
+  "reason": "Pure marketing announcement with no technical content"
 }
 """
 
@@ -86,7 +135,7 @@ for feed_url in FEEDS:
                 content = entry.description
             
             # Skip if too short
-            if len(content) < 100:
+            if len(content) < 500:
                 continue
                 
             articles.append({
@@ -114,7 +163,7 @@ for i, article in enumerate(articles, 1):
         prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
         
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-2.0-flash-exp',
             contents=prompt
         )
         
@@ -132,6 +181,11 @@ for i, article in enumerate(articles, 1):
             response_text = response_text[json_start:json_end].strip()
         
         result = json.loads(response_text)
+        
+        # Skip if marked as low quality
+        if result.get('skip', False):
+            print(f"    ⊘ Skipped: {result.get('reason', 'No reason')}")
+            continue
         
         article['curriculum'] = result
         article.pop('content', None)  # Remove full content to save space
@@ -186,4 +240,3 @@ for topic, count in sorted(topic_counts.items(), key=lambda x: x[1], reverse=Tru
     print(f"  • {topic}: {count} articles")
 
 print("\n✨ Done!")
-
