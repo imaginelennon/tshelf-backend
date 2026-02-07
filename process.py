@@ -103,9 +103,9 @@ If skipping:
 """
 
 # RSS feeds
-FEEDS = [
-    "https://www.anthropic.com/rss",
-    "https://openai.com/index/rss.xml",
+FEEDS = FEEDS = [
+    "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feed_anthropic_news.xml",
+    "https://openai.com/news/rss.xml",
     "https://blog.google/technology/ai/rss/",
 ]
 
