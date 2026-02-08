@@ -1,63 +1,59 @@
+#!/usr/bin/env python3
 import feedparser
+import requests
 import json
-import os
 import time
-from datetime import datetime
 from groq import Groq
+import os
+from datetime import datetime
+
+# Initialize Groq client
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+
+# RSS Feeds
+FEEDS = [
+    "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feed_anthropic_news.xml",
+    "https://openai.com/news/rss.xml",
+    "https://blog.google/technology/ai/rss/",
+]
 
 # Soul.md prompt
-SOUL_PROMPT = """You are an expert AI educator building a learning curriculum.
+SOUL_PROMPT = """You are an AI curriculum designer analyzing technical articles.
 
-Your task: Analyze this article and extract learning metadata.
+TOPICS (pick ONE):
+- AI Evaluations & Benchmarking
+- Large Language Models  
+- AI Safety & Alignment
+- Agentic AI & Reasoning
+- AI Infrastructure & Tooling
 
-IMPORTANT INSTRUCTIONS:
+Analyze this article and determine:
 
-1. QUALITY FILTER - ONLY SKIP IF:
-   - Pure advertisement with no content (e.g., "Watch our ad", "See our commercial")
-   - Job posting or hiring announcement
-   - Event-only announcement (e.g., "Join us at conference X")
-   
-   KEEP EVERYTHING ELSE, including:
-   - Model/feature announcements (even if brief)
-   - Blog post summaries or roundups
-   - Podcast/video descriptions (they teach concepts)
-   - Application examples (sports, conservation, etc)
-   - News about AI developments
-   
-   When in doubt, KEEP the article.
-   
-   If skipping, return: {"skip": true, "reason": "brief explanation"}
+1. SKIP if:
+   - Company news/press releases
+   - Job postings
+   - Event announcements
+   - Marketing content
+   - Not substantive learning content
 
-2. TOPIC ASSIGNMENT:
-   Choose ONE topic from this list (do NOT create new topics unless truly necessary):
-   
-   - AI Evals & Benchmarking (testing, evaluation, benchmarks, performance measurement)
-   - Large Language Models (LLMs, transformers, GPT, Claude, Gemini, model architecture)
-   - AI Safety & Alignment (safety testing, RLHF, constitutional AI, red teaming)
-   - Multimodal AI (vision, audio, video, cross-modal models)
-   - AI Applications (real-world use cases, industry applications, applied AI)
-   - Generative AI (image/video/audio generation, world models, synthesis)
-   - AI Research Methods (novel techniques, experiments, research papers)
-   
-   ONLY create a new topic if the article truly doesn't fit ANY of the above.
+2. TOPIC: Which topic does it teach? (pick ONE from list above)
 
-3. CONCEPTS TAUGHT (3-5 concepts max):
-   - Be specific but not too granular
-   - Focus on transferable concepts
-   - Rate confidence (0-1) that article teaches this well
+3. CONCEPTS TAUGHT (2-5 concepts):
+   - What core concepts does this article teach?
+   - Be specific (e.g., "RLHF training pipeline" not "AI training")
+   - Include confidence (0-1)
 
-4. PREREQUISITES:
-   - Only list if confidence > 0.8 (truly needed)
-   - Use general concept names
-   - Max 3 prerequisites
-   - Be realistic - don't over-gatekeep
+4. PREREQUISITES (0-3 concepts):
+   - What should reader understand before reading?
+   - Only include if truly required
+   - Include confidence
 
-5. DIFFICULTY:
-   - Level 1: Intro/announcement, no background needed
-   - Level 2: Some AI familiarity helpful
-   - Level 3: Solid understanding of AI concepts required
-   - Level 4: Advanced, requires specific technical background
-   - Level 5: Expert-level, cutting-edge research
+5. DIFFICULTY LEVEL - Use this NEW structure:
+   - foundational: First principles, no prerequisites, fundamental concepts
+   - beginner: Basic AI familiarity helpful, introductory
+   - intermediate: Solid understanding of AI concepts required
+   - advanced: Deep technical knowledge required, expert-level
+   - application: Focus on real-world implications, industry impact (not on complexity scale)
    
    Technical depth (1-10): How technical is the writing?
    Reading time: Realistic estimate in minutes
@@ -81,7 +77,7 @@ Return as JSON:
     {"concept": "prerequisite concept", "confidence": 0.85}
   ],
   "difficulty": {
-    "level": 2,
+    "level": "foundational",
     "technical_depth": 4,
     "reading_time_minutes": 8
   },
@@ -90,154 +86,160 @@ Return as JSON:
     "specific outcome 2"
   ],
   "strategic_questions": [
-    "thought-provoking question 1?",
-    "thought-provoking question 2?"
+    "thought-provoking question 1",
+    "thought-provoking question 2"
   ]
 }
 
-If skipping:
-{
-  "skip": true,
-  "reason": "Pure advertisement with no educational content"
-}
+Article to analyze:
+Title: {title}
+Content: {content}
 """
 
-# RSS feeds
-FEEDS = [
-    "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feed_anthropic_news.xml",
-    "https://openai.com/news/rss.xml",
-    "https://blog.google/technology/ai/rss/",
-]
+def fetch_feed(url):
+    """Fetch and parse RSS feed"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; TShelf/1.0)'}
+        response = requests.get(url, headers=headers, timeout=10)
+        return feedparser.parse(response.content)
+    except Exception as e:
+        print(f"❌ Error fetching {url}: {e}")
+        return None
 
-print("🔄 Starting curriculum generation...")
+def extract_content(entry):
+    """Extract content from feed entry"""
+    content = ""
+    
+    # Try different content fields
+    if hasattr(entry, 'content'):
+        content = entry.content[0].value
+    elif hasattr(entry, 'summary'):
+        content = entry.summary
+    elif hasattr(entry, 'description'):
+        content = entry.description
+    
+    # Basic cleanup
+    content = content.replace('<p>', '').replace('</p>', '\n')
+    content = content.replace('<br>', '\n').replace('<br/>', '\n')
+    
+    # Limit length
+    if len(content) > 3000:
+        content = content[:3000] + "..."
+    
+    return content
 
-# Configure Groq
-client = Groq(api_key=os.environ.get('GROQ_API_KEY'))
+def analyze_article(title, content):
+    """Analyze article with Groq"""
+    try:
+        prompt = SOUL_PROMPT.format(title=title, content=content)
+        
+        response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+            max_tokens=4000
+        )
+        
+        result = response.choices[0].message.content.strip()
+        
+        # Handle markdown code blocks
+        if result.startswith("```"):
+            result = result.split("```")[1]
+            if result.startswith("json"):
+                result = result[4:]
+            result = result.strip()
+        
+        return json.loads(result)
+        
+    except json.JSONDecodeError as e:
+        print(f"❌ JSON parse error for '{title}': {e}")
+        print(f"Response: {result[:200]}")
+        return None
+    except Exception as e:
+        print(f"❌ Error analyzing '{title}': {e}")
+        return None
 
 # Fetch articles
-print("\n📡 Fetching RSS feeds...")
+print("🔄 Fetching RSS feeds...")
 articles = []
+
 for feed_url in FEEDS:
-    try:
-        feed = feedparser.parse(feed_url, agent='TShelf/1.0')
-        source_name = feed.feed.get('title', feed_url)
-        
-        for entry in feed.entries[:10]:  # Last 10 posts per feed
-            # Get content
-            content = ""
-            if hasattr(entry, 'content'):
-                content = entry.content[0].value
-            elif hasattr(entry, 'summary'):
-                content = entry.summary
-            elif hasattr(entry, 'description'):
-                content = entry.description
-            
-            # Skip if no content at all
-            if not content or len(content.strip()) < 50:
-                continue
-                
-            articles.append({
-                "title": entry.title,
-                "url": entry.link,
-                "content": content[:8000],  # Limit content length
-                "published": entry.get('published', ''),
-                "source": source_name
-            })
-        
-        print(f"  ✓ {source_name}: {len(feed.entries)} total, {len([a for a in articles if a['source'] == source_name])} with content")
-    except Exception as e:
-        print(f"  ✗ Error fetching {feed_url}: {e}")
+    print(f"  • {feed_url}")
+    feed = fetch_feed(feed_url)
+    
+    if not feed or not hasattr(feed, 'entries'):
         continue
-
-print(f"\n📊 Total articles to process: {len(articles)}")
-
-# Process with Groq
-print("\n🤖 Processing with Groq (Llama 3.3 70B)...")
-print("  Free tier: 14,400 requests/day\n")
-processed = []
-for i, article in enumerate(articles, 1):
-    try:
-        print(f"  [{i}/{len(articles)}] Processing: {article['title'][:50]}...")
+    
+    for entry in feed.entries[:10]:  # Limit per feed
+        content = extract_content(entry)
         
-        prompt = f"{SOUL_PROMPT}\n\n---\n\nArticle Title: {article['title']}\nSource: {article['source']}\n\nContent:\n{article['content']}"
-        
-        # Retry with delay for rate limits
-        max_retries = 3
-        for attempt in range(max_retries):
-            try:
-                response = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": prompt
-                        }
-                    ],
-                    temperature=0.3,
-                    max_tokens=4000
-                )
-                response_text = response.choices[0].message.content
-                break  # Success
-            except Exception as e:
-                error_str = str(e)
-                if 'rate_limit' in error_str.lower() or '429' in error_str:
-                    if attempt < max_retries - 1:
-                        print(f"    ⏳ Rate limit - waiting 60s...")
-                        time.sleep(60)
-                        continue
-                raise  # Not rate limit or final attempt
-        
-        # Extract JSON from response (remove code fences if present)
-        response_text = response_text.strip()
-        
-        # Try to find JSON in response
-        if '```json' in response_text:
-            json_start = response_text.find('```json') + 7
-            json_end = response_text.find('```', json_start)
-            response_text = response_text[json_start:json_end].strip()
-        elif '```' in response_text:
-            json_start = response_text.find('```') + 3
-            json_end = response_text.find('```', json_start)
-            response_text = response_text[json_start:json_end].strip()
-        
-        result = json.loads(response_text)
-        
-        # Skip if marked as low quality
-        if result.get('skip', False):
-            print(f"    ⊘ Skipped: {result.get('reason', 'No reason')}")
+        # Skip if too short
+        if len(content) < 100:
             continue
         
-        article['curriculum'] = result
-        article.pop('content', None)  # Remove full content to save space
-        processed.append(article)
-        
-    except Exception as e:
-        print(f"    ✗ Error: {e}")
+        articles.append({
+            'title': entry.title,
+            'url': entry.link,
+            'published': entry.get('published', ''),
+            'source': feed.feed.title if hasattr(feed.feed, 'title') else 'Unknown',
+            'content': content
+        })
+
+print(f"\n📚 Found {len(articles)} articles to analyze")
+
+# Analyze articles
+print("\n🤖 Analyzing with Llama 3.3 70B...")
+analyzed = []
+topic_counts = {}
+
+for i, article in enumerate(articles, 1):
+    print(f"  [{i}/{len(articles)}] {article['title'][:60]}...")
+    
+    analysis = analyze_article(article['title'], article['content'])
+    
+    if not analysis or analysis.get('skip'):
+        print(f"    ⏭️  Skipped")
         continue
+    
+    # Add to results
+    analyzed.append({
+        'title': article['title'],
+        'url': article['url'],
+        'published': article['published'],
+        'source': article['source'],
+        'curriculum': analysis
+    })
+    
+    print(f"    ✅ {analysis['topic']} - {analysis['difficulty']['level']}")
+    
+    # Rate limiting
+    time.sleep(0.5)
 
-print(f"\n✅ Successfully processed: {len(processed)}/{len(articles)} articles")
+# Build curriculum JSON
+print("\n📦 Building curriculum...")
 
-# Build curriculum structure
-print("\n🏗️  Building curriculum structure...")
 curriculum = {
-    "generated_at": datetime.now().isoformat(),
-    "total_articles": len(processed),
-    "topics": {},
-    "articles": processed
+    'generated_at': datetime.utcnow().isoformat() + 'Z',
+    'total_articles': len(analyzed),
+    'topics': {},
+    'articles': analyzed
 }
 
-# Group by topics
-topic_counts = {}
-for article in processed:
-    topic = article['curriculum'].get('topic', 'Other')
+# Group by topic
+for article in analyzed:
+    topic = article['curriculum']['topic']
     
     if topic not in curriculum['topics']:
         curriculum['topics'][topic] = {
-            "name": topic,
-            "article_count": 0,
-            "articles": [],
-            "levels": {
-                "1": [], "2": [], "3": [], "4": [], "5": []
+            'name': topic,
+            'article_count': 0,
+            'articles': [],
+            'levels': {
+                'foundational': [],
+                'beginner': [],
+                'intermediate': [],
+                'advanced': [],
+                'application': []
             }
         }
     
@@ -245,8 +247,9 @@ for article in processed:
     curriculum['topics'][topic]['article_count'] += 1
     
     # Add to level
-    level = str(article['curriculum']['difficulty']['level'])
-    curriculum['topics'][topic]['levels'][level].append(article)
+    level = article['curriculum']['difficulty']['level'].lower()
+    if level in curriculum['topics'][topic]['levels']:
+        curriculum['topics'][topic]['levels'][level].append(article)
     
     topic_counts[topic] = topic_counts.get(topic, 0) + 1
 
