@@ -20,6 +20,8 @@ FEEDS = [
 # Soul.md prompt
 SOUL_PROMPT = """You are an AI curriculum designer analyzing technical articles.
 
+CRITICAL: You MUST return valid JSON. No markdown, no code blocks, just raw JSON.
+
 TOPICS (pick ONE):
 - AI Evaluations & Benchmarking
 - Large Language Models  
@@ -29,12 +31,15 @@ TOPICS (pick ONE):
 
 Analyze this article and determine:
 
-1. SKIP if:
-   - Company news/press releases
-   - Job postings
-   - Event announcements
-   - Marketing content
-   - Not substantive learning content
+1. SKIP ONLY if:
+   - Job postings or recruiting
+   - Event announcements (conferences, meetups)
+   - Pure marketing/sales content with no learning value
+   
+   DO NOT SKIP if article teaches ANY technical concept, even if it's:
+   - A product announcement that explains how something works
+   - News about a feature that includes technical details
+   - Company updates that discuss technical implementations
 
 2. TOPIC: Which topic does it teach? (pick ONE from list above)
 
@@ -48,12 +53,12 @@ Analyze this article and determine:
    - Only include if truly required
    - Include confidence
 
-5. DIFFICULTY LEVEL - Use this NEW structure:
+5. DIFFICULTY LEVEL:
    - foundational: First principles, no prerequisites, fundamental concepts
    - beginner: Basic AI familiarity helpful, introductory
    - intermediate: Solid understanding of AI concepts required
    - advanced: Deep technical knowledge required, expert-level
-   - application: Focus on real-world implications, industry impact (not on complexity scale)
+   - application: Focus on real-world implications, industry impact
    
    Technical depth (1-10): How technical is the writing?
    Reading time: Realistic estimate in minutes
@@ -66,21 +71,26 @@ Analyze this article and determine:
    - Thought-provoking
    - Encourage critical thinking about implications
 
-Return as JSON:
-{
+IMPORTANT: Return ONLY valid JSON. No markdown code blocks. No explanations.
+
+If skipping, return:
+{{"skip": true}}
+
+If not skipping, return:
+{{
   "skip": false,
-  "topic": "topic name from list above",
+  "topic": "AI Evaluations & Benchmarking",
   "concepts_taught": [
-    {"name": "concept name", "confidence": 0.9}
+    {{"name": "concept name", "confidence": 0.9}}
   ],
   "prerequisites": [
-    {"concept": "prerequisite concept", "confidence": 0.85}
+    {{"name": "prerequisite concept", "confidence": 0.85}}
   ],
-  "difficulty": {
-    "level": "foundational",
+  "difficulty": {{
+    "level": "beginner",
     "technical_depth": 4,
     "reading_time_minutes": 8
-  },
+  }},
   "learning_outcomes": [
     "specific outcome 1",
     "specific outcome 2"
@@ -89,9 +99,9 @@ Return as JSON:
     "thought-provoking question 1",
     "thought-provoking question 2"
   ]
-}
+}}
 
-Article to analyze:
+Article:
 Title: {title}
 Content: {content}
 """
@@ -149,14 +159,27 @@ def analyze_article(title, content):
                 result = result[4:]
             result = result.strip()
         
-        return json.loads(result)
+        # Try to parse JSON
+        parsed = json.loads(result)
+        
+        # If it's just {"skip": true}, that's valid
+        if parsed.get('skip') == True:
+            return {'skip': True}
+        
+        # Otherwise validate it has required fields
+        if not parsed.get('skip') and parsed.get('topic'):
+            return parsed
+        else:
+            print(f"❌ Invalid response structure")
+            print(f"Response: {result[:300]}")
+            return None
         
     except json.JSONDecodeError as e:
-        print(f"❌ JSON parse error for '{title}': {e}")
-        print(f"Response: {result[:200]}")
+        print(f"❌ JSON parse error: {e}")
+        print(f"Raw response: {result[:500]}")
         return None
     except Exception as e:
-        print(f"❌ Error analyzing '{title}': {e}")
+        print(f"❌ Error: {e}")
         return None
 
 # Fetch articles
