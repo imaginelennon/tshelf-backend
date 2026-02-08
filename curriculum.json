@@ -1,6 +1,997 @@
 {
-  "generated_at": "2026-02-08T22:25:10.014188Z",
-  "total_articles": 0,
-  "topics": {},
-  "articles": []
+  "generated_at": "2026-02-08T22:28:33.332872Z",
+  "total_articles": 7,
+  "topics": {
+    "AI Safety & Alignment": {
+      "name": "AI Safety & Alignment",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Making AI work for everyone, everywhere: our approach to localization",
+          "url": "https://openai.com/index/our-approach-to-localization",
+          "published": "Fri, 06 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "concepts_taught": [
+              {
+                "name": "AI localization",
+                "confidence": 0.8
+              },
+              {
+                "name": "frontier models adaptation",
+                "confidence": 0.7
+              },
+              {
+                "name": "cultural and linguistic adaptation",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of AI models",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand the importance of AI localization for global adoption",
+              "Learn how to adapt AI models to local languages and cultures",
+              "Recognize the challenges of ensuring safety in AI localization"
+            ],
+            "strategic_questions": [
+              "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+              "What are the potential consequences of failing to adapt AI models to local contexts?",
+              "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing Trusted Access for Cyber",
+          "url": "https://openai.com/index/trusted-access-for-cyber",
+          "published": "Thu, 05 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "concepts_taught": [
+              {
+                "name": "trust-based framework",
+                "confidence": 0.8
+              },
+              {
+                "name": "safeguards against misuse",
+                "confidence": 0.7
+              },
+              {
+                "name": "access control for AI capabilities",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of AI safety",
+                "confidence": 0.5
+              }
+            ],
+            "difficulty": {
+              "level": "beginner",
+              "technical_depth": 3,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand the importance of trust-based frameworks in AI safety",
+              "Learn about the concept of safeguards against misuse in AI",
+              "Recognize the need for access control in AI capabilities"
+            ],
+            "strategic_questions": [
+              "How can trust-based frameworks be effectively implemented in AI systems?",
+              "What are the potential risks and benefits of expanding access to frontier cyber capabilities?",
+              "How can organizations balance the need for access control with the need for innovation in AI?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [
+          {
+            "title": "Introducing Trusted Access for Cyber",
+            "url": "https://openai.com/index/trusted-access-for-cyber",
+            "published": "Thu, 05 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "trust-based framework",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "safeguards against misuse",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "access control for AI capabilities",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of AI safety",
+                  "confidence": 0.5
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 3,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand the importance of trust-based frameworks in AI safety",
+                "Learn about the concept of safeguards against misuse in AI",
+                "Recognize the need for access control in AI capabilities"
+              ],
+              "strategic_questions": [
+                "How can trust-based frameworks be effectively implemented in AI systems?",
+                "What are the potential risks and benefits of expanding access to frontier cyber capabilities?",
+                "How can organizations balance the need for access control with the need for innovation in AI?"
+              ]
+            }
+          }
+        ],
+        "intermediate": [
+          {
+            "title": "Making AI work for everyone, everywhere: our approach to localization",
+            "url": "https://openai.com/index/our-approach-to-localization",
+            "published": "Fri, 06 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "AI localization",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "frontier models adaptation",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "cultural and linguistic adaptation",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of AI models",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand the importance of AI localization for global adoption",
+                "Learn how to adapt AI models to local languages and cultures",
+                "Recognize the challenges of ensuring safety in AI localization"
+              ],
+              "strategic_questions": [
+                "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+                "What are the potential consequences of failing to adapt AI models to local contexts?",
+                "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    },
+    "Large Language Models": {
+      "name": "Large Language Models",
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+          "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+          "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "closed-loop experimentation",
+                "confidence": 0.8
+              },
+              {
+                "name": "cell-free protein synthesis",
+                "confidence": 0.7
+              },
+              {
+                "name": "autonomous lab automation",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of biotechnology",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand how large language models can be applied to biotechnology",
+              "Learn about the potential of autonomous labs in reducing costs",
+              "Recognize the role of closed-loop experimentation in optimizing processes"
+            ],
+            "strategic_questions": [
+              "How can large language models be further integrated into biotechnology workflows?",
+              "What are the potential limitations and challenges of autonomous lab automation?",
+              "How might the cost savings from autonomous labs impact the biotechnology industry?"
+            ]
+          }
+        },
+        {
+          "title": "GPT-5.3-Codex System Card",
+          "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "agentic coding model",
+                "confidence": 0.9
+              },
+              {
+                "name": "GPT-Codex architecture",
+                "confidence": 0.8
+              },
+              {
+                "name": "reasoning capabilities in LLMs",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "foundations of large language models",
+                "confidence": 0.6
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "understand the capabilities of GPT-5.3-Codex",
+              "recognize the advancements in agentic coding models",
+              "comprehend the integration of reasoning in LLMs"
+            ],
+            "strategic_questions": [
+              "How will the integration of reasoning capabilities in LLMs impact the future of coding?",
+              "What are the potential applications of agentic coding models like GPT-5.3-Codex?",
+              "How will the development of more advanced LLMs influence the coding industry?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing GPT-5.3-Codex",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "Codex-native agents",
+                "confidence": 0.8
+              },
+              {
+                "name": "Long-horizon technical work",
+                "confidence": 0.7
+              },
+              {
+                "name": "General reasoning in LLMs",
+                "confidence": 0.9
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Basic understanding of Large Language Models",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand the concept of Codex-native agents and their capabilities",
+              "Recognize the potential applications of long-horizon technical work in real-world scenarios",
+              "Appreciate the role of general reasoning in Large Language Models"
+            ],
+            "strategic_questions": [
+              "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
+              "What are the potential limitations and challenges of using LLMs for long-horizon technical tasks?",
+              "How can general reasoning capabilities be further developed and improved in LLMs?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [],
+        "intermediate": [
+          {
+            "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+            "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+            "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "closed-loop experimentation",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "cell-free protein synthesis",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "autonomous lab automation",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of biotechnology",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand how large language models can be applied to biotechnology",
+                "Learn about the potential of autonomous labs in reducing costs",
+                "Recognize the role of closed-loop experimentation in optimizing processes"
+              ],
+              "strategic_questions": [
+                "How can large language models be further integrated into biotechnology workflows?",
+                "What are the potential limitations and challenges of autonomous lab automation?",
+                "How might the cost savings from autonomous labs impact the biotechnology industry?"
+              ]
+            }
+          },
+          {
+            "title": "GPT-5.3-Codex System Card",
+            "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "agentic coding model",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "GPT-Codex architecture",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "reasoning capabilities in LLMs",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "foundations of large language models",
+                  "confidence": 0.6
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "understand the capabilities of GPT-5.3-Codex",
+                "recognize the advancements in agentic coding models",
+                "comprehend the integration of reasoning in LLMs"
+              ],
+              "strategic_questions": [
+                "How will the integration of reasoning capabilities in LLMs impact the future of coding?",
+                "What are the potential applications of agentic coding models like GPT-5.3-Codex?",
+                "How will the development of more advanced LLMs influence the coding industry?"
+              ]
+            }
+          },
+          {
+            "title": "Introducing GPT-5.3-Codex",
+            "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Codex-native agents",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Long-horizon technical work",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "General reasoning in LLMs",
+                  "confidence": 0.9
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Basic understanding of Large Language Models",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand the concept of Codex-native agents and their capabilities",
+                "Recognize the potential applications of long-horizon technical work in real-world scenarios",
+                "Appreciate the role of general reasoning in Large Language Models"
+              ],
+              "strategic_questions": [
+                "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
+                "What are the potential limitations and challenges of using LLMs for long-horizon technical tasks?",
+                "How can general reasoning capabilities be further developed and improved in LLMs?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    },
+    "AI Infrastructure & Tooling": {
+      "name": "AI Infrastructure & Tooling",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Introducing OpenAI Frontier",
+          "url": "https://openai.com/index/introducing-openai-frontier",
+          "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "concepts_taught": [
+              {
+                "name": "AI agent management",
+                "confidence": 0.8
+              },
+              {
+                "name": "enterprise AI platform",
+                "confidence": 0.7
+              },
+              {
+                "name": "AI governance",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic AI concepts",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "beginner",
+              "technical_depth": 3,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "understand the importance of AI governance in enterprise settings",
+              "learn about the key features of OpenAI Frontier",
+              "understand how AI agents can be managed and deployed"
+            ],
+            "strategic_questions": [
+              "How can AI governance be balanced with innovation in enterprise settings?",
+              "What are the potential applications of AI agents with shared context?",
+              "How might OpenAI Frontier impact the development of AI solutions in various industries?"
+            ]
+          }
+        },
+        {
+          "title": "Unlocking the Codex harness: how we built the App Server",
+          "url": "https://openai.com/index/unlocking-the-codex-harness",
+          "published": "Wed, 04 Feb 2026 13:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "concepts_taught": [
+              {
+                "name": "Codex App Server",
+                "confidence": 0.9
+              },
+              {
+                "name": "bidirectional JSON-RPC API",
+                "confidence": 0.8
+              },
+              {
+                "name": "embedding AI agents",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "JSON-RPC basics",
+                "confidence": 0.6
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand how to embed the Codex agent using the Codex App Server",
+              "Learn about the capabilities of the bidirectional JSON-RPC API",
+              "Grasp the importance of tooling in AI infrastructure"
+            ],
+            "strategic_questions": [
+              "How can the Codex App Server be applied to other AI agent use cases?",
+              "What are the implications of using a bidirectional JSON-RPC API for AI tooling?",
+              "What are the potential limitations of the Codex App Server architecture?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [
+          {
+            "title": "Introducing OpenAI Frontier",
+            "url": "https://openai.com/index/introducing-openai-frontier",
+            "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "concepts_taught": [
+                {
+                  "name": "AI agent management",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "enterprise AI platform",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "AI governance",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic AI concepts",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 3,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "understand the importance of AI governance in enterprise settings",
+                "learn about the key features of OpenAI Frontier",
+                "understand how AI agents can be managed and deployed"
+              ],
+              "strategic_questions": [
+                "How can AI governance be balanced with innovation in enterprise settings?",
+                "What are the potential applications of AI agents with shared context?",
+                "How might OpenAI Frontier impact the development of AI solutions in various industries?"
+              ]
+            }
+          }
+        ],
+        "intermediate": [
+          {
+            "title": "Unlocking the Codex harness: how we built the App Server",
+            "url": "https://openai.com/index/unlocking-the-codex-harness",
+            "published": "Wed, 04 Feb 2026 13:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "concepts_taught": [
+                {
+                  "name": "Codex App Server",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "bidirectional JSON-RPC API",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "embedding AI agents",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "JSON-RPC basics",
+                  "confidence": 0.6
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand how to embed the Codex agent using the Codex App Server",
+                "Learn about the capabilities of the bidirectional JSON-RPC API",
+                "Grasp the importance of tooling in AI infrastructure"
+              ],
+              "strategic_questions": [
+                "How can the Codex App Server be applied to other AI agent use cases?",
+                "What are the implications of using a bidirectional JSON-RPC API for AI tooling?",
+                "What are the potential limitations of the Codex App Server architecture?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    }
+  },
+  "articles": [
+    {
+      "title": "Making AI work for everyone, everywhere: our approach to localization",
+      "url": "https://openai.com/index/our-approach-to-localization",
+      "published": "Fri, 06 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "concepts_taught": [
+          {
+            "name": "AI localization",
+            "confidence": 0.8
+          },
+          {
+            "name": "frontier models adaptation",
+            "confidence": 0.7
+          },
+          {
+            "name": "cultural and linguistic adaptation",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of AI models",
+            "confidence": 0.9
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand the importance of AI localization for global adoption",
+          "Learn how to adapt AI models to local languages and cultures",
+          "Recognize the challenges of ensuring safety in AI localization"
+        ],
+        "strategic_questions": [
+          "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+          "What are the potential consequences of failing to adapt AI models to local contexts?",
+          "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
+        ]
+      }
+    },
+    {
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "concepts_taught": [
+          {
+            "name": "closed-loop experimentation",
+            "confidence": 0.8
+          },
+          {
+            "name": "cell-free protein synthesis",
+            "confidence": 0.7
+          },
+          {
+            "name": "autonomous lab automation",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of biotechnology",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand how large language models can be applied to biotechnology",
+          "Learn about the potential of autonomous labs in reducing costs",
+          "Recognize the role of closed-loop experimentation in optimizing processes"
+        ],
+        "strategic_questions": [
+          "How can large language models be further integrated into biotechnology workflows?",
+          "What are the potential limitations and challenges of autonomous lab automation?",
+          "How might the cost savings from autonomous labs impact the biotechnology industry?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing Trusted Access for Cyber",
+      "url": "https://openai.com/index/trusted-access-for-cyber",
+      "published": "Thu, 05 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "concepts_taught": [
+          {
+            "name": "trust-based framework",
+            "confidence": 0.8
+          },
+          {
+            "name": "safeguards against misuse",
+            "confidence": 0.7
+          },
+          {
+            "name": "access control for AI capabilities",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of AI safety",
+            "confidence": 0.5
+          }
+        ],
+        "difficulty": {
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand the importance of trust-based frameworks in AI safety",
+          "Learn about the concept of safeguards against misuse in AI",
+          "Recognize the need for access control in AI capabilities"
+        ],
+        "strategic_questions": [
+          "How can trust-based frameworks be effectively implemented in AI systems?",
+          "What are the potential risks and benefits of expanding access to frontier cyber capabilities?",
+          "How can organizations balance the need for access control with the need for innovation in AI?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing OpenAI Frontier",
+      "url": "https://openai.com/index/introducing-openai-frontier",
+      "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "concepts_taught": [
+          {
+            "name": "AI agent management",
+            "confidence": 0.8
+          },
+          {
+            "name": "enterprise AI platform",
+            "confidence": 0.7
+          },
+          {
+            "name": "AI governance",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic AI concepts",
+            "confidence": 0.9
+          }
+        ],
+        "difficulty": {
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "understand the importance of AI governance in enterprise settings",
+          "learn about the key features of OpenAI Frontier",
+          "understand how AI agents can be managed and deployed"
+        ],
+        "strategic_questions": [
+          "How can AI governance be balanced with innovation in enterprise settings?",
+          "What are the potential applications of AI agents with shared context?",
+          "How might OpenAI Frontier impact the development of AI solutions in various industries?"
+        ]
+      }
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "concepts_taught": [
+          {
+            "name": "agentic coding model",
+            "confidence": 0.9
+          },
+          {
+            "name": "GPT-Codex architecture",
+            "confidence": 0.8
+          },
+          {
+            "name": "reasoning capabilities in LLMs",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "foundations of large language models",
+            "confidence": 0.6
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "understand the capabilities of GPT-5.3-Codex",
+          "recognize the advancements in agentic coding models",
+          "comprehend the integration of reasoning in LLMs"
+        ],
+        "strategic_questions": [
+          "How will the integration of reasoning capabilities in LLMs impact the future of coding?",
+          "What are the potential applications of agentic coding models like GPT-5.3-Codex?",
+          "How will the development of more advanced LLMs influence the coding industry?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "concepts_taught": [
+          {
+            "name": "Codex-native agents",
+            "confidence": 0.8
+          },
+          {
+            "name": "Long-horizon technical work",
+            "confidence": 0.7
+          },
+          {
+            "name": "General reasoning in LLMs",
+            "confidence": 0.9
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "Basic understanding of Large Language Models",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand the concept of Codex-native agents and their capabilities",
+          "Recognize the potential applications of long-horizon technical work in real-world scenarios",
+          "Appreciate the role of general reasoning in Large Language Models"
+        ],
+        "strategic_questions": [
+          "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
+          "What are the potential limitations and challenges of using LLMs for long-horizon technical tasks?",
+          "How can general reasoning capabilities be further developed and improved in LLMs?"
+        ]
+      }
+    },
+    {
+      "title": "Unlocking the Codex harness: how we built the App Server",
+      "url": "https://openai.com/index/unlocking-the-codex-harness",
+      "published": "Wed, 04 Feb 2026 13:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "concepts_taught": [
+          {
+            "name": "Codex App Server",
+            "confidence": 0.9
+          },
+          {
+            "name": "bidirectional JSON-RPC API",
+            "confidence": 0.8
+          },
+          {
+            "name": "embedding AI agents",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "JSON-RPC basics",
+            "confidence": 0.6
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand how to embed the Codex agent using the Codex App Server",
+          "Learn about the capabilities of the bidirectional JSON-RPC API",
+          "Grasp the importance of tooling in AI infrastructure"
+        ],
+        "strategic_questions": [
+          "How can the Codex App Server be applied to other AI agent use cases?",
+          "What are the implications of using a bidirectional JSON-RPC API for AI tooling?",
+          "What are the potential limitations of the Codex App Server architecture?"
+        ]
+      }
+    }
+  ]
 }
