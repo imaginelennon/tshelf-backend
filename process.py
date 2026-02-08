@@ -1,10 +1,9 @@
 import feedparser
-from google import genai
-from google.genai import types
 import json
 import os
 import time
 from datetime import datetime
+from groq import Groq
 
 # Soul.md prompt
 SOUL_PROMPT = """You are an expert AI educator building a learning curriculum.
@@ -112,8 +111,8 @@ FEEDS = [
 
 print("🔄 Starting curriculum generation...")
 
-# Configure Gemini
-client = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
+# Configure Groq
+client = Groq(api_key=os.environ.get('GROQ_API_KEY'))
 
 # Fetch articles
 print("\n📡 Fetching RSS feeds...")
@@ -152,9 +151,9 @@ for feed_url in FEEDS:
 
 print(f"\n📊 Total articles to process: {len(articles)}")
 
-# Process with Gemini
-print("\n🤖 Processing with Gemini...")
-print("  Note: Free tier limit = 10/min, auto-waiting when needed\n")
+# Process with Groq
+print("\n🤖 Processing with Groq (Llama 3.3 70B)...")
+print("  Free tier: 14,400 requests/day\n")
 processed = []
 for i, article in enumerate(articles, 1):
     try:
@@ -166,22 +165,30 @@ for i, article in enumerate(articles, 1):
         max_retries = 3
         for attempt in range(max_retries):
             try:
-                response = client.models.generate_content(
-                    model='gemini-2.5-flash',
-                    contents=prompt
+                response = client.chat.completions.create(
+                    model="llama-3.3-70b-versatile",
+                    messages=[
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ],
+                    temperature=0.3,
+                    max_tokens=4000
                 )
+                response_text = response.choices[0].message.content
                 break  # Success
             except Exception as e:
                 error_str = str(e)
-                if 'RESOURCE_EXHAUSTED' in error_str or '429' in error_str:
+                if 'rate_limit' in error_str.lower() or '429' in error_str:
                     if attempt < max_retries - 1:
                         print(f"    ⏳ Rate limit - waiting 60s...")
                         time.sleep(60)
                         continue
                 raise  # Not rate limit or final attempt
         
-        # Extract JSON from response
-        response_text = response.text
+        # Extract JSON from response (remove code fences if present)
+        response_text = response_text.strip()
         
         # Try to find JSON in response
         if '```json' in response_text:
