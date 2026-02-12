@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-11T09:51:44.672797Z",
-  "total_articles": 7,
+  "generated_at": "2026-02-12T09:44:58.461087Z",
+  "total_articles": 6,
   "topics": {
     "AI Safety & Alignment": {
       "name": "AI Safety & Alignment",
@@ -17,37 +17,37 @@
             "concepts_taught": [
               {
                 "name": "AI localization",
-                "confidence": 0.9
-              },
-              {
-                "name": "frontier models adaptation",
                 "confidence": 0.8
               },
               {
-                "name": "cultural and linguistic adaptation",
+                "name": "frontier models adaptation",
                 "confidence": 0.7
+              },
+              {
+                "name": "cultural and linguistic adaptation",
+                "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of AI models",
-                "confidence": 0.6
+                "confidence": 0.9
               }
             ],
             "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 10
+              "level": "beginner",
+              "technical_depth": 3,
+              "reading_time_minutes": 6
             },
             "learning_outcomes": [
               "Understand the importance of AI localization for global adoption",
               "Learn how to adapt AI models to local languages and cultures",
-              "Recognize the challenges of ensuring safety in localized AI models"
+              "Recognize the challenges of ensuring safety in AI localization"
             ],
             "strategic_questions": [
               "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
               "What are the potential consequences of failing to adapt AI models to local contexts?",
-              "How can organizations prioritize AI localization in their development strategies?"
+              "How can organizations prioritize AI localization while ensuring equitable access to AI benefits?"
             ]
           }
         },
@@ -71,7 +71,7 @@
             ],
             "prerequisites": [
               {
-                "name": "basic AI safety concepts",
+                "name": "AI safety concepts",
                 "confidence": 0.6
               }
             ],
@@ -95,6 +95,51 @@
         "foundational": [],
         "beginner": [
           {
+            "title": "Making AI work for everyone, everywhere: our approach to localization",
+            "url": "https://openai.com/index/our-approach-to-localization",
+            "published": "Fri, 06 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "AI localization",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "frontier models adaptation",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "cultural and linguistic adaptation",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of AI models",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 3,
+                "reading_time_minutes": 6
+              },
+              "learning_outcomes": [
+                "Understand the importance of AI localization for global adoption",
+                "Learn how to adapt AI models to local languages and cultures",
+                "Recognize the challenges of ensuring safety in AI localization"
+              ],
+              "strategic_questions": [
+                "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+                "What are the potential consequences of failing to adapt AI models to local contexts?",
+                "How can organizations prioritize AI localization while ensuring equitable access to AI benefits?"
+              ]
+            }
+          },
+          {
             "title": "Introducing Trusted Access for Cyber",
             "url": "https://openai.com/index/trusted-access-for-cyber",
             "published": "Thu, 05 Feb 2026 10:00:00 GMT",
@@ -114,7 +159,7 @@
               ],
               "prerequisites": [
                 {
-                  "name": "basic AI safety concepts",
+                  "name": "AI safety concepts",
                   "confidence": 0.6
                 }
               ],
@@ -134,53 +179,7 @@
             }
           }
         ],
-        "intermediate": [
-          {
-            "title": "Making AI work for everyone, everywhere: our approach to localization",
-            "url": "https://openai.com/index/our-approach-to-localization",
-            "published": "Fri, 06 Feb 2026 10:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Safety & Alignment",
-              "concepts_taught": [
-                {
-                  "name": "AI localization",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "frontier models adaptation",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "cultural and linguistic adaptation",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "basic understanding of AI models",
-                  "confidence": 0.6
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 10
-              },
-              "learning_outcomes": [
-                "Understand the importance of AI localization for global adoption",
-                "Learn how to adapt AI models to local languages and cultures",
-                "Recognize the challenges of ensuring safety in localized AI models"
-              ],
-              "strategic_questions": [
-                "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-                "What are the potential consequences of failing to adapt AI models to local contexts?",
-                "How can organizations prioritize AI localization in their development strategies?"
-              ]
-            }
-          }
-        ],
+        "intermediate": [],
         "advanced": [],
         "application": []
       }
@@ -207,22 +206,18 @@
                 "confidence": 0.7
               },
               {
-                "name": "autonomous lab automation",
-                "confidence": 0.6
-              },
-              {
-                "name": "GPT-5 applications in biotechnology",
+                "name": "autonomous lab integration with AI",
                 "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of biotechnology",
-                "confidence": 0.8
+                "confidence": 0.6
               },
               {
-                "name": "familiarity with large language models",
-                "confidence": 0.7
+                "name": "familiarity with AI applications in biotech",
+                "confidence": 0.5
               }
             ],
             "difficulty": {
@@ -231,14 +226,14 @@
               "reading_time_minutes": 10
             },
             "learning_outcomes": [
-              "Understand how large language models like GPT-5 can be applied to biotechnology",
-              "Learn about the potential of autonomous lab automation in reducing costs",
-              "Recognize the benefits of closed-loop experimentation in cell-free protein synthesis"
+              "understand how GPT-5 can be applied to optimize biotech processes",
+              "learn about the potential of autonomous labs in reducing costs",
+              "recognize the role of closed-loop experimentation in biotech innovation"
             ],
             "strategic_questions": [
-              "How can large language models be further integrated into biotechnology workflows to drive innovation?",
-              "What are the potential limitations and challenges of using autonomous lab automation in biotechnology?",
-              "How might the cost savings from autonomous lab automation impact the development of new biotechnology products?"
+              "How can the integration of AI and biotech accelerate innovation in the field?",
+              "What are the potential limitations and challenges of using AI in autonomous labs?",
+              "How might the cost savings from AI-optimized biotech processes impact the broader industry?"
             ]
           }
         },
@@ -261,7 +256,7 @@
               },
               {
                 "name": "GPT-5.3-Codex",
-                "confidence": 0.9
+                "confidence": 0.95
               },
               {
                 "name": "Reasoning capabilities in LLMs",
@@ -281,13 +276,12 @@
             },
             "learning_outcomes": [
               "Understand the capabilities of GPT-5.3-Codex",
-              "Recognize the advancements in agentic coding models",
-              "Comprehend the integration of reasoning and professional knowledge in LLMs"
+              "Learn about the advancements in agentic coding models",
+              "Recognize the integration of reasoning and professional knowledge in LLMs"
             ],
             "strategic_questions": [
-              "How will the development of agentic coding models impact the future of software development?",
-              "What are the potential applications and limitations of GPT-5.3-Codex in real-world scenarios?",
-              "How can the reasoning capabilities of GPT-5.3-Codex be leveraged to improve coding performance?"
+              "How will the development of more capable agentic coding models impact the future of software development?",
+              "What are the potential applications and limitations of GPT-5.3-Codex in real-world coding tasks?"
             ]
           }
         },
@@ -302,15 +296,15 @@
             "concepts_taught": [
               {
                 "name": "Codex-native agents",
-                "confidence": 0.9
-              },
-              {
-                "name": "Long-horizon technical work",
                 "confidence": 0.8
               },
               {
-                "name": "General reasoning in AI models",
+                "name": "Long-horizon technical work",
                 "confidence": 0.7
+              },
+              {
+                "name": "General reasoning in AI models",
+                "confidence": 0.9
               }
             ],
             "prerequisites": [
@@ -325,14 +319,14 @@
               "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "Understand the capabilities of Codex-native agents",
-              "Recognize the importance of general reasoning in AI models",
-              "Learn about the potential applications of long-horizon technical work"
+              "Understand the concept of Codex-native agents and their capabilities",
+              "Recognize the importance of general reasoning in AI models for real-world technical work",
+              "Familiarity with the potential applications of long-horizon technical work"
             ],
             "strategic_questions": [
-              "How can Codex-native agents like GPT-5.3-Codex be used to support real-world technical work?",
-              "What are the potential limitations and challenges of using general reasoning in AI models?",
-              "How might the development of Codex-native agents impact the future of technical work and collaboration?"
+              "How can Codex-native agents like GPT-5.3-Codex be used to support complex technical tasks?",
+              "What are the potential limitations of pairing coding performance with general reasoning in AI models?",
+              "How might the development of models like GPT-5.3-Codex impact the future of technical work and collaboration?"
             ]
           }
         }
@@ -359,22 +353,18 @@
                   "confidence": 0.7
                 },
                 {
-                  "name": "autonomous lab automation",
-                  "confidence": 0.6
-                },
-                {
-                  "name": "GPT-5 applications in biotechnology",
+                  "name": "autonomous lab integration with AI",
                   "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic understanding of biotechnology",
-                  "confidence": 0.8
+                  "confidence": 0.6
                 },
                 {
-                  "name": "familiarity with large language models",
-                  "confidence": 0.7
+                  "name": "familiarity with AI applications in biotech",
+                  "confidence": 0.5
                 }
               ],
               "difficulty": {
@@ -383,14 +373,14 @@
                 "reading_time_minutes": 10
               },
               "learning_outcomes": [
-                "Understand how large language models like GPT-5 can be applied to biotechnology",
-                "Learn about the potential of autonomous lab automation in reducing costs",
-                "Recognize the benefits of closed-loop experimentation in cell-free protein synthesis"
+                "understand how GPT-5 can be applied to optimize biotech processes",
+                "learn about the potential of autonomous labs in reducing costs",
+                "recognize the role of closed-loop experimentation in biotech innovation"
               ],
               "strategic_questions": [
-                "How can large language models be further integrated into biotechnology workflows to drive innovation?",
-                "What are the potential limitations and challenges of using autonomous lab automation in biotechnology?",
-                "How might the cost savings from autonomous lab automation impact the development of new biotechnology products?"
+                "How can the integration of AI and biotech accelerate innovation in the field?",
+                "What are the potential limitations and challenges of using AI in autonomous labs?",
+                "How might the cost savings from AI-optimized biotech processes impact the broader industry?"
               ]
             }
           },
@@ -413,7 +403,7 @@
                 },
                 {
                   "name": "GPT-5.3-Codex",
-                  "confidence": 0.9
+                  "confidence": 0.95
                 },
                 {
                   "name": "Reasoning capabilities in LLMs",
@@ -433,13 +423,12 @@
               },
               "learning_outcomes": [
                 "Understand the capabilities of GPT-5.3-Codex",
-                "Recognize the advancements in agentic coding models",
-                "Comprehend the integration of reasoning and professional knowledge in LLMs"
+                "Learn about the advancements in agentic coding models",
+                "Recognize the integration of reasoning and professional knowledge in LLMs"
               ],
               "strategic_questions": [
-                "How will the development of agentic coding models impact the future of software development?",
-                "What are the potential applications and limitations of GPT-5.3-Codex in real-world scenarios?",
-                "How can the reasoning capabilities of GPT-5.3-Codex be leveraged to improve coding performance?"
+                "How will the development of more capable agentic coding models impact the future of software development?",
+                "What are the potential applications and limitations of GPT-5.3-Codex in real-world coding tasks?"
               ]
             }
           },
@@ -454,15 +443,15 @@
               "concepts_taught": [
                 {
                   "name": "Codex-native agents",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "Long-horizon technical work",
                   "confidence": 0.8
                 },
                 {
-                  "name": "General reasoning in AI models",
+                  "name": "Long-horizon technical work",
                   "confidence": 0.7
+                },
+                {
+                  "name": "General reasoning in AI models",
+                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
@@ -477,14 +466,14 @@
                 "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "Understand the capabilities of Codex-native agents",
-                "Recognize the importance of general reasoning in AI models",
-                "Learn about the potential applications of long-horizon technical work"
+                "Understand the concept of Codex-native agents and their capabilities",
+                "Recognize the importance of general reasoning in AI models for real-world technical work",
+                "Familiarity with the potential applications of long-horizon technical work"
               ],
               "strategic_questions": [
-                "How can Codex-native agents like GPT-5.3-Codex be used to support real-world technical work?",
-                "What are the potential limitations and challenges of using general reasoning in AI models?",
-                "How might the development of Codex-native agents impact the future of technical work and collaboration?"
+                "How can Codex-native agents like GPT-5.3-Codex be used to support complex technical tasks?",
+                "What are the potential limitations of pairing coding performance with general reasoning in AI models?",
+                "How might the development of models like GPT-5.3-Codex impact the future of technical work and collaboration?"
               ]
             }
           }
@@ -495,7 +484,7 @@
     },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
-      "article_count": 2,
+      "article_count": 1,
       "articles": [
         {
           "title": "Introducing OpenAI Frontier",
@@ -515,14 +504,14 @@
                 "confidence": 0.7
               },
               {
-                "name": "AI governance",
+                "name": "AI governance and permissions",
                 "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
                 "name": "basic AI concepts",
-                "confidence": 0.5
+                "confidence": 0.4
               }
             ],
             "difficulty": {
@@ -531,67 +520,14 @@
               "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "understand the importance of AI governance in enterprise settings",
-              "learn about the key features of OpenAI Frontier",
-              "understand how AI agents can be managed and deployed"
+              "Understand the importance of AI agent management in enterprise settings",
+              "Learn about the key features of OpenAI Frontier",
+              "Recognize the role of governance and permissions in AI deployment"
             ],
             "strategic_questions": [
-              "How can AI governance be balanced with innovation in enterprise settings?",
-              "What are the potential applications of AI agents with shared context?",
-              "How might OpenAI Frontier impact the development of AI solutions in various industries?"
-            ]
-          }
-        },
-        {
-          "title": "Unlocking the Codex harness: how we built the App Server",
-          "url": "https://openai.com/index/unlocking-the-codex-harness",
-          "published": "Wed, 04 Feb 2026 13:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "AI Infrastructure & Tooling",
-            "concepts_taught": [
-              {
-                "name": "Codex App Server",
-                "confidence": 0.9
-              },
-              {
-                "name": "JSON-RPC API",
-                "confidence": 0.8
-              },
-              {
-                "name": "bidirectional API",
-                "confidence": 0.7
-              },
-              {
-                "name": "streaming progress implementation",
-                "confidence": 0.6
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "API design basics",
-                "confidence": 0.85
-              },
-              {
-                "name": "JSON-RPC protocol",
-                "confidence": 0.8
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 12
-            },
-            "learning_outcomes": [
-              "Understand how to embed the Codex agent using the Codex App Server",
-              "Learn how to utilize the JSON-RPC API for streaming progress and tool use",
-              "Gain insight into implementing approvals and diffs using the Codex App Server"
-            ],
-            "strategic_questions": [
-              "How can the Codex App Server be used to improve the efficiency of AI-powered applications?",
-              "What are the potential security implications of using a bidirectional JSON-RPC API?",
-              "How can the Codex App Server be integrated with other AI infrastructure tools to enhance overall system performance?"
+              "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
+              "What are the potential implications of shared context and onboarding for AI agents in enterprise settings?",
+              "How might AI governance and permissions impact the adoption of AI technologies in various industries?"
             ]
           }
         }
@@ -617,14 +553,14 @@
                   "confidence": 0.7
                 },
                 {
-                  "name": "AI governance",
+                  "name": "AI governance and permissions",
                   "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic AI concepts",
-                  "confidence": 0.5
+                  "confidence": 0.4
                 }
               ],
               "difficulty": {
@@ -633,73 +569,19 @@
                 "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "understand the importance of AI governance in enterprise settings",
-                "learn about the key features of OpenAI Frontier",
-                "understand how AI agents can be managed and deployed"
+                "Understand the importance of AI agent management in enterprise settings",
+                "Learn about the key features of OpenAI Frontier",
+                "Recognize the role of governance and permissions in AI deployment"
               ],
               "strategic_questions": [
-                "How can AI governance be balanced with innovation in enterprise settings?",
-                "What are the potential applications of AI agents with shared context?",
-                "How might OpenAI Frontier impact the development of AI solutions in various industries?"
+                "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
+                "What are the potential implications of shared context and onboarding for AI agents in enterprise settings?",
+                "How might AI governance and permissions impact the adoption of AI technologies in various industries?"
               ]
             }
           }
         ],
-        "intermediate": [
-          {
-            "title": "Unlocking the Codex harness: how we built the App Server",
-            "url": "https://openai.com/index/unlocking-the-codex-harness",
-            "published": "Wed, 04 Feb 2026 13:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Infrastructure & Tooling",
-              "concepts_taught": [
-                {
-                  "name": "Codex App Server",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "JSON-RPC API",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "bidirectional API",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "streaming progress implementation",
-                  "confidence": 0.6
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "API design basics",
-                  "confidence": 0.85
-                },
-                {
-                  "name": "JSON-RPC protocol",
-                  "confidence": 0.8
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 12
-              },
-              "learning_outcomes": [
-                "Understand how to embed the Codex agent using the Codex App Server",
-                "Learn how to utilize the JSON-RPC API for streaming progress and tool use",
-                "Gain insight into implementing approvals and diffs using the Codex App Server"
-              ],
-              "strategic_questions": [
-                "How can the Codex App Server be used to improve the efficiency of AI-powered applications?",
-                "What are the potential security implications of using a bidirectional JSON-RPC API?",
-                "How can the Codex App Server be integrated with other AI infrastructure tools to enhance overall system performance?"
-              ]
-            }
-          }
-        ],
+        "intermediate": [],
         "advanced": [],
         "application": []
       }
@@ -717,37 +599,37 @@
         "concepts_taught": [
           {
             "name": "AI localization",
-            "confidence": 0.9
-          },
-          {
-            "name": "frontier models adaptation",
             "confidence": 0.8
           },
           {
-            "name": "cultural and linguistic adaptation",
+            "name": "frontier models adaptation",
             "confidence": 0.7
+          },
+          {
+            "name": "cultural and linguistic adaptation",
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI models",
-            "confidence": 0.6
+            "confidence": 0.9
           }
         ],
         "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 10
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 6
         },
         "learning_outcomes": [
           "Understand the importance of AI localization for global adoption",
           "Learn how to adapt AI models to local languages and cultures",
-          "Recognize the challenges of ensuring safety in localized AI models"
+          "Recognize the challenges of ensuring safety in AI localization"
         ],
         "strategic_questions": [
           "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
           "What are the potential consequences of failing to adapt AI models to local contexts?",
-          "How can organizations prioritize AI localization in their development strategies?"
+          "How can organizations prioritize AI localization while ensuring equitable access to AI benefits?"
         ]
       }
     },
@@ -769,22 +651,18 @@
             "confidence": 0.7
           },
           {
-            "name": "autonomous lab automation",
-            "confidence": 0.6
-          },
-          {
-            "name": "GPT-5 applications in biotechnology",
+            "name": "autonomous lab integration with AI",
             "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of biotechnology",
-            "confidence": 0.8
+            "confidence": 0.6
           },
           {
-            "name": "familiarity with large language models",
-            "confidence": 0.7
+            "name": "familiarity with AI applications in biotech",
+            "confidence": 0.5
           }
         ],
         "difficulty": {
@@ -793,14 +671,14 @@
           "reading_time_minutes": 10
         },
         "learning_outcomes": [
-          "Understand how large language models like GPT-5 can be applied to biotechnology",
-          "Learn about the potential of autonomous lab automation in reducing costs",
-          "Recognize the benefits of closed-loop experimentation in cell-free protein synthesis"
+          "understand how GPT-5 can be applied to optimize biotech processes",
+          "learn about the potential of autonomous labs in reducing costs",
+          "recognize the role of closed-loop experimentation in biotech innovation"
         ],
         "strategic_questions": [
-          "How can large language models be further integrated into biotechnology workflows to drive innovation?",
-          "What are the potential limitations and challenges of using autonomous lab automation in biotechnology?",
-          "How might the cost savings from autonomous lab automation impact the development of new biotechnology products?"
+          "How can the integration of AI and biotech accelerate innovation in the field?",
+          "What are the potential limitations and challenges of using AI in autonomous labs?",
+          "How might the cost savings from AI-optimized biotech processes impact the broader industry?"
         ]
       }
     },
@@ -824,7 +702,7 @@
         ],
         "prerequisites": [
           {
-            "name": "basic AI safety concepts",
+            "name": "AI safety concepts",
             "confidence": 0.6
           }
         ],
@@ -861,14 +739,14 @@
             "confidence": 0.7
           },
           {
-            "name": "AI governance",
+            "name": "AI governance and permissions",
             "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
             "name": "basic AI concepts",
-            "confidence": 0.5
+            "confidence": 0.4
           }
         ],
         "difficulty": {
@@ -877,14 +755,14 @@
           "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "understand the importance of AI governance in enterprise settings",
-          "learn about the key features of OpenAI Frontier",
-          "understand how AI agents can be managed and deployed"
+          "Understand the importance of AI agent management in enterprise settings",
+          "Learn about the key features of OpenAI Frontier",
+          "Recognize the role of governance and permissions in AI deployment"
         ],
         "strategic_questions": [
-          "How can AI governance be balanced with innovation in enterprise settings?",
-          "What are the potential applications of AI agents with shared context?",
-          "How might OpenAI Frontier impact the development of AI solutions in various industries?"
+          "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
+          "What are the potential implications of shared context and onboarding for AI agents in enterprise settings?",
+          "How might AI governance and permissions impact the adoption of AI technologies in various industries?"
         ]
       }
     },
@@ -907,7 +785,7 @@
           },
           {
             "name": "GPT-5.3-Codex",
-            "confidence": 0.9
+            "confidence": 0.95
           },
           {
             "name": "Reasoning capabilities in LLMs",
@@ -927,13 +805,12 @@
         },
         "learning_outcomes": [
           "Understand the capabilities of GPT-5.3-Codex",
-          "Recognize the advancements in agentic coding models",
-          "Comprehend the integration of reasoning and professional knowledge in LLMs"
+          "Learn about the advancements in agentic coding models",
+          "Recognize the integration of reasoning and professional knowledge in LLMs"
         ],
         "strategic_questions": [
-          "How will the development of agentic coding models impact the future of software development?",
-          "What are the potential applications and limitations of GPT-5.3-Codex in real-world scenarios?",
-          "How can the reasoning capabilities of GPT-5.3-Codex be leveraged to improve coding performance?"
+          "How will the development of more capable agentic coding models impact the future of software development?",
+          "What are the potential applications and limitations of GPT-5.3-Codex in real-world coding tasks?"
         ]
       }
     },
@@ -948,15 +825,15 @@
         "concepts_taught": [
           {
             "name": "Codex-native agents",
-            "confidence": 0.9
-          },
-          {
-            "name": "Long-horizon technical work",
             "confidence": 0.8
           },
           {
-            "name": "General reasoning in AI models",
+            "name": "Long-horizon technical work",
             "confidence": 0.7
+          },
+          {
+            "name": "General reasoning in AI models",
+            "confidence": 0.9
           }
         ],
         "prerequisites": [
@@ -971,67 +848,14 @@
           "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand the capabilities of Codex-native agents",
-          "Recognize the importance of general reasoning in AI models",
-          "Learn about the potential applications of long-horizon technical work"
+          "Understand the concept of Codex-native agents and their capabilities",
+          "Recognize the importance of general reasoning in AI models for real-world technical work",
+          "Familiarity with the potential applications of long-horizon technical work"
         ],
         "strategic_questions": [
-          "How can Codex-native agents like GPT-5.3-Codex be used to support real-world technical work?",
-          "What are the potential limitations and challenges of using general reasoning in AI models?",
-          "How might the development of Codex-native agents impact the future of technical work and collaboration?"
-        ]
-      }
-    },
-    {
-      "title": "Unlocking the Codex harness: how we built the App Server",
-      "url": "https://openai.com/index/unlocking-the-codex-harness",
-      "published": "Wed, 04 Feb 2026 13:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "AI Infrastructure & Tooling",
-        "concepts_taught": [
-          {
-            "name": "Codex App Server",
-            "confidence": 0.9
-          },
-          {
-            "name": "JSON-RPC API",
-            "confidence": 0.8
-          },
-          {
-            "name": "bidirectional API",
-            "confidence": 0.7
-          },
-          {
-            "name": "streaming progress implementation",
-            "confidence": 0.6
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "API design basics",
-            "confidence": 0.85
-          },
-          {
-            "name": "JSON-RPC protocol",
-            "confidence": 0.8
-          }
-        ],
-        "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 12
-        },
-        "learning_outcomes": [
-          "Understand how to embed the Codex agent using the Codex App Server",
-          "Learn how to utilize the JSON-RPC API for streaming progress and tool use",
-          "Gain insight into implementing approvals and diffs using the Codex App Server"
-        ],
-        "strategic_questions": [
-          "How can the Codex App Server be used to improve the efficiency of AI-powered applications?",
-          "What are the potential security implications of using a bidirectional JSON-RPC API?",
-          "How can the Codex App Server be integrated with other AI infrastructure tools to enhance overall system performance?"
+          "How can Codex-native agents like GPT-5.3-Codex be used to support complex technical tasks?",
+          "What are the potential limitations of pairing coding performance with general reasoning in AI models?",
+          "How might the development of models like GPT-5.3-Codex impact the future of technical work and collaboration?"
         ]
       }
     }
