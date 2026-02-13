@@ -1,7 +1,288 @@
 {
-  "generated_at": "2026-02-12T09:44:58.461087Z",
+  "generated_at": "2026-02-13T09:41:06.588356Z",
   "total_articles": 6,
   "topics": {
+    "Large Language Models": {
+      "name": "Large Language Models",
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "Introducing GPT-5.3-Codex-Spark",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+          "published": "Thu, 12 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "Real-time coding models",
+                "confidence": 0.8
+              },
+              {
+                "name": "Context window size",
+                "confidence": 0.7
+              },
+              {
+                "name": "Model generation speed",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Familiarity with language models",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "beginner",
+              "technical_depth": 3,
+              "reading_time_minutes": 2
+            },
+            "learning_outcomes": [
+              "Understand the concept of real-time coding models",
+              "Learn about the importance of context window size in language models"
+            ],
+            "strategic_questions": [
+              "How will real-time coding models change the way we approach software development?",
+              "What are the potential applications of large language models in coding and programming?"
+            ]
+          }
+        },
+        {
+          "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+          "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+          "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "closed-loop experimentation",
+                "confidence": 0.8
+              },
+              {
+                "name": "cell-free protein synthesis",
+                "confidence": 0.7
+              },
+              {
+                "name": "autonomous lab automation",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basics of protein synthesis",
+                "confidence": 0.5
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand how large language models can be applied to automate lab experiments",
+              "Learn about the potential cost savings of using autonomous labs for cell-free protein synthesis",
+              "Recognize the role of closed-loop experimentation in optimizing lab processes"
+            ],
+            "strategic_questions": [
+              "How can large language models be integrated with other biotech tools to further reduce costs and improve efficiency?",
+              "What are the potential limitations and challenges of using autonomous labs for cell-free protein synthesis?",
+              "How might the use of autonomous labs and large language models impact the biotech industry as a whole?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing GPT-5.3-Codex",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "Codex-native agents",
+                "confidence": 0.8
+              },
+              {
+                "name": "Long-horizon technical work",
+                "confidence": 0.7
+              },
+              {
+                "name": "General reasoning in AI models",
+                "confidence": 0.9
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Large Language Models basics",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "Understand the concept of Codex-native agents and their applications",
+              "Learn about the capabilities of GPT-5.3-Codex in supporting long-horizon technical work",
+              "Recognize the importance of general reasoning in AI models"
+            ],
+            "strategic_questions": [
+              "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
+              "What are the potential limitations and challenges of using large language models for real-world technical tasks?",
+              "How can general reasoning capabilities be further developed and integrated into AI models?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [
+          {
+            "title": "Introducing GPT-5.3-Codex-Spark",
+            "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+            "published": "Thu, 12 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Real-time coding models",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Context window size",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "Model generation speed",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Familiarity with language models",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 3,
+                "reading_time_minutes": 2
+              },
+              "learning_outcomes": [
+                "Understand the concept of real-time coding models",
+                "Learn about the importance of context window size in language models"
+              ],
+              "strategic_questions": [
+                "How will real-time coding models change the way we approach software development?",
+                "What are the potential applications of large language models in coding and programming?"
+              ]
+            }
+          }
+        ],
+        "intermediate": [
+          {
+            "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+            "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+            "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "closed-loop experimentation",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "cell-free protein synthesis",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "autonomous lab automation",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basics of protein synthesis",
+                  "confidence": 0.5
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand how large language models can be applied to automate lab experiments",
+                "Learn about the potential cost savings of using autonomous labs for cell-free protein synthesis",
+                "Recognize the role of closed-loop experimentation in optimizing lab processes"
+              ],
+              "strategic_questions": [
+                "How can large language models be integrated with other biotech tools to further reduce costs and improve efficiency?",
+                "What are the potential limitations and challenges of using autonomous labs for cell-free protein synthesis?",
+                "How might the use of autonomous labs and large language models impact the biotech industry as a whole?"
+              ]
+            }
+          },
+          {
+            "title": "Introducing GPT-5.3-Codex",
+            "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Codex-native agents",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Long-horizon technical work",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "General reasoning in AI models",
+                  "confidence": 0.9
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Large Language Models basics",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand the concept of Codex-native agents and their applications",
+                "Learn about the capabilities of GPT-5.3-Codex in supporting long-horizon technical work",
+                "Recognize the importance of general reasoning in AI models"
+              ],
+              "strategic_questions": [
+                "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
+                "What are the potential limitations and challenges of using large language models for real-world technical tasks?",
+                "How can general reasoning capabilities be further developed and integrated into AI models?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    },
     "AI Safety & Alignment": {
       "name": "AI Safety & Alignment",
       "article_count": 2,
@@ -26,12 +307,16 @@
               {
                 "name": "cultural and linguistic adaptation",
                 "confidence": 0.6
+              },
+              {
+                "name": "safety in AI localization",
+                "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of AI models",
-                "confidence": 0.9
+                "confidence": 0.8
               }
             ],
             "difficulty": {
@@ -40,14 +325,14 @@
               "reading_time_minutes": 6
             },
             "learning_outcomes": [
-              "Understand the importance of AI localization for global adoption",
+              "Understand the importance of AI localization for global accessibility",
               "Learn how to adapt AI models to local languages and cultures",
               "Recognize the challenges of ensuring safety in AI localization"
             ],
             "strategic_questions": [
               "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-              "What are the potential consequences of failing to adapt AI models to local contexts?",
-              "How can organizations prioritize AI localization while ensuring equitable access to AI benefits?"
+              "What are the potential consequences of failing to adapt AI models to local languages and cultures?",
+              "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
             ]
           }
         },
@@ -114,12 +399,16 @@
                 {
                   "name": "cultural and linguistic adaptation",
                   "confidence": 0.6
+                },
+                {
+                  "name": "safety in AI localization",
+                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic understanding of AI models",
-                  "confidence": 0.9
+                  "confidence": 0.8
                 }
               ],
               "difficulty": {
@@ -128,14 +417,14 @@
                 "reading_time_minutes": 6
               },
               "learning_outcomes": [
-                "Understand the importance of AI localization for global adoption",
+                "Understand the importance of AI localization for global accessibility",
                 "Learn how to adapt AI models to local languages and cultures",
                 "Recognize the challenges of ensuring safety in AI localization"
               ],
               "strategic_questions": [
                 "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-                "What are the potential consequences of failing to adapt AI models to local contexts?",
-                "How can organizations prioritize AI localization while ensuring equitable access to AI benefits?"
+                "What are the potential consequences of failing to adapt AI models to local languages and cultures?",
+                "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
               ]
             }
           },
@@ -184,304 +473,6 @@
         "application": []
       }
     },
-    "Large Language Models": {
-      "name": "Large Language Models",
-      "article_count": 3,
-      "articles": [
-        {
-          "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-          "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-          "published": "Thu, 05 Feb 2026 11:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "Large Language Models",
-            "concepts_taught": [
-              {
-                "name": "cell-free protein synthesis",
-                "confidence": 0.8
-              },
-              {
-                "name": "closed-loop experimentation",
-                "confidence": 0.7
-              },
-              {
-                "name": "autonomous lab integration with AI",
-                "confidence": 0.9
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "basic understanding of biotechnology",
-                "confidence": 0.6
-              },
-              {
-                "name": "familiarity with AI applications in biotech",
-                "confidence": 0.5
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 10
-            },
-            "learning_outcomes": [
-              "understand how GPT-5 can be applied to optimize biotech processes",
-              "learn about the potential of autonomous labs in reducing costs",
-              "recognize the role of closed-loop experimentation in biotech innovation"
-            ],
-            "strategic_questions": [
-              "How can the integration of AI and biotech accelerate innovation in the field?",
-              "What are the potential limitations and challenges of using AI in autonomous labs?",
-              "How might the cost savings from AI-optimized biotech processes impact the broader industry?"
-            ]
-          }
-        },
-        {
-          "title": "GPT-5.3-Codex System Card",
-          "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "Large Language Models",
-            "concepts_taught": [
-              {
-                "name": "Agentic coding model",
-                "confidence": 0.9
-              },
-              {
-                "name": "GPT-5.2-Codex",
-                "confidence": 0.8
-              },
-              {
-                "name": "GPT-5.3-Codex",
-                "confidence": 0.95
-              },
-              {
-                "name": "Reasoning capabilities in LLMs",
-                "confidence": 0.7
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "Basic understanding of Large Language Models",
-                "confidence": 0.85
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 5
-            },
-            "learning_outcomes": [
-              "Understand the capabilities of GPT-5.3-Codex",
-              "Learn about the advancements in agentic coding models",
-              "Recognize the integration of reasoning and professional knowledge in LLMs"
-            ],
-            "strategic_questions": [
-              "How will the development of more capable agentic coding models impact the future of software development?",
-              "What are the potential applications and limitations of GPT-5.3-Codex in real-world coding tasks?"
-            ]
-          }
-        },
-        {
-          "title": "Introducing GPT-5.3-Codex",
-          "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "Large Language Models",
-            "concepts_taught": [
-              {
-                "name": "Codex-native agents",
-                "confidence": 0.8
-              },
-              {
-                "name": "Long-horizon technical work",
-                "confidence": 0.7
-              },
-              {
-                "name": "General reasoning in AI models",
-                "confidence": 0.9
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "Basic understanding of large language models",
-                "confidence": 0.85
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 5
-            },
-            "learning_outcomes": [
-              "Understand the concept of Codex-native agents and their capabilities",
-              "Recognize the importance of general reasoning in AI models for real-world technical work",
-              "Familiarity with the potential applications of long-horizon technical work"
-            ],
-            "strategic_questions": [
-              "How can Codex-native agents like GPT-5.3-Codex be used to support complex technical tasks?",
-              "What are the potential limitations of pairing coding performance with general reasoning in AI models?",
-              "How might the development of models like GPT-5.3-Codex impact the future of technical work and collaboration?"
-            ]
-          }
-        }
-      ],
-      "levels": {
-        "foundational": [],
-        "beginner": [],
-        "intermediate": [
-          {
-            "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-            "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-            "published": "Thu, 05 Feb 2026 11:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "cell-free protein synthesis",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "closed-loop experimentation",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "autonomous lab integration with AI",
-                  "confidence": 0.9
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "basic understanding of biotechnology",
-                  "confidence": 0.6
-                },
-                {
-                  "name": "familiarity with AI applications in biotech",
-                  "confidence": 0.5
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 10
-              },
-              "learning_outcomes": [
-                "understand how GPT-5 can be applied to optimize biotech processes",
-                "learn about the potential of autonomous labs in reducing costs",
-                "recognize the role of closed-loop experimentation in biotech innovation"
-              ],
-              "strategic_questions": [
-                "How can the integration of AI and biotech accelerate innovation in the field?",
-                "What are the potential limitations and challenges of using AI in autonomous labs?",
-                "How might the cost savings from AI-optimized biotech processes impact the broader industry?"
-              ]
-            }
-          },
-          {
-            "title": "GPT-5.3-Codex System Card",
-            "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "Agentic coding model",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "GPT-5.2-Codex",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "GPT-5.3-Codex",
-                  "confidence": 0.95
-                },
-                {
-                  "name": "Reasoning capabilities in LLMs",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of Large Language Models",
-                  "confidence": 0.85
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 5
-              },
-              "learning_outcomes": [
-                "Understand the capabilities of GPT-5.3-Codex",
-                "Learn about the advancements in agentic coding models",
-                "Recognize the integration of reasoning and professional knowledge in LLMs"
-              ],
-              "strategic_questions": [
-                "How will the development of more capable agentic coding models impact the future of software development?",
-                "What are the potential applications and limitations of GPT-5.3-Codex in real-world coding tasks?"
-              ]
-            }
-          },
-          {
-            "title": "Introducing GPT-5.3-Codex",
-            "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "Codex-native agents",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Long-horizon technical work",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "General reasoning in AI models",
-                  "confidence": 0.9
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of large language models",
-                  "confidence": 0.85
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 5
-              },
-              "learning_outcomes": [
-                "Understand the concept of Codex-native agents and their capabilities",
-                "Recognize the importance of general reasoning in AI models for real-world technical work",
-                "Familiarity with the potential applications of long-horizon technical work"
-              ],
-              "strategic_questions": [
-                "How can Codex-native agents like GPT-5.3-Codex be used to support complex technical tasks?",
-                "What are the potential limitations of pairing coding performance with general reasoning in AI models?",
-                "How might the development of models like GPT-5.3-Codex impact the future of technical work and collaboration?"
-              ]
-            }
-          }
-        ],
-        "advanced": [],
-        "application": []
-      }
-    },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
       "article_count": 1,
@@ -504,14 +495,14 @@
                 "confidence": 0.7
               },
               {
-                "name": "AI governance and permissions",
+                "name": "AI governance",
                 "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
                 "name": "basic AI concepts",
-                "confidence": 0.4
+                "confidence": 0.5
               }
             ],
             "difficulty": {
@@ -520,14 +511,12 @@
               "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "Understand the importance of AI agent management in enterprise settings",
-              "Learn about the key features of OpenAI Frontier",
-              "Recognize the role of governance and permissions in AI deployment"
+              "understand the importance of AI governance in enterprise settings",
+              "learn about the key features of OpenAI Frontier"
             ],
             "strategic_questions": [
               "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
-              "What are the potential implications of shared context and onboarding for AI agents in enterprise settings?",
-              "How might AI governance and permissions impact the adoption of AI technologies in various industries?"
+              "What are the potential implications of widespread adoption of AI agent management platforms?"
             ]
           }
         }
@@ -553,14 +542,14 @@
                   "confidence": 0.7
                 },
                 {
-                  "name": "AI governance and permissions",
+                  "name": "AI governance",
                   "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic AI concepts",
-                  "confidence": 0.4
+                  "confidence": 0.5
                 }
               ],
               "difficulty": {
@@ -569,14 +558,12 @@
                 "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "Understand the importance of AI agent management in enterprise settings",
-                "Learn about the key features of OpenAI Frontier",
-                "Recognize the role of governance and permissions in AI deployment"
+                "understand the importance of AI governance in enterprise settings",
+                "learn about the key features of OpenAI Frontier"
               ],
               "strategic_questions": [
                 "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
-                "What are the potential implications of shared context and onboarding for AI agents in enterprise settings?",
-                "How might AI governance and permissions impact the adoption of AI technologies in various industries?"
+                "What are the potential implications of widespread adoption of AI agent management platforms?"
               ]
             }
           }
@@ -588,6 +575,49 @@
     }
   },
   "articles": [
+    {
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "published": "Thu, 12 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "concepts_taught": [
+          {
+            "name": "Real-time coding models",
+            "confidence": 0.8
+          },
+          {
+            "name": "Context window size",
+            "confidence": 0.7
+          },
+          {
+            "name": "Model generation speed",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "Familiarity with language models",
+            "confidence": 0.9
+          }
+        ],
+        "difficulty": {
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 2
+        },
+        "learning_outcomes": [
+          "Understand the concept of real-time coding models",
+          "Learn about the importance of context window size in language models"
+        ],
+        "strategic_questions": [
+          "How will real-time coding models change the way we approach software development?",
+          "What are the potential applications of large language models in coding and programming?"
+        ]
+      }
+    },
     {
       "title": "Making AI work for everyone, everywhere: our approach to localization",
       "url": "https://openai.com/index/our-approach-to-localization",
@@ -608,12 +638,16 @@
           {
             "name": "cultural and linguistic adaptation",
             "confidence": 0.6
+          },
+          {
+            "name": "safety in AI localization",
+            "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI models",
-            "confidence": 0.9
+            "confidence": 0.8
           }
         ],
         "difficulty": {
@@ -622,14 +656,14 @@
           "reading_time_minutes": 6
         },
         "learning_outcomes": [
-          "Understand the importance of AI localization for global adoption",
+          "Understand the importance of AI localization for global accessibility",
           "Learn how to adapt AI models to local languages and cultures",
           "Recognize the challenges of ensuring safety in AI localization"
         ],
         "strategic_questions": [
           "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-          "What are the potential consequences of failing to adapt AI models to local contexts?",
-          "How can organizations prioritize AI localization while ensuring equitable access to AI benefits?"
+          "What are the potential consequences of failing to adapt AI models to local languages and cultures?",
+          "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
         ]
       }
     },
@@ -643,42 +677,38 @@
         "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "cell-free protein synthesis",
+            "name": "closed-loop experimentation",
             "confidence": 0.8
           },
           {
-            "name": "closed-loop experimentation",
+            "name": "cell-free protein synthesis",
             "confidence": 0.7
           },
           {
-            "name": "autonomous lab integration with AI",
-            "confidence": 0.9
+            "name": "autonomous lab automation",
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "basic understanding of biotechnology",
-            "confidence": 0.6
-          },
-          {
-            "name": "familiarity with AI applications in biotech",
+            "name": "basics of protein synthesis",
             "confidence": 0.5
           }
         ],
         "difficulty": {
           "level": "intermediate",
           "technical_depth": 6,
-          "reading_time_minutes": 10
+          "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "understand how GPT-5 can be applied to optimize biotech processes",
-          "learn about the potential of autonomous labs in reducing costs",
-          "recognize the role of closed-loop experimentation in biotech innovation"
+          "Understand how large language models can be applied to automate lab experiments",
+          "Learn about the potential cost savings of using autonomous labs for cell-free protein synthesis",
+          "Recognize the role of closed-loop experimentation in optimizing lab processes"
         ],
         "strategic_questions": [
-          "How can the integration of AI and biotech accelerate innovation in the field?",
-          "What are the potential limitations and challenges of using AI in autonomous labs?",
-          "How might the cost savings from AI-optimized biotech processes impact the broader industry?"
+          "How can large language models be integrated with other biotech tools to further reduce costs and improve efficiency?",
+          "What are the potential limitations and challenges of using autonomous labs for cell-free protein synthesis?",
+          "How might the use of autonomous labs and large language models impact the biotech industry as a whole?"
         ]
       }
     },
@@ -739,14 +769,14 @@
             "confidence": 0.7
           },
           {
-            "name": "AI governance and permissions",
+            "name": "AI governance",
             "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
             "name": "basic AI concepts",
-            "confidence": 0.4
+            "confidence": 0.5
           }
         ],
         "difficulty": {
@@ -755,62 +785,12 @@
           "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand the importance of AI agent management in enterprise settings",
-          "Learn about the key features of OpenAI Frontier",
-          "Recognize the role of governance and permissions in AI deployment"
+          "understand the importance of AI governance in enterprise settings",
+          "learn about the key features of OpenAI Frontier"
         ],
         "strategic_questions": [
           "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
-          "What are the potential implications of shared context and onboarding for AI agents in enterprise settings?",
-          "How might AI governance and permissions impact the adoption of AI technologies in various industries?"
-        ]
-      }
-    },
-    {
-      "title": "GPT-5.3-Codex System Card",
-      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "Large Language Models",
-        "concepts_taught": [
-          {
-            "name": "Agentic coding model",
-            "confidence": 0.9
-          },
-          {
-            "name": "GPT-5.2-Codex",
-            "confidence": 0.8
-          },
-          {
-            "name": "GPT-5.3-Codex",
-            "confidence": 0.95
-          },
-          {
-            "name": "Reasoning capabilities in LLMs",
-            "confidence": 0.7
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "Basic understanding of Large Language Models",
-            "confidence": 0.85
-          }
-        ],
-        "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 5
-        },
-        "learning_outcomes": [
-          "Understand the capabilities of GPT-5.3-Codex",
-          "Learn about the advancements in agentic coding models",
-          "Recognize the integration of reasoning and professional knowledge in LLMs"
-        ],
-        "strategic_questions": [
-          "How will the development of more capable agentic coding models impact the future of software development?",
-          "What are the potential applications and limitations of GPT-5.3-Codex in real-world coding tasks?"
+          "What are the potential implications of widespread adoption of AI agent management platforms?"
         ]
       }
     },
@@ -838,7 +818,7 @@
         ],
         "prerequisites": [
           {
-            "name": "Basic understanding of large language models",
+            "name": "Large Language Models basics",
             "confidence": 0.85
           }
         ],
@@ -848,14 +828,14 @@
           "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand the concept of Codex-native agents and their capabilities",
-          "Recognize the importance of general reasoning in AI models for real-world technical work",
-          "Familiarity with the potential applications of long-horizon technical work"
+          "Understand the concept of Codex-native agents and their applications",
+          "Learn about the capabilities of GPT-5.3-Codex in supporting long-horizon technical work",
+          "Recognize the importance of general reasoning in AI models"
         ],
         "strategic_questions": [
-          "How can Codex-native agents like GPT-5.3-Codex be used to support complex technical tasks?",
-          "What are the potential limitations of pairing coding performance with general reasoning in AI models?",
-          "How might the development of models like GPT-5.3-Codex impact the future of technical work and collaboration?"
+          "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
+          "What are the potential limitations and challenges of using large language models for real-world technical tasks?",
+          "How can general reasoning capabilities be further developed and integrated into AI models?"
         ]
       }
     }
