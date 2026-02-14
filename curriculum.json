@@ -1,11 +1,60 @@
 {
-  "generated_at": "2026-02-13T09:41:06.588356Z",
-  "total_articles": 6,
+  "generated_at": "2026-02-14T09:27:53.570465Z",
+  "total_articles": 7,
   "topics": {
     "Large Language Models": {
       "name": "Large Language Models",
       "article_count": 3,
       "articles": [
+        {
+          "title": "GPT-5.2 derives a new result in theoretical physics",
+          "url": "https://openai.com/index/new-result-theoretical-physics",
+          "published": "Fri, 13 Feb 2026 11:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "Gluon amplitude calculation",
+                "confidence": 0.8
+              },
+              {
+                "name": "Application of LLMs in theoretical physics",
+                "confidence": 0.7
+              },
+              {
+                "name": "Collaboration between AI models and human researchers",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Basic understanding of particle physics",
+                "confidence": 0.9
+              },
+              {
+                "name": "Familiarity with large language models",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand how large language models can contribute to theoretical physics research",
+              "Recognize the potential for AI to derive new results in complex domains",
+              "Appreciate the importance of human-AI collaboration in scientific discovery"
+            ],
+            "strategic_questions": [
+              "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
+              "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+              "What are the potential applications of large language models in other areas of scientific research?"
+            ]
+          }
+        },
         {
           "title": "Introducing GPT-5.3-Codex-Spark",
           "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
@@ -20,18 +69,18 @@
                 "confidence": 0.8
               },
               {
-                "name": "Context window size",
+                "name": "Model generation speed",
                 "confidence": 0.7
               },
               {
-                "name": "Model generation speed",
-                "confidence": 0.6
+                "name": "Context window size",
+                "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
                 "name": "Familiarity with language models",
-                "confidence": 0.9
+                "confidence": 0.85
               }
             ],
             "difficulty": {
@@ -45,7 +94,7 @@
             ],
             "strategic_questions": [
               "How will real-time coding models change the way we approach software development?",
-              "What are the potential applications of large language models in coding and programming?"
+              "What are the potential applications of large context window sizes in language models?"
             ]
           }
         },
@@ -59,83 +108,46 @@
             "topic": "Large Language Models",
             "concepts_taught": [
               {
-                "name": "closed-loop experimentation",
+                "name": "cell-free protein synthesis",
                 "confidence": 0.8
               },
               {
-                "name": "cell-free protein synthesis",
+                "name": "closed-loop experimentation",
                 "confidence": 0.7
               },
               {
                 "name": "autonomous lab automation",
                 "confidence": 0.6
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "basics of protein synthesis",
-                "confidence": 0.5
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 5
-            },
-            "learning_outcomes": [
-              "Understand how large language models can be applied to automate lab experiments",
-              "Learn about the potential cost savings of using autonomous labs for cell-free protein synthesis",
-              "Recognize the role of closed-loop experimentation in optimizing lab processes"
-            ],
-            "strategic_questions": [
-              "How can large language models be integrated with other biotech tools to further reduce costs and improve efficiency?",
-              "What are the potential limitations and challenges of using autonomous labs for cell-free protein synthesis?",
-              "How might the use of autonomous labs and large language models impact the biotech industry as a whole?"
-            ]
-          }
-        },
-        {
-          "title": "Introducing GPT-5.3-Codex",
-          "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-          "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "Large Language Models",
-            "concepts_taught": [
-              {
-                "name": "Codex-native agents",
-                "confidence": 0.8
               },
               {
-                "name": "Long-horizon technical work",
-                "confidence": 0.7
-              },
-              {
-                "name": "General reasoning in AI models",
+                "name": "GPT-5 applications in biotechnology",
                 "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
-                "name": "Large Language Models basics",
-                "confidence": 0.85
+                "name": "basic understanding of biotechnology",
+                "confidence": 0.8
+              },
+              {
+                "name": "familiarity with large language models",
+                "confidence": 0.7
               }
             ],
             "difficulty": {
               "level": "intermediate",
               "technical_depth": 6,
-              "reading_time_minutes": 5
+              "reading_time_minutes": 10
             },
             "learning_outcomes": [
-              "Understand the concept of Codex-native agents and their applications",
-              "Learn about the capabilities of GPT-5.3-Codex in supporting long-horizon technical work",
-              "Recognize the importance of general reasoning in AI models"
+              "Understand how GPT-5 can be applied to biotechnology for cost reduction",
+              "Learn about the potential of closed-loop experimentation in protein synthesis",
+              "Recognize the benefits of autonomous lab automation in biotechnology"
             ],
             "strategic_questions": [
-              "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
-              "What are the potential limitations and challenges of using large language models for real-world technical tasks?",
-              "How can general reasoning capabilities be further developed and integrated into AI models?"
+              "How can large language models like GPT-5 be further leveraged in biotechnology to drive innovation?",
+              "What are the potential limitations and challenges of implementing autonomous lab automation in biotechnology?",
+              "What are the potential long-term implications of reducing cell-free protein synthesis costs on the biotechnology industry?"
             ]
           }
         }
@@ -157,18 +169,18 @@
                   "confidence": 0.8
                 },
                 {
-                  "name": "Context window size",
+                  "name": "Model generation speed",
                   "confidence": 0.7
                 },
                 {
-                  "name": "Model generation speed",
-                  "confidence": 0.6
+                  "name": "Context window size",
+                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
                   "name": "Familiarity with language models",
-                  "confidence": 0.9
+                  "confidence": 0.85
                 }
               ],
               "difficulty": {
@@ -182,12 +194,61 @@
               ],
               "strategic_questions": [
                 "How will real-time coding models change the way we approach software development?",
-                "What are the potential applications of large language models in coding and programming?"
+                "What are the potential applications of large context window sizes in language models?"
               ]
             }
           }
         ],
         "intermediate": [
+          {
+            "title": "GPT-5.2 derives a new result in theoretical physics",
+            "url": "https://openai.com/index/new-result-theoretical-physics",
+            "published": "Fri, 13 Feb 2026 11:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Gluon amplitude calculation",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Application of LLMs in theoretical physics",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "Collaboration between AI models and human researchers",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Basic understanding of particle physics",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Familiarity with large language models",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand how large language models can contribute to theoretical physics research",
+                "Recognize the potential for AI to derive new results in complex domains",
+                "Appreciate the importance of human-AI collaboration in scientific discovery"
+              ],
+              "strategic_questions": [
+                "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
+                "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+                "What are the potential applications of large language models in other areas of scientific research?"
+              ]
+            }
+          },
           {
             "title": "GPT-5 lowers the cost of cell-free protein synthesis",
             "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
@@ -198,83 +259,46 @@
               "topic": "Large Language Models",
               "concepts_taught": [
                 {
-                  "name": "closed-loop experimentation",
+                  "name": "cell-free protein synthesis",
                   "confidence": 0.8
                 },
                 {
-                  "name": "cell-free protein synthesis",
+                  "name": "closed-loop experimentation",
                   "confidence": 0.7
                 },
                 {
                   "name": "autonomous lab automation",
                   "confidence": 0.6
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "basics of protein synthesis",
-                  "confidence": 0.5
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 5
-              },
-              "learning_outcomes": [
-                "Understand how large language models can be applied to automate lab experiments",
-                "Learn about the potential cost savings of using autonomous labs for cell-free protein synthesis",
-                "Recognize the role of closed-loop experimentation in optimizing lab processes"
-              ],
-              "strategic_questions": [
-                "How can large language models be integrated with other biotech tools to further reduce costs and improve efficiency?",
-                "What are the potential limitations and challenges of using autonomous labs for cell-free protein synthesis?",
-                "How might the use of autonomous labs and large language models impact the biotech industry as a whole?"
-              ]
-            }
-          },
-          {
-            "title": "Introducing GPT-5.3-Codex",
-            "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-            "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "Codex-native agents",
-                  "confidence": 0.8
                 },
                 {
-                  "name": "Long-horizon technical work",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "General reasoning in AI models",
+                  "name": "GPT-5 applications in biotechnology",
                   "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "Large Language Models basics",
-                  "confidence": 0.85
+                  "name": "basic understanding of biotechnology",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "familiarity with large language models",
+                  "confidence": 0.7
                 }
               ],
               "difficulty": {
                 "level": "intermediate",
                 "technical_depth": 6,
-                "reading_time_minutes": 5
+                "reading_time_minutes": 10
               },
               "learning_outcomes": [
-                "Understand the concept of Codex-native agents and their applications",
-                "Learn about the capabilities of GPT-5.3-Codex in supporting long-horizon technical work",
-                "Recognize the importance of general reasoning in AI models"
+                "Understand how GPT-5 can be applied to biotechnology for cost reduction",
+                "Learn about the potential of closed-loop experimentation in protein synthesis",
+                "Recognize the benefits of autonomous lab automation in biotechnology"
               ],
               "strategic_questions": [
-                "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
-                "What are the potential limitations and challenges of using large language models for real-world technical tasks?",
-                "How can general reasoning capabilities be further developed and integrated into AI models?"
+                "How can large language models like GPT-5 be further leveraged in biotechnology to drive innovation?",
+                "What are the potential limitations and challenges of implementing autonomous lab automation in biotechnology?",
+                "What are the potential long-term implications of reducing cell-free protein synthesis costs on the biotechnology industry?"
               ]
             }
           }
@@ -288,6 +312,50 @@
       "article_count": 2,
       "articles": [
         {
+          "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+          "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+          "published": "Fri, 13 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "concepts_taught": [
+              {
+                "name": "prompt injection",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI-driven data exfiltration",
+                "confidence": 0.85
+              },
+              {
+                "name": "Lockdown Mode",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of AI security risks",
+                "confidence": 0.7
+              }
+            ],
+            "difficulty": {
+              "level": "beginner",
+              "technical_depth": 3,
+              "reading_time_minutes": 4
+            },
+            "learning_outcomes": [
+              "Understand the concept of prompt injection and its risks",
+              "Learn about AI-driven data exfiltration and its implications",
+              "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+            ],
+            "strategic_questions": [
+              "How can organizations effectively defend against AI-driven security threats?",
+              "What are the potential consequences of ignoring prompt injection and data exfiltration risks?"
+            ]
+          }
+        },
+        {
           "title": "Making AI work for everyone, everywhere: our approach to localization",
           "url": "https://openai.com/index/our-approach-to-localization",
           "published": "Fri, 06 Feb 2026 10:00:00 GMT",
@@ -298,25 +366,21 @@
             "concepts_taught": [
               {
                 "name": "AI localization",
+                "confidence": 0.9
+              },
+              {
+                "name": "frontier models",
                 "confidence": 0.8
               },
               {
-                "name": "frontier models adaptation",
+                "name": "cultural adaptation in AI",
                 "confidence": 0.7
-              },
-              {
-                "name": "cultural and linguistic adaptation",
-                "confidence": 0.6
-              },
-              {
-                "name": "safety in AI localization",
-                "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of AI models",
-                "confidence": 0.8
+                "confidence": 0.6
               }
             ],
             "difficulty": {
@@ -325,53 +389,14 @@
               "reading_time_minutes": 6
             },
             "learning_outcomes": [
-              "Understand the importance of AI localization for global accessibility",
+              "Understand the importance of AI localization for global adoption",
               "Learn how to adapt AI models to local languages and cultures",
-              "Recognize the challenges of ensuring safety in AI localization"
+              "Recognize the role of safety in AI localization"
             ],
             "strategic_questions": [
-              "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-              "What are the potential consequences of failing to adapt AI models to local languages and cultures?",
-              "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
-            ]
-          }
-        },
-        {
-          "title": "Introducing Trusted Access for Cyber",
-          "url": "https://openai.com/index/trusted-access-for-cyber",
-          "published": "Thu, 05 Feb 2026 10:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "AI Safety & Alignment",
-            "concepts_taught": [
-              {
-                "name": "trust-based framework",
-                "confidence": 0.8
-              },
-              {
-                "name": "safeguards against misuse",
-                "confidence": 0.7
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "AI safety concepts",
-                "confidence": 0.6
-              }
-            ],
-            "difficulty": {
-              "level": "beginner",
-              "technical_depth": 3,
-              "reading_time_minutes": 5
-            },
-            "learning_outcomes": [
-              "understand the importance of trust-based frameworks in AI safety",
-              "learn about the role of safeguards in preventing AI misuse"
-            ],
-            "strategic_questions": [
-              "How can trust-based frameworks be applied to other areas of AI development?",
-              "What are the potential risks and benefits of expanding access to frontier cyber capabilities?"
+              "How can AI localization balance global consistency with local needs?",
+              "What are the potential risks and benefits of adapting AI models to local cultures?",
+              "How can organizations ensure that AI localization efforts prioritize safety and inclusivity?"
             ]
           }
         }
@@ -379,6 +404,50 @@
       "levels": {
         "foundational": [],
         "beginner": [
+          {
+            "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+            "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+            "published": "Fri, 13 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "prompt injection",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI-driven data exfiltration",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "Lockdown Mode",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of AI security risks",
+                  "confidence": 0.7
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 3,
+                "reading_time_minutes": 4
+              },
+              "learning_outcomes": [
+                "Understand the concept of prompt injection and its risks",
+                "Learn about AI-driven data exfiltration and its implications",
+                "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+              ],
+              "strategic_questions": [
+                "How can organizations effectively defend against AI-driven security threats?",
+                "What are the potential consequences of ignoring prompt injection and data exfiltration risks?"
+              ]
+            }
+          },
           {
             "title": "Making AI work for everyone, everywhere: our approach to localization",
             "url": "https://openai.com/index/our-approach-to-localization",
@@ -390,25 +459,21 @@
               "concepts_taught": [
                 {
                   "name": "AI localization",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "frontier models",
                   "confidence": 0.8
                 },
                 {
-                  "name": "frontier models adaptation",
+                  "name": "cultural adaptation in AI",
                   "confidence": 0.7
-                },
-                {
-                  "name": "cultural and linguistic adaptation",
-                  "confidence": 0.6
-                },
-                {
-                  "name": "safety in AI localization",
-                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic understanding of AI models",
-                  "confidence": 0.8
+                  "confidence": 0.6
                 }
               ],
               "difficulty": {
@@ -417,53 +482,14 @@
                 "reading_time_minutes": 6
               },
               "learning_outcomes": [
-                "Understand the importance of AI localization for global accessibility",
+                "Understand the importance of AI localization for global adoption",
                 "Learn how to adapt AI models to local languages and cultures",
-                "Recognize the challenges of ensuring safety in AI localization"
+                "Recognize the role of safety in AI localization"
               ],
               "strategic_questions": [
-                "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-                "What are the potential consequences of failing to adapt AI models to local languages and cultures?",
-                "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
-              ]
-            }
-          },
-          {
-            "title": "Introducing Trusted Access for Cyber",
-            "url": "https://openai.com/index/trusted-access-for-cyber",
-            "published": "Thu, 05 Feb 2026 10:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Safety & Alignment",
-              "concepts_taught": [
-                {
-                  "name": "trust-based framework",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "safeguards against misuse",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "AI safety concepts",
-                  "confidence": 0.6
-                }
-              ],
-              "difficulty": {
-                "level": "beginner",
-                "technical_depth": 3,
-                "reading_time_minutes": 5
-              },
-              "learning_outcomes": [
-                "understand the importance of trust-based frameworks in AI safety",
-                "learn about the role of safeguards in preventing AI misuse"
-              ],
-              "strategic_questions": [
-                "How can trust-based frameworks be applied to other areas of AI development?",
-                "What are the potential risks and benefits of expanding access to frontier cyber capabilities?"
+                "How can AI localization balance global consistency with local needs?",
+                "What are the potential risks and benefits of adapting AI models to local cultures?",
+                "How can organizations ensure that AI localization efforts prioritize safety and inclusivity?"
               ]
             }
           }
@@ -475,34 +501,83 @@
     },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
-      "article_count": 1,
+      "article_count": 2,
       "articles": [
         {
-          "title": "Introducing OpenAI Frontier",
-          "url": "https://openai.com/index/introducing-openai-frontier",
-          "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+          "title": "Beyond rate limits: scaling access to Codex and Sora",
+          "url": "https://openai.com/index/beyond-rate-limits",
+          "published": "Fri, 13 Feb 2026 09:00:00 GMT",
           "source": "OpenAI News",
           "curriculum": {
             "skip": false,
             "topic": "AI Infrastructure & Tooling",
             "concepts_taught": [
               {
-                "name": "AI agent management",
+                "name": "rate limiting",
                 "confidence": 0.8
               },
               {
-                "name": "enterprise AI platform",
+                "name": "usage tracking",
                 "confidence": 0.7
               },
               {
-                "name": "AI governance",
+                "name": "credit-based access systems",
+                "confidence": 0.9
+              },
+              {
+                "name": "scalable access systems",
+                "confidence": 0.85
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of API access control",
+                "confidence": 0.6
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand how to design a scalable access system for AI models",
+              "Learn how to combine rate limits, usage tracking, and credits for continuous access",
+              "Comprehend the importance of real-time access systems for AI infrastructure"
+            ],
+            "strategic_questions": [
+              "How can scalable access systems impact the adoption of AI models in industries?",
+              "What are the potential security implications of implementing credit-based access systems?",
+              "How can real-time access systems be optimized for different AI workloads and use cases?"
+            ]
+          }
+        },
+        {
+          "title": "Scaling social science research",
+          "url": "https://openai.com/index/scaling-social-science-research",
+          "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "concepts_taught": [
+              {
+                "name": "GPT-based text analysis",
+                "confidence": 0.8
+              },
+              {
+                "name": "Qualitative to quantitative data conversion",
+                "confidence": 0.7
+              },
+              {
+                "name": "Open-source toolkit integration",
                 "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "basic AI concepts",
-                "confidence": 0.5
+                "name": "Basic understanding of natural language processing",
+                "confidence": 0.8
               }
             ],
             "difficulty": {
@@ -511,12 +586,14 @@
               "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "understand the importance of AI governance in enterprise settings",
-              "learn about the key features of OpenAI Frontier"
+              "Understand how to leverage GPT for text analysis in social science research",
+              "Learn about the potential of open-source toolkits for scaling research",
+              "Recognize the importance of qualitative to quantitative data conversion"
             ],
             "strategic_questions": [
-              "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
-              "What are the potential implications of widespread adoption of AI agent management platforms?"
+              "How can GABRIEL be applied to various social science research domains?",
+              "What are the potential limitations and biases of using GPT for text analysis?",
+              "How can researchers ensure the accuracy and validity of quantitative data generated from qualitative sources?"
             ]
           }
         }
@@ -525,31 +602,31 @@
         "foundational": [],
         "beginner": [
           {
-            "title": "Introducing OpenAI Frontier",
-            "url": "https://openai.com/index/introducing-openai-frontier",
-            "published": "Thu, 05 Feb 2026 06:00:00 GMT",
+            "title": "Scaling social science research",
+            "url": "https://openai.com/index/scaling-social-science-research",
+            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
             "source": "OpenAI News",
             "curriculum": {
               "skip": false,
               "topic": "AI Infrastructure & Tooling",
               "concepts_taught": [
                 {
-                  "name": "AI agent management",
+                  "name": "GPT-based text analysis",
                   "confidence": 0.8
                 },
                 {
-                  "name": "enterprise AI platform",
+                  "name": "Qualitative to quantitative data conversion",
                   "confidence": 0.7
                 },
                 {
-                  "name": "AI governance",
+                  "name": "Open-source toolkit integration",
                   "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "basic AI concepts",
-                  "confidence": 0.5
+                  "name": "Basic understanding of natural language processing",
+                  "confidence": 0.8
                 }
               ],
               "difficulty": {
@@ -558,23 +635,262 @@
                 "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "understand the importance of AI governance in enterprise settings",
-                "learn about the key features of OpenAI Frontier"
+                "Understand how to leverage GPT for text analysis in social science research",
+                "Learn about the potential of open-source toolkits for scaling research",
+                "Recognize the importance of qualitative to quantitative data conversion"
               ],
               "strategic_questions": [
-                "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
-                "What are the potential implications of widespread adoption of AI agent management platforms?"
+                "How can GABRIEL be applied to various social science research domains?",
+                "What are the potential limitations and biases of using GPT for text analysis?",
+                "How can researchers ensure the accuracy and validity of quantitative data generated from qualitative sources?"
               ]
             }
           }
         ],
-        "intermediate": [],
+        "intermediate": [
+          {
+            "title": "Beyond rate limits: scaling access to Codex and Sora",
+            "url": "https://openai.com/index/beyond-rate-limits",
+            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "concepts_taught": [
+                {
+                  "name": "rate limiting",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "usage tracking",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "credit-based access systems",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "scalable access systems",
+                  "confidence": 0.85
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of API access control",
+                  "confidence": 0.6
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand how to design a scalable access system for AI models",
+                "Learn how to combine rate limits, usage tracking, and credits for continuous access",
+                "Comprehend the importance of real-time access systems for AI infrastructure"
+              ],
+              "strategic_questions": [
+                "How can scalable access systems impact the adoption of AI models in industries?",
+                "What are the potential security implications of implementing credit-based access systems?",
+                "How can real-time access systems be optimized for different AI workloads and use cases?"
+              ]
+            }
+          }
+        ],
         "advanced": [],
         "application": []
       }
     }
   },
   "articles": [
+    {
+      "title": "GPT-5.2 derives a new result in theoretical physics",
+      "url": "https://openai.com/index/new-result-theoretical-physics",
+      "published": "Fri, 13 Feb 2026 11:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "concepts_taught": [
+          {
+            "name": "Gluon amplitude calculation",
+            "confidence": 0.8
+          },
+          {
+            "name": "Application of LLMs in theoretical physics",
+            "confidence": 0.7
+          },
+          {
+            "name": "Collaboration between AI models and human researchers",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "Basic understanding of particle physics",
+            "confidence": 0.9
+          },
+          {
+            "name": "Familiarity with large language models",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand how large language models can contribute to theoretical physics research",
+          "Recognize the potential for AI to derive new results in complex domains",
+          "Appreciate the importance of human-AI collaboration in scientific discovery"
+        ],
+        "strategic_questions": [
+          "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
+          "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+          "What are the potential applications of large language models in other areas of scientific research?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+      "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "published": "Fri, 13 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "concepts_taught": [
+          {
+            "name": "prompt injection",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI-driven data exfiltration",
+            "confidence": 0.85
+          },
+          {
+            "name": "Lockdown Mode",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of AI security risks",
+            "confidence": 0.7
+          }
+        ],
+        "difficulty": {
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 4
+        },
+        "learning_outcomes": [
+          "Understand the concept of prompt injection and its risks",
+          "Learn about AI-driven data exfiltration and its implications",
+          "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+        ],
+        "strategic_questions": [
+          "How can organizations effectively defend against AI-driven security threats?",
+          "What are the potential consequences of ignoring prompt injection and data exfiltration risks?"
+        ]
+      }
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "url": "https://openai.com/index/beyond-rate-limits",
+      "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "concepts_taught": [
+          {
+            "name": "rate limiting",
+            "confidence": 0.8
+          },
+          {
+            "name": "usage tracking",
+            "confidence": 0.7
+          },
+          {
+            "name": "credit-based access systems",
+            "confidence": 0.9
+          },
+          {
+            "name": "scalable access systems",
+            "confidence": 0.85
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of API access control",
+            "confidence": 0.6
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand how to design a scalable access system for AI models",
+          "Learn how to combine rate limits, usage tracking, and credits for continuous access",
+          "Comprehend the importance of real-time access systems for AI infrastructure"
+        ],
+        "strategic_questions": [
+          "How can scalable access systems impact the adoption of AI models in industries?",
+          "What are the potential security implications of implementing credit-based access systems?",
+          "How can real-time access systems be optimized for different AI workloads and use cases?"
+        ]
+      }
+    },
+    {
+      "title": "Scaling social science research",
+      "url": "https://openai.com/index/scaling-social-science-research",
+      "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "concepts_taught": [
+          {
+            "name": "GPT-based text analysis",
+            "confidence": 0.8
+          },
+          {
+            "name": "Qualitative to quantitative data conversion",
+            "confidence": 0.7
+          },
+          {
+            "name": "Open-source toolkit integration",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "Basic understanding of natural language processing",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 5
+        },
+        "learning_outcomes": [
+          "Understand how to leverage GPT for text analysis in social science research",
+          "Learn about the potential of open-source toolkits for scaling research",
+          "Recognize the importance of qualitative to quantitative data conversion"
+        ],
+        "strategic_questions": [
+          "How can GABRIEL be applied to various social science research domains?",
+          "What are the potential limitations and biases of using GPT for text analysis?",
+          "How can researchers ensure the accuracy and validity of quantitative data generated from qualitative sources?"
+        ]
+      }
+    },
     {
       "title": "Introducing GPT-5.3-Codex-Spark",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
@@ -589,18 +905,18 @@
             "confidence": 0.8
           },
           {
-            "name": "Context window size",
+            "name": "Model generation speed",
             "confidence": 0.7
           },
           {
-            "name": "Model generation speed",
-            "confidence": 0.6
+            "name": "Context window size",
+            "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
             "name": "Familiarity with language models",
-            "confidence": 0.9
+            "confidence": 0.85
           }
         ],
         "difficulty": {
@@ -614,7 +930,7 @@
         ],
         "strategic_questions": [
           "How will real-time coding models change the way we approach software development?",
-          "What are the potential applications of large language models in coding and programming?"
+          "What are the potential applications of large context window sizes in language models?"
         ]
       }
     },
@@ -629,25 +945,21 @@
         "concepts_taught": [
           {
             "name": "AI localization",
+            "confidence": 0.9
+          },
+          {
+            "name": "frontier models",
             "confidence": 0.8
           },
           {
-            "name": "frontier models adaptation",
+            "name": "cultural adaptation in AI",
             "confidence": 0.7
-          },
-          {
-            "name": "cultural and linguistic adaptation",
-            "confidence": 0.6
-          },
-          {
-            "name": "safety in AI localization",
-            "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI models",
-            "confidence": 0.8
+            "confidence": 0.6
           }
         ],
         "difficulty": {
@@ -656,14 +968,14 @@
           "reading_time_minutes": 6
         },
         "learning_outcomes": [
-          "Understand the importance of AI localization for global accessibility",
+          "Understand the importance of AI localization for global adoption",
           "Learn how to adapt AI models to local languages and cultures",
-          "Recognize the challenges of ensuring safety in AI localization"
+          "Recognize the role of safety in AI localization"
         ],
         "strategic_questions": [
-          "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
-          "What are the potential consequences of failing to adapt AI models to local languages and cultures?",
-          "How can organizations prioritize AI localization while ensuring that their models remain aligned with global safety and ethical standards?"
+          "How can AI localization balance global consistency with local needs?",
+          "What are the potential risks and benefits of adapting AI models to local cultures?",
+          "How can organizations ensure that AI localization efforts prioritize safety and inclusivity?"
         ]
       }
     },
@@ -677,165 +989,46 @@
         "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "closed-loop experimentation",
+            "name": "cell-free protein synthesis",
             "confidence": 0.8
           },
           {
-            "name": "cell-free protein synthesis",
+            "name": "closed-loop experimentation",
             "confidence": 0.7
           },
           {
             "name": "autonomous lab automation",
             "confidence": 0.6
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "basics of protein synthesis",
-            "confidence": 0.5
-          }
-        ],
-        "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 5
-        },
-        "learning_outcomes": [
-          "Understand how large language models can be applied to automate lab experiments",
-          "Learn about the potential cost savings of using autonomous labs for cell-free protein synthesis",
-          "Recognize the role of closed-loop experimentation in optimizing lab processes"
-        ],
-        "strategic_questions": [
-          "How can large language models be integrated with other biotech tools to further reduce costs and improve efficiency?",
-          "What are the potential limitations and challenges of using autonomous labs for cell-free protein synthesis?",
-          "How might the use of autonomous labs and large language models impact the biotech industry as a whole?"
-        ]
-      }
-    },
-    {
-      "title": "Introducing Trusted Access for Cyber",
-      "url": "https://openai.com/index/trusted-access-for-cyber",
-      "published": "Thu, 05 Feb 2026 10:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "AI Safety & Alignment",
-        "concepts_taught": [
-          {
-            "name": "trust-based framework",
-            "confidence": 0.8
           },
           {
-            "name": "safeguards against misuse",
-            "confidence": 0.7
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "AI safety concepts",
-            "confidence": 0.6
-          }
-        ],
-        "difficulty": {
-          "level": "beginner",
-          "technical_depth": 3,
-          "reading_time_minutes": 5
-        },
-        "learning_outcomes": [
-          "understand the importance of trust-based frameworks in AI safety",
-          "learn about the role of safeguards in preventing AI misuse"
-        ],
-        "strategic_questions": [
-          "How can trust-based frameworks be applied to other areas of AI development?",
-          "What are the potential risks and benefits of expanding access to frontier cyber capabilities?"
-        ]
-      }
-    },
-    {
-      "title": "Introducing OpenAI Frontier",
-      "url": "https://openai.com/index/introducing-openai-frontier",
-      "published": "Thu, 05 Feb 2026 06:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "AI Infrastructure & Tooling",
-        "concepts_taught": [
-          {
-            "name": "AI agent management",
-            "confidence": 0.8
-          },
-          {
-            "name": "enterprise AI platform",
-            "confidence": 0.7
-          },
-          {
-            "name": "AI governance",
-            "confidence": 0.6
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "basic AI concepts",
-            "confidence": 0.5
-          }
-        ],
-        "difficulty": {
-          "level": "beginner",
-          "technical_depth": 3,
-          "reading_time_minutes": 5
-        },
-        "learning_outcomes": [
-          "understand the importance of AI governance in enterprise settings",
-          "learn about the key features of OpenAI Frontier"
-        ],
-        "strategic_questions": [
-          "How can AI infrastructure platforms like OpenAI Frontier support the development of more complex AI systems?",
-          "What are the potential implications of widespread adoption of AI agent management platforms?"
-        ]
-      }
-    },
-    {
-      "title": "Introducing GPT-5.3-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-      "published": "Thu, 05 Feb 2026 00:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "Large Language Models",
-        "concepts_taught": [
-          {
-            "name": "Codex-native agents",
-            "confidence": 0.8
-          },
-          {
-            "name": "Long-horizon technical work",
-            "confidence": 0.7
-          },
-          {
-            "name": "General reasoning in AI models",
+            "name": "GPT-5 applications in biotechnology",
             "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
-            "name": "Large Language Models basics",
-            "confidence": 0.85
+            "name": "basic understanding of biotechnology",
+            "confidence": 0.8
+          },
+          {
+            "name": "familiarity with large language models",
+            "confidence": 0.7
           }
         ],
         "difficulty": {
           "level": "intermediate",
           "technical_depth": 6,
-          "reading_time_minutes": 5
+          "reading_time_minutes": 10
         },
         "learning_outcomes": [
-          "Understand the concept of Codex-native agents and their applications",
-          "Learn about the capabilities of GPT-5.3-Codex in supporting long-horizon technical work",
-          "Recognize the importance of general reasoning in AI models"
+          "Understand how GPT-5 can be applied to biotechnology for cost reduction",
+          "Learn about the potential of closed-loop experimentation in protein synthesis",
+          "Recognize the benefits of autonomous lab automation in biotechnology"
         ],
         "strategic_questions": [
-          "How can Codex-native agents like GPT-5.3-Codex impact the future of technical work?",
-          "What are the potential limitations and challenges of using large language models for real-world technical tasks?",
-          "How can general reasoning capabilities be further developed and integrated into AI models?"
+          "How can large language models like GPT-5 be further leveraged in biotechnology to drive innovation?",
+          "What are the potential limitations and challenges of implementing autonomous lab automation in biotechnology?",
+          "What are the potential long-term implications of reducing cell-free protein synthesis costs on the biotechnology industry?"
         ]
       }
     }
