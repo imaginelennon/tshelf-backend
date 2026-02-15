@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-14T09:27:53.570465Z",
+  "generated_at": "2026-02-15T09:28:42.842519Z",
   "total_articles": 7,
   "topics": {
     "Large Language Models": {
       "name": "Large Language Models",
-      "article_count": 3,
+      "article_count": 4,
       "articles": [
         {
           "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -45,13 +45,58 @@
             },
             "learning_outcomes": [
               "Understand how large language models can contribute to theoretical physics research",
-              "Recognize the potential for AI to derive new results in complex domains",
+              "Recognize the potential for AI models to derive new mathematical formulas",
               "Appreciate the importance of human-AI collaboration in scientific discovery"
             ],
             "strategic_questions": [
               "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
               "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
-              "What are the potential applications of large language models in other areas of scientific research?"
+              "What are the potential applications of large language models in other fields of scientific research?"
+            ]
+          }
+        },
+        {
+          "title": "Scaling social science research",
+          "url": "https://openai.com/index/scaling-social-science-research",
+          "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "GPT-based text analysis",
+                "confidence": 0.9
+              },
+              {
+                "name": "Qualitative to quantitative data conversion",
+                "confidence": 0.8
+              },
+              {
+                "name": "Open-source toolkit integration",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Basic understanding of natural language processing",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand how to leverage GPT for large-scale social science research",
+              "Learn to convert qualitative data into quantitative insights using GABRIEL",
+              "Recognize the potential of open-source toolkits in accelerating research"
+            ],
+            "strategic_questions": [
+              "How can GABRIEL be applied to other fields beyond social science research?",
+              "What are the potential limitations and biases of using GPT for quantitative data analysis?",
+              "How might the use of GABRIEL impact the role of human researchers in social science studies?"
             ]
           }
         },
@@ -69,31 +114,26 @@
                 "confidence": 0.8
               },
               {
-                "name": "Model generation speed",
+                "name": "Context window size",
                 "confidence": 0.7
               },
               {
-                "name": "Context window size",
-                "confidence": 0.9
+                "name": "Model generation speed",
+                "confidence": 0.6
               }
             ],
-            "prerequisites": [
-              {
-                "name": "Familiarity with language models",
-                "confidence": 0.85
-              }
-            ],
+            "prerequisites": [],
             "difficulty": {
               "level": "beginner",
               "technical_depth": 3,
               "reading_time_minutes": 2
             },
             "learning_outcomes": [
-              "Understand the concept of real-time coding models",
-              "Learn about the importance of context window size in language models"
+              "Understanding the capabilities of real-time coding models",
+              "Knowledge of the importance of context window size in language models"
             ],
             "strategic_questions": [
-              "How will real-time coding models change the way we approach software development?",
+              "How will real-time coding models impact the future of software development?",
               "What are the potential applications of large context window sizes in language models?"
             ]
           }
@@ -108,11 +148,11 @@
             "topic": "Large Language Models",
             "concepts_taught": [
               {
-                "name": "cell-free protein synthesis",
+                "name": "closed-loop experimentation",
                 "confidence": 0.8
               },
               {
-                "name": "closed-loop experimentation",
+                "name": "cell-free protein synthesis",
                 "confidence": 0.7
               },
               {
@@ -142,12 +182,12 @@
             "learning_outcomes": [
               "Understand how GPT-5 can be applied to biotechnology for cost reduction",
               "Learn about the potential of closed-loop experimentation in protein synthesis",
-              "Recognize the benefits of autonomous lab automation in biotechnology"
+              "Recognize the role of autonomous lab automation in increasing efficiency"
             ],
             "strategic_questions": [
-              "How can large language models like GPT-5 be further leveraged in biotechnology to drive innovation?",
-              "What are the potential limitations and challenges of implementing autonomous lab automation in biotechnology?",
-              "What are the potential long-term implications of reducing cell-free protein synthesis costs on the biotechnology industry?"
+              "How can large language models like GPT-5 be further integrated into biotechnology research?",
+              "What are the potential limitations and challenges of using autonomous labs for protein synthesis?",
+              "How might the cost reduction achieved through GPT-5 and closed-loop experimentation impact the biotechnology industry?"
             ]
           }
         }
@@ -169,31 +209,26 @@
                   "confidence": 0.8
                 },
                 {
-                  "name": "Model generation speed",
+                  "name": "Context window size",
                   "confidence": 0.7
                 },
                 {
-                  "name": "Context window size",
-                  "confidence": 0.9
+                  "name": "Model generation speed",
+                  "confidence": 0.6
                 }
               ],
-              "prerequisites": [
-                {
-                  "name": "Familiarity with language models",
-                  "confidence": 0.85
-                }
-              ],
+              "prerequisites": [],
               "difficulty": {
                 "level": "beginner",
                 "technical_depth": 3,
                 "reading_time_minutes": 2
               },
               "learning_outcomes": [
-                "Understand the concept of real-time coding models",
-                "Learn about the importance of context window size in language models"
+                "Understanding the capabilities of real-time coding models",
+                "Knowledge of the importance of context window size in language models"
               ],
               "strategic_questions": [
-                "How will real-time coding models change the way we approach software development?",
+                "How will real-time coding models impact the future of software development?",
                 "What are the potential applications of large context window sizes in language models?"
               ]
             }
@@ -239,13 +274,58 @@
               },
               "learning_outcomes": [
                 "Understand how large language models can contribute to theoretical physics research",
-                "Recognize the potential for AI to derive new results in complex domains",
+                "Recognize the potential for AI models to derive new mathematical formulas",
                 "Appreciate the importance of human-AI collaboration in scientific discovery"
               ],
               "strategic_questions": [
                 "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
                 "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
-                "What are the potential applications of large language models in other areas of scientific research?"
+                "What are the potential applications of large language models in other fields of scientific research?"
+              ]
+            }
+          },
+          {
+            "title": "Scaling social science research",
+            "url": "https://openai.com/index/scaling-social-science-research",
+            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "GPT-based text analysis",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Qualitative to quantitative data conversion",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Open-source toolkit integration",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Basic understanding of natural language processing",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand how to leverage GPT for large-scale social science research",
+                "Learn to convert qualitative data into quantitative insights using GABRIEL",
+                "Recognize the potential of open-source toolkits in accelerating research"
+              ],
+              "strategic_questions": [
+                "How can GABRIEL be applied to other fields beyond social science research?",
+                "What are the potential limitations and biases of using GPT for quantitative data analysis?",
+                "How might the use of GABRIEL impact the role of human researchers in social science studies?"
               ]
             }
           },
@@ -259,11 +339,11 @@
               "topic": "Large Language Models",
               "concepts_taught": [
                 {
-                  "name": "cell-free protein synthesis",
+                  "name": "closed-loop experimentation",
                   "confidence": 0.8
                 },
                 {
-                  "name": "closed-loop experimentation",
+                  "name": "cell-free protein synthesis",
                   "confidence": 0.7
                 },
                 {
@@ -293,12 +373,12 @@
               "learning_outcomes": [
                 "Understand how GPT-5 can be applied to biotechnology for cost reduction",
                 "Learn about the potential of closed-loop experimentation in protein synthesis",
-                "Recognize the benefits of autonomous lab automation in biotechnology"
+                "Recognize the role of autonomous lab automation in increasing efficiency"
               ],
               "strategic_questions": [
-                "How can large language models like GPT-5 be further leveraged in biotechnology to drive innovation?",
-                "What are the potential limitations and challenges of implementing autonomous lab automation in biotechnology?",
-                "What are the potential long-term implications of reducing cell-free protein synthesis costs on the biotechnology industry?"
+                "How can large language models like GPT-5 be further integrated into biotechnology research?",
+                "What are the potential limitations and challenges of using autonomous labs for protein synthesis?",
+                "How might the cost reduction achieved through GPT-5 and closed-loop experimentation impact the biotechnology industry?"
               ]
             }
           }
@@ -322,21 +402,21 @@
             "concepts_taught": [
               {
                 "name": "prompt injection",
-                "confidence": 0.9
+                "confidence": 0.8
               },
               {
                 "name": "AI-driven data exfiltration",
-                "confidence": 0.85
+                "confidence": 0.7
               },
               {
                 "name": "Lockdown Mode",
-                "confidence": 0.8
+                "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "basic understanding of AI security risks",
-                "confidence": 0.7
+                "name": "basic AI security concepts",
+                "confidence": 0.5
               }
             ],
             "difficulty": {
@@ -345,13 +425,13 @@
               "reading_time_minutes": 4
             },
             "learning_outcomes": [
-              "Understand the concept of prompt injection and its risks",
-              "Learn about AI-driven data exfiltration and its implications",
-              "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+              "understand the concept of prompt injection",
+              "learn about AI-driven data exfiltration risks",
+              "familiarize with Lockdown Mode in ChatGPT"
             ],
             "strategic_questions": [
-              "How can organizations effectively defend against AI-driven security threats?",
-              "What are the potential consequences of ignoring prompt injection and data exfiltration risks?"
+              "How can organizations effectively defend against AI-driven data exfiltration?",
+              "What are the potential implications of Lockdown Mode on chatbot functionality?"
             ]
           }
         },
@@ -369,11 +449,11 @@
                 "confidence": 0.9
               },
               {
-                "name": "frontier models",
+                "name": "frontier models adaptation",
                 "confidence": 0.8
               },
               {
-                "name": "cultural adaptation in AI",
+                "name": "cultural and linguistic adaptation",
                 "confidence": 0.7
               }
             ],
@@ -391,12 +471,12 @@
             "learning_outcomes": [
               "Understand the importance of AI localization for global adoption",
               "Learn how to adapt AI models to local languages and cultures",
-              "Recognize the role of safety in AI localization"
+              "Recognize the challenges of ensuring safety in AI localization"
             ],
             "strategic_questions": [
-              "How can AI localization balance global consistency with local needs?",
-              "What are the potential risks and benefits of adapting AI models to local cultures?",
-              "How can organizations ensure that AI localization efforts prioritize safety and inclusivity?"
+              "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+              "What are the potential consequences of failing to adapt AI models to local contexts?",
+              "How can organizations prioritize AI localization in their development strategies?"
             ]
           }
         }
@@ -415,21 +495,21 @@
               "concepts_taught": [
                 {
                   "name": "prompt injection",
-                  "confidence": 0.9
+                  "confidence": 0.8
                 },
                 {
                   "name": "AI-driven data exfiltration",
-                  "confidence": 0.85
+                  "confidence": 0.7
                 },
                 {
                   "name": "Lockdown Mode",
-                  "confidence": 0.8
+                  "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "basic understanding of AI security risks",
-                  "confidence": 0.7
+                  "name": "basic AI security concepts",
+                  "confidence": 0.5
                 }
               ],
               "difficulty": {
@@ -438,13 +518,13 @@
                 "reading_time_minutes": 4
               },
               "learning_outcomes": [
-                "Understand the concept of prompt injection and its risks",
-                "Learn about AI-driven data exfiltration and its implications",
-                "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+                "understand the concept of prompt injection",
+                "learn about AI-driven data exfiltration risks",
+                "familiarize with Lockdown Mode in ChatGPT"
               ],
               "strategic_questions": [
-                "How can organizations effectively defend against AI-driven security threats?",
-                "What are the potential consequences of ignoring prompt injection and data exfiltration risks?"
+                "How can organizations effectively defend against AI-driven data exfiltration?",
+                "What are the potential implications of Lockdown Mode on chatbot functionality?"
               ]
             }
           },
@@ -462,11 +542,11 @@
                   "confidence": 0.9
                 },
                 {
-                  "name": "frontier models",
+                  "name": "frontier models adaptation",
                   "confidence": 0.8
                 },
                 {
-                  "name": "cultural adaptation in AI",
+                  "name": "cultural and linguistic adaptation",
                   "confidence": 0.7
                 }
               ],
@@ -484,12 +564,12 @@
               "learning_outcomes": [
                 "Understand the importance of AI localization for global adoption",
                 "Learn how to adapt AI models to local languages and cultures",
-                "Recognize the role of safety in AI localization"
+                "Recognize the challenges of ensuring safety in AI localization"
               ],
               "strategic_questions": [
-                "How can AI localization balance global consistency with local needs?",
-                "What are the potential risks and benefits of adapting AI models to local cultures?",
-                "How can organizations ensure that AI localization efforts prioritize safety and inclusivity?"
+                "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+                "What are the potential consequences of failing to adapt AI models to local contexts?",
+                "How can organizations prioritize AI localization in their development strategies?"
               ]
             }
           }
@@ -501,7 +581,7 @@
     },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
-      "article_count": 2,
+      "article_count": 1,
       "articles": [
         {
           "title": "Beyond rate limits: scaling access to Codex and Sora",
@@ -525,7 +605,7 @@
                 "confidence": 0.9
               },
               {
-                "name": "scalable access systems",
+                "name": "real-time access systems",
                 "confidence": 0.85
               }
             ],
@@ -542,111 +622,20 @@
             },
             "learning_outcomes": [
               "Understand how to design a scalable access system for AI models",
-              "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-              "Comprehend the importance of real-time access systems for AI infrastructure"
+              "Learn how to implement rate limiting and usage tracking for AI APIs",
+              "Understand the benefits of credit-based access systems for continuous model access"
             ],
             "strategic_questions": [
-              "How can scalable access systems impact the adoption of AI models in industries?",
-              "What are the potential security implications of implementing credit-based access systems?",
-              "How can real-time access systems be optimized for different AI workloads and use cases?"
-            ]
-          }
-        },
-        {
-          "title": "Scaling social science research",
-          "url": "https://openai.com/index/scaling-social-science-research",
-          "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "AI Infrastructure & Tooling",
-            "concepts_taught": [
-              {
-                "name": "GPT-based text analysis",
-                "confidence": 0.8
-              },
-              {
-                "name": "Qualitative to quantitative data conversion",
-                "confidence": 0.7
-              },
-              {
-                "name": "Open-source toolkit integration",
-                "confidence": 0.6
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "Basic understanding of natural language processing",
-                "confidence": 0.8
-              }
-            ],
-            "difficulty": {
-              "level": "beginner",
-              "technical_depth": 3,
-              "reading_time_minutes": 5
-            },
-            "learning_outcomes": [
-              "Understand how to leverage GPT for text analysis in social science research",
-              "Learn about the potential of open-source toolkits for scaling research",
-              "Recognize the importance of qualitative to quantitative data conversion"
-            ],
-            "strategic_questions": [
-              "How can GABRIEL be applied to various social science research domains?",
-              "What are the potential limitations and biases of using GPT for text analysis?",
-              "How can researchers ensure the accuracy and validity of quantitative data generated from qualitative sources?"
+              "How can real-time access systems be optimized for low-latency and high-throughput AI applications?",
+              "What are the trade-offs between rate limiting, usage tracking, and credit-based access systems for AI model access?",
+              "How can AI infrastructure be designed to support seamless model updates and deployments?"
             ]
           }
         }
       ],
       "levels": {
         "foundational": [],
-        "beginner": [
-          {
-            "title": "Scaling social science research",
-            "url": "https://openai.com/index/scaling-social-science-research",
-            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Infrastructure & Tooling",
-              "concepts_taught": [
-                {
-                  "name": "GPT-based text analysis",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Qualitative to quantitative data conversion",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "Open-source toolkit integration",
-                  "confidence": 0.6
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of natural language processing",
-                  "confidence": 0.8
-                }
-              ],
-              "difficulty": {
-                "level": "beginner",
-                "technical_depth": 3,
-                "reading_time_minutes": 5
-              },
-              "learning_outcomes": [
-                "Understand how to leverage GPT for text analysis in social science research",
-                "Learn about the potential of open-source toolkits for scaling research",
-                "Recognize the importance of qualitative to quantitative data conversion"
-              ],
-              "strategic_questions": [
-                "How can GABRIEL be applied to various social science research domains?",
-                "What are the potential limitations and biases of using GPT for text analysis?",
-                "How can researchers ensure the accuracy and validity of quantitative data generated from qualitative sources?"
-              ]
-            }
-          }
-        ],
+        "beginner": [],
         "intermediate": [
           {
             "title": "Beyond rate limits: scaling access to Codex and Sora",
@@ -670,7 +659,7 @@
                   "confidence": 0.9
                 },
                 {
-                  "name": "scalable access systems",
+                  "name": "real-time access systems",
                   "confidence": 0.85
                 }
               ],
@@ -687,13 +676,13 @@
               },
               "learning_outcomes": [
                 "Understand how to design a scalable access system for AI models",
-                "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-                "Comprehend the importance of real-time access systems for AI infrastructure"
+                "Learn how to implement rate limiting and usage tracking for AI APIs",
+                "Understand the benefits of credit-based access systems for continuous model access"
               ],
               "strategic_questions": [
-                "How can scalable access systems impact the adoption of AI models in industries?",
-                "What are the potential security implications of implementing credit-based access systems?",
-                "How can real-time access systems be optimized for different AI workloads and use cases?"
+                "How can real-time access systems be optimized for low-latency and high-throughput AI applications?",
+                "What are the trade-offs between rate limiting, usage tracking, and credit-based access systems for AI model access?",
+                "How can AI infrastructure be designed to support seamless model updates and deployments?"
               ]
             }
           }
@@ -743,13 +732,13 @@
         },
         "learning_outcomes": [
           "Understand how large language models can contribute to theoretical physics research",
-          "Recognize the potential for AI to derive new results in complex domains",
+          "Recognize the potential for AI models to derive new mathematical formulas",
           "Appreciate the importance of human-AI collaboration in scientific discovery"
         ],
         "strategic_questions": [
           "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
           "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
-          "What are the potential applications of large language models in other areas of scientific research?"
+          "What are the potential applications of large language models in other fields of scientific research?"
         ]
       }
     },
@@ -764,21 +753,21 @@
         "concepts_taught": [
           {
             "name": "prompt injection",
-            "confidence": 0.9
+            "confidence": 0.8
           },
           {
             "name": "AI-driven data exfiltration",
-            "confidence": 0.85
+            "confidence": 0.7
           },
           {
             "name": "Lockdown Mode",
-            "confidence": 0.8
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "basic understanding of AI security risks",
-            "confidence": 0.7
+            "name": "basic AI security concepts",
+            "confidence": 0.5
           }
         ],
         "difficulty": {
@@ -787,13 +776,13 @@
           "reading_time_minutes": 4
         },
         "learning_outcomes": [
-          "Understand the concept of prompt injection and its risks",
-          "Learn about AI-driven data exfiltration and its implications",
-          "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+          "understand the concept of prompt injection",
+          "learn about AI-driven data exfiltration risks",
+          "familiarize with Lockdown Mode in ChatGPT"
         ],
         "strategic_questions": [
-          "How can organizations effectively defend against AI-driven security threats?",
-          "What are the potential consequences of ignoring prompt injection and data exfiltration risks?"
+          "How can organizations effectively defend against AI-driven data exfiltration?",
+          "What are the potential implications of Lockdown Mode on chatbot functionality?"
         ]
       }
     },
@@ -819,7 +808,7 @@
             "confidence": 0.9
           },
           {
-            "name": "scalable access systems",
+            "name": "real-time access systems",
             "confidence": 0.85
           }
         ],
@@ -836,13 +825,13 @@
         },
         "learning_outcomes": [
           "Understand how to design a scalable access system for AI models",
-          "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-          "Comprehend the importance of real-time access systems for AI infrastructure"
+          "Learn how to implement rate limiting and usage tracking for AI APIs",
+          "Understand the benefits of credit-based access systems for continuous model access"
         ],
         "strategic_questions": [
-          "How can scalable access systems impact the adoption of AI models in industries?",
-          "What are the potential security implications of implementing credit-based access systems?",
-          "How can real-time access systems be optimized for different AI workloads and use cases?"
+          "How can real-time access systems be optimized for low-latency and high-throughput AI applications?",
+          "What are the trade-offs between rate limiting, usage tracking, and credit-based access systems for AI model access?",
+          "How can AI infrastructure be designed to support seamless model updates and deployments?"
         ]
       }
     },
@@ -853,41 +842,41 @@
       "source": "OpenAI News",
       "curriculum": {
         "skip": false,
-        "topic": "AI Infrastructure & Tooling",
+        "topic": "Large Language Models",
         "concepts_taught": [
           {
             "name": "GPT-based text analysis",
-            "confidence": 0.8
+            "confidence": 0.9
           },
           {
             "name": "Qualitative to quantitative data conversion",
-            "confidence": 0.7
+            "confidence": 0.8
           },
           {
             "name": "Open-source toolkit integration",
-            "confidence": 0.6
+            "confidence": 0.7
           }
         ],
         "prerequisites": [
           {
             "name": "Basic understanding of natural language processing",
-            "confidence": 0.8
+            "confidence": 0.85
           }
         ],
         "difficulty": {
-          "level": "beginner",
-          "technical_depth": 3,
-          "reading_time_minutes": 5
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
         },
         "learning_outcomes": [
-          "Understand how to leverage GPT for text analysis in social science research",
-          "Learn about the potential of open-source toolkits for scaling research",
-          "Recognize the importance of qualitative to quantitative data conversion"
+          "Understand how to leverage GPT for large-scale social science research",
+          "Learn to convert qualitative data into quantitative insights using GABRIEL",
+          "Recognize the potential of open-source toolkits in accelerating research"
         ],
         "strategic_questions": [
-          "How can GABRIEL be applied to various social science research domains?",
-          "What are the potential limitations and biases of using GPT for text analysis?",
-          "How can researchers ensure the accuracy and validity of quantitative data generated from qualitative sources?"
+          "How can GABRIEL be applied to other fields beyond social science research?",
+          "What are the potential limitations and biases of using GPT for quantitative data analysis?",
+          "How might the use of GABRIEL impact the role of human researchers in social science studies?"
         ]
       }
     },
@@ -905,31 +894,26 @@
             "confidence": 0.8
           },
           {
-            "name": "Model generation speed",
+            "name": "Context window size",
             "confidence": 0.7
           },
           {
-            "name": "Context window size",
-            "confidence": 0.9
+            "name": "Model generation speed",
+            "confidence": 0.6
           }
         ],
-        "prerequisites": [
-          {
-            "name": "Familiarity with language models",
-            "confidence": 0.85
-          }
-        ],
+        "prerequisites": [],
         "difficulty": {
           "level": "beginner",
           "technical_depth": 3,
           "reading_time_minutes": 2
         },
         "learning_outcomes": [
-          "Understand the concept of real-time coding models",
-          "Learn about the importance of context window size in language models"
+          "Understanding the capabilities of real-time coding models",
+          "Knowledge of the importance of context window size in language models"
         ],
         "strategic_questions": [
-          "How will real-time coding models change the way we approach software development?",
+          "How will real-time coding models impact the future of software development?",
           "What are the potential applications of large context window sizes in language models?"
         ]
       }
@@ -948,11 +932,11 @@
             "confidence": 0.9
           },
           {
-            "name": "frontier models",
+            "name": "frontier models adaptation",
             "confidence": 0.8
           },
           {
-            "name": "cultural adaptation in AI",
+            "name": "cultural and linguistic adaptation",
             "confidence": 0.7
           }
         ],
@@ -970,12 +954,12 @@
         "learning_outcomes": [
           "Understand the importance of AI localization for global adoption",
           "Learn how to adapt AI models to local languages and cultures",
-          "Recognize the role of safety in AI localization"
+          "Recognize the challenges of ensuring safety in AI localization"
         ],
         "strategic_questions": [
-          "How can AI localization balance global consistency with local needs?",
-          "What are the potential risks and benefits of adapting AI models to local cultures?",
-          "How can organizations ensure that AI localization efforts prioritize safety and inclusivity?"
+          "How can AI localization balance the need for cultural sensitivity with the risk of compromising safety standards?",
+          "What are the potential consequences of failing to adapt AI models to local contexts?",
+          "How can organizations prioritize AI localization in their development strategies?"
         ]
       }
     },
@@ -989,11 +973,11 @@
         "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "cell-free protein synthesis",
+            "name": "closed-loop experimentation",
             "confidence": 0.8
           },
           {
-            "name": "closed-loop experimentation",
+            "name": "cell-free protein synthesis",
             "confidence": 0.7
           },
           {
@@ -1023,12 +1007,12 @@
         "learning_outcomes": [
           "Understand how GPT-5 can be applied to biotechnology for cost reduction",
           "Learn about the potential of closed-loop experimentation in protein synthesis",
-          "Recognize the benefits of autonomous lab automation in biotechnology"
+          "Recognize the role of autonomous lab automation in increasing efficiency"
         ],
         "strategic_questions": [
-          "How can large language models like GPT-5 be further leveraged in biotechnology to drive innovation?",
-          "What are the potential limitations and challenges of implementing autonomous lab automation in biotechnology?",
-          "What are the potential long-term implications of reducing cell-free protein synthesis costs on the biotechnology industry?"
+          "How can large language models like GPT-5 be further integrated into biotechnology research?",
+          "What are the potential limitations and challenges of using autonomous labs for protein synthesis?",
+          "How might the cost reduction achieved through GPT-5 and closed-loop experimentation impact the biotechnology industry?"
         ]
       }
     }
