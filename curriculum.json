@@ -1,10 +1,183 @@
 {
-  "generated_at": "2026-02-19T09:41:56.573245Z",
-  "total_articles": 5,
+  "generated_at": "2026-02-20T09:37:43.669195Z",
+  "total_articles": 6,
   "topics": {
+    "AI Safety & Alignment": {
+      "name": "AI Safety & Alignment",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Advancing independent research on AI alignment",
+          "url": "https://openai.com/index/advancing-independent-research-ai-alignment",
+          "published": "Thu, 19 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "concepts_taught": [
+              {
+                "name": "AGI safety",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI alignment research",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [],
+            "difficulty": {
+              "level": "beginner",
+              "technical_depth": 2,
+              "reading_time_minutes": 2
+            },
+            "learning_outcomes": [
+              "Understand the importance of AI alignment research",
+              "Recognize the role of independent research in addressing AGI safety risks"
+            ],
+            "strategic_questions": [
+              "How can independent research accelerate progress in AI alignment?",
+              "What are the potential implications of increased funding for AI safety research?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+          "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+          "published": "Fri, 13 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "concepts_taught": [
+              {
+                "name": "prompt injection defense",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI-driven data exfiltration prevention",
+                "confidence": 0.7
+              },
+              {
+                "name": "Elevated Risk labels",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of AI security risks",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 5
+            },
+            "learning_outcomes": [
+              "understand the concept of prompt injection and its risks",
+              "learn about the importance of AI-driven data exfiltration prevention",
+              "familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+            ],
+            "strategic_questions": [
+              "How can organizations effectively utilize Lockdown Mode to defend against AI security risks?",
+              "What are the potential implications of AI-driven data exfiltration on organizational data security?",
+              "How can AI safety features like Elevated Risk labels impact the development of more secure AI models?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [
+          {
+            "title": "Advancing independent research on AI alignment",
+            "url": "https://openai.com/index/advancing-independent-research-ai-alignment",
+            "published": "Thu, 19 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "AGI safety",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI alignment research",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 2,
+                "reading_time_minutes": 2
+              },
+              "learning_outcomes": [
+                "Understand the importance of AI alignment research",
+                "Recognize the role of independent research in addressing AGI safety risks"
+              ],
+              "strategic_questions": [
+                "How can independent research accelerate progress in AI alignment?",
+                "What are the potential implications of increased funding for AI safety research?"
+              ]
+            }
+          }
+        ],
+        "intermediate": [
+          {
+            "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+            "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+            "published": "Fri, 13 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "concepts_taught": [
+                {
+                  "name": "prompt injection defense",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI-driven data exfiltration prevention",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "Elevated Risk labels",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of AI security risks",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "understand the concept of prompt injection and its risks",
+                "learn about the importance of AI-driven data exfiltration prevention",
+                "familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+              ],
+              "strategic_questions": [
+                "How can organizations effectively utilize Lockdown Mode to defend against AI security risks?",
+                "What are the potential implications of AI-driven data exfiltration on organizational data security?",
+                "How can AI safety features like Elevated Risk labels impact the development of more secure AI models?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    },
     "Large Language Models": {
       "name": "Large Language Models",
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -34,7 +207,7 @@
                 "confidence": 0.9
               },
               {
-                "name": "Familiarity with large language models (LLMs)",
+                "name": "Familiarity with large language models",
                 "confidence": 0.8
               }
             ],
@@ -45,13 +218,13 @@
             },
             "learning_outcomes": [
               "Understand how large language models can contribute to theoretical physics research",
-              "Recognize the potential for AI models to propose new formulas and hypotheses",
+              "Recognize the potential for AI models to derive new results in complex domains",
               "Appreciate the importance of human-AI collaboration in scientific discovery"
             ],
             "strategic_questions": [
               "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-              "How can we ensure the validity and reliability of results proposed by AI models in scientific research?",
-              "What are the potential applications of LLMs in other fields of scientific research?"
+              "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+              "What are the potential applications of large language models in other areas of scientific research?"
             ]
           }
         },
@@ -66,44 +239,176 @@
             "concepts_taught": [
               {
                 "name": "Using LLMs for qualitative to quantitative data conversion",
-                "confidence": 0.9
-              },
-              {
-                "name": "GPT-based text analysis",
                 "confidence": 0.8
               },
               {
-                "name": "Image analysis with LLMs",
+                "name": "GPT-based text analysis",
                 "confidence": 0.7
+              },
+              {
+                "name": "Image analysis with LLMs",
+                "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
                 "name": "Basic understanding of natural language processing",
-                "confidence": 0.85
+                "confidence": 0.8
               }
             ],
             "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 10
+              "level": "beginner",
+              "technical_depth": 5,
+              "reading_time_minutes": 6
             },
             "learning_outcomes": [
               "Understand how to leverage LLMs for social science research",
-              "Learn about the potential of GABRIEL for scaling qualitative research",
+              "Learn about the potential of GABRIEL toolkit for scaling research",
               "Recognize the benefits of converting qualitative data to quantitative data"
             ],
             "strategic_questions": [
               "How can LLMs be used to improve the accuracy of social science research?",
               "What are the potential limitations of using GPT for qualitative to quantitative data conversion?",
-              "How can researchers ensure the reliability of LLM-generated quantitative data?"
+              "How can researchers ensure the reliability of LLM-based analysis in social science research?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing GPT-5.3-Codex-Spark",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+          "published": "Thu, 12 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "concepts_taught": [
+              {
+                "name": "Real-time coding models",
+                "confidence": 0.8
+              },
+              {
+                "name": "Context window size",
+                "confidence": 0.7
+              },
+              {
+                "name": "Model generation speed",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Familiarity with language models",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "beginner",
+              "technical_depth": 3,
+              "reading_time_minutes": 2
+            },
+            "learning_outcomes": [
+              "Understand the concept of real-time coding models",
+              "Learn about the importance of context window size in language models"
+            ],
+            "strategic_questions": [
+              "How will real-time coding models change the way we approach software development?",
+              "What are the potential applications of large context window sizes in language models?"
             ]
           }
         }
       ],
       "levels": {
         "foundational": [],
-        "beginner": [],
+        "beginner": [
+          {
+            "title": "Scaling social science research",
+            "url": "https://openai.com/index/scaling-social-science-research",
+            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Using LLMs for qualitative to quantitative data conversion",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "GPT-based text analysis",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "Image analysis with LLMs",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Basic understanding of natural language processing",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 5,
+                "reading_time_minutes": 6
+              },
+              "learning_outcomes": [
+                "Understand how to leverage LLMs for social science research",
+                "Learn about the potential of GABRIEL toolkit for scaling research",
+                "Recognize the benefits of converting qualitative data to quantitative data"
+              ],
+              "strategic_questions": [
+                "How can LLMs be used to improve the accuracy of social science research?",
+                "What are the potential limitations of using GPT for qualitative to quantitative data conversion?",
+                "How can researchers ensure the reliability of LLM-based analysis in social science research?"
+              ]
+            }
+          },
+          {
+            "title": "Introducing GPT-5.3-Codex-Spark",
+            "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+            "published": "Thu, 12 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Real-time coding models",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Context window size",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "Model generation speed",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Familiarity with language models",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 3,
+                "reading_time_minutes": 2
+              },
+              "learning_outcomes": [
+                "Understand the concept of real-time coding models",
+                "Learn about the importance of context window size in language models"
+              ],
+              "strategic_questions": [
+                "How will real-time coding models change the way we approach software development?",
+                "What are the potential applications of large context window sizes in language models?"
+              ]
+            }
+          }
+        ],
         "intermediate": [
           {
             "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -133,7 +438,7 @@
                   "confidence": 0.9
                 },
                 {
-                  "name": "Familiarity with large language models (LLMs)",
+                  "name": "Familiarity with large language models",
                   "confidence": 0.8
                 }
               ],
@@ -144,251 +449,13 @@
               },
               "learning_outcomes": [
                 "Understand how large language models can contribute to theoretical physics research",
-                "Recognize the potential for AI models to propose new formulas and hypotheses",
+                "Recognize the potential for AI models to derive new results in complex domains",
                 "Appreciate the importance of human-AI collaboration in scientific discovery"
               ],
               "strategic_questions": [
                 "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-                "How can we ensure the validity and reliability of results proposed by AI models in scientific research?",
-                "What are the potential applications of LLMs in other fields of scientific research?"
-              ]
-            }
-          },
-          {
-            "title": "Scaling social science research",
-            "url": "https://openai.com/index/scaling-social-science-research",
-            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "Using LLMs for qualitative to quantitative data conversion",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "GPT-based text analysis",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Image analysis with LLMs",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of natural language processing",
-                  "confidence": 0.85
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 10
-              },
-              "learning_outcomes": [
-                "Understand how to leverage LLMs for social science research",
-                "Learn about the potential of GABRIEL for scaling qualitative research",
-                "Recognize the benefits of converting qualitative data to quantitative data"
-              ],
-              "strategic_questions": [
-                "How can LLMs be used to improve the accuracy of social science research?",
-                "What are the potential limitations of using GPT for qualitative to quantitative data conversion?",
-                "How can researchers ensure the reliability of LLM-generated quantitative data?"
-              ]
-            }
-          }
-        ],
-        "advanced": [],
-        "application": []
-      }
-    },
-    "AI Safety & Alignment": {
-      "name": "AI Safety & Alignment",
-      "article_count": 2,
-      "articles": [
-        {
-          "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
-          "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
-          "published": "Fri, 13 Feb 2026 10:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "AI Safety & Alignment",
-            "concepts_taught": [
-              {
-                "name": "prompt injection",
-                "confidence": 0.9
-              },
-              {
-                "name": "AI-driven data exfiltration",
-                "confidence": 0.8
-              },
-              {
-                "name": "Lockdown Mode",
-                "confidence": 0.7
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "basic understanding of AI security risks",
-                "confidence": 0.6
-              }
-            ],
-            "difficulty": {
-              "level": "beginner",
-              "technical_depth": 3,
-              "reading_time_minutes": 4
-            },
-            "learning_outcomes": [
-              "Understand the concept of prompt injection and its risks",
-              "Learn about AI-driven data exfiltration and its implications",
-              "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
-            ],
-            "strategic_questions": [
-              "How can organizations effectively defend against AI-driven security threats?",
-              "What are the potential consequences of not implementing adequate AI security measures?"
-            ]
-          }
-        },
-        {
-          "title": "Making AI work for everyone, everywhere: our approach to localization",
-          "url": "https://openai.com/index/our-approach-to-localization",
-          "published": "Fri, 06 Feb 2026 10:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "AI Safety & Alignment",
-            "concepts_taught": [
-              {
-                "name": "AI localization",
-                "confidence": 0.8
-              },
-              {
-                "name": "frontier models",
-                "confidence": 0.7
-              },
-              {
-                "name": "cultural adaptation in AI",
-                "confidence": 0.6
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "basic understanding of AI models",
-                "confidence": 0.9
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 6,
-              "reading_time_minutes": 10
-            },
-            "learning_outcomes": [
-              "Understand the importance of AI localization for global adoption",
-              "Learn how to adapt AI models to local languages and cultures",
-              "Recognize the challenges of balancing safety and localization in AI development"
-            ],
-            "strategic_questions": [
-              "How can AI localization be achieved without compromising safety and security?",
-              "What are the potential risks and benefits of adapting AI models to local cultures and languages?",
-              "How can organizations ensure that their AI systems are fair and inclusive across different regions and cultures?"
-            ]
-          }
-        }
-      ],
-      "levels": {
-        "foundational": [],
-        "beginner": [
-          {
-            "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
-            "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
-            "published": "Fri, 13 Feb 2026 10:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Safety & Alignment",
-              "concepts_taught": [
-                {
-                  "name": "prompt injection",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "AI-driven data exfiltration",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Lockdown Mode",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "basic understanding of AI security risks",
-                  "confidence": 0.6
-                }
-              ],
-              "difficulty": {
-                "level": "beginner",
-                "technical_depth": 3,
-                "reading_time_minutes": 4
-              },
-              "learning_outcomes": [
-                "Understand the concept of prompt injection and its risks",
-                "Learn about AI-driven data exfiltration and its implications",
-                "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
-              ],
-              "strategic_questions": [
-                "How can organizations effectively defend against AI-driven security threats?",
-                "What are the potential consequences of not implementing adequate AI security measures?"
-              ]
-            }
-          }
-        ],
-        "intermediate": [
-          {
-            "title": "Making AI work for everyone, everywhere: our approach to localization",
-            "url": "https://openai.com/index/our-approach-to-localization",
-            "published": "Fri, 06 Feb 2026 10:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Safety & Alignment",
-              "concepts_taught": [
-                {
-                  "name": "AI localization",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "frontier models",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "cultural adaptation in AI",
-                  "confidence": 0.6
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "basic understanding of AI models",
-                  "confidence": 0.9
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 10
-              },
-              "learning_outcomes": [
-                "Understand the importance of AI localization for global adoption",
-                "Learn how to adapt AI models to local languages and cultures",
-                "Recognize the challenges of balancing safety and localization in AI development"
-              ],
-              "strategic_questions": [
-                "How can AI localization be achieved without compromising safety and security?",
-                "What are the potential risks and benefits of adapting AI models to local cultures and languages?",
-                "How can organizations ensure that their AI systems are fair and inclusive across different regions and cultures?"
+                "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+                "What are the potential applications of large language models in other areas of scientific research?"
               ]
             }
           }
@@ -423,13 +490,13 @@
                 "confidence": 0.9
               },
               {
-                "name": "real-time access systems",
+                "name": "scalable access systems",
                 "confidence": 0.85
               }
             ],
             "prerequisites": [
               {
-                "name": "basic understanding of API access control",
+                "name": "basic understanding of AI infrastructure",
                 "confidence": 0.6
               }
             ],
@@ -441,12 +508,12 @@
             "learning_outcomes": [
               "understand how to design a scalable access system for AI models",
               "learn how to combine rate limits, usage tracking, and credits for continuous access",
-              "grasp the importance of real-time access systems in AI infrastructure"
+              "understand the importance of real-time access systems for AI applications"
             ],
             "strategic_questions": [
-              "How can AI access systems be designed to balance scalability and security?",
-              "What are the implications of credit-based access systems on AI model usage and adoption?",
-              "How can real-time access systems be optimized for low-latency and high-throughput AI applications?"
+              "How can scalable access systems impact the adoption of AI models in industries?",
+              "What are the potential challenges of implementing credit-based access systems for AI models?",
+              "How can real-time access systems be optimized for different AI applications and use cases?"
             ]
           }
         }
@@ -477,13 +544,13 @@
                   "confidence": 0.9
                 },
                 {
-                  "name": "real-time access systems",
+                  "name": "scalable access systems",
                   "confidence": 0.85
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "basic understanding of API access control",
+                  "name": "basic understanding of AI infrastructure",
                   "confidence": 0.6
                 }
               ],
@@ -495,12 +562,12 @@
               "learning_outcomes": [
                 "understand how to design a scalable access system for AI models",
                 "learn how to combine rate limits, usage tracking, and credits for continuous access",
-                "grasp the importance of real-time access systems in AI infrastructure"
+                "understand the importance of real-time access systems for AI applications"
               ],
               "strategic_questions": [
-                "How can AI access systems be designed to balance scalability and security?",
-                "What are the implications of credit-based access systems on AI model usage and adoption?",
-                "How can real-time access systems be optimized for low-latency and high-throughput AI applications?"
+                "How can scalable access systems impact the adoption of AI models in industries?",
+                "What are the potential challenges of implementing credit-based access systems for AI models?",
+                "How can real-time access systems be optimized for different AI applications and use cases?"
               ]
             }
           }
@@ -511,6 +578,40 @@
     }
   },
   "articles": [
+    {
+      "title": "Advancing independent research on AI alignment",
+      "url": "https://openai.com/index/advancing-independent-research-ai-alignment",
+      "published": "Thu, 19 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "concepts_taught": [
+          {
+            "name": "AGI safety",
+            "confidence": 0.8
+          },
+          {
+            "name": "AI alignment research",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [],
+        "difficulty": {
+          "level": "beginner",
+          "technical_depth": 2,
+          "reading_time_minutes": 2
+        },
+        "learning_outcomes": [
+          "Understand the importance of AI alignment research",
+          "Recognize the role of independent research in addressing AGI safety risks"
+        ],
+        "strategic_questions": [
+          "How can independent research accelerate progress in AI alignment?",
+          "What are the potential implications of increased funding for AI safety research?"
+        ]
+      }
+    },
     {
       "title": "GPT-5.2 derives a new result in theoretical physics",
       "url": "https://openai.com/index/new-result-theoretical-physics",
@@ -539,7 +640,7 @@
             "confidence": 0.9
           },
           {
-            "name": "Familiarity with large language models (LLMs)",
+            "name": "Familiarity with large language models",
             "confidence": 0.8
           }
         ],
@@ -550,13 +651,13 @@
         },
         "learning_outcomes": [
           "Understand how large language models can contribute to theoretical physics research",
-          "Recognize the potential for AI models to propose new formulas and hypotheses",
+          "Recognize the potential for AI models to derive new results in complex domains",
           "Appreciate the importance of human-AI collaboration in scientific discovery"
         ],
         "strategic_questions": [
           "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-          "How can we ensure the validity and reliability of results proposed by AI models in scientific research?",
-          "What are the potential applications of LLMs in other fields of scientific research?"
+          "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+          "What are the potential applications of large language models in other areas of scientific research?"
         ]
       }
     },
@@ -570,37 +671,38 @@
         "topic": "AI Safety & Alignment",
         "concepts_taught": [
           {
-            "name": "prompt injection",
-            "confidence": 0.9
-          },
-          {
-            "name": "AI-driven data exfiltration",
+            "name": "prompt injection defense",
             "confidence": 0.8
           },
           {
-            "name": "Lockdown Mode",
+            "name": "AI-driven data exfiltration prevention",
             "confidence": 0.7
+          },
+          {
+            "name": "Elevated Risk labels",
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI security risks",
-            "confidence": 0.6
+            "confidence": 0.9
           }
         ],
         "difficulty": {
-          "level": "beginner",
-          "technical_depth": 3,
-          "reading_time_minutes": 4
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand the concept of prompt injection and its risks",
-          "Learn about AI-driven data exfiltration and its implications",
-          "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+          "understand the concept of prompt injection and its risks",
+          "learn about the importance of AI-driven data exfiltration prevention",
+          "familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
         ],
         "strategic_questions": [
-          "How can organizations effectively defend against AI-driven security threats?",
-          "What are the potential consequences of not implementing adequate AI security measures?"
+          "How can organizations effectively utilize Lockdown Mode to defend against AI security risks?",
+          "What are the potential implications of AI-driven data exfiltration on organizational data security?",
+          "How can AI safety features like Elevated Risk labels impact the development of more secure AI models?"
         ]
       }
     },
@@ -615,37 +717,37 @@
         "concepts_taught": [
           {
             "name": "Using LLMs for qualitative to quantitative data conversion",
-            "confidence": 0.9
-          },
-          {
-            "name": "GPT-based text analysis",
             "confidence": 0.8
           },
           {
-            "name": "Image analysis with LLMs",
+            "name": "GPT-based text analysis",
             "confidence": 0.7
+          },
+          {
+            "name": "Image analysis with LLMs",
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
             "name": "Basic understanding of natural language processing",
-            "confidence": 0.85
+            "confidence": 0.8
           }
         ],
         "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 10
+          "level": "beginner",
+          "technical_depth": 5,
+          "reading_time_minutes": 6
         },
         "learning_outcomes": [
           "Understand how to leverage LLMs for social science research",
-          "Learn about the potential of GABRIEL for scaling qualitative research",
+          "Learn about the potential of GABRIEL toolkit for scaling research",
           "Recognize the benefits of converting qualitative data to quantitative data"
         ],
         "strategic_questions": [
           "How can LLMs be used to improve the accuracy of social science research?",
           "What are the potential limitations of using GPT for qualitative to quantitative data conversion?",
-          "How can researchers ensure the reliability of LLM-generated quantitative data?"
+          "How can researchers ensure the reliability of LLM-based analysis in social science research?"
         ]
       }
     },
@@ -671,13 +773,13 @@
             "confidence": 0.9
           },
           {
-            "name": "real-time access systems",
+            "name": "scalable access systems",
             "confidence": 0.85
           }
         ],
         "prerequisites": [
           {
-            "name": "basic understanding of API access control",
+            "name": "basic understanding of AI infrastructure",
             "confidence": 0.6
           }
         ],
@@ -689,57 +791,55 @@
         "learning_outcomes": [
           "understand how to design a scalable access system for AI models",
           "learn how to combine rate limits, usage tracking, and credits for continuous access",
-          "grasp the importance of real-time access systems in AI infrastructure"
+          "understand the importance of real-time access systems for AI applications"
         ],
         "strategic_questions": [
-          "How can AI access systems be designed to balance scalability and security?",
-          "What are the implications of credit-based access systems on AI model usage and adoption?",
-          "How can real-time access systems be optimized for low-latency and high-throughput AI applications?"
+          "How can scalable access systems impact the adoption of AI models in industries?",
+          "What are the potential challenges of implementing credit-based access systems for AI models?",
+          "How can real-time access systems be optimized for different AI applications and use cases?"
         ]
       }
     },
     {
-      "title": "Making AI work for everyone, everywhere: our approach to localization",
-      "url": "https://openai.com/index/our-approach-to-localization",
-      "published": "Fri, 06 Feb 2026 10:00:00 GMT",
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "published": "Thu, 12 Feb 2026 10:00:00 GMT",
       "source": "OpenAI News",
       "curriculum": {
         "skip": false,
-        "topic": "AI Safety & Alignment",
+        "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "AI localization",
+            "name": "Real-time coding models",
             "confidence": 0.8
           },
           {
-            "name": "frontier models",
+            "name": "Context window size",
             "confidence": 0.7
           },
           {
-            "name": "cultural adaptation in AI",
+            "name": "Model generation speed",
             "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "basic understanding of AI models",
+            "name": "Familiarity with language models",
             "confidence": 0.9
           }
         ],
         "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 10
+          "level": "beginner",
+          "technical_depth": 3,
+          "reading_time_minutes": 2
         },
         "learning_outcomes": [
-          "Understand the importance of AI localization for global adoption",
-          "Learn how to adapt AI models to local languages and cultures",
-          "Recognize the challenges of balancing safety and localization in AI development"
+          "Understand the concept of real-time coding models",
+          "Learn about the importance of context window size in language models"
         ],
         "strategic_questions": [
-          "How can AI localization be achieved without compromising safety and security?",
-          "What are the potential risks and benefits of adapting AI models to local cultures and languages?",
-          "How can organizations ensure that their AI systems are fair and inclusive across different regions and cultures?"
+          "How will real-time coding models change the way we approach software development?",
+          "What are the potential applications of large context window sizes in language models?"
         ]
       }
     }
