@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T09:26:45.049552Z",
+  "generated_at": "2026-02-22T09:27:53.957892Z",
   "total_articles": 7,
   "topics": {
     "Agentic AI & Reasoning": {
@@ -24,14 +24,14 @@
                 "confidence": 0.7
               },
               {
-                "name": "math challenge evaluation",
+                "name": "math challenge problems",
                 "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "AI model understanding",
-                "confidence": 0.85
+                "name": "artificial intelligence basics",
+                "confidence": 0.9
               }
             ],
             "difficulty": {
@@ -42,12 +42,12 @@
             "learning_outcomes": [
               "Understand how AI models can be applied to research-grade reasoning",
               "Recognize the challenges of expert-level problem solving in math",
-              "Learn about the First Proof math challenge and its significance"
+              "Learn about the First Proof math challenge"
             ],
             "strategic_questions": [
-              "How can AI models be improved to tackle complex math challenges?",
+              "How can AI models be improved to tackle complex math problems?",
               "What are the implications of AI models achieving research-grade reasoning capabilities?",
-              "How can expert-level problem solving be applied to real-world problems?"
+              "How can AI-powered reasoning systems be applied to real-world problems?"
             ]
           }
         }
@@ -74,14 +74,14 @@
                   "confidence": 0.7
                 },
                 {
-                  "name": "math challenge evaluation",
+                  "name": "math challenge problems",
                   "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "AI model understanding",
-                  "confidence": 0.85
+                  "name": "artificial intelligence basics",
+                  "confidence": 0.9
                 }
               ],
               "difficulty": {
@@ -92,12 +92,12 @@
               "learning_outcomes": [
                 "Understand how AI models can be applied to research-grade reasoning",
                 "Recognize the challenges of expert-level problem solving in math",
-                "Learn about the First Proof math challenge and its significance"
+                "Learn about the First Proof math challenge"
               ],
               "strategic_questions": [
-                "How can AI models be improved to tackle complex math challenges?",
+                "How can AI models be improved to tackle complex math problems?",
                 "What are the implications of AI models achieving research-grade reasoning capabilities?",
-                "How can expert-level problem solving be applied to real-world problems?"
+                "How can AI-powered reasoning systems be applied to real-world problems?"
               ]
             }
           }
@@ -125,13 +125,13 @@
               },
               {
                 "name": "AI alignment research",
-                "confidence": 0.7
+                "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of AI risks",
-                "confidence": 0.6
+                "confidence": 0.7
               }
             ],
             "difficulty": {
@@ -144,7 +144,7 @@
               "recognize the role of independent research in addressing AGI safety risks"
             ],
             "strategic_questions": [
-              "How can independent research effectively contribute to addressing AGI safety risks?",
+              "How can independent research effectively contribute to global AI safety efforts?",
               "What are the potential implications of increased funding for AI alignment research?"
             ]
           }
@@ -177,14 +177,14 @@
             ],
             "prerequisites": [
               {
-                "name": "basic understanding of AI security risks",
+                "name": "basic AI concepts",
                 "confidence": 0.6
               }
             ],
             "difficulty": {
               "level": "beginner",
               "technical_depth": 3,
-              "reading_time_minutes": 4
+              "reading_time_minutes": 5
             },
             "learning_outcomes": [
               "Understand the concept of prompt injection and its risks",
@@ -192,9 +192,9 @@
               "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
             ],
             "strategic_questions": [
-              "How can organizations effectively defend against AI-driven security threats?",
-              "What are the potential consequences of not implementing adequate AI security measures?",
-              "How can Lockdown Mode and Elevated Risk labels be used to enhance AI safety and alignment?"
+              "How can organizations effectively defend against prompt injection attacks?",
+              "What are the potential consequences of AI-driven data exfiltration for businesses?",
+              "How can AI safety features like Lockdown Mode be balanced with user experience?"
             ]
           }
         }
@@ -217,13 +217,13 @@
                 },
                 {
                   "name": "AI alignment research",
-                  "confidence": 0.7
+                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic understanding of AI risks",
-                  "confidence": 0.6
+                  "confidence": 0.7
                 }
               ],
               "difficulty": {
@@ -236,7 +236,7 @@
                 "recognize the role of independent research in addressing AGI safety risks"
               ],
               "strategic_questions": [
-                "How can independent research effectively contribute to addressing AGI safety risks?",
+                "How can independent research effectively contribute to global AI safety efforts?",
                 "What are the potential implications of increased funding for AI alignment research?"
               ]
             }
@@ -269,14 +269,14 @@
               ],
               "prerequisites": [
                 {
-                  "name": "basic understanding of AI security risks",
+                  "name": "basic AI concepts",
                   "confidence": 0.6
                 }
               ],
               "difficulty": {
                 "level": "beginner",
                 "technical_depth": 3,
-                "reading_time_minutes": 4
+                "reading_time_minutes": 5
               },
               "learning_outcomes": [
                 "Understand the concept of prompt injection and its risks",
@@ -284,9 +284,9 @@
                 "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
               ],
               "strategic_questions": [
-                "How can organizations effectively defend against AI-driven security threats?",
-                "What are the potential consequences of not implementing adequate AI security measures?",
-                "How can Lockdown Mode and Elevated Risk labels be used to enhance AI safety and alignment?"
+                "How can organizations effectively defend against prompt injection attacks?",
+                "What are the potential consequences of AI-driven data exfiltration for businesses?",
+                "How can AI safety features like Lockdown Mode be balanced with user experience?"
               ]
             }
           }
@@ -310,26 +310,26 @@
             "topic": "Large Language Models",
             "concepts_taught": [
               {
-                "name": "Gluon amplitude formula derivation",
+                "name": "Gluon amplitude calculation",
                 "confidence": 0.8
               },
               {
-                "name": "Application of large language models in theoretical physics",
-                "confidence": 0.9
+                "name": "Application of LLMs in theoretical physics",
+                "confidence": 0.7
               },
               {
-                "name": "Collaboration between AI models and human researchers in physics",
-                "confidence": 0.85
+                "name": "Collaboration between AI models and human researchers",
+                "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "Basic understanding of large language models",
-                "confidence": 0.8
+                "name": "Basic understanding of particle physics",
+                "confidence": 0.9
               },
               {
-                "name": "Familiarity with theoretical physics concepts",
-                "confidence": 0.7
+                "name": "Familiarity with large language models",
+                "confidence": 0.8
               }
             ],
             "difficulty": {
@@ -339,13 +339,13 @@
             },
             "learning_outcomes": [
               "Understand how large language models can contribute to theoretical physics research",
-              "Recognize the potential of AI-human collaboration in scientific discoveries",
-              "Appreciate the role of large language models in deriving new mathematical formulas"
+              "Recognize the potential for AI models to derive new mathematical formulas",
+              "Appreciate the importance of human-AI collaboration in scientific discovery"
             ],
             "strategic_questions": [
               "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-              "How can we ensure the accuracy and validity of results obtained through AI-human collaboration in physics research?",
-              "What are the potential applications of large language models in other areas of scientific research?"
+              "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+              "What are the potential applications of large language models in other fields of scientific research?"
             ]
           }
         },
@@ -359,38 +359,38 @@
             "topic": "Large Language Models",
             "concepts_taught": [
               {
-                "name": "GPT-based text analysis",
+                "name": "Using LLMs for qualitative to quantitative data conversion",
                 "confidence": 0.9
               },
               {
-                "name": "Qualitative to quantitative data conversion",
+                "name": "GPT-based text analysis",
                 "confidence": 0.8
               },
               {
-                "name": "Open-source toolkit integration",
+                "name": "Image analysis with LLMs",
                 "confidence": 0.7
               }
             ],
             "prerequisites": [
               {
                 "name": "Basic understanding of natural language processing",
-                "confidence": 0.6
+                "confidence": 0.85
               }
             ],
             "difficulty": {
-              "level": "beginner",
-              "technical_depth": 5,
-              "reading_time_minutes": 6
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
             },
             "learning_outcomes": [
-              "Understand how to leverage GPT for large-scale social science research",
-              "Learn to convert qualitative data into quantitative data using GABRIEL",
-              "Recognize the potential of open-source toolkits in social science research"
+              "Understand how to leverage LLMs for large-scale social science research",
+              "Learn about the potential applications of GABRIEL toolkit",
+              "Comprehend the process of converting qualitative data into quantitative data using LLMs"
             ],
             "strategic_questions": [
-              "How can GABRIEL be applied to various social science research domains?",
-              "What are the potential limitations and biases of using GPT for quantitative data analysis?",
-              "How can researchers ensure the accuracy and validity of GABRIEL-generated quantitative data?"
+              "How can social scientists effectively utilize LLMs to analyze and interpret large datasets?",
+              "What are the potential limitations and biases of using LLMs in social science research?",
+              "In what ways can the GABRIEL toolkit be extended or modified to support other research domains?"
             ]
           }
         },
@@ -432,7 +432,7 @@
               "Learn about the importance of context window size in language models"
             ],
             "strategic_questions": [
-              "How will real-time coding models impact software development?",
+              "How will real-time coding models impact software development workflows?",
               "What are the potential applications of large context window sizes in language models?"
             ]
           }
@@ -441,51 +441,6 @@
       "levels": {
         "foundational": [],
         "beginner": [
-          {
-            "title": "Scaling social science research",
-            "url": "https://openai.com/index/scaling-social-science-research",
-            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "GPT-based text analysis",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "Qualitative to quantitative data conversion",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Open-source toolkit integration",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of natural language processing",
-                  "confidence": 0.6
-                }
-              ],
-              "difficulty": {
-                "level": "beginner",
-                "technical_depth": 5,
-                "reading_time_minutes": 6
-              },
-              "learning_outcomes": [
-                "Understand how to leverage GPT for large-scale social science research",
-                "Learn to convert qualitative data into quantitative data using GABRIEL",
-                "Recognize the potential of open-source toolkits in social science research"
-              ],
-              "strategic_questions": [
-                "How can GABRIEL be applied to various social science research domains?",
-                "What are the potential limitations and biases of using GPT for quantitative data analysis?",
-                "How can researchers ensure the accuracy and validity of GABRIEL-generated quantitative data?"
-              ]
-            }
-          },
           {
             "title": "Introducing GPT-5.3-Codex-Spark",
             "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
@@ -524,7 +479,7 @@
                 "Learn about the importance of context window size in language models"
               ],
               "strategic_questions": [
-                "How will real-time coding models impact software development?",
+                "How will real-time coding models impact software development workflows?",
                 "What are the potential applications of large context window sizes in language models?"
               ]
             }
@@ -541,26 +496,26 @@
               "topic": "Large Language Models",
               "concepts_taught": [
                 {
-                  "name": "Gluon amplitude formula derivation",
+                  "name": "Gluon amplitude calculation",
                   "confidence": 0.8
                 },
                 {
-                  "name": "Application of large language models in theoretical physics",
-                  "confidence": 0.9
+                  "name": "Application of LLMs in theoretical physics",
+                  "confidence": 0.7
                 },
                 {
-                  "name": "Collaboration between AI models and human researchers in physics",
-                  "confidence": 0.85
+                  "name": "Collaboration between AI models and human researchers",
+                  "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "Basic understanding of large language models",
-                  "confidence": 0.8
+                  "name": "Basic understanding of particle physics",
+                  "confidence": 0.9
                 },
                 {
-                  "name": "Familiarity with theoretical physics concepts",
-                  "confidence": 0.7
+                  "name": "Familiarity with large language models",
+                  "confidence": 0.8
                 }
               ],
               "difficulty": {
@@ -570,13 +525,58 @@
               },
               "learning_outcomes": [
                 "Understand how large language models can contribute to theoretical physics research",
-                "Recognize the potential of AI-human collaboration in scientific discoveries",
-                "Appreciate the role of large language models in deriving new mathematical formulas"
+                "Recognize the potential for AI models to derive new mathematical formulas",
+                "Appreciate the importance of human-AI collaboration in scientific discovery"
               ],
               "strategic_questions": [
                 "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-                "How can we ensure the accuracy and validity of results obtained through AI-human collaboration in physics research?",
-                "What are the potential applications of large language models in other areas of scientific research?"
+                "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+                "What are the potential applications of large language models in other fields of scientific research?"
+              ]
+            }
+          },
+          {
+            "title": "Scaling social science research",
+            "url": "https://openai.com/index/scaling-social-science-research",
+            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Using LLMs for qualitative to quantitative data conversion",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "GPT-based text analysis",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Image analysis with LLMs",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Basic understanding of natural language processing",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand how to leverage LLMs for large-scale social science research",
+                "Learn about the potential applications of GABRIEL toolkit",
+                "Comprehend the process of converting qualitative data into quantitative data using LLMs"
+              ],
+              "strategic_questions": [
+                "How can social scientists effectively utilize LLMs to analyze and interpret large datasets?",
+                "What are the potential limitations and biases of using LLMs in social science research?",
+                "In what ways can the GABRIEL toolkit be extended or modified to support other research domains?"
               ]
             }
           }
@@ -611,13 +611,13 @@
                 "confidence": 0.9
               },
               {
-                "name": "real-time access systems",
+                "name": "scalable access systems",
                 "confidence": 0.85
               }
             ],
             "prerequisites": [
               {
-                "name": "basic understanding of API access control",
+                "name": "basic understanding of API design",
                 "confidence": 0.6
               }
             ],
@@ -629,12 +629,12 @@
             "learning_outcomes": [
               "Understand how to design a scalable access system for AI models",
               "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-              "Recognize the importance of real-time access systems for powering AI applications"
+              "Grasp the importance of real-time access systems for AI infrastructure"
             ],
             "strategic_questions": [
-              "How can AI infrastructure be designed to support high-volume, real-time access to models like Codex and Sora?",
-              "What are the trade-offs between rate limiting, usage tracking, and credit-based access systems for AI model access?",
-              "What are the implications of scalable access systems for the development of AI-powered applications?"
+              "How can scalable access systems impact the adoption of AI models in industries?",
+              "What are the potential security implications of implementing credit-based access systems?",
+              "How can real-time access systems be optimized for low-latency and high-throughput applications?"
             ]
           }
         }
@@ -665,13 +665,13 @@
                   "confidence": 0.9
                 },
                 {
-                  "name": "real-time access systems",
+                  "name": "scalable access systems",
                   "confidence": 0.85
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "basic understanding of API access control",
+                  "name": "basic understanding of API design",
                   "confidence": 0.6
                 }
               ],
@@ -683,12 +683,12 @@
               "learning_outcomes": [
                 "Understand how to design a scalable access system for AI models",
                 "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-                "Recognize the importance of real-time access systems for powering AI applications"
+                "Grasp the importance of real-time access systems for AI infrastructure"
               ],
               "strategic_questions": [
-                "How can AI infrastructure be designed to support high-volume, real-time access to models like Codex and Sora?",
-                "What are the trade-offs between rate limiting, usage tracking, and credit-based access systems for AI model access?",
-                "What are the implications of scalable access systems for the development of AI-powered applications?"
+                "How can scalable access systems impact the adoption of AI models in industries?",
+                "What are the potential security implications of implementing credit-based access systems?",
+                "How can real-time access systems be optimized for low-latency and high-throughput applications?"
               ]
             }
           }
@@ -717,14 +717,14 @@
             "confidence": 0.7
           },
           {
-            "name": "math challenge evaluation",
+            "name": "math challenge problems",
             "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "AI model understanding",
-            "confidence": 0.85
+            "name": "artificial intelligence basics",
+            "confidence": 0.9
           }
         ],
         "difficulty": {
@@ -735,12 +735,12 @@
         "learning_outcomes": [
           "Understand how AI models can be applied to research-grade reasoning",
           "Recognize the challenges of expert-level problem solving in math",
-          "Learn about the First Proof math challenge and its significance"
+          "Learn about the First Proof math challenge"
         ],
         "strategic_questions": [
-          "How can AI models be improved to tackle complex math challenges?",
+          "How can AI models be improved to tackle complex math problems?",
           "What are the implications of AI models achieving research-grade reasoning capabilities?",
-          "How can expert-level problem solving be applied to real-world problems?"
+          "How can AI-powered reasoning systems be applied to real-world problems?"
         ]
       }
     },
@@ -759,13 +759,13 @@
           },
           {
             "name": "AI alignment research",
-            "confidence": 0.7
+            "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI risks",
-            "confidence": 0.6
+            "confidence": 0.7
           }
         ],
         "difficulty": {
@@ -778,7 +778,7 @@
           "recognize the role of independent research in addressing AGI safety risks"
         ],
         "strategic_questions": [
-          "How can independent research effectively contribute to addressing AGI safety risks?",
+          "How can independent research effectively contribute to global AI safety efforts?",
           "What are the potential implications of increased funding for AI alignment research?"
         ]
       }
@@ -793,26 +793,26 @@
         "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "Gluon amplitude formula derivation",
+            "name": "Gluon amplitude calculation",
             "confidence": 0.8
           },
           {
-            "name": "Application of large language models in theoretical physics",
-            "confidence": 0.9
+            "name": "Application of LLMs in theoretical physics",
+            "confidence": 0.7
           },
           {
-            "name": "Collaboration between AI models and human researchers in physics",
-            "confidence": 0.85
+            "name": "Collaboration between AI models and human researchers",
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "Basic understanding of large language models",
-            "confidence": 0.8
+            "name": "Basic understanding of particle physics",
+            "confidence": 0.9
           },
           {
-            "name": "Familiarity with theoretical physics concepts",
-            "confidence": 0.7
+            "name": "Familiarity with large language models",
+            "confidence": 0.8
           }
         ],
         "difficulty": {
@@ -822,13 +822,13 @@
         },
         "learning_outcomes": [
           "Understand how large language models can contribute to theoretical physics research",
-          "Recognize the potential of AI-human collaboration in scientific discoveries",
-          "Appreciate the role of large language models in deriving new mathematical formulas"
+          "Recognize the potential for AI models to derive new mathematical formulas",
+          "Appreciate the importance of human-AI collaboration in scientific discovery"
         ],
         "strategic_questions": [
           "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-          "How can we ensure the accuracy and validity of results obtained through AI-human collaboration in physics research?",
-          "What are the potential applications of large language models in other areas of scientific research?"
+          "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
+          "What are the potential applications of large language models in other fields of scientific research?"
         ]
       }
     },
@@ -860,14 +860,14 @@
         ],
         "prerequisites": [
           {
-            "name": "basic understanding of AI security risks",
+            "name": "basic AI concepts",
             "confidence": 0.6
           }
         ],
         "difficulty": {
           "level": "beginner",
           "technical_depth": 3,
-          "reading_time_minutes": 4
+          "reading_time_minutes": 5
         },
         "learning_outcomes": [
           "Understand the concept of prompt injection and its risks",
@@ -875,9 +875,9 @@
           "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
         ],
         "strategic_questions": [
-          "How can organizations effectively defend against AI-driven security threats?",
-          "What are the potential consequences of not implementing adequate AI security measures?",
-          "How can Lockdown Mode and Elevated Risk labels be used to enhance AI safety and alignment?"
+          "How can organizations effectively defend against prompt injection attacks?",
+          "What are the potential consequences of AI-driven data exfiltration for businesses?",
+          "How can AI safety features like Lockdown Mode be balanced with user experience?"
         ]
       }
     },
@@ -891,38 +891,38 @@
         "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "GPT-based text analysis",
+            "name": "Using LLMs for qualitative to quantitative data conversion",
             "confidence": 0.9
           },
           {
-            "name": "Qualitative to quantitative data conversion",
+            "name": "GPT-based text analysis",
             "confidence": 0.8
           },
           {
-            "name": "Open-source toolkit integration",
+            "name": "Image analysis with LLMs",
             "confidence": 0.7
           }
         ],
         "prerequisites": [
           {
             "name": "Basic understanding of natural language processing",
-            "confidence": 0.6
+            "confidence": 0.85
           }
         ],
         "difficulty": {
-          "level": "beginner",
-          "technical_depth": 5,
-          "reading_time_minutes": 6
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
         },
         "learning_outcomes": [
-          "Understand how to leverage GPT for large-scale social science research",
-          "Learn to convert qualitative data into quantitative data using GABRIEL",
-          "Recognize the potential of open-source toolkits in social science research"
+          "Understand how to leverage LLMs for large-scale social science research",
+          "Learn about the potential applications of GABRIEL toolkit",
+          "Comprehend the process of converting qualitative data into quantitative data using LLMs"
         ],
         "strategic_questions": [
-          "How can GABRIEL be applied to various social science research domains?",
-          "What are the potential limitations and biases of using GPT for quantitative data analysis?",
-          "How can researchers ensure the accuracy and validity of GABRIEL-generated quantitative data?"
+          "How can social scientists effectively utilize LLMs to analyze and interpret large datasets?",
+          "What are the potential limitations and biases of using LLMs in social science research?",
+          "In what ways can the GABRIEL toolkit be extended or modified to support other research domains?"
         ]
       }
     },
@@ -948,13 +948,13 @@
             "confidence": 0.9
           },
           {
-            "name": "real-time access systems",
+            "name": "scalable access systems",
             "confidence": 0.85
           }
         ],
         "prerequisites": [
           {
-            "name": "basic understanding of API access control",
+            "name": "basic understanding of API design",
             "confidence": 0.6
           }
         ],
@@ -966,12 +966,12 @@
         "learning_outcomes": [
           "Understand how to design a scalable access system for AI models",
           "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-          "Recognize the importance of real-time access systems for powering AI applications"
+          "Grasp the importance of real-time access systems for AI infrastructure"
         ],
         "strategic_questions": [
-          "How can AI infrastructure be designed to support high-volume, real-time access to models like Codex and Sora?",
-          "What are the trade-offs between rate limiting, usage tracking, and credit-based access systems for AI model access?",
-          "What are the implications of scalable access systems for the development of AI-powered applications?"
+          "How can scalable access systems impact the adoption of AI models in industries?",
+          "What are the potential security implications of implementing credit-based access systems?",
+          "How can real-time access systems be optimized for low-latency and high-throughput applications?"
         ]
       }
     },
@@ -1013,7 +1013,7 @@
           "Learn about the importance of context window size in language models"
         ],
         "strategic_questions": [
-          "How will real-time coding models impact software development?",
+          "How will real-time coding models impact software development workflows?",
           "What are the potential applications of large context window sizes in language models?"
         ]
       }
