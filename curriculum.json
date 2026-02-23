@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-22T09:27:53.957892Z",
-  "total_articles": 7,
+  "generated_at": "2026-02-23T09:51:53.390751Z",
+  "total_articles": 8,
   "topics": {
     "Agentic AI & Reasoning": {
       "name": "Agentic AI & Reasoning",
@@ -24,13 +24,13 @@
                 "confidence": 0.7
               },
               {
-                "name": "math challenge problems",
+                "name": "math challenge evaluation",
                 "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "artificial intelligence basics",
+                "name": "AI model basics",
                 "confidence": 0.9
               }
             ],
@@ -42,12 +42,12 @@
             "learning_outcomes": [
               "Understand how AI models can be applied to research-grade reasoning",
               "Recognize the challenges of expert-level problem solving in math",
-              "Learn about the First Proof math challenge"
+              "Learn about the First Proof math challenge and its significance"
             ],
             "strategic_questions": [
               "How can AI models be improved to tackle complex math problems?",
               "What are the implications of AI models achieving research-grade reasoning capabilities?",
-              "How can AI-powered reasoning systems be applied to real-world problems?"
+              "How can the results of the First Proof math challenge be used to advance AI research?"
             ]
           }
         }
@@ -74,13 +74,13 @@
                   "confidence": 0.7
                 },
                 {
-                  "name": "math challenge problems",
+                  "name": "math challenge evaluation",
                   "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "artificial intelligence basics",
+                  "name": "AI model basics",
                   "confidence": 0.9
                 }
               ],
@@ -92,12 +92,12 @@
               "learning_outcomes": [
                 "Understand how AI models can be applied to research-grade reasoning",
                 "Recognize the challenges of expert-level problem solving in math",
-                "Learn about the First Proof math challenge"
+                "Learn about the First Proof math challenge and its significance"
               ],
               "strategic_questions": [
                 "How can AI models be improved to tackle complex math problems?",
                 "What are the implications of AI models achieving research-grade reasoning capabilities?",
-                "How can AI-powered reasoning systems be applied to real-world problems?"
+                "How can the results of the First Proof math challenge be used to advance AI research?"
               ]
             }
           }
@@ -125,13 +125,13 @@
               },
               {
                 "name": "AI alignment research",
-                "confidence": 0.9
+                "confidence": 0.7
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of AI risks",
-                "confidence": 0.7
+                "confidence": 0.6
               }
             ],
             "difficulty": {
@@ -140,8 +140,8 @@
               "reading_time_minutes": 4
             },
             "learning_outcomes": [
-              "understand the importance of AI alignment research",
-              "recognize the role of independent research in addressing AGI safety risks"
+              "Understand the importance of AI alignment research",
+              "Recognize the role of independent research in addressing AGI safety risks"
             ],
             "strategic_questions": [
               "How can independent research effectively contribute to global AI safety efforts?",
@@ -169,10 +169,6 @@
               {
                 "name": "Lockdown Mode",
                 "confidence": 0.9
-              },
-              {
-                "name": "Elevated Risk labels",
-                "confidence": 0.85
               }
             ],
             "prerequisites": [
@@ -187,14 +183,13 @@
               "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "Understand the concept of prompt injection and its risks",
-              "Learn about AI-driven data exfiltration and its implications",
-              "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+              "understand the concept of prompt injection",
+              "learn about AI-driven data exfiltration risks",
+              "familiarize with Lockdown Mode in ChatGPT"
             ],
             "strategic_questions": [
-              "How can organizations effectively defend against prompt injection attacks?",
-              "What are the potential consequences of AI-driven data exfiltration for businesses?",
-              "How can AI safety features like Lockdown Mode be balanced with user experience?"
+              "How can organizations effectively utilize Lockdown Mode to prevent data exfiltration?",
+              "What are the potential limitations of Lockdown Mode in preventing prompt injection attacks?"
             ]
           }
         }
@@ -217,13 +212,13 @@
                 },
                 {
                   "name": "AI alignment research",
-                  "confidence": 0.9
+                  "confidence": 0.7
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic understanding of AI risks",
-                  "confidence": 0.7
+                  "confidence": 0.6
                 }
               ],
               "difficulty": {
@@ -232,8 +227,8 @@
                 "reading_time_minutes": 4
               },
               "learning_outcomes": [
-                "understand the importance of AI alignment research",
-                "recognize the role of independent research in addressing AGI safety risks"
+                "Understand the importance of AI alignment research",
+                "Recognize the role of independent research in addressing AGI safety risks"
               ],
               "strategic_questions": [
                 "How can independent research effectively contribute to global AI safety efforts?",
@@ -261,10 +256,6 @@
                 {
                   "name": "Lockdown Mode",
                   "confidence": 0.9
-                },
-                {
-                  "name": "Elevated Risk labels",
-                  "confidence": 0.85
                 }
               ],
               "prerequisites": [
@@ -279,19 +270,130 @@
                 "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "Understand the concept of prompt injection and its risks",
-                "Learn about AI-driven data exfiltration and its implications",
-                "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+                "understand the concept of prompt injection",
+                "learn about AI-driven data exfiltration risks",
+                "familiarize with Lockdown Mode in ChatGPT"
               ],
               "strategic_questions": [
-                "How can organizations effectively defend against prompt injection attacks?",
-                "What are the potential consequences of AI-driven data exfiltration for businesses?",
-                "How can AI safety features like Lockdown Mode be balanced with user experience?"
+                "How can organizations effectively utilize Lockdown Mode to prevent data exfiltration?",
+                "What are the potential limitations of Lockdown Mode in preventing prompt injection attacks?"
               ]
             }
           }
         ],
         "intermediate": [],
+        "advanced": [],
+        "application": []
+      }
+    },
+    "AI Evaluations & Benchmarking": {
+      "name": "AI Evaluations & Benchmarking",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Introducing EVMbench",
+          "url": "https://openai.com/index/introducing-evmbench",
+          "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Evaluations & Benchmarking",
+            "concepts_taught": [
+              {
+                "name": "EVMbench benchmark",
+                "confidence": 0.9
+              },
+              {
+                "name": "smart contract vulnerability detection",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI agent evaluation for security tasks",
+                "confidence": 0.85
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "basic understanding of smart contracts",
+                "confidence": 0.7
+              },
+              {
+                "name": "familiarity with AI agent concepts",
+                "confidence": 0.6
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand the purpose and functionality of EVMbench",
+              "Learn how AI agents can be evaluated for smart contract security tasks",
+              "Recognize the importance of benchmarking AI agents for security vulnerabilities"
+            ],
+            "strategic_questions": [
+              "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
+              "What are the potential limitations and biases of using a benchmark like EVMbench to evaluate AI agents?",
+              "How might the development of EVMbench impact the future of AI research in the field of smart contract security?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [],
+        "intermediate": [
+          {
+            "title": "Introducing EVMbench",
+            "url": "https://openai.com/index/introducing-evmbench",
+            "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Evaluations & Benchmarking",
+              "concepts_taught": [
+                {
+                  "name": "EVMbench benchmark",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "smart contract vulnerability detection",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI agent evaluation for security tasks",
+                  "confidence": 0.85
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "basic understanding of smart contracts",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "familiarity with AI agent concepts",
+                  "confidence": 0.6
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand the purpose and functionality of EVMbench",
+                "Learn how AI agents can be evaluated for smart contract security tasks",
+                "Recognize the importance of benchmarking AI agents for security vulnerabilities"
+              ],
+              "strategic_questions": [
+                "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
+                "What are the potential limitations and biases of using a benchmark like EVMbench to evaluate AI agents?",
+                "How might the development of EVMbench impact the future of AI research in the field of smart contract security?"
+              ]
+            }
+          }
+        ],
         "advanced": [],
         "application": []
       }
@@ -314,21 +416,21 @@
                 "confidence": 0.8
               },
               {
-                "name": "Application of LLMs in theoretical physics",
+                "name": "Theoretical physics applications of LLMs",
                 "confidence": 0.7
               },
               {
-                "name": "Collaboration between AI models and human researchers",
-                "confidence": 0.6
+                "name": "Collaboration between LLMs and human experts in scientific research",
+                "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
-                "name": "Basic understanding of particle physics",
-                "confidence": 0.9
+                "name": "Basic understanding of Large Language Models (LLMs)",
+                "confidence": 0.85
               },
               {
-                "name": "Familiarity with large language models",
+                "name": "Familiarity with theoretical physics concepts",
                 "confidence": 0.8
               }
             ],
@@ -338,14 +440,14 @@
               "reading_time_minutes": 10
             },
             "learning_outcomes": [
-              "Understand how large language models can contribute to theoretical physics research",
-              "Recognize the potential for AI models to derive new mathematical formulas",
-              "Appreciate the importance of human-AI collaboration in scientific discovery"
+              "Understand how Large Language Models can be applied to theoretical physics research",
+              "Recognize the potential for LLMs to derive new scientific results",
+              "Appreciate the importance of human collaboration in verifying LLM-generated scientific discoveries"
             ],
             "strategic_questions": [
-              "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-              "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
-              "What are the potential applications of large language models in other fields of scientific research?"
+              "What are the implications of LLMs deriving new scientific results for the future of research and discovery?",
+              "How can we ensure the accuracy and validity of scientific results generated by LLMs?",
+              "What are the potential applications of LLMs in other fields of scientific research?"
             ]
           }
         },
@@ -378,19 +480,19 @@
               }
             ],
             "difficulty": {
-              "level": "intermediate",
+              "level": "beginner",
               "technical_depth": 6,
-              "reading_time_minutes": 10
+              "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "Understand how to leverage LLMs for large-scale social science research",
-              "Learn about the potential applications of GABRIEL toolkit",
-              "Comprehend the process of converting qualitative data into quantitative data using LLMs"
+              "Understand how to leverage LLMs for social science research",
+              "Learn about the potential of GABRIEL for scaling research analysis",
+              "Recognize the benefits of converting qualitative data to quantitative data"
             ],
             "strategic_questions": [
-              "How can social scientists effectively utilize LLMs to analyze and interpret large datasets?",
-              "What are the potential limitations and biases of using LLMs in social science research?",
-              "In what ways can the GABRIEL toolkit be extended or modified to support other research domains?"
+              "How can LLMs like GPT enhance the validity of social science research?",
+              "What are the potential limitations of using LLMs for qualitative data analysis?",
+              "How might GABRIEL impact the future of social science research methodologies?"
             ]
           }
         },
@@ -432,7 +534,7 @@
               "Learn about the importance of context window size in language models"
             ],
             "strategic_questions": [
-              "How will real-time coding models impact software development workflows?",
+              "How will real-time coding models change the way we approach software development?",
               "What are the potential applications of large context window sizes in language models?"
             ]
           }
@@ -441,6 +543,51 @@
       "levels": {
         "foundational": [],
         "beginner": [
+          {
+            "title": "Scaling social science research",
+            "url": "https://openai.com/index/scaling-social-science-research",
+            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "concepts_taught": [
+                {
+                  "name": "Using LLMs for qualitative to quantitative data conversion",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "GPT-based text analysis",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Image analysis with LLMs",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Basic understanding of natural language processing",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "beginner",
+                "technical_depth": 6,
+                "reading_time_minutes": 5
+              },
+              "learning_outcomes": [
+                "Understand how to leverage LLMs for social science research",
+                "Learn about the potential of GABRIEL for scaling research analysis",
+                "Recognize the benefits of converting qualitative data to quantitative data"
+              ],
+              "strategic_questions": [
+                "How can LLMs like GPT enhance the validity of social science research?",
+                "What are the potential limitations of using LLMs for qualitative data analysis?",
+                "How might GABRIEL impact the future of social science research methodologies?"
+              ]
+            }
+          },
           {
             "title": "Introducing GPT-5.3-Codex-Spark",
             "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
@@ -479,7 +626,7 @@
                 "Learn about the importance of context window size in language models"
               ],
               "strategic_questions": [
-                "How will real-time coding models impact software development workflows?",
+                "How will real-time coding models change the way we approach software development?",
                 "What are the potential applications of large context window sizes in language models?"
               ]
             }
@@ -500,67 +647,22 @@
                   "confidence": 0.8
                 },
                 {
-                  "name": "Application of LLMs in theoretical physics",
+                  "name": "Theoretical physics applications of LLMs",
                   "confidence": 0.7
                 },
                 {
-                  "name": "Collaboration between AI models and human researchers",
-                  "confidence": 0.6
+                  "name": "Collaboration between LLMs and human experts in scientific research",
+                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "Basic understanding of particle physics",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "Familiarity with large language models",
-                  "confidence": 0.8
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 6,
-                "reading_time_minutes": 10
-              },
-              "learning_outcomes": [
-                "Understand how large language models can contribute to theoretical physics research",
-                "Recognize the potential for AI models to derive new mathematical formulas",
-                "Appreciate the importance of human-AI collaboration in scientific discovery"
-              ],
-              "strategic_questions": [
-                "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-                "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
-                "What are the potential applications of large language models in other fields of scientific research?"
-              ]
-            }
-          },
-          {
-            "title": "Scaling social science research",
-            "url": "https://openai.com/index/scaling-social-science-research",
-            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "Using LLMs for qualitative to quantitative data conversion",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "GPT-based text analysis",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Image analysis with LLMs",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of natural language processing",
+                  "name": "Basic understanding of Large Language Models (LLMs)",
                   "confidence": 0.85
+                },
+                {
+                  "name": "Familiarity with theoretical physics concepts",
+                  "confidence": 0.8
                 }
               ],
               "difficulty": {
@@ -569,14 +671,14 @@
                 "reading_time_minutes": 10
               },
               "learning_outcomes": [
-                "Understand how to leverage LLMs for large-scale social science research",
-                "Learn about the potential applications of GABRIEL toolkit",
-                "Comprehend the process of converting qualitative data into quantitative data using LLMs"
+                "Understand how Large Language Models can be applied to theoretical physics research",
+                "Recognize the potential for LLMs to derive new scientific results",
+                "Appreciate the importance of human collaboration in verifying LLM-generated scientific discoveries"
               ],
               "strategic_questions": [
-                "How can social scientists effectively utilize LLMs to analyze and interpret large datasets?",
-                "What are the potential limitations and biases of using LLMs in social science research?",
-                "In what ways can the GABRIEL toolkit be extended or modified to support other research domains?"
+                "What are the implications of LLMs deriving new scientific results for the future of research and discovery?",
+                "How can we ensure the accuracy and validity of scientific results generated by LLMs?",
+                "What are the potential applications of LLMs in other fields of scientific research?"
               ]
             }
           }
@@ -611,13 +713,13 @@
                 "confidence": 0.9
               },
               {
-                "name": "scalable access systems",
+                "name": "real-time access systems",
                 "confidence": 0.85
               }
             ],
             "prerequisites": [
               {
-                "name": "basic understanding of API design",
+                "name": "basic understanding of API access control",
                 "confidence": 0.6
               }
             ],
@@ -628,13 +730,13 @@
             },
             "learning_outcomes": [
               "Understand how to design a scalable access system for AI models",
-              "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-              "Grasp the importance of real-time access systems for AI infrastructure"
+              "Learn how to implement rate limiting and usage tracking for AI APIs",
+              "Comprehend the importance of credit-based access systems for continuous model access"
             ],
             "strategic_questions": [
-              "How can scalable access systems impact the adoption of AI models in industries?",
-              "What are the potential security implications of implementing credit-based access systems?",
-              "How can real-time access systems be optimized for low-latency and high-throughput applications?"
+              "How can AI infrastructure be designed to balance access with resource constraints?",
+              "What are the implications of scalable access systems on the development of AI applications?",
+              "How can credit-based access systems be optimized for fairness and efficiency?"
             ]
           }
         }
@@ -665,13 +767,13 @@
                   "confidence": 0.9
                 },
                 {
-                  "name": "scalable access systems",
+                  "name": "real-time access systems",
                   "confidence": 0.85
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "basic understanding of API design",
+                  "name": "basic understanding of API access control",
                   "confidence": 0.6
                 }
               ],
@@ -682,13 +784,13 @@
               },
               "learning_outcomes": [
                 "Understand how to design a scalable access system for AI models",
-                "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-                "Grasp the importance of real-time access systems for AI infrastructure"
+                "Learn how to implement rate limiting and usage tracking for AI APIs",
+                "Comprehend the importance of credit-based access systems for continuous model access"
               ],
               "strategic_questions": [
-                "How can scalable access systems impact the adoption of AI models in industries?",
-                "What are the potential security implications of implementing credit-based access systems?",
-                "How can real-time access systems be optimized for low-latency and high-throughput applications?"
+                "How can AI infrastructure be designed to balance access with resource constraints?",
+                "What are the implications of scalable access systems on the development of AI applications?",
+                "How can credit-based access systems be optimized for fairness and efficiency?"
               ]
             }
           }
@@ -717,13 +819,13 @@
             "confidence": 0.7
           },
           {
-            "name": "math challenge problems",
+            "name": "math challenge evaluation",
             "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "artificial intelligence basics",
+            "name": "AI model basics",
             "confidence": 0.9
           }
         ],
@@ -735,12 +837,12 @@
         "learning_outcomes": [
           "Understand how AI models can be applied to research-grade reasoning",
           "Recognize the challenges of expert-level problem solving in math",
-          "Learn about the First Proof math challenge"
+          "Learn about the First Proof math challenge and its significance"
         ],
         "strategic_questions": [
           "How can AI models be improved to tackle complex math problems?",
           "What are the implications of AI models achieving research-grade reasoning capabilities?",
-          "How can AI-powered reasoning systems be applied to real-world problems?"
+          "How can the results of the First Proof math challenge be used to advance AI research?"
         ]
       }
     },
@@ -759,13 +861,13 @@
           },
           {
             "name": "AI alignment research",
-            "confidence": 0.9
+            "confidence": 0.7
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI risks",
-            "confidence": 0.7
+            "confidence": 0.6
           }
         ],
         "difficulty": {
@@ -774,12 +876,61 @@
           "reading_time_minutes": 4
         },
         "learning_outcomes": [
-          "understand the importance of AI alignment research",
-          "recognize the role of independent research in addressing AGI safety risks"
+          "Understand the importance of AI alignment research",
+          "Recognize the role of independent research in addressing AGI safety risks"
         ],
         "strategic_questions": [
           "How can independent research effectively contribute to global AI safety efforts?",
           "What are the potential implications of increased funding for AI alignment research?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Evaluations & Benchmarking",
+        "concepts_taught": [
+          {
+            "name": "EVMbench benchmark",
+            "confidence": 0.9
+          },
+          {
+            "name": "smart contract vulnerability detection",
+            "confidence": 0.8
+          },
+          {
+            "name": "AI agent evaluation for security tasks",
+            "confidence": 0.85
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of smart contracts",
+            "confidence": 0.7
+          },
+          {
+            "name": "familiarity with AI agent concepts",
+            "confidence": 0.6
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand the purpose and functionality of EVMbench",
+          "Learn how AI agents can be evaluated for smart contract security tasks",
+          "Recognize the importance of benchmarking AI agents for security vulnerabilities"
+        ],
+        "strategic_questions": [
+          "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
+          "What are the potential limitations and biases of using a benchmark like EVMbench to evaluate AI agents?",
+          "How might the development of EVMbench impact the future of AI research in the field of smart contract security?"
         ]
       }
     },
@@ -797,21 +948,21 @@
             "confidence": 0.8
           },
           {
-            "name": "Application of LLMs in theoretical physics",
+            "name": "Theoretical physics applications of LLMs",
             "confidence": 0.7
           },
           {
-            "name": "Collaboration between AI models and human researchers",
-            "confidence": 0.6
+            "name": "Collaboration between LLMs and human experts in scientific research",
+            "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
-            "name": "Basic understanding of particle physics",
-            "confidence": 0.9
+            "name": "Basic understanding of Large Language Models (LLMs)",
+            "confidence": 0.85
           },
           {
-            "name": "Familiarity with large language models",
+            "name": "Familiarity with theoretical physics concepts",
             "confidence": 0.8
           }
         ],
@@ -821,14 +972,14 @@
           "reading_time_minutes": 10
         },
         "learning_outcomes": [
-          "Understand how large language models can contribute to theoretical physics research",
-          "Recognize the potential for AI models to derive new mathematical formulas",
-          "Appreciate the importance of human-AI collaboration in scientific discovery"
+          "Understand how Large Language Models can be applied to theoretical physics research",
+          "Recognize the potential for LLMs to derive new scientific results",
+          "Appreciate the importance of human collaboration in verifying LLM-generated scientific discoveries"
         ],
         "strategic_questions": [
-          "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-          "How can we ensure the accuracy and validity of results obtained through AI-assisted research?",
-          "What are the potential applications of large language models in other fields of scientific research?"
+          "What are the implications of LLMs deriving new scientific results for the future of research and discovery?",
+          "How can we ensure the accuracy and validity of scientific results generated by LLMs?",
+          "What are the potential applications of LLMs in other fields of scientific research?"
         ]
       }
     },
@@ -852,10 +1003,6 @@
           {
             "name": "Lockdown Mode",
             "confidence": 0.9
-          },
-          {
-            "name": "Elevated Risk labels",
-            "confidence": 0.85
           }
         ],
         "prerequisites": [
@@ -870,14 +1017,62 @@
           "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand the concept of prompt injection and its risks",
-          "Learn about AI-driven data exfiltration and its implications",
-          "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
+          "understand the concept of prompt injection",
+          "learn about AI-driven data exfiltration risks",
+          "familiarize with Lockdown Mode in ChatGPT"
         ],
         "strategic_questions": [
-          "How can organizations effectively defend against prompt injection attacks?",
-          "What are the potential consequences of AI-driven data exfiltration for businesses?",
-          "How can AI safety features like Lockdown Mode be balanced with user experience?"
+          "How can organizations effectively utilize Lockdown Mode to prevent data exfiltration?",
+          "What are the potential limitations of Lockdown Mode in preventing prompt injection attacks?"
+        ]
+      }
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "url": "https://openai.com/index/beyond-rate-limits",
+      "published": "Fri, 13 Feb 2026 09:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "concepts_taught": [
+          {
+            "name": "rate limiting",
+            "confidence": 0.8
+          },
+          {
+            "name": "usage tracking",
+            "confidence": 0.7
+          },
+          {
+            "name": "credit-based access systems",
+            "confidence": 0.9
+          },
+          {
+            "name": "real-time access systems",
+            "confidence": 0.85
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "basic understanding of API access control",
+            "confidence": 0.6
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand how to design a scalable access system for AI models",
+          "Learn how to implement rate limiting and usage tracking for AI APIs",
+          "Comprehend the importance of credit-based access systems for continuous model access"
+        ],
+        "strategic_questions": [
+          "How can AI infrastructure be designed to balance access with resource constraints?",
+          "What are the implications of scalable access systems on the development of AI applications?",
+          "How can credit-based access systems be optimized for fairness and efficiency?"
         ]
       }
     },
@@ -910,68 +1105,19 @@
           }
         ],
         "difficulty": {
-          "level": "intermediate",
+          "level": "beginner",
           "technical_depth": 6,
-          "reading_time_minutes": 10
+          "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand how to leverage LLMs for large-scale social science research",
-          "Learn about the potential applications of GABRIEL toolkit",
-          "Comprehend the process of converting qualitative data into quantitative data using LLMs"
+          "Understand how to leverage LLMs for social science research",
+          "Learn about the potential of GABRIEL for scaling research analysis",
+          "Recognize the benefits of converting qualitative data to quantitative data"
         ],
         "strategic_questions": [
-          "How can social scientists effectively utilize LLMs to analyze and interpret large datasets?",
-          "What are the potential limitations and biases of using LLMs in social science research?",
-          "In what ways can the GABRIEL toolkit be extended or modified to support other research domains?"
-        ]
-      }
-    },
-    {
-      "title": "Beyond rate limits: scaling access to Codex and Sora",
-      "url": "https://openai.com/index/beyond-rate-limits",
-      "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "AI Infrastructure & Tooling",
-        "concepts_taught": [
-          {
-            "name": "rate limiting",
-            "confidence": 0.8
-          },
-          {
-            "name": "usage tracking",
-            "confidence": 0.7
-          },
-          {
-            "name": "credit-based access systems",
-            "confidence": 0.9
-          },
-          {
-            "name": "scalable access systems",
-            "confidence": 0.85
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "basic understanding of API design",
-            "confidence": 0.6
-          }
-        ],
-        "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 6,
-          "reading_time_minutes": 10
-        },
-        "learning_outcomes": [
-          "Understand how to design a scalable access system for AI models",
-          "Learn how to combine rate limits, usage tracking, and credits for continuous access",
-          "Grasp the importance of real-time access systems for AI infrastructure"
-        ],
-        "strategic_questions": [
-          "How can scalable access systems impact the adoption of AI models in industries?",
-          "What are the potential security implications of implementing credit-based access systems?",
-          "How can real-time access systems be optimized for low-latency and high-throughput applications?"
+          "How can LLMs like GPT enhance the validity of social science research?",
+          "What are the potential limitations of using LLMs for qualitative data analysis?",
+          "How might GABRIEL impact the future of social science research methodologies?"
         ]
       }
     },
@@ -1013,7 +1159,7 @@
           "Learn about the importance of context window size in language models"
         ],
         "strategic_questions": [
-          "How will real-time coding models impact software development workflows?",
+          "How will real-time coding models change the way we approach software development?",
           "What are the potential applications of large context window sizes in language models?"
         ]
       }
