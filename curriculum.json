@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-25T09:52:06.815107Z",
-  "total_articles": 7,
+  "generated_at": "2026-02-26T09:45:14.659751Z",
+  "total_articles": 6,
   "topics": {
     "AI Evaluations & Benchmarking": {
       "name": "AI Evaluations & Benchmarking",
@@ -24,30 +24,30 @@
                 "confidence": 0.8
               },
               {
-                "name": "evaluation metrics for coding progress",
+                "name": "flawed test design",
                 "confidence": 0.7
               }
             ],
             "prerequisites": [
               {
-                "name": "basics of AI benchmarking",
+                "name": "machine learning benchmarking",
                 "confidence": 0.6
               }
             ],
             "difficulty": {
               "level": "intermediate",
               "technical_depth": 6,
-              "reading_time_minutes": 10
+              "reading_time_minutes": 5
             },
             "learning_outcomes": [
               "Understand the limitations of SWE-bench Verified",
-              "Learn about the importance of reliable benchmarking in AI",
-              "Recognize the potential consequences of flawed evaluation metrics"
+              "Recognize the importance of reliable benchmarking in AI evaluations",
+              "Learn about alternative benchmarking options like SWE-bench Pro"
             ],
             "strategic_questions": [
-              "How can we ensure the integrity of AI benchmarks in the future?",
-              "What are the potential consequences of using contaminated benchmarks in AI development?",
-              "How can we balance the need for reliable evaluation metrics with the rapid progress of AI research?"
+              "What are the implications of flawed benchmarking on AI research and development?",
+              "How can we ensure the integrity and reliability of AI benchmarks?",
+              "What are the potential consequences of using contaminated benchmarks in AI evaluations?"
             ]
           }
         },
@@ -92,7 +92,7 @@
             "strategic_questions": [
               "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
               "What are the potential limitations and biases of using EVMbench to evaluate AI agents?",
-              "How might EVMbench impact the development of more secure and reliable smart contracts?"
+              "How can the results of EVMbench be used to inform the development of more secure and reliable AI-powered security tools?"
             ]
           }
         }
@@ -119,30 +119,30 @@
                   "confidence": 0.8
                 },
                 {
-                  "name": "evaluation metrics for coding progress",
+                  "name": "flawed test design",
                   "confidence": 0.7
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "basics of AI benchmarking",
+                  "name": "machine learning benchmarking",
                   "confidence": 0.6
                 }
               ],
               "difficulty": {
                 "level": "intermediate",
                 "technical_depth": 6,
-                "reading_time_minutes": 10
+                "reading_time_minutes": 5
               },
               "learning_outcomes": [
                 "Understand the limitations of SWE-bench Verified",
-                "Learn about the importance of reliable benchmarking in AI",
-                "Recognize the potential consequences of flawed evaluation metrics"
+                "Recognize the importance of reliable benchmarking in AI evaluations",
+                "Learn about alternative benchmarking options like SWE-bench Pro"
               ],
               "strategic_questions": [
-                "How can we ensure the integrity of AI benchmarks in the future?",
-                "What are the potential consequences of using contaminated benchmarks in AI development?",
-                "How can we balance the need for reliable evaluation metrics with the rapid progress of AI research?"
+                "What are the implications of flawed benchmarking on AI research and development?",
+                "How can we ensure the integrity and reliability of AI benchmarks?",
+                "What are the potential consequences of using contaminated benchmarks in AI evaluations?"
               ]
             }
           },
@@ -187,7 +187,7 @@
               "strategic_questions": [
                 "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
                 "What are the potential limitations and biases of using EVMbench to evaluate AI agents?",
-                "How might EVMbench impact the development of more secure and reliable smart contracts?"
+                "How can the results of EVMbench be used to inform the development of more secure and reliable AI-powered security tools?"
               ]
             }
           }
@@ -218,13 +218,13 @@
                 "confidence": 0.7
               },
               {
-                "name": "math challenge evaluation",
+                "name": "math challenge problems",
                 "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "artificial intelligence basics",
+                "name": "AI model basics",
                 "confidence": 0.9
               }
             ],
@@ -234,14 +234,14 @@
               "reading_time_minutes": 10
             },
             "learning_outcomes": [
-              "Understand how AI models approach research-grade reasoning",
-              "Learn about expert-level problem solving in math challenges",
-              "Recognize the importance of evaluation in AI model development"
+              "Understand how AI models can be applied to research-grade reasoning",
+              "Recognize the challenges of expert-level problem solving in math",
+              "Learn about the First Proof math challenge"
             ],
             "strategic_questions": [
-              "How can AI models be improved to tackle complex math challenges?",
+              "How can AI models be improved to tackle complex math problems?",
               "What are the implications of AI models achieving research-grade reasoning capabilities?",
-              "How can we effectively evaluate AI model performance on expert-level problems?"
+              "How can AI-assisted reasoning be applied to real-world problems?"
             ]
           }
         }
@@ -268,13 +268,13 @@
                   "confidence": 0.7
                 },
                 {
-                  "name": "math challenge evaluation",
+                  "name": "math challenge problems",
                   "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "artificial intelligence basics",
+                  "name": "AI model basics",
                   "confidence": 0.9
                 }
               ],
@@ -284,14 +284,14 @@
                 "reading_time_minutes": 10
               },
               "learning_outcomes": [
-                "Understand how AI models approach research-grade reasoning",
-                "Learn about expert-level problem solving in math challenges",
-                "Recognize the importance of evaluation in AI model development"
+                "Understand how AI models can be applied to research-grade reasoning",
+                "Recognize the challenges of expert-level problem solving in math",
+                "Learn about the First Proof math challenge"
               ],
               "strategic_questions": [
-                "How can AI models be improved to tackle complex math challenges?",
+                "How can AI models be improved to tackle complex math problems?",
                 "What are the implications of AI models achieving research-grade reasoning capabilities?",
-                "How can we effectively evaluate AI model performance on expert-level problems?"
+                "How can AI-assisted reasoning be applied to real-world problems?"
               ]
             }
           }
@@ -319,13 +319,13 @@
               },
               {
                 "name": "AI alignment research",
-                "confidence": 0.7
+                "confidence": 0.9
               }
             ],
             "prerequisites": [
               {
                 "name": "basic understanding of AI risks",
-                "confidence": 0.6
+                "confidence": 0.7
               }
             ],
             "difficulty": {
@@ -338,7 +338,7 @@
               "recognize the role of independent research in addressing AGI safety risks"
             ],
             "strategic_questions": [
-              "How can independent research effectively contribute to global AI safety efforts?",
+              "How can independent research effectively contribute to global AI alignment efforts?",
               "What are the potential implications of increased funding for AI alignment research?"
             ]
           }
@@ -354,19 +354,15 @@
             "concepts_taught": [
               {
                 "name": "prompt injection",
-                "confidence": 0.8
-              },
-              {
-                "name": "AI-driven data exfiltration",
-                "confidence": 0.7
-              },
-              {
-                "name": "Lockdown Mode",
                 "confidence": 0.9
               },
               {
-                "name": "Elevated Risk labels",
-                "confidence": 0.85
+                "name": "AI-driven data exfiltration",
+                "confidence": 0.8
+              },
+              {
+                "name": "Lockdown Mode",
+                "confidence": 0.7
               }
             ],
             "prerequisites": [
@@ -387,8 +383,7 @@
             ],
             "strategic_questions": [
               "How can organizations effectively defend against AI-driven security threats?",
-              "What are the potential consequences of not addressing prompt injection and data exfiltration risks?",
-              "How can Lockdown Mode and Elevated Risk labels be used to improve AI safety in real-world applications?"
+              "What are the potential consequences of not addressing prompt injection and data exfiltration risks?"
             ]
           }
         }
@@ -411,13 +406,13 @@
                 },
                 {
                   "name": "AI alignment research",
-                  "confidence": 0.7
+                  "confidence": 0.9
                 }
               ],
               "prerequisites": [
                 {
                   "name": "basic understanding of AI risks",
-                  "confidence": 0.6
+                  "confidence": 0.7
                 }
               ],
               "difficulty": {
@@ -430,7 +425,7 @@
                 "recognize the role of independent research in addressing AGI safety risks"
               ],
               "strategic_questions": [
-                "How can independent research effectively contribute to global AI safety efforts?",
+                "How can independent research effectively contribute to global AI alignment efforts?",
                 "What are the potential implications of increased funding for AI alignment research?"
               ]
             }
@@ -446,19 +441,15 @@
               "concepts_taught": [
                 {
                   "name": "prompt injection",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "AI-driven data exfiltration",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "Lockdown Mode",
                   "confidence": 0.9
                 },
                 {
-                  "name": "Elevated Risk labels",
-                  "confidence": 0.85
+                  "name": "AI-driven data exfiltration",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Lockdown Mode",
+                  "confidence": 0.7
                 }
               ],
               "prerequisites": [
@@ -479,8 +470,7 @@
               ],
               "strategic_questions": [
                 "How can organizations effectively defend against AI-driven security threats?",
-                "What are the potential consequences of not addressing prompt injection and data exfiltration risks?",
-                "How can Lockdown Mode and Elevated Risk labels be used to improve AI safety in real-world applications?"
+                "What are the potential consequences of not addressing prompt injection and data exfiltration risks?"
               ]
             }
           }
@@ -492,7 +482,7 @@
     },
     "Large Language Models": {
       "name": "Large Language Models",
-      "article_count": 2,
+      "article_count": 1,
       "articles": [
         {
           "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -504,22 +494,22 @@
             "topic": "Large Language Models",
             "concepts_taught": [
               {
-                "name": "Gluon amplitude formula derivation",
+                "name": "Gluon amplitude",
                 "confidence": 0.8
               },
               {
-                "name": "Application of large language models in theoretical physics",
-                "confidence": 0.9
+                "name": "Theoretical physics applications of LLMs",
+                "confidence": 0.7
               },
               {
-                "name": "Collaboration between AI models and human researchers in physics",
-                "confidence": 0.85
+                "name": "Collaborative verification of AI-derived results",
+                "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "Basic understanding of theoretical physics",
-                "confidence": 0.7
+                "name": "Basic understanding of particle physics",
+                "confidence": 0.9
               },
               {
                 "name": "Familiarity with large language models",
@@ -528,116 +518,25 @@
             ],
             "difficulty": {
               "level": "intermediate",
-              "technical_depth": 6,
+              "technical_depth": 7,
               "reading_time_minutes": 10
             },
             "learning_outcomes": [
               "Understand how large language models can contribute to theoretical physics research",
-              "Recognize the potential for AI models to derive new formulas and results in complex domains",
-              "Appreciate the importance of human-AI collaboration in advancing scientific knowledge"
+              "Recognize the importance of human verification of AI-derived results in scientific fields",
+              "Appreciate the potential for LLMs to accelerate scientific discovery"
             ],
             "strategic_questions": [
-              "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-              "How can we ensure the accuracy and validity of results derived by large language models in complex domains?",
-              "What are the potential applications of large language models in other areas of scientific research?"
-            ]
-          }
-        },
-        {
-          "title": "Scaling social science research",
-          "url": "https://openai.com/index/scaling-social-science-research",
-          "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "Large Language Models",
-            "concepts_taught": [
-              {
-                "name": "GPT-based text analysis",
-                "confidence": 0.9
-              },
-              {
-                "name": "Qualitative to quantitative data conversion",
-                "confidence": 0.8
-              },
-              {
-                "name": "Open-source toolkit integration",
-                "confidence": 0.7
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "Basic understanding of natural language processing",
-                "confidence": 0.6
-              }
-            ],
-            "difficulty": {
-              "level": "beginner",
-              "technical_depth": 5,
-              "reading_time_minutes": 6
-            },
-            "learning_outcomes": [
-              "Understand how GPT can be used for text analysis in social science research",
-              "Learn about the potential of qualitative to quantitative data conversion",
-              "Familiarize with the concept of open-source toolkits for research"
-            ],
-            "strategic_questions": [
-              "How can GABRIEL be used to improve the efficiency of social science research?",
-              "What are the potential limitations of using GPT for qualitative data analysis?",
-              "How can open-source toolkits like GABRIEL facilitate collaboration in research communities?"
+              "What are the implications of AI systems deriving new scientific results, and how should these be evaluated and verified?",
+              "How can we ensure that the use of LLMs in scientific research is transparent, reproducible, and reliable?",
+              "What are the potential risks and limitations of relying on LLMs for scientific discovery, and how can these be mitigated?"
             ]
           }
         }
       ],
       "levels": {
         "foundational": [],
-        "beginner": [
-          {
-            "title": "Scaling social science research",
-            "url": "https://openai.com/index/scaling-social-science-research",
-            "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "GPT-based text analysis",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "Qualitative to quantitative data conversion",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Open-source toolkit integration",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of natural language processing",
-                  "confidence": 0.6
-                }
-              ],
-              "difficulty": {
-                "level": "beginner",
-                "technical_depth": 5,
-                "reading_time_minutes": 6
-              },
-              "learning_outcomes": [
-                "Understand how GPT can be used for text analysis in social science research",
-                "Learn about the potential of qualitative to quantitative data conversion",
-                "Familiarize with the concept of open-source toolkits for research"
-              ],
-              "strategic_questions": [
-                "How can GABRIEL be used to improve the efficiency of social science research?",
-                "What are the potential limitations of using GPT for qualitative data analysis?",
-                "How can open-source toolkits like GABRIEL facilitate collaboration in research communities?"
-              ]
-            }
-          }
-        ],
+        "beginner": [],
         "intermediate": [
           {
             "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -649,22 +548,22 @@
               "topic": "Large Language Models",
               "concepts_taught": [
                 {
-                  "name": "Gluon amplitude formula derivation",
+                  "name": "Gluon amplitude",
                   "confidence": 0.8
                 },
                 {
-                  "name": "Application of large language models in theoretical physics",
-                  "confidence": 0.9
+                  "name": "Theoretical physics applications of LLMs",
+                  "confidence": 0.7
                 },
                 {
-                  "name": "Collaboration between AI models and human researchers in physics",
-                  "confidence": 0.85
+                  "name": "Collaborative verification of AI-derived results",
+                  "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "Basic understanding of theoretical physics",
-                  "confidence": 0.7
+                  "name": "Basic understanding of particle physics",
+                  "confidence": 0.9
                 },
                 {
                   "name": "Familiarity with large language models",
@@ -673,18 +572,18 @@
               ],
               "difficulty": {
                 "level": "intermediate",
-                "technical_depth": 6,
+                "technical_depth": 7,
                 "reading_time_minutes": 10
               },
               "learning_outcomes": [
                 "Understand how large language models can contribute to theoretical physics research",
-                "Recognize the potential for AI models to derive new formulas and results in complex domains",
-                "Appreciate the importance of human-AI collaboration in advancing scientific knowledge"
+                "Recognize the importance of human verification of AI-derived results in scientific fields",
+                "Appreciate the potential for LLMs to accelerate scientific discovery"
               ],
               "strategic_questions": [
-                "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-                "How can we ensure the accuracy and validity of results derived by large language models in complex domains?",
-                "What are the potential applications of large language models in other areas of scientific research?"
+                "What are the implications of AI systems deriving new scientific results, and how should these be evaluated and verified?",
+                "How can we ensure that the use of LLMs in scientific research is transparent, reproducible, and reliable?",
+                "What are the potential risks and limitations of relying on LLMs for scientific discovery, and how can these be mitigated?"
               ]
             }
           }
@@ -713,30 +612,30 @@
             "confidence": 0.8
           },
           {
-            "name": "evaluation metrics for coding progress",
+            "name": "flawed test design",
             "confidence": 0.7
           }
         ],
         "prerequisites": [
           {
-            "name": "basics of AI benchmarking",
+            "name": "machine learning benchmarking",
             "confidence": 0.6
           }
         ],
         "difficulty": {
           "level": "intermediate",
           "technical_depth": 6,
-          "reading_time_minutes": 10
+          "reading_time_minutes": 5
         },
         "learning_outcomes": [
           "Understand the limitations of SWE-bench Verified",
-          "Learn about the importance of reliable benchmarking in AI",
-          "Recognize the potential consequences of flawed evaluation metrics"
+          "Recognize the importance of reliable benchmarking in AI evaluations",
+          "Learn about alternative benchmarking options like SWE-bench Pro"
         ],
         "strategic_questions": [
-          "How can we ensure the integrity of AI benchmarks in the future?",
-          "What are the potential consequences of using contaminated benchmarks in AI development?",
-          "How can we balance the need for reliable evaluation metrics with the rapid progress of AI research?"
+          "What are the implications of flawed benchmarking on AI research and development?",
+          "How can we ensure the integrity and reliability of AI benchmarks?",
+          "What are the potential consequences of using contaminated benchmarks in AI evaluations?"
         ]
       }
     },
@@ -758,13 +657,13 @@
             "confidence": 0.7
           },
           {
-            "name": "math challenge evaluation",
+            "name": "math challenge problems",
             "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "artificial intelligence basics",
+            "name": "AI model basics",
             "confidence": 0.9
           }
         ],
@@ -774,14 +673,14 @@
           "reading_time_minutes": 10
         },
         "learning_outcomes": [
-          "Understand how AI models approach research-grade reasoning",
-          "Learn about expert-level problem solving in math challenges",
-          "Recognize the importance of evaluation in AI model development"
+          "Understand how AI models can be applied to research-grade reasoning",
+          "Recognize the challenges of expert-level problem solving in math",
+          "Learn about the First Proof math challenge"
         ],
         "strategic_questions": [
-          "How can AI models be improved to tackle complex math challenges?",
+          "How can AI models be improved to tackle complex math problems?",
           "What are the implications of AI models achieving research-grade reasoning capabilities?",
-          "How can we effectively evaluate AI model performance on expert-level problems?"
+          "How can AI-assisted reasoning be applied to real-world problems?"
         ]
       }
     },
@@ -800,13 +699,13 @@
           },
           {
             "name": "AI alignment research",
-            "confidence": 0.7
+            "confidence": 0.9
           }
         ],
         "prerequisites": [
           {
             "name": "basic understanding of AI risks",
-            "confidence": 0.6
+            "confidence": 0.7
           }
         ],
         "difficulty": {
@@ -819,7 +718,7 @@
           "recognize the role of independent research in addressing AGI safety risks"
         ],
         "strategic_questions": [
-          "How can independent research effectively contribute to global AI safety efforts?",
+          "How can independent research effectively contribute to global AI alignment efforts?",
           "What are the potential implications of increased funding for AI alignment research?"
         ]
       }
@@ -865,7 +764,7 @@
         "strategic_questions": [
           "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
           "What are the potential limitations and biases of using EVMbench to evaluate AI agents?",
-          "How might EVMbench impact the development of more secure and reliable smart contracts?"
+          "How can the results of EVMbench be used to inform the development of more secure and reliable AI-powered security tools?"
         ]
       }
     },
@@ -879,22 +778,22 @@
         "topic": "Large Language Models",
         "concepts_taught": [
           {
-            "name": "Gluon amplitude formula derivation",
+            "name": "Gluon amplitude",
             "confidence": 0.8
           },
           {
-            "name": "Application of large language models in theoretical physics",
-            "confidence": 0.9
+            "name": "Theoretical physics applications of LLMs",
+            "confidence": 0.7
           },
           {
-            "name": "Collaboration between AI models and human researchers in physics",
-            "confidence": 0.85
+            "name": "Collaborative verification of AI-derived results",
+            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "Basic understanding of theoretical physics",
-            "confidence": 0.7
+            "name": "Basic understanding of particle physics",
+            "confidence": 0.9
           },
           {
             "name": "Familiarity with large language models",
@@ -903,18 +802,18 @@
         ],
         "difficulty": {
           "level": "intermediate",
-          "technical_depth": 6,
+          "technical_depth": 7,
           "reading_time_minutes": 10
         },
         "learning_outcomes": [
           "Understand how large language models can contribute to theoretical physics research",
-          "Recognize the potential for AI models to derive new formulas and results in complex domains",
-          "Appreciate the importance of human-AI collaboration in advancing scientific knowledge"
+          "Recognize the importance of human verification of AI-derived results in scientific fields",
+          "Appreciate the potential for LLMs to accelerate scientific discovery"
         ],
         "strategic_questions": [
-          "What are the implications of AI models deriving new results in theoretical physics for the scientific community?",
-          "How can we ensure the accuracy and validity of results derived by large language models in complex domains?",
-          "What are the potential applications of large language models in other areas of scientific research?"
+          "What are the implications of AI systems deriving new scientific results, and how should these be evaluated and verified?",
+          "How can we ensure that the use of LLMs in scientific research is transparent, reproducible, and reliable?",
+          "What are the potential risks and limitations of relying on LLMs for scientific discovery, and how can these be mitigated?"
         ]
       }
     },
@@ -929,19 +828,15 @@
         "concepts_taught": [
           {
             "name": "prompt injection",
-            "confidence": 0.8
-          },
-          {
-            "name": "AI-driven data exfiltration",
-            "confidence": 0.7
-          },
-          {
-            "name": "Lockdown Mode",
             "confidence": 0.9
           },
           {
-            "name": "Elevated Risk labels",
-            "confidence": 0.85
+            "name": "AI-driven data exfiltration",
+            "confidence": 0.8
+          },
+          {
+            "name": "Lockdown Mode",
+            "confidence": 0.7
           }
         ],
         "prerequisites": [
@@ -962,53 +857,7 @@
         ],
         "strategic_questions": [
           "How can organizations effectively defend against AI-driven security threats?",
-          "What are the potential consequences of not addressing prompt injection and data exfiltration risks?",
-          "How can Lockdown Mode and Elevated Risk labels be used to improve AI safety in real-world applications?"
-        ]
-      }
-    },
-    {
-      "title": "Scaling social science research",
-      "url": "https://openai.com/index/scaling-social-science-research",
-      "published": "Fri, 13 Feb 2026 09:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "Large Language Models",
-        "concepts_taught": [
-          {
-            "name": "GPT-based text analysis",
-            "confidence": 0.9
-          },
-          {
-            "name": "Qualitative to quantitative data conversion",
-            "confidence": 0.8
-          },
-          {
-            "name": "Open-source toolkit integration",
-            "confidence": 0.7
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "Basic understanding of natural language processing",
-            "confidence": 0.6
-          }
-        ],
-        "difficulty": {
-          "level": "beginner",
-          "technical_depth": 5,
-          "reading_time_minutes": 6
-        },
-        "learning_outcomes": [
-          "Understand how GPT can be used for text analysis in social science research",
-          "Learn about the potential of qualitative to quantitative data conversion",
-          "Familiarize with the concept of open-source toolkits for research"
-        ],
-        "strategic_questions": [
-          "How can GABRIEL be used to improve the efficiency of social science research?",
-          "What are the potential limitations of using GPT for qualitative data analysis?",
-          "How can open-source toolkits like GABRIEL facilitate collaboration in research communities?"
+          "What are the potential consequences of not addressing prompt injection and data exfiltration risks?"
         ]
       }
     }
