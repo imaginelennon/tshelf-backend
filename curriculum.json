@@ -1,11 +1,56 @@
 {
-  "generated_at": "2026-02-26T09:45:14.659751Z",
-  "total_articles": 6,
+  "generated_at": "2026-02-27T09:38:05.012547Z",
+  "total_articles": 5,
   "topics": {
     "AI Evaluations & Benchmarking": {
       "name": "AI Evaluations & Benchmarking",
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
+        {
+          "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+          "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+          "published": "Thu, 26 Feb 2026 10:00:00 GMT",
+          "source": "OpenAI News",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Evaluations & Benchmarking",
+            "concepts_taught": [
+              {
+                "name": "DraftNEPABench benchmark",
+                "confidence": 0.9
+              },
+              {
+                "name": "NEPA drafting process",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI coding agents for permitting",
+                "confidence": 0.85
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "Federal permitting process",
+                "confidence": 0.7
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 6,
+              "reading_time_minutes": 10
+            },
+            "learning_outcomes": [
+              "Understand the potential of AI coding agents to accelerate federal permitting",
+              "Learn about the DraftNEPABench benchmark and its evaluation criteria",
+              "Recognize the potential benefits of modernizing infrastructure reviews with AI"
+            ],
+            "strategic_questions": [
+              "How can AI coding agents be effectively integrated into existing federal permitting workflows?",
+              "What are the potential risks and limitations of relying on AI for infrastructure reviews?",
+              "How can the DraftNEPABench benchmark be used to drive further innovation in AI-powered permitting?"
+            ]
+          }
+        },
         {
           "title": "Why we no longer evaluate SWE-bench Verified",
           "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -30,24 +75,24 @@
             ],
             "prerequisites": [
               {
-                "name": "machine learning benchmarking",
-                "confidence": 0.6
+                "name": "understanding of AI benchmarking",
+                "confidence": 0.85
               }
             ],
             "difficulty": {
               "level": "intermediate",
               "technical_depth": 6,
-              "reading_time_minutes": 5
+              "reading_time_minutes": 10
             },
             "learning_outcomes": [
               "Understand the limitations of SWE-bench Verified",
-              "Recognize the importance of reliable benchmarking in AI evaluations",
-              "Learn about alternative benchmarking options like SWE-bench Pro"
+              "Recognize the importance of reliable benchmarking in AI",
+              "Learn about potential issues with test design and training data"
             ],
             "strategic_questions": [
-              "What are the implications of flawed benchmarking on AI research and development?",
-              "How can we ensure the integrity and reliability of AI benchmarks?",
-              "What are the potential consequences of using contaminated benchmarks in AI evaluations?"
+              "What are the implications of flawed benchmarks on AI progress?",
+              "How can we ensure the reliability and validity of AI benchmarks?",
+              "What are the potential consequences of using contaminated benchmarks?"
             ]
           }
         },
@@ -69,14 +114,14 @@
                 "confidence": 0.8
               },
               {
-                "name": "AI agent evaluation for security tasks",
-                "confidence": 0.7
+                "name": "AI agent evaluation",
+                "confidence": 0.85
               }
             ],
             "prerequisites": [
               {
                 "name": "smart contract basics",
-                "confidence": 0.6
+                "confidence": 0.7
               }
             ],
             "difficulty": {
@@ -85,14 +130,14 @@
               "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "Understand the purpose and functionality of EVMbench",
-              "Learn how AI agents can be evaluated for smart contract security tasks",
-              "Recognize the importance of benchmarking AI agents for security vulnerabilities"
+              "Understand the purpose of EVMbench benchmark",
+              "Learn how AI agents can detect smart contract vulnerabilities",
+              "Recognize the importance of evaluating AI agents' security capabilities"
             ],
             "strategic_questions": [
-              "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
-              "What are the potential limitations and biases of using EVMbench to evaluate AI agents?",
-              "How can the results of EVMbench be used to inform the development of more secure and reliable AI-powered security tools?"
+              "How can EVMbench benchmark be used to improve AI agent security?",
+              "What are the potential implications of using AI agents to detect smart contract vulnerabilities?",
+              "How can the results of EVMbench benchmark inform the development of more secure smart contracts?"
             ]
           }
         }
@@ -101,6 +146,51 @@
         "foundational": [],
         "beginner": [],
         "intermediate": [
+          {
+            "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+            "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+            "published": "Thu, 26 Feb 2026 10:00:00 GMT",
+            "source": "OpenAI News",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Evaluations & Benchmarking",
+              "concepts_taught": [
+                {
+                  "name": "DraftNEPABench benchmark",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "NEPA drafting process",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI coding agents for permitting",
+                  "confidence": 0.85
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "Federal permitting process",
+                  "confidence": 0.7
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 6,
+                "reading_time_minutes": 10
+              },
+              "learning_outcomes": [
+                "Understand the potential of AI coding agents to accelerate federal permitting",
+                "Learn about the DraftNEPABench benchmark and its evaluation criteria",
+                "Recognize the potential benefits of modernizing infrastructure reviews with AI"
+              ],
+              "strategic_questions": [
+                "How can AI coding agents be effectively integrated into existing federal permitting workflows?",
+                "What are the potential risks and limitations of relying on AI for infrastructure reviews?",
+                "How can the DraftNEPABench benchmark be used to drive further innovation in AI-powered permitting?"
+              ]
+            }
+          },
           {
             "title": "Why we no longer evaluate SWE-bench Verified",
             "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -125,24 +215,24 @@
               ],
               "prerequisites": [
                 {
-                  "name": "machine learning benchmarking",
-                  "confidence": 0.6
+                  "name": "understanding of AI benchmarking",
+                  "confidence": 0.85
                 }
               ],
               "difficulty": {
                 "level": "intermediate",
                 "technical_depth": 6,
-                "reading_time_minutes": 5
+                "reading_time_minutes": 10
               },
               "learning_outcomes": [
                 "Understand the limitations of SWE-bench Verified",
-                "Recognize the importance of reliable benchmarking in AI evaluations",
-                "Learn about alternative benchmarking options like SWE-bench Pro"
+                "Recognize the importance of reliable benchmarking in AI",
+                "Learn about potential issues with test design and training data"
               ],
               "strategic_questions": [
-                "What are the implications of flawed benchmarking on AI research and development?",
-                "How can we ensure the integrity and reliability of AI benchmarks?",
-                "What are the potential consequences of using contaminated benchmarks in AI evaluations?"
+                "What are the implications of flawed benchmarks on AI progress?",
+                "How can we ensure the reliability and validity of AI benchmarks?",
+                "What are the potential consequences of using contaminated benchmarks?"
               ]
             }
           },
@@ -164,14 +254,14 @@
                   "confidence": 0.8
                 },
                 {
-                  "name": "AI agent evaluation for security tasks",
-                  "confidence": 0.7
+                  "name": "AI agent evaluation",
+                  "confidence": 0.85
                 }
               ],
               "prerequisites": [
                 {
                   "name": "smart contract basics",
-                  "confidence": 0.6
+                  "confidence": 0.7
                 }
               ],
               "difficulty": {
@@ -180,14 +270,14 @@
                 "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "Understand the purpose and functionality of EVMbench",
-                "Learn how AI agents can be evaluated for smart contract security tasks",
-                "Recognize the importance of benchmarking AI agents for security vulnerabilities"
+                "Understand the purpose of EVMbench benchmark",
+                "Learn how AI agents can detect smart contract vulnerabilities",
+                "Recognize the importance of evaluating AI agents' security capabilities"
               ],
               "strategic_questions": [
-                "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
-                "What are the potential limitations and biases of using EVMbench to evaluate AI agents?",
-                "How can the results of EVMbench be used to inform the development of more secure and reliable AI-powered security tools?"
+                "How can EVMbench benchmark be used to improve AI agent security?",
+                "What are the potential implications of using AI agents to detect smart contract vulnerabilities?",
+                "How can the results of EVMbench benchmark inform the development of more secure smart contracts?"
               ]
             }
           }
@@ -216,32 +306,26 @@
               {
                 "name": "expert-level problem solving",
                 "confidence": 0.7
-              },
-              {
-                "name": "math challenge problems",
-                "confidence": 0.6
               }
             ],
             "prerequisites": [
               {
-                "name": "AI model basics",
+                "name": "mathematical reasoning",
                 "confidence": 0.9
               }
             ],
             "difficulty": {
               "level": "intermediate",
               "technical_depth": 6,
-              "reading_time_minutes": 10
+              "reading_time_minutes": 5
             },
             "learning_outcomes": [
-              "Understand how AI models can be applied to research-grade reasoning",
-              "Recognize the challenges of expert-level problem solving in math",
-              "Learn about the First Proof math challenge"
+              "understand how AI models approach complex math problems",
+              "recognize the importance of research-grade reasoning in AI"
             ],
             "strategic_questions": [
-              "How can AI models be improved to tackle complex math problems?",
-              "What are the implications of AI models achieving research-grade reasoning capabilities?",
-              "How can AI-assisted reasoning be applied to real-world problems?"
+              "How can AI models be improved to tackle expert-level math challenges?",
+              "What are the potential applications of research-grade reasoning in AI?"
             ]
           }
         }
@@ -266,32 +350,26 @@
                 {
                   "name": "expert-level problem solving",
                   "confidence": 0.7
-                },
-                {
-                  "name": "math challenge problems",
-                  "confidence": 0.6
                 }
               ],
               "prerequisites": [
                 {
-                  "name": "AI model basics",
+                  "name": "mathematical reasoning",
                   "confidence": 0.9
                 }
               ],
               "difficulty": {
                 "level": "intermediate",
                 "technical_depth": 6,
-                "reading_time_minutes": 10
+                "reading_time_minutes": 5
               },
               "learning_outcomes": [
-                "Understand how AI models can be applied to research-grade reasoning",
-                "Recognize the challenges of expert-level problem solving in math",
-                "Learn about the First Proof math challenge"
+                "understand how AI models approach complex math problems",
+                "recognize the importance of research-grade reasoning in AI"
               ],
               "strategic_questions": [
-                "How can AI models be improved to tackle complex math problems?",
-                "What are the implications of AI models achieving research-grade reasoning capabilities?",
-                "How can AI-assisted reasoning be applied to real-world problems?"
+                "How can AI models be improved to tackle expert-level math challenges?",
+                "What are the potential applications of research-grade reasoning in AI?"
               ]
             }
           }
@@ -302,7 +380,7 @@
     },
     "AI Safety & Alignment": {
       "name": "AI Safety & Alignment",
-      "article_count": 2,
+      "article_count": 1,
       "articles": [
         {
           "title": "Advancing independent research on AI alignment",
@@ -338,52 +416,8 @@
               "recognize the role of independent research in addressing AGI safety risks"
             ],
             "strategic_questions": [
-              "How can independent research effectively contribute to global AI alignment efforts?",
+              "How can independent research effectively contribute to global AI safety efforts?",
               "What are the potential implications of increased funding for AI alignment research?"
-            ]
-          }
-        },
-        {
-          "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
-          "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
-          "published": "Fri, 13 Feb 2026 10:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "AI Safety & Alignment",
-            "concepts_taught": [
-              {
-                "name": "prompt injection",
-                "confidence": 0.9
-              },
-              {
-                "name": "AI-driven data exfiltration",
-                "confidence": 0.8
-              },
-              {
-                "name": "Lockdown Mode",
-                "confidence": 0.7
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "basic understanding of AI security risks",
-                "confidence": 0.6
-              }
-            ],
-            "difficulty": {
-              "level": "beginner",
-              "technical_depth": 3,
-              "reading_time_minutes": 5
-            },
-            "learning_outcomes": [
-              "Understand the concept of prompt injection and its risks",
-              "Learn about AI-driven data exfiltration and its implications",
-              "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
-            ],
-            "strategic_questions": [
-              "How can organizations effectively defend against AI-driven security threats?",
-              "What are the potential consequences of not addressing prompt injection and data exfiltration risks?"
             ]
           }
         }
@@ -425,52 +459,8 @@
                 "recognize the role of independent research in addressing AGI safety risks"
               ],
               "strategic_questions": [
-                "How can independent research effectively contribute to global AI alignment efforts?",
+                "How can independent research effectively contribute to global AI safety efforts?",
                 "What are the potential implications of increased funding for AI alignment research?"
-              ]
-            }
-          },
-          {
-            "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
-            "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
-            "published": "Fri, 13 Feb 2026 10:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "AI Safety & Alignment",
-              "concepts_taught": [
-                {
-                  "name": "prompt injection",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "AI-driven data exfiltration",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Lockdown Mode",
-                  "confidence": 0.7
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "basic understanding of AI security risks",
-                  "confidence": 0.6
-                }
-              ],
-              "difficulty": {
-                "level": "beginner",
-                "technical_depth": 3,
-                "reading_time_minutes": 5
-              },
-              "learning_outcomes": [
-                "Understand the concept of prompt injection and its risks",
-                "Learn about AI-driven data exfiltration and its implications",
-                "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
-              ],
-              "strategic_questions": [
-                "How can organizations effectively defend against AI-driven security threats?",
-                "What are the potential consequences of not addressing prompt injection and data exfiltration risks?"
               ]
             }
           }
@@ -479,121 +469,54 @@
         "advanced": [],
         "application": []
       }
-    },
-    "Large Language Models": {
-      "name": "Large Language Models",
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "GPT-5.2 derives a new result in theoretical physics",
-          "url": "https://openai.com/index/new-result-theoretical-physics",
-          "published": "Fri, 13 Feb 2026 11:00:00 GMT",
-          "source": "OpenAI News",
-          "curriculum": {
-            "skip": false,
-            "topic": "Large Language Models",
-            "concepts_taught": [
-              {
-                "name": "Gluon amplitude",
-                "confidence": 0.8
-              },
-              {
-                "name": "Theoretical physics applications of LLMs",
-                "confidence": 0.7
-              },
-              {
-                "name": "Collaborative verification of AI-derived results",
-                "confidence": 0.6
-              }
-            ],
-            "prerequisites": [
-              {
-                "name": "Basic understanding of particle physics",
-                "confidence": 0.9
-              },
-              {
-                "name": "Familiarity with large language models",
-                "confidence": 0.8
-              }
-            ],
-            "difficulty": {
-              "level": "intermediate",
-              "technical_depth": 7,
-              "reading_time_minutes": 10
-            },
-            "learning_outcomes": [
-              "Understand how large language models can contribute to theoretical physics research",
-              "Recognize the importance of human verification of AI-derived results in scientific fields",
-              "Appreciate the potential for LLMs to accelerate scientific discovery"
-            ],
-            "strategic_questions": [
-              "What are the implications of AI systems deriving new scientific results, and how should these be evaluated and verified?",
-              "How can we ensure that the use of LLMs in scientific research is transparent, reproducible, and reliable?",
-              "What are the potential risks and limitations of relying on LLMs for scientific discovery, and how can these be mitigated?"
-            ]
-          }
-        }
-      ],
-      "levels": {
-        "foundational": [],
-        "beginner": [],
-        "intermediate": [
-          {
-            "title": "GPT-5.2 derives a new result in theoretical physics",
-            "url": "https://openai.com/index/new-result-theoretical-physics",
-            "published": "Fri, 13 Feb 2026 11:00:00 GMT",
-            "source": "OpenAI News",
-            "curriculum": {
-              "skip": false,
-              "topic": "Large Language Models",
-              "concepts_taught": [
-                {
-                  "name": "Gluon amplitude",
-                  "confidence": 0.8
-                },
-                {
-                  "name": "Theoretical physics applications of LLMs",
-                  "confidence": 0.7
-                },
-                {
-                  "name": "Collaborative verification of AI-derived results",
-                  "confidence": 0.6
-                }
-              ],
-              "prerequisites": [
-                {
-                  "name": "Basic understanding of particle physics",
-                  "confidence": 0.9
-                },
-                {
-                  "name": "Familiarity with large language models",
-                  "confidence": 0.8
-                }
-              ],
-              "difficulty": {
-                "level": "intermediate",
-                "technical_depth": 7,
-                "reading_time_minutes": 10
-              },
-              "learning_outcomes": [
-                "Understand how large language models can contribute to theoretical physics research",
-                "Recognize the importance of human verification of AI-derived results in scientific fields",
-                "Appreciate the potential for LLMs to accelerate scientific discovery"
-              ],
-              "strategic_questions": [
-                "What are the implications of AI systems deriving new scientific results, and how should these be evaluated and verified?",
-                "How can we ensure that the use of LLMs in scientific research is transparent, reproducible, and reliable?",
-                "What are the potential risks and limitations of relying on LLMs for scientific discovery, and how can these be mitigated?"
-              ]
-            }
-          }
-        ],
-        "advanced": [],
-        "application": []
-      }
     }
   },
   "articles": [
+    {
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "published": "Thu, 26 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI News",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Evaluations & Benchmarking",
+        "concepts_taught": [
+          {
+            "name": "DraftNEPABench benchmark",
+            "confidence": 0.9
+          },
+          {
+            "name": "NEPA drafting process",
+            "confidence": 0.8
+          },
+          {
+            "name": "AI coding agents for permitting",
+            "confidence": 0.85
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "Federal permitting process",
+            "confidence": 0.7
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 6,
+          "reading_time_minutes": 10
+        },
+        "learning_outcomes": [
+          "Understand the potential of AI coding agents to accelerate federal permitting",
+          "Learn about the DraftNEPABench benchmark and its evaluation criteria",
+          "Recognize the potential benefits of modernizing infrastructure reviews with AI"
+        ],
+        "strategic_questions": [
+          "How can AI coding agents be effectively integrated into existing federal permitting workflows?",
+          "What are the potential risks and limitations of relying on AI for infrastructure reviews?",
+          "How can the DraftNEPABench benchmark be used to drive further innovation in AI-powered permitting?"
+        ]
+      }
+    },
     {
       "title": "Why we no longer evaluate SWE-bench Verified",
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -618,24 +541,24 @@
         ],
         "prerequisites": [
           {
-            "name": "machine learning benchmarking",
-            "confidence": 0.6
+            "name": "understanding of AI benchmarking",
+            "confidence": 0.85
           }
         ],
         "difficulty": {
           "level": "intermediate",
           "technical_depth": 6,
-          "reading_time_minutes": 5
+          "reading_time_minutes": 10
         },
         "learning_outcomes": [
           "Understand the limitations of SWE-bench Verified",
-          "Recognize the importance of reliable benchmarking in AI evaluations",
-          "Learn about alternative benchmarking options like SWE-bench Pro"
+          "Recognize the importance of reliable benchmarking in AI",
+          "Learn about potential issues with test design and training data"
         ],
         "strategic_questions": [
-          "What are the implications of flawed benchmarking on AI research and development?",
-          "How can we ensure the integrity and reliability of AI benchmarks?",
-          "What are the potential consequences of using contaminated benchmarks in AI evaluations?"
+          "What are the implications of flawed benchmarks on AI progress?",
+          "How can we ensure the reliability and validity of AI benchmarks?",
+          "What are the potential consequences of using contaminated benchmarks?"
         ]
       }
     },
@@ -655,32 +578,26 @@
           {
             "name": "expert-level problem solving",
             "confidence": 0.7
-          },
-          {
-            "name": "math challenge problems",
-            "confidence": 0.6
           }
         ],
         "prerequisites": [
           {
-            "name": "AI model basics",
+            "name": "mathematical reasoning",
             "confidence": 0.9
           }
         ],
         "difficulty": {
           "level": "intermediate",
           "technical_depth": 6,
-          "reading_time_minutes": 10
+          "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand how AI models can be applied to research-grade reasoning",
-          "Recognize the challenges of expert-level problem solving in math",
-          "Learn about the First Proof math challenge"
+          "understand how AI models approach complex math problems",
+          "recognize the importance of research-grade reasoning in AI"
         ],
         "strategic_questions": [
-          "How can AI models be improved to tackle complex math problems?",
-          "What are the implications of AI models achieving research-grade reasoning capabilities?",
-          "How can AI-assisted reasoning be applied to real-world problems?"
+          "How can AI models be improved to tackle expert-level math challenges?",
+          "What are the potential applications of research-grade reasoning in AI?"
         ]
       }
     },
@@ -718,7 +635,7 @@
           "recognize the role of independent research in addressing AGI safety risks"
         ],
         "strategic_questions": [
-          "How can independent research effectively contribute to global AI alignment efforts?",
+          "How can independent research effectively contribute to global AI safety efforts?",
           "What are the potential implications of increased funding for AI alignment research?"
         ]
       }
@@ -741,14 +658,14 @@
             "confidence": 0.8
           },
           {
-            "name": "AI agent evaluation for security tasks",
-            "confidence": 0.7
+            "name": "AI agent evaluation",
+            "confidence": 0.85
           }
         ],
         "prerequisites": [
           {
             "name": "smart contract basics",
-            "confidence": 0.6
+            "confidence": 0.7
           }
         ],
         "difficulty": {
@@ -757,107 +674,14 @@
           "reading_time_minutes": 5
         },
         "learning_outcomes": [
-          "Understand the purpose and functionality of EVMbench",
-          "Learn how AI agents can be evaluated for smart contract security tasks",
-          "Recognize the importance of benchmarking AI agents for security vulnerabilities"
+          "Understand the purpose of EVMbench benchmark",
+          "Learn how AI agents can detect smart contract vulnerabilities",
+          "Recognize the importance of evaluating AI agents' security capabilities"
         ],
         "strategic_questions": [
-          "How can EVMbench be used to improve the security of smart contracts in real-world applications?",
-          "What are the potential limitations and biases of using EVMbench to evaluate AI agents?",
-          "How can the results of EVMbench be used to inform the development of more secure and reliable AI-powered security tools?"
-        ]
-      }
-    },
-    {
-      "title": "GPT-5.2 derives a new result in theoretical physics",
-      "url": "https://openai.com/index/new-result-theoretical-physics",
-      "published": "Fri, 13 Feb 2026 11:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "Large Language Models",
-        "concepts_taught": [
-          {
-            "name": "Gluon amplitude",
-            "confidence": 0.8
-          },
-          {
-            "name": "Theoretical physics applications of LLMs",
-            "confidence": 0.7
-          },
-          {
-            "name": "Collaborative verification of AI-derived results",
-            "confidence": 0.6
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "Basic understanding of particle physics",
-            "confidence": 0.9
-          },
-          {
-            "name": "Familiarity with large language models",
-            "confidence": 0.8
-          }
-        ],
-        "difficulty": {
-          "level": "intermediate",
-          "technical_depth": 7,
-          "reading_time_minutes": 10
-        },
-        "learning_outcomes": [
-          "Understand how large language models can contribute to theoretical physics research",
-          "Recognize the importance of human verification of AI-derived results in scientific fields",
-          "Appreciate the potential for LLMs to accelerate scientific discovery"
-        ],
-        "strategic_questions": [
-          "What are the implications of AI systems deriving new scientific results, and how should these be evaluated and verified?",
-          "How can we ensure that the use of LLMs in scientific research is transparent, reproducible, and reliable?",
-          "What are the potential risks and limitations of relying on LLMs for scientific discovery, and how can these be mitigated?"
-        ]
-      }
-    },
-    {
-      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
-      "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
-      "published": "Fri, 13 Feb 2026 10:00:00 GMT",
-      "source": "OpenAI News",
-      "curriculum": {
-        "skip": false,
-        "topic": "AI Safety & Alignment",
-        "concepts_taught": [
-          {
-            "name": "prompt injection",
-            "confidence": 0.9
-          },
-          {
-            "name": "AI-driven data exfiltration",
-            "confidence": 0.8
-          },
-          {
-            "name": "Lockdown Mode",
-            "confidence": 0.7
-          }
-        ],
-        "prerequisites": [
-          {
-            "name": "basic understanding of AI security risks",
-            "confidence": 0.6
-          }
-        ],
-        "difficulty": {
-          "level": "beginner",
-          "technical_depth": 3,
-          "reading_time_minutes": 5
-        },
-        "learning_outcomes": [
-          "Understand the concept of prompt injection and its risks",
-          "Learn about AI-driven data exfiltration and its implications",
-          "Familiarize with Lockdown Mode and Elevated Risk labels in ChatGPT"
-        ],
-        "strategic_questions": [
-          "How can organizations effectively defend against AI-driven security threats?",
-          "What are the potential consequences of not addressing prompt injection and data exfiltration risks?"
+          "How can EVMbench benchmark be used to improve AI agent security?",
+          "What are the potential implications of using AI agents to detect smart contract vulnerabilities?",
+          "How can the results of EVMbench benchmark inform the development of more secure smart contracts?"
         ]
       }
     }
