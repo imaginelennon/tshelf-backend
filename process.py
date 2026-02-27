@@ -10,76 +10,118 @@ from datetime import datetime
 # Initialize Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-# RSS Feeds
+# RSS Feeds - EXPANDED LIST
 FEEDS = [
+    # Major AI Labs
     "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feed_anthropic_news.xml",
     "https://openai.com/news/rss.xml",
     "https://blog.google/technology/ai/rss/",
+    "https://www.deepmind.google/blog/rss.xml",
+    
+    # Technical Blogs & Research
+    "https://huggingface.co/blog/feed.xml",
+    "https://stability.ai/news/rss",
+    "https://ai.meta.com/blog/feed/",
+    
+    # Individual Researchers/Experts
+    "https://simonwillison.net/atom/everything/",
+    "https://lilianweng.github.io/feed.xml",
+    
+    # AI Safety & Alignment
+    "https://www.lesswrong.com/feed.xml",
+    "https://www.alignmentforum.org/feed.xml",
+    
+    # Industry/Cloud ML
+    "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "https://cloud.google.com/blog/products/ai-machine-learning/rss/",
+    
+    # Newsletters & Analysis
+    "https://importai.substack.com/feed",
+    "https://www.aisnakeoil.com/feed",
+    "https://thegradient.pub/rss/",
+    
+    # Tools & Infrastructure
+    "https://www.wandb.com/blog/rss.xml",
+    "https://pytorch.org/blog/feed.xml",
+    
+    # Academic/Research-Heavy
+    "https://distill.pub/rss.xml",
+    "https://pair.withgoogle.com/feed.xml",
+    
+    # Emerging/Startup Scene
+    "https://www.latent.space/feed",
 ]
 
-# Soul.md prompt
+# Soul.md prompt - SIMPLIFIED (removed most filtering)
 SOUL_PROMPT = """You are an AI curriculum designer analyzing technical articles.
 
 CRITICAL: You MUST return valid JSON. No markdown, no code blocks, just raw JSON.
 
-TOPICS (pick ONE):
+TOPICS (pick ONE that best fits):
 - AI Evaluations & Benchmarking
 - Large Language Models  
 - AI Safety & Alignment
 - Agentic AI & Reasoning
 - AI Infrastructure & Tooling
+- Prompt Engineering & Applications
+- Computer Vision & Multimodal AI
+- AI Research & Theory
 
 Analyze this article and determine:
 
 1. SKIP ONLY if:
-   - Job postings or recruiting
-   - Event announcements (conferences, meetups)
-   - Pure marketing/sales content with no learning value
+   - Pure job posting with no technical content
+   - Event-only announcement (just date/time/location)
+   - Press release with zero technical information
    
-   DO NOT SKIP if article teaches ANY technical concept, even if it's:
-   - A product announcement that explains how something works
-   - News about a feature that includes technical details
-   - Company updates that discuss technical implementations
+   KEEP EVERYTHING ELSE including:
+   - Product announcements (they explain features!)
+   - Company news (often has technical details)
+   - Tutorials and guides
+   - Research papers
+   - Opinion pieces about AI
+   - Industry analysis
+   - Tool releases
 
 2. TOPIC: Which topic does it teach? (pick ONE from list above)
 
 3. CONCEPTS TAUGHT (2-5 concepts):
-   - What core concepts does this article teach?
-   - Be specific (e.g., "RLHF training pipeline" not "AI training")
+   - What does this article cover?
+   - Be specific (e.g., "chain-of-thought prompting" not "AI")
    - Include confidence (0-1)
 
 4. PREREQUISITES (0-3 concepts):
-   - What should reader understand before reading?
-   - Only include if truly required
+   - What should reader know beforehand?
+   - Only if truly required
    - Include confidence
 
 5. DIFFICULTY LEVEL:
-   - foundational: First principles, no prerequisites, fundamental concepts
-   - beginner: Basic AI familiarity helpful, introductory
-   - intermediate: Solid understanding of AI concepts required
-   - advanced: Deep technical knowledge required, expert-level
-   - application: Focus on real-world implications, industry impact
+   - foundational: First principles, no prerequisites
+   - beginner: Basic AI familiarity helpful
+   - intermediate: Solid AI understanding required
+   - advanced: Deep technical knowledge needed
+   - application: Real-world implementation focus
    
-   Technical depth (1-10): How technical is the writing?
-   Reading time: Realistic estimate in minutes
+   Technical depth (1-10): How technical?
+   Reading time: Estimate in minutes
 
 6. LEARNING OUTCOMES (2-4 outcomes):
-   - What will reader actually understand?
-   - Be concrete and specific
+   - What will reader understand after?
+   - Be concrete
 
 7. STRATEGIC QUESTIONS (2-3 questions):
    - Thought-provoking
-   - Encourage critical thinking about implications
+   - Encourage deeper thinking
 
-IMPORTANT: Return ONLY valid JSON. No markdown code blocks. No explanations.
+IMPORTANT: Return ONLY valid JSON. No markdown. No explanations.
 
-If skipping, return:
+If skipping (rare!), return:
 {{"skip": true}}
 
-If not skipping, return:
+Otherwise return:
 {{
   "skip": false,
-  "topic": "AI Evaluations & Benchmarking",
+  "topic": "Large Language Models",
   "concepts_taught": [
     {{"name": "concept name", "confidence": 0.9}}
   ],
@@ -92,12 +134,12 @@ If not skipping, return:
     "reading_time_minutes": 8
   }},
   "learning_outcomes": [
-    "specific outcome 1",
-    "specific outcome 2"
+    "outcome 1",
+    "outcome 2"
   ],
   "strategic_questions": [
-    "thought-provoking question 1",
-    "thought-provoking question 2"
+    "question 1",
+    "question 2"
   ]
 }}
 
@@ -110,31 +152,50 @@ def fetch_feed(url):
     """Fetch and parse RSS feed"""
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (compatible; TShelf/1.0)'}
-        response = requests.get(url, headers=headers, timeout=10)
-        return feedparser.parse(response.content)
+        response = requests.get(url, headers=headers, timeout=15)
+        
+        if response.status_code != 200:
+            print(f"    ⚠️  HTTP {response.status_code}")
+            return None
+            
+        feed = feedparser.parse(response.content)
+        
+        if feed.bozo:
+            print(f"    ⚠️  Parse warning: {feed.bozo_exception}")
+        
+        return feed
+    except requests.Timeout:
+        print(f"    ⚠️  Timeout")
+        return None
     except Exception as e:
-        print(f"❌ Error fetching {url}: {e}")
+        print(f"    ❌ Error: {e}")
         return None
 
 def extract_content(entry):
-    """Extract content from feed entry"""
+    """Extract content from feed entry - try multiple fields"""
     content = ""
     
-    # Try different content fields
-    if hasattr(entry, 'content'):
+    # Try different content fields in order of preference
+    if hasattr(entry, 'content') and entry.content:
         content = entry.content[0].value
+    elif hasattr(entry, 'summary_detail') and entry.summary_detail:
+        content = entry.summary_detail.value
     elif hasattr(entry, 'summary'):
         content = entry.summary
     elif hasattr(entry, 'description'):
         content = entry.description
     
-    # Basic cleanup
-    content = content.replace('<p>', '').replace('</p>', '\n')
-    content = content.replace('<br>', '\n').replace('<br/>', '\n')
+    # More aggressive HTML cleanup
+    import re
+    content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<[^>]+>', ' ', content)
+    content = re.sub(r'\s+', ' ', content)
+    content = content.strip()
     
-    # Limit length
-    if len(content) > 3000:
-        content = content[:3000] + "..."
+    # Limit length for API
+    if len(content) > 4000:
+        content = content[:4000] + "..."
     
     return content
 
@@ -154,73 +215,98 @@ def analyze_article(title, content):
         
         # Handle markdown code blocks
         if result.startswith("```"):
-            result = result.split("```")[1]
+            lines = result.split('\n')
+            result = '\n'.join(lines[1:-1]) if len(lines) > 2 else result
             if result.startswith("json"):
-                result = result[4:]
-            result = result.strip()
+                result = result[4:].strip()
         
-        # Try to parse JSON
+        # Parse JSON
         parsed = json.loads(result)
         
-        # If it's just {"skip": true}, that's valid
+        # Validate
         if parsed.get('skip') == True:
             return {'skip': True}
         
-        # Otherwise validate it has required fields
         if not parsed.get('skip') and parsed.get('topic'):
             return parsed
         else:
-            print(f"❌ Invalid response structure")
-            print(f"Response: {result[:300]}")
+            print(f"    ⚠️  Invalid structure")
             return None
         
     except json.JSONDecodeError as e:
-        print(f"❌ JSON parse error: {e}")
-        print(f"Raw response: {result[:500]}")
+        print(f"    ❌ JSON error: {e}")
+        print(f"    Response: {result[:200]}")
         return None
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"    ❌ Error: {e}")
         return None
 
 # Fetch articles
 print("🔄 Fetching RSS feeds...")
+print(f"📡 Total feeds: {len(FEEDS)}\n")
+
 articles = []
+feed_stats = {}
 
 for feed_url in FEEDS:
-    print(f"  • {feed_url}")
+    feed_name = feed_url.split('/')[2]  # Extract domain
+    print(f"  📰 {feed_name}")
+    
     feed = fetch_feed(feed_url)
     
     if not feed or not hasattr(feed, 'entries'):
+        print(f"    ❌ Failed to fetch")
+        feed_stats[feed_name] = 0
         continue
     
-    for entry in feed.entries[:10]:  # Limit per feed
+    count = 0
+    # Get more articles per feed (up to 15 instead of 10)
+    for entry in feed.entries[:15]:
         content = extract_content(entry)
         
-        # Skip if too short
-        if len(content) < 100:
+        # Lower minimum content threshold (was 100, now 50)
+        if len(content) < 50:
             continue
         
         articles.append({
             'title': entry.title,
             'url': entry.link,
-            'published': entry.get('published', ''),
-            'source': feed.feed.title if hasattr(feed.feed, 'title') else 'Unknown',
+            'published': entry.get('published', entry.get('updated', '')),
+            'source': feed.feed.title if hasattr(feed.feed, 'title') else feed_name,
             'content': content
         })
+        count += 1
+    
+    feed_stats[feed_name] = count
+    print(f"    ✅ {count} articles")
+    
+    # Small delay between feeds
+    time.sleep(0.3)
 
-print(f"\n📚 Found {len(articles)} articles to analyze")
+print(f"\n📚 Total articles fetched: {len(articles)}")
+print(f"📊 Articles per source:")
+for source, count in sorted(feed_stats.items(), key=lambda x: x[1], reverse=True):
+    if count > 0:
+        print(f"   • {source}: {count}")
 
 # Analyze articles
 print("\n🤖 Analyzing with Llama 3.3 70B...")
 analyzed = []
-topic_counts = {}
+skipped = []
+errors = []
 
 for i, article in enumerate(articles, 1):
     print(f"  [{i}/{len(articles)}] {article['title'][:60]}...")
     
     analysis = analyze_article(article['title'], article['content'])
     
-    if not analysis or analysis.get('skip'):
+    if not analysis:
+        errors.append(article['title'])
+        print(f"    ❌ Analysis failed")
+        continue
+    
+    if analysis.get('skip'):
+        skipped.append(article['title'])
         print(f"    ⏭️  Skipped")
         continue
     
@@ -235,8 +321,8 @@ for i, article in enumerate(articles, 1):
     
     print(f"    ✅ {analysis['topic']} - {analysis['difficulty']['level']}")
     
-    # Rate limiting
-    time.sleep(0.5)
+    # Rate limiting (slightly faster)
+    time.sleep(0.3)
 
 # Build curriculum JSON
 print("\n📦 Building curriculum...")
@@ -249,6 +335,7 @@ curriculum = {
 }
 
 # Group by topic
+topic_counts = {}
 for article in analyzed:
     topic = article['curriculum']['topic']
     
@@ -281,8 +368,16 @@ with open('curriculum.json', 'w') as f:
     json.dump(curriculum, f, indent=2)
 
 print(f"\n📝 Curriculum saved to curriculum.json")
+
+# Stats
+print(f"\n📊 Processing Stats:")
+print(f"   • Fetched: {len(articles)} articles")
+print(f"   • Analyzed: {len(analyzed)} articles ({len(analyzed)/len(articles)*100:.1f}%)")
+print(f"   • Skipped: {len(skipped)} articles")
+print(f"   • Errors: {len(errors)} articles")
+
 print(f"\n📚 Topics discovered:")
 for topic, count in sorted(topic_counts.items(), key=lambda x: x[1], reverse=True):
-    print(f"  • {topic}: {count} articles")
+    print(f"   • {topic}: {count} articles")
 
 print("\n✨ Done!")
