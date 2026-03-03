@@ -23,12 +23,9 @@ FEEDS = [
     "https://stability.ai/news/rss",
     "https://ai.meta.com/blog/feed/",
     
-    # Individual Researchers/Experts
-    "https://simonwillison.net/atom/everything/",
-    "https://lilianweng.github.io/feed.xml",
+    
     
     # AI Safety & Alignment
-    "https://www.lesswrong.com/feed.xml",
     "https://www.alignmentforum.org/feed.xml",
     
     # Industry/Cloud ML
@@ -40,16 +37,13 @@ FEEDS = [
     "https://www.aisnakeoil.com/feed",
     "https://thegradient.pub/rss/",
     
-    # Tools & Infrastructure
-    "https://www.wandb.com/blog/rss.xml",
-    "https://pytorch.org/blog/feed.xml",
     
     # Academic/Research-Heavy
     "https://distill.pub/rss.xml",
     "https://pair.withgoogle.com/feed.xml",
     
     # Emerging/Startup Scene
-    "https://www.latent.space/feed",
+    
 ]
 
 # Soul.md prompt - SIMPLIFIED (removed most filtering)
@@ -264,9 +258,10 @@ for feed_url in FEEDS:
     for entry in feed.entries[:15]:
         content = extract_content(entry)
         
-        # Lower minimum content threshold (was 100, now 50)
-        if len(content) < 50:
-            continue
+        # NEW (checks word count)
+          word_count = len(content.split())
+          if word_count < 300:
+          continue
         
         articles.append({
             'title': entry.title,
