@@ -258,10 +258,12 @@ for feed_url in FEEDS:
     for entry in feed.entries[:15]:
         content = extract_content(entry)
         
-        # NEW (checks word count)
-          word_count = len(content.split())
-          if word_count < 300:
-          continue
+        content = extract_content(entry)
+        
+        # Minimum 300 words to ensure substantive content
+        word_count = len(content.split())
+        if word_count < 300:
+            continue
         
         articles.append({
             'title': entry.title,
