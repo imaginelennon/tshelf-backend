@@ -6,11 +6,12 @@ import time
 from groq import Groq
 import os
 from datetime import datetime
+import re
 
 # Initialize Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-# RSS Feeds - EXPANDED LIST
+# RSS Feeds
 FEEDS = [
     # Major AI Labs
     "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feed_anthropic_news.xml",
@@ -22,8 +23,6 @@ FEEDS = [
     "https://huggingface.co/blog/feed.xml",
     "https://stability.ai/news/rss",
     "https://ai.meta.com/blog/feed/",
-    
-    
     
     # AI Safety & Alignment
     "https://www.alignmentforum.org/feed.xml",
@@ -37,16 +36,12 @@ FEEDS = [
     "https://www.aisnakeoil.com/feed",
     "https://thegradient.pub/rss/",
     
-    
     # Academic/Research-Heavy
     "https://distill.pub/rss.xml",
     "https://pair.withgoogle.com/feed.xml",
-    
-    # Emerging/Startup Scene
-    
 ]
 
-# Soul.md prompt - SIMPLIFIED (removed most filtering)
+# Updated prompt with article_type, primary_concept, and summary
 SOUL_PROMPT = """You are an AI curriculum designer analyzing technical articles.
 
 CRITICAL: You MUST return valid JSON. No markdown, no code blocks, just raw JSON.
@@ -68,28 +63,39 @@ Analyze this article and determine:
    - Event-only announcement (just date/time/location)
    - Press release with zero technical information
    
-   KEEP EVERYTHING ELSE including:
-   - Product announcements (they explain features!)
-   - Company news (often has technical details)
-   - Tutorials and guides
-   - Research papers
-   - Opinion pieces about AI
-   - Industry analysis
-   - Tool releases
+   KEEP EVERYTHING ELSE including product announcements, company news, tutorials, research papers, opinion pieces, industry analysis, tool releases.
 
-2. TOPIC: Which topic does it teach? (pick ONE from list above)
+2. ARTICLE TYPE (critical distinction):
+   - "teaches": Article EXPLAINS a concept from scratch. Reader learns the concept by reading this.
+   - "extends": Article ASSUMES knowledge of a concept. It's news, opinion, application, or advanced discussion that builds on existing knowledge.
+   
+   Examples:
+   - "What is RLHF and how it works" → teaches
+   - "OpenAI's new RLHF improvements announced" → extends
+   - "Tutorial: Implementing attention mechanisms" → teaches
+   - "Why attention might not be all you need (opinion)" → extends
 
-3. CONCEPTS TAUGHT (2-5 concepts):
+3. PRIMARY CONCEPT: 
+   - The ONE main concept this article is about
+   - Use a canonical, normalized name (e.g., "reinforcement learning from human feedback" not "RLHF")
+   - Be specific but not overly narrow
+
+4. SUMMARY:
+   - 2-3 sentences explaining what this article covers
+   - Include enough context for future matching
+   - If it's an "extends" article, mention what concepts it assumes
+
+5. CONCEPTS TAUGHT (2-5 concepts):
    - What does this article cover?
-   - Be specific (e.g., "chain-of-thought prompting" not "AI")
+   - Use canonical names, be specific
    - Include confidence (0-1)
 
-4. PREREQUISITES (0-3 concepts):
+6. PREREQUISITES (0-3 concepts):
    - What should reader know beforehand?
-   - Only if truly required
+   - Use canonical concept names
    - Include confidence
 
-5. DIFFICULTY LEVEL:
+7. DIFFICULTY LEVEL:
    - foundational: First principles, no prerequisites
    - beginner: Basic AI familiarity helpful
    - intermediate: Solid AI understanding required
@@ -99,11 +105,11 @@ Analyze this article and determine:
    Technical depth (1-10): How technical?
    Reading time: Estimate in minutes
 
-6. LEARNING OUTCOMES (2-4 outcomes):
+8. LEARNING OUTCOMES (2-4 outcomes):
    - What will reader understand after?
    - Be concrete
 
-7. STRATEGIC QUESTIONS (2-3 questions):
+9. STRATEGIC QUESTIONS (2-3 questions):
    - Thought-provoking
    - Encourage deeper thinking
 
@@ -116,24 +122,27 @@ Otherwise return:
 {{
   "skip": false,
   "topic": "Large Language Models",
+  "article_type": "teaches",
+  "primary_concept": "reinforcement learning from human feedback",
+  "summary": "This article explains how RLHF works, covering reward modeling, human preference collection, and PPO optimization for language model fine-tuning.",
   "concepts_taught": [
-    {{"name": "concept name", "confidence": 0.9}}
+    {{"name": "reinforcement learning from human feedback", "confidence": 0.9}}
   ],
   "prerequisites": [
-    {{"name": "prerequisite concept", "confidence": 0.85}}
+    {{"name": "supervised fine-tuning", "confidence": 0.85}}
   ],
   "difficulty": {{
-    "level": "beginner",
-    "technical_depth": 4,
-    "reading_time_minutes": 8
+    "level": "intermediate",
+    "technical_depth": 6,
+    "reading_time_minutes": 12
   }},
   "learning_outcomes": [
-    "outcome 1",
-    "outcome 2"
+    "Understand how RLHF improves language model outputs",
+    "Learn the reward modeling process"
   ],
   "strategic_questions": [
-    "question 1",
-    "question 2"
+    "How does RLHF compare to other alignment techniques?",
+    "What are the limitations of human feedback?"
   ]
 }}
 
@@ -141,6 +150,15 @@ Article:
 Title: {title}
 Content: {content}
 """
+
+
+def slugify(text):
+    """Convert text to URL-friendly slug"""
+    text = text.lower().strip()
+    text = re.sub(r'[^\w\s-]', '', text)
+    text = re.sub(r'[-\s]+', '-', text)
+    return text.strip('-')
+
 
 def fetch_feed(url):
     """Fetch and parse RSS feed"""
@@ -165,11 +183,11 @@ def fetch_feed(url):
         print(f"    ❌ Error: {e}")
         return None
 
+
 def extract_content(entry):
     """Extract content from feed entry - try multiple fields"""
     content = ""
     
-    # Try different content fields in order of preference
     if hasattr(entry, 'content') and entry.content:
         content = entry.content[0].value
     elif hasattr(entry, 'summary_detail') and entry.summary_detail:
@@ -179,8 +197,7 @@ def extract_content(entry):
     elif hasattr(entry, 'description'):
         content = entry.description
     
-    # More aggressive HTML cleanup
-    import re
+    # HTML cleanup
     content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL)
     content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL)
     content = re.sub(r'<[^>]+>', ' ', content)
@@ -192,6 +209,7 @@ def extract_content(entry):
         content = content[:4000] + "..."
     
     return content
+
 
 def analyze_article(title, content):
     """Analyze article with Groq"""
@@ -222,6 +240,17 @@ def analyze_article(title, content):
             return {'skip': True}
         
         if not parsed.get('skip') and parsed.get('topic'):
+            # Ensure new fields have defaults
+            if 'article_type' not in parsed:
+                parsed['article_type'] = 'teaches'
+            if 'primary_concept' not in parsed:
+                # Fallback to first concept taught
+                if parsed.get('concepts_taught'):
+                    parsed['primary_concept'] = parsed['concepts_taught'][0]['name']
+                else:
+                    parsed['primary_concept'] = 'general'
+            if 'summary' not in parsed:
+                parsed['summary'] = ''
             return parsed
         else:
             print(f"    ⚠️  Invalid structure")
@@ -235,7 +264,59 @@ def analyze_article(title, content):
         print(f"    ❌ Error: {e}")
         return None
 
-# Fetch articles
+
+def build_concept_registry(articles):
+    """Build concept registry from analyzed articles"""
+    concepts = {}
+    
+    for article in articles:
+        curriculum = article['curriculum']
+        primary = curriculum.get('primary_concept', '')
+        if not primary:
+            continue
+            
+        concept_id = slugify(primary)
+        article_type = curriculum.get('article_type', 'teaches')
+        topic = curriculum.get('topic', '')
+        
+        if concept_id not in concepts:
+            concepts[concept_id] = {
+                'id': concept_id,
+                'name': primary,
+                'aliases': set([primary]),
+                'topic': topic,
+                'teaches': [],
+                'extends': [],
+                'prerequisite_concepts': set()
+            }
+        else:
+            # Add alias if different casing/wording
+            concepts[concept_id]['aliases'].add(primary)
+        
+        # Add article to appropriate list
+        if article_type == 'teaches':
+            concepts[concept_id]['teaches'].append(article['url'])
+        else:
+            concepts[concept_id]['extends'].append(article['url'])
+        
+        # Extract prerequisite concepts
+        for prereq in curriculum.get('prerequisites', []):
+            prereq_id = slugify(prereq['name'])
+            if prereq_id and prereq_id != concept_id:
+                concepts[concept_id]['prerequisite_concepts'].add(prereq_id)
+    
+    # Convert sets to lists for JSON serialization
+    for concept_id in concepts:
+        concepts[concept_id]['aliases'] = list(concepts[concept_id]['aliases'])
+        concepts[concept_id]['prerequisite_concepts'] = list(concepts[concept_id]['prerequisite_concepts'])
+    
+    return concepts
+
+
+# =============================================================================
+# MAIN EXECUTION
+# =============================================================================
+
 print("🔄 Fetching RSS feeds...")
 print(f"📡 Total feeds: {len(FEEDS)}\n")
 
@@ -243,7 +324,7 @@ articles = []
 feed_stats = {}
 
 for feed_url in FEEDS:
-    feed_name = feed_url.split('/')[2]  # Extract domain
+    feed_name = feed_url.split('/')[2]
     print(f"  📰 {feed_name}")
     
     feed = fetch_feed(feed_url)
@@ -254,10 +335,7 @@ for feed_url in FEEDS:
         continue
     
     count = 0
-    # Get more articles per feed (up to 15 instead of 10)
     for entry in feed.entries[:15]:
-        content = extract_content(entry)
-        
         content = extract_content(entry)
         
         # Minimum 300 words to ensure substantive content
@@ -277,7 +355,6 @@ for feed_url in FEEDS:
     feed_stats[feed_name] = count
     print(f"    ✅ {count} articles")
     
-    # Small delay between feeds
     time.sleep(0.3)
 
 print(f"\n📚 Total articles fetched: {len(articles)}")
@@ -316,10 +393,26 @@ for i, article in enumerate(articles, 1):
         'curriculum': analysis
     })
     
-    print(f"    ✅ {analysis['topic']} - {analysis['difficulty']['level']}")
+    article_type = analysis.get('article_type', 'teaches')
+    primary = analysis.get('primary_concept', 'unknown')[:30]
+    print(f"    ✅ {article_type} | {primary} | {analysis['difficulty']['level']}")
     
-    # Rate limiting (slightly faster)
     time.sleep(0.3)
+
+# Build concept registry
+print("\n🧠 Building concept registry...")
+concepts = build_concept_registry(analyzed)
+print(f"   Found {len(concepts)} unique concepts")
+
+# Count teaches vs extends
+teaches_count = sum(1 for a in analyzed if a['curriculum'].get('article_type') == 'teaches')
+extends_count = sum(1 for a in analyzed if a['curriculum'].get('article_type') == 'extends')
+print(f"   • {teaches_count} articles teach concepts")
+print(f"   • {extends_count} articles extend concepts")
+
+# Count orphaned concepts (extends but no teaches)
+orphaned = [c for c in concepts.values() if len(c['teaches']) == 0 and len(c['extends']) > 0]
+print(f"   • {len(orphaned)} orphaned concepts (extensions without foundational content)")
 
 # Build curriculum JSON
 print("\n📦 Building curriculum...")
@@ -327,11 +420,13 @@ print("\n📦 Building curriculum...")
 curriculum = {
     'generated_at': datetime.utcnow().isoformat() + 'Z',
     'total_articles': len(analyzed),
+    'total_concepts': len(concepts),
+    'concepts': concepts,
     'topics': {},
     'articles': analyzed
 }
 
-# Group by topic
+# Group by topic (for backward compatibility)
 topic_counts = {}
 for article in analyzed:
     topic = article['curriculum']['topic']
@@ -353,7 +448,6 @@ for article in analyzed:
     curriculum['topics'][topic]['articles'].append(article)
     curriculum['topics'][topic]['article_count'] += 1
     
-    # Add to level
     level = article['curriculum']['difficulty']['level'].lower()
     if level in curriculum['topics'][topic]['levels']:
         curriculum['topics'][topic]['levels'][level].append(article)
@@ -369,12 +463,20 @@ print(f"\n📝 Curriculum saved to curriculum.json")
 # Stats
 print(f"\n📊 Processing Stats:")
 print(f"   • Fetched: {len(articles)} articles")
-print(f"   • Analyzed: {len(analyzed)} articles ({len(analyzed)/len(articles)*100:.1f}%)")
+print(f"   • Analyzed: {len(analyzed)} articles ({len(analyzed)/len(articles)*100:.1f}%)" if articles else "   • Analyzed: 0 articles")
 print(f"   • Skipped: {len(skipped)} articles")
 print(f"   • Errors: {len(errors)} articles")
 
 print(f"\n📚 Topics discovered:")
 for topic, count in sorted(topic_counts.items(), key=lambda x: x[1], reverse=True):
     print(f"   • {topic}: {count} articles")
+
+print(f"\n🧠 Top concepts by coverage:")
+sorted_concepts = sorted(concepts.values(), key=lambda c: len(c['teaches']) + len(c['extends']), reverse=True)
+for concept in sorted_concepts[:10]:
+    teaches = len(concept['teaches'])
+    extends = len(concept['extends'])
+    status = "✅" if teaches > 0 else "⚠️ orphan"
+    print(f"   • {concept['name']}: {teaches} teach, {extends} extend {status}")
 
 print("\n✨ Done!")
