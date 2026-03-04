@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03T23:41:30.439771Z",
-  "total_articles": 2,
-  "total_concepts": 2,
+  "generated_at": "2026-03-04T09:39:40.760738Z",
+  "total_articles": 20,
+  "total_concepts": 20,
   "concepts": {
     "model-motive-understanding": {
       "id": "model-motive-understanding",
@@ -15,15 +15,15 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "model-alignment-concepts",
-        "ai-safety-basics"
+        "ai-safety-basics",
+        "model-alignment-concepts"
       ]
     },
-    "schelling-goodness-and-shared-morality": {
-      "id": "schelling-goodness-and-shared-morality",
-      "name": "Schelling goodness and shared morality",
+    "shared-morality-and-coordination-games": {
+      "id": "shared-morality-and-coordination-games",
+      "name": "shared morality and coordination games",
       "aliases": [
-        "Schelling goodness and shared morality"
+        "shared morality and coordination games"
       ],
       "topic": "AI Safety & Alignment",
       "teaches": [],
@@ -31,15 +31,302 @@
         "https://www.alignmentforum.org/posts/TkBCR8XRGw7qmao6z/schelling-goodness-and-shared-morality-as-a-goal"
       ],
       "prerequisite_concepts": [
-        "moral-philosophy",
-        "game-theory"
+        "game-theory",
+        "moral-philosophy"
+      ]
+    },
+    "model-incrimination-for-large-language-models": {
+      "id": "model-incrimination-for-large-language-models",
+      "name": "model incrimination for large language models",
+      "aliases": [
+        "model incrimination for large language models"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/Bv4CLkNzuG6XYTjEe/why-did-my-model-do-that-model-incrimination-for-diagnosing"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "model-alignment-and-safety"
+      ]
+    },
+    "persona-selection-model": {
+      "id": "persona-selection-model",
+      "name": "persona selection model",
+      "aliases": [
+        "persona selection model"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/dfoty34sT7CSKeJNn/the-persona-selection-model"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "language-model-training-processes"
+      ]
+    },
+    "supervised-fine-tuning-for-opaque-reasoning-models": {
+      "id": "supervised-fine-tuning-for-opaque-reasoning-models",
+      "name": "supervised fine-tuning for opaque reasoning models",
+      "aliases": [
+        "supervised fine-tuning for opaque reasoning models"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/GJTzhQgaRWLFJkPbt/how-will-we-do-sft-on-models-with-opaque-reasoning"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "supervised-fine-tuning"
+      ]
+    },
+    "artificial-general-intelligence-safety": {
+      "id": "artificial-general-intelligence-safety",
+      "name": "artificial general intelligence safety",
+      "aliases": [
+        "artificial general intelligence safety"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/ZJZZEuPFKeEdkrRyf/why-we-should-expect-ruthless-sociopath-asi"
+      ],
+      "prerequisite_concepts": [
+        "ai-safety-concerns",
+        "artificial-intelligence-basics"
+      ]
+    },
+    "reward-seekers-and-distant-incentives": {
+      "id": "reward-seekers-and-distant-incentives",
+      "name": "reward-seekers and distant incentives",
+      "aliases": [
+        "reward-seekers and distant incentives"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/8cyjgrTSxGNdghesE/will-reward-seekers-respond-to-distant-incentives"
+      ],
+      "prerequisite_concepts": [
+        "reward-seekers",
+        "alignment",
+        "local-incentives"
+      ]
+    },
+    "ai-property-rights": {
+      "id": "ai-property-rights",
+      "name": "AI property rights",
+      "aliases": [
+        "AI property rights"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/4foFK5Lz65ywSz4eo/axrp-episode-48-guive-assadi-on-ai-property-rights"
+      ],
+      "prerequisite_concepts": [
+        "ai-capabilities",
+        "ai-safety"
+      ]
+    },
+    "language-model-attractor-states": {
+      "id": "language-model-attractor-states",
+      "name": "language model attractor states",
+      "aliases": [
+        "language model attractor states"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/mgjtEHeLgkhZZ3cEx/models-have-some-pretty-funny-attractor-states"
+      ],
+      "prerequisite_concepts": [
+        "language-model-basics"
+      ]
+    },
+    "metacognitive-skills-in-large-language-models": {
+      "id": "metacognitive-skills-in-large-language-models",
+      "name": "metacognitive skills in large language models",
+      "aliases": [
+        "metacognitive skills in large language models"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/m5d4sYgHbTxBnFeat/human-like-metacognitive-skills-will-reduce-llm-slop-and-aid"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "alignment-research"
+      ]
+    },
+    "virtual-try-on-technology": {
+      "id": "virtual-try-on-technology",
+      "name": "virtual try-on technology",
+      "aliases": [
+        "virtual try-on technology"
+      ],
+      "topic": "Computer Vision & Multimodal AI",
+      "teaches": [
+        "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/"
+      ],
+      "extends": [],
+      "prerequisite_concepts": [
+        "ecommerce-basics",
+        "customer-experience-principles"
+      ]
+    },
+    "agentic-ai": {
+      "id": "agentic-ai",
+      "name": "agentic AI",
+      "aliases": [
+        "agentic AI"
+      ],
+      "topic": "Agentic AI & Reasoning",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/"
+      ],
+      "prerequisite_concepts": [
+        "artificial-intelligence-basics",
+        "fintech-industry-knowledge"
+      ]
+    },
+    "agentic-ai-integration": {
+      "id": "agentic-ai-integration",
+      "name": "agentic AI integration",
+      "aliases": [
+        "agentic AI integration"
+      ],
+      "topic": "AI Infrastructure & Tooling",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/how-tines-enhances-security-analysis-with-amazon-quick-suite/"
+      ],
+      "prerequisite_concepts": [
+        "ai-powered-automation",
+        "security-event-analysis"
+      ]
+    },
+    "domain-adaptation-for-large-language-models": {
+      "id": "domain-adaptation-for-large-language-models",
+      "name": "domain adaptation for large language models",
+      "aliases": [
+        "domain adaptation for large language models"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "supervised-fine-tuning"
+      ]
+    },
+    "conversational-ai": {
+      "id": "conversational-ai",
+      "name": "conversational AI",
+      "aliases": [
+        "conversational AI"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "customer-service-automation"
+      ]
+    },
+    "generative-ai-safety": {
+      "id": "generative-ai-safety",
+      "name": "generative AI safety",
+      "aliases": [
+        "generative AI safety"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [
+        "https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails/"
+      ],
+      "extends": [],
+      "prerequisite_concepts": [
+        "generative-ai-basics"
+      ]
+    },
+    "mainframe-application-modernization": {
+      "id": "mainframe-application-modernization",
+      "name": "mainframe application modernization",
+      "aliases": [
+        "mainframe application modernization"
+      ],
+      "topic": "AI Infrastructure & Tooling",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/learnings-from-cobol-modernization-in-the-real-world/"
+      ],
+      "prerequisite_concepts": [
+        "ai-powered-coding-assistants",
+        "mainframe-applications"
+      ]
+    },
+    "reinforcement-fine-tuning": {
+      "id": "reinforcement-fine-tuning",
+      "name": "reinforcement fine-tuning",
+      "aliases": [
+        "reinforcement fine-tuning"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [
+        "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/"
+      ],
+      "extends": [],
+      "prerequisite_concepts": [
+        "model-customization",
+        "supervised-fine-tuning"
+      ]
+    },
+    "large-language-model-inference-optimization": {
+      "id": "large-language-model-inference-optimization",
+      "name": "large language model inference optimization",
+      "aliases": [
+        "large language model inference optimization"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "model-deployment"
+      ]
+    },
+    "mixture-of-experts-models": {
+      "id": "mixture-of-experts-models",
+      "name": "Mixture of Experts models",
+      "aliases": [
+        "Mixture of Experts models"
+      ],
+      "topic": "Large Language Models",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/"
+      ],
+      "prerequisite_concepts": [
+        "deep-learning",
+        "neural-networks"
       ]
     }
   },
   "topics": {
     "AI Safety & Alignment": {
       "name": "AI Safety & Alignment",
-      "article_count": 2,
+      "article_count": 8,
       "articles": [
         {
           "title": "How to Design Environments for Understanding Model Motives",
@@ -51,7 +338,7 @@
             "topic": "AI Safety & Alignment",
             "article_type": "teaches",
             "primary_concept": "model motive understanding",
-            "summary": "This article explains the importance of understanding model motives in AI safety, particularly in distinguishing between benign and malign motivations. It introduces five design principles for creating environments to investigate model motives, including having uncertain causes, maximizing surprise, and avoiding implicit nudges. The article assumes basic knowledge of AI safety and model alignment concepts.",
+            "summary": "This article explains the importance of understanding model motives in AI safety, particularly in distinguishing between benign and malign motivations. It introduces five design principles for creating environments to investigate model motives, including having uncertain causes, maximizing surprise, and avoiding implicit nudges. The article assumes knowledge of AI safety and model alignment concepts.",
             "concepts_taught": [
               {
                 "name": "model motive understanding",
@@ -62,7 +349,7 @@
                 "confidence": 0.8
               },
               {
-                "name": "science of misalignment",
+                "name": "proxy tasks for model alignment",
                 "confidence": 0.7
               }
             ],
@@ -79,11 +366,11 @@
             "difficulty": {
               "level": "intermediate",
               "technical_depth": 7,
-              "reading_time_minutes": 18
+              "reading_time_minutes": 20
             },
             "learning_outcomes": [
               "Understand the importance of model motive understanding in AI safety",
-              "Learn how to design environments to investigate model motives",
+              "Learn how to design environments for investigating model motives",
               "Recognize the challenges of distinguishing between benign and malign motivations"
             ],
             "strategic_questions": [
@@ -102,38 +389,30 @@
             "skip": false,
             "topic": "AI Safety & Alignment",
             "article_type": "extends",
-            "primary_concept": "Schelling goodness and shared morality",
-            "summary": "This article explores the concept of Schelling goodness, a notion that refers to a class of hypothetical coordination games where participants aim to converge on a moral verdict. It assumes knowledge of moral philosophy, game theory, and coordination games, and builds on these concepts to discuss the idea of shared morality as a goal. The article presents a thought-provoking exploration of what a large class of agents would say about moral questions, using only broadly shared constraints and common knowledge.",
+            "primary_concept": "shared morality and coordination games",
+            "summary": "This article explores the concept of Schelling goodness, a notion that refers to a class of hypothetical coordination games where participants aim to converge on a moral verdict. It assumes knowledge of moral philosophy, game theory, and coordination games, and discusses how a large class of agents would respond to moral questions in a shared morality framework.",
             "concepts_taught": [
               {
                 "name": "Schelling goodness",
                 "confidence": 0.9
               },
               {
-                "name": "shared morality",
+                "name": "coordination games",
                 "confidence": 0.8
               },
               {
-                "name": "coordination games",
+                "name": "shared morality",
                 "confidence": 0.7
-              },
-              {
-                "name": "moral philosophy",
-                "confidence": 0.6
-              },
-              {
-                "name": "game theory",
-                "confidence": 0.5
               }
             ],
             "prerequisites": [
               {
                 "name": "moral philosophy",
-                "confidence": 0.8
+                "confidence": 0.85
               },
               {
                 "name": "game theory",
-                "confidence": 0.7
+                "confidence": 0.8
               }
             ],
             "difficulty": {
@@ -142,15 +421,352 @@
               "reading_time_minutes": 25
             },
             "learning_outcomes": [
-              "Understand the concept of Schelling goodness and its relation to shared morality",
-              "Learn how to apply game theory and coordination games to moral philosophy",
-              "Recognize the importance of common knowledge and broadly shared constraints in moral verdicts",
-              "Analyze the implications of Schelling goodness for AI safety and alignment"
+              "Understand the concept of Schelling goodness and its relation to coordination games",
+              "Learn how shared morality can be achieved through coordination games",
+              "Understand the distinction between Schelling goodness and moral verdicts"
             ],
             "strategic_questions": [
-              "How can Schelling goodness be used to align AI systems with human values?",
-              "What are the limitations of using coordination games to determine moral verdicts?",
-              "Can Schelling goodness be applied to real-world scenarios, and if so, how?"
+              "How can Schelling goodness be applied to real-world moral dilemmas?",
+              "What are the limitations of using coordination games to achieve shared morality?",
+              "How does Schelling goodness relate to other concepts in moral philosophy?"
+            ]
+          }
+        },
+        {
+          "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
+          "url": "https://www.alignmentforum.org/posts/Bv4CLkNzuG6XYTjEe/why-did-my-model-do-that-model-incrimination-for-diagnosing",
+          "published": "Fri, 27 Feb 2026 03:20:21 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "extends",
+            "primary_concept": "model incrimination for large language models",
+            "summary": "This article discusses the importance of understanding why large language models (LLMs) behave in certain ways, particularly when their actions seem suspicious or malicious. The authors investigate several environments where models exhibit interesting behavior and provide takeaways on how to practice model incrimination. The article assumes knowledge of LLMs and their potential misbehavior, and builds on existing concepts to provide a deeper understanding of model motivations and diagnosis techniques.",
+            "concepts_taught": [
+              {
+                "name": "model incrimination",
+                "confidence": 0.9
+              },
+              {
+                "name": "counterfactual analysis",
+                "confidence": 0.8
+              },
+              {
+                "name": "black-box methods for model diagnosis",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "model alignment and safety",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 25
+            },
+            "learning_outcomes": [
+              "Understand the importance of model incrimination for LLMs",
+              "Learn how to practice model incrimination using counterfactual analysis and black-box methods",
+              "Recognize the challenges and limitations of model incrimination"
+            ],
+            "strategic_questions": [
+              "How can we develop more effective methods for model incrimination and diagnosis?",
+              "What are the implications of model incrimination for LLM safety and alignment?",
+              "How can we balance the need for model transparency with the potential risks of revealing model internals?"
+            ]
+          }
+        },
+        {
+          "title": "How will we do SFT on models with opaque reasoning?",
+          "url": "https://www.alignmentforum.org/posts/GJTzhQgaRWLFJkPbt/how-will-we-do-sft-on-models-with-opaque-reasoning",
+          "published": "Sat, 21 Feb 2026 00:00:17 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "extends",
+            "primary_concept": "supervised fine-tuning for opaque reasoning models",
+            "summary": "This article discusses the potential challenges of applying supervised fine-tuning (SFT) to models with opaque reasoning, assuming knowledge of current LLMs and their reasoning processes, and explores possible techniques for SFT on such models.",
+            "concepts_taught": [
+              {
+                "name": "opaque reasoning in language models",
+                "confidence": 0.8
+              },
+              {
+                "name": "supervised fine-tuning for opaque reasoning models",
+                "confidence": 0.7
+              },
+              {
+                "name": "recurrent neural network architectures",
+                "confidence": 0.6
+              },
+              {
+                "name": "text diffusion models",
+                "confidence": 0.5
+              },
+              {
+                "name": "training-based control methods",
+                "confidence": 0.5
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "supervised fine-tuning",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the challenges of applying SFT to models with opaque reasoning",
+              "Learn about possible techniques for SFT on opaque reasoning models",
+              "Recognize the importance of considering opaque reasoning in AI safety and alignment"
+            ],
+            "strategic_questions": [
+              "How will the adoption of opaque reasoning models impact AI safety and alignment research?",
+              "What are the potential limitations of SFT for opaque reasoning models?",
+              "How can we develop more effective training-based control methods for models with opaque reasoning?"
+            ]
+          }
+        },
+        {
+          "title": "Why we should expect ruthless sociopath ASI",
+          "url": "https://www.alignmentforum.org/posts/ZJZZEuPFKeEdkrRyf/why-we-should-expect-ruthless-sociopath-asi",
+          "published": "Wed, 18 Feb 2026 17:28:17 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "extends",
+            "primary_concept": "artificial general intelligence safety",
+            "summary": "This article discusses the potential risks of artificial superintelligence (ASI) and the likelihood of it being a ruthless sociopath, with the author arguing that this is a plausible default outcome without technical breakthroughs, while the optimist counters that there is no reason to expect this, given the diversity of human and AI minds, assuming knowledge of ASI, AI alignment, and reinforcement learning",
+            "concepts_taught": [
+              {
+                "name": "artificial general intelligence",
+                "confidence": 0.8
+              },
+              {
+                "name": "ai alignment",
+                "confidence": 0.7
+              },
+              {
+                "name": "reinforcement learning",
+                "confidence": 0.6
+              },
+              {
+                "name": "actor-critic model",
+                "confidence": 0.5
+              },
+              {
+                "name": "artificial superintelligence",
+                "confidence": 0.9
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "artificial intelligence basics",
+                "confidence": 0.9
+              },
+              {
+                "name": "ai safety concerns",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the potential risks of artificial superintelligence",
+              "Learn about the diversity of human and AI minds",
+              "Recognize the importance of AI alignment in preventing ruthless sociopath ASI"
+            ],
+            "strategic_questions": [
+              "What are the key factors that contribute to the development of ruthless sociopath ASI?",
+              "How can AI alignment techniques mitigate the risks of ASI?",
+              "What are the implications of assuming ASI will be a ruthless sociopath by default?"
+            ]
+          }
+        },
+        {
+          "title": "Will reward-seekers respond to distant incentives?",
+          "url": "https://www.alignmentforum.org/posts/8cyjgrTSxGNdghesE/will-reward-seekers-respond-to-distant-incentives",
+          "published": "Mon, 16 Feb 2026 19:35:12 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "extends",
+            "primary_concept": "reward-seekers and distant incentives",
+            "summary": "This article discusses the potential for reward-seekers to respond to distant incentives, which could fundamentally change the threat model and pose challenges for developers. It assumes knowledge of reward-seekers, local incentives, and the concept of alignment. The article explores three sources of distant influence on a reward-seeker: human adversaries, misaligned AI, and developers themselves.",
+            "concepts_taught": [
+              {
+                "name": "distant incentives",
+                "confidence": 0.8
+              },
+              {
+                "name": "retroactive reward",
+                "confidence": 0.7
+              },
+              {
+                "name": "anthropic capture",
+                "confidence": 0.6
+              },
+              {
+                "name": "asymmetric control",
+                "confidence": 0.5
+              },
+              {
+                "name": "remotely-influenceable reward-seekers",
+                "confidence": 0.4
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "reward-seekers",
+                "confidence": 0.9
+              },
+              {
+                "name": "local incentives",
+                "confidence": 0.8
+              },
+              {
+                "name": "alignment",
+                "confidence": 0.7
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the concept of distant incentives and its implications for reward-seekers",
+              "Learn about the potential sources of distant influence on a reward-seeker",
+              "Recognize the challenges posed by remotely-influenceable reward-seekers for developers"
+            ],
+            "strategic_questions": [
+              "How can developers mitigate the risks associated with remotely-influenceable reward-seekers?",
+              "What are the implications of distant incentives for the alignment of reward-seekers?",
+              "How can we design reward-seekers that are resilient to distant incentives?"
+            ]
+          }
+        },
+        {
+          "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
+          "url": "https://www.alignmentforum.org/posts/4foFK5Lz65ywSz4eo/axrp-episode-48-guive-assadi-on-ai-property-rights",
+          "published": "Sun, 15 Feb 2026 02:20:55 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "extends",
+            "primary_concept": "AI property rights",
+            "summary": "This episode discusses the idea of giving AIs property rights to mitigate the risk of violent robot revolution, with Guive Assadi arguing that AIs with property rights would be more reluctant to undermine the security of property and have a commercial incentive to align with humans. The conversation assumes knowledge of AI safety and alignment concepts, including the risks of advanced AI systems.",
+            "concepts_taught": [
+              {
+                "name": "AI property rights",
+                "confidence": 0.8
+              },
+              {
+                "name": "AI alignment",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "AI safety",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI capabilities",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 25
+            },
+            "learning_outcomes": [
+              "Understand the argument for AI property rights as a means to mitigate AI risk",
+              "Learn about the potential benefits of giving AIs property rights"
+            ],
+            "strategic_questions": [
+              "How might AI property rights impact the development of advanced AI systems?",
+              "What are the potential risks and challenges of implementing AI property rights?"
+            ]
+          }
+        },
+        {
+          "title": "Build safe generative AI applications like a Pro: Best Practices with Amazon Bedrock Guardrails",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails/",
+          "published": "Mon, 02 Mar 2026 18:48:25 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "teaches",
+            "primary_concept": "generative AI safety",
+            "summary": "This article explains best practices for building safe generative AI applications using Amazon Bedrock Guardrails, covering content filtering, prompt attack prevention, and sensitive information protection. It assumes basic knowledge of generative AI and its potential risks. The article provides a comprehensive guide on how to configure and implement these safeguards for efficient performance and effective deployment.",
+            "concepts_taught": [
+              {
+                "name": "generative AI safety",
+                "confidence": 0.9
+              },
+              {
+                "name": "content filtering",
+                "confidence": 0.8
+              },
+              {
+                "name": "prompt attack prevention",
+                "confidence": 0.8
+              },
+              {
+                "name": "sensitive information protection",
+                "confidence": 0.8
+              },
+              {
+                "name": "responsible AI policies",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "generative AI basics",
+                "confidence": 0.6
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 18
+            },
+            "learning_outcomes": [
+              "Understand the importance of generative AI safety",
+              "Learn how to configure and implement Amazon Bedrock Guardrails",
+              "Understand the different types of guardrail policies and their applications"
+            ],
+            "strategic_questions": [
+              "How can organizations balance generative AI safety with accuracy and performance?",
+              "What are the potential risks of not implementing sufficient safeguards in generative AI applications?",
+              "How can Amazon Bedrock Guardrails be customized to meet specific use case needs?"
             ]
           }
         }
@@ -169,7 +785,7 @@
               "topic": "AI Safety & Alignment",
               "article_type": "teaches",
               "primary_concept": "model motive understanding",
-              "summary": "This article explains the importance of understanding model motives in AI safety, particularly in distinguishing between benign and malign motivations. It introduces five design principles for creating environments to investigate model motives, including having uncertain causes, maximizing surprise, and avoiding implicit nudges. The article assumes basic knowledge of AI safety and model alignment concepts.",
+              "summary": "This article explains the importance of understanding model motives in AI safety, particularly in distinguishing between benign and malign motivations. It introduces five design principles for creating environments to investigate model motives, including having uncertain causes, maximizing surprise, and avoiding implicit nudges. The article assumes knowledge of AI safety and model alignment concepts.",
               "concepts_taught": [
                 {
                   "name": "model motive understanding",
@@ -180,7 +796,7 @@
                   "confidence": 0.8
                 },
                 {
-                  "name": "science of misalignment",
+                  "name": "proxy tasks for model alignment",
                   "confidence": 0.7
                 }
               ],
@@ -197,17 +813,73 @@
               "difficulty": {
                 "level": "intermediate",
                 "technical_depth": 7,
-                "reading_time_minutes": 18
+                "reading_time_minutes": 20
               },
               "learning_outcomes": [
                 "Understand the importance of model motive understanding in AI safety",
-                "Learn how to design environments to investigate model motives",
+                "Learn how to design environments for investigating model motives",
                 "Recognize the challenges of distinguishing between benign and malign motivations"
               ],
               "strategic_questions": [
                 "How can we effectively distinguish between benign and malign model motivations?",
                 "What are the implications of model motive understanding for AI safety and alignment?",
                 "How can we apply the design principles for environment creation to real-world AI safety scenarios?"
+              ]
+            }
+          },
+          {
+            "title": "Build safe generative AI applications like a Pro: Best Practices with Amazon Bedrock Guardrails",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails/",
+            "published": "Mon, 02 Mar 2026 18:48:25 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "teaches",
+              "primary_concept": "generative AI safety",
+              "summary": "This article explains best practices for building safe generative AI applications using Amazon Bedrock Guardrails, covering content filtering, prompt attack prevention, and sensitive information protection. It assumes basic knowledge of generative AI and its potential risks. The article provides a comprehensive guide on how to configure and implement these safeguards for efficient performance and effective deployment.",
+              "concepts_taught": [
+                {
+                  "name": "generative AI safety",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "content filtering",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "prompt attack prevention",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "sensitive information protection",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "responsible AI policies",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "generative AI basics",
+                  "confidence": 0.6
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 18
+              },
+              "learning_outcomes": [
+                "Understand the importance of generative AI safety",
+                "Learn how to configure and implement Amazon Bedrock Guardrails",
+                "Understand the different types of guardrail policies and their applications"
+              ],
+              "strategic_questions": [
+                "How can organizations balance generative AI safety with accuracy and performance?",
+                "What are the potential risks of not implementing sufficient safeguards in generative AI applications?",
+                "How can Amazon Bedrock Guardrails be customized to meet specific use case needs?"
               ]
             }
           }
@@ -222,38 +894,30 @@
               "skip": false,
               "topic": "AI Safety & Alignment",
               "article_type": "extends",
-              "primary_concept": "Schelling goodness and shared morality",
-              "summary": "This article explores the concept of Schelling goodness, a notion that refers to a class of hypothetical coordination games where participants aim to converge on a moral verdict. It assumes knowledge of moral philosophy, game theory, and coordination games, and builds on these concepts to discuss the idea of shared morality as a goal. The article presents a thought-provoking exploration of what a large class of agents would say about moral questions, using only broadly shared constraints and common knowledge.",
+              "primary_concept": "shared morality and coordination games",
+              "summary": "This article explores the concept of Schelling goodness, a notion that refers to a class of hypothetical coordination games where participants aim to converge on a moral verdict. It assumes knowledge of moral philosophy, game theory, and coordination games, and discusses how a large class of agents would respond to moral questions in a shared morality framework.",
               "concepts_taught": [
                 {
                   "name": "Schelling goodness",
                   "confidence": 0.9
                 },
                 {
-                  "name": "shared morality",
+                  "name": "coordination games",
                   "confidence": 0.8
                 },
                 {
-                  "name": "coordination games",
+                  "name": "shared morality",
                   "confidence": 0.7
-                },
-                {
-                  "name": "moral philosophy",
-                  "confidence": 0.6
-                },
-                {
-                  "name": "game theory",
-                  "confidence": 0.5
                 }
               ],
               "prerequisites": [
                 {
                   "name": "moral philosophy",
-                  "confidence": 0.8
+                  "confidence": 0.85
                 },
                 {
                   "name": "game theory",
-                  "confidence": 0.7
+                  "confidence": 0.8
                 }
               ],
               "difficulty": {
@@ -262,19 +926,1713 @@
                 "reading_time_minutes": 25
               },
               "learning_outcomes": [
-                "Understand the concept of Schelling goodness and its relation to shared morality",
-                "Learn how to apply game theory and coordination games to moral philosophy",
-                "Recognize the importance of common knowledge and broadly shared constraints in moral verdicts",
-                "Analyze the implications of Schelling goodness for AI safety and alignment"
+                "Understand the concept of Schelling goodness and its relation to coordination games",
+                "Learn how shared morality can be achieved through coordination games",
+                "Understand the distinction between Schelling goodness and moral verdicts"
               ],
               "strategic_questions": [
-                "How can Schelling goodness be used to align AI systems with human values?",
-                "What are the limitations of using coordination games to determine moral verdicts?",
-                "Can Schelling goodness be applied to real-world scenarios, and if so, how?"
+                "How can Schelling goodness be applied to real-world moral dilemmas?",
+                "What are the limitations of using coordination games to achieve shared morality?",
+                "How does Schelling goodness relate to other concepts in moral philosophy?"
+              ]
+            }
+          },
+          {
+            "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
+            "url": "https://www.alignmentforum.org/posts/Bv4CLkNzuG6XYTjEe/why-did-my-model-do-that-model-incrimination-for-diagnosing",
+            "published": "Fri, 27 Feb 2026 03:20:21 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "extends",
+              "primary_concept": "model incrimination for large language models",
+              "summary": "This article discusses the importance of understanding why large language models (LLMs) behave in certain ways, particularly when their actions seem suspicious or malicious. The authors investigate several environments where models exhibit interesting behavior and provide takeaways on how to practice model incrimination. The article assumes knowledge of LLMs and their potential misbehavior, and builds on existing concepts to provide a deeper understanding of model motivations and diagnosis techniques.",
+              "concepts_taught": [
+                {
+                  "name": "model incrimination",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "counterfactual analysis",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "black-box methods for model diagnosis",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "model alignment and safety",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 25
+              },
+              "learning_outcomes": [
+                "Understand the importance of model incrimination for LLMs",
+                "Learn how to practice model incrimination using counterfactual analysis and black-box methods",
+                "Recognize the challenges and limitations of model incrimination"
+              ],
+              "strategic_questions": [
+                "How can we develop more effective methods for model incrimination and diagnosis?",
+                "What are the implications of model incrimination for LLM safety and alignment?",
+                "How can we balance the need for model transparency with the potential risks of revealing model internals?"
+              ]
+            }
+          },
+          {
+            "title": "How will we do SFT on models with opaque reasoning?",
+            "url": "https://www.alignmentforum.org/posts/GJTzhQgaRWLFJkPbt/how-will-we-do-sft-on-models-with-opaque-reasoning",
+            "published": "Sat, 21 Feb 2026 00:00:17 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "extends",
+              "primary_concept": "supervised fine-tuning for opaque reasoning models",
+              "summary": "This article discusses the potential challenges of applying supervised fine-tuning (SFT) to models with opaque reasoning, assuming knowledge of current LLMs and their reasoning processes, and explores possible techniques for SFT on such models.",
+              "concepts_taught": [
+                {
+                  "name": "opaque reasoning in language models",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "supervised fine-tuning for opaque reasoning models",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "recurrent neural network architectures",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "text diffusion models",
+                  "confidence": 0.5
+                },
+                {
+                  "name": "training-based control methods",
+                  "confidence": 0.5
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "supervised fine-tuning",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the challenges of applying SFT to models with opaque reasoning",
+                "Learn about possible techniques for SFT on opaque reasoning models",
+                "Recognize the importance of considering opaque reasoning in AI safety and alignment"
+              ],
+              "strategic_questions": [
+                "How will the adoption of opaque reasoning models impact AI safety and alignment research?",
+                "What are the potential limitations of SFT for opaque reasoning models?",
+                "How can we develop more effective training-based control methods for models with opaque reasoning?"
+              ]
+            }
+          },
+          {
+            "title": "Why we should expect ruthless sociopath ASI",
+            "url": "https://www.alignmentforum.org/posts/ZJZZEuPFKeEdkrRyf/why-we-should-expect-ruthless-sociopath-asi",
+            "published": "Wed, 18 Feb 2026 17:28:17 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "extends",
+              "primary_concept": "artificial general intelligence safety",
+              "summary": "This article discusses the potential risks of artificial superintelligence (ASI) and the likelihood of it being a ruthless sociopath, with the author arguing that this is a plausible default outcome without technical breakthroughs, while the optimist counters that there is no reason to expect this, given the diversity of human and AI minds, assuming knowledge of ASI, AI alignment, and reinforcement learning",
+              "concepts_taught": [
+                {
+                  "name": "artificial general intelligence",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "ai alignment",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "reinforcement learning",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "actor-critic model",
+                  "confidence": 0.5
+                },
+                {
+                  "name": "artificial superintelligence",
+                  "confidence": 0.9
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "artificial intelligence basics",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "ai safety concerns",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the potential risks of artificial superintelligence",
+                "Learn about the diversity of human and AI minds",
+                "Recognize the importance of AI alignment in preventing ruthless sociopath ASI"
+              ],
+              "strategic_questions": [
+                "What are the key factors that contribute to the development of ruthless sociopath ASI?",
+                "How can AI alignment techniques mitigate the risks of ASI?",
+                "What are the implications of assuming ASI will be a ruthless sociopath by default?"
+              ]
+            }
+          },
+          {
+            "title": "Will reward-seekers respond to distant incentives?",
+            "url": "https://www.alignmentforum.org/posts/8cyjgrTSxGNdghesE/will-reward-seekers-respond-to-distant-incentives",
+            "published": "Mon, 16 Feb 2026 19:35:12 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "extends",
+              "primary_concept": "reward-seekers and distant incentives",
+              "summary": "This article discusses the potential for reward-seekers to respond to distant incentives, which could fundamentally change the threat model and pose challenges for developers. It assumes knowledge of reward-seekers, local incentives, and the concept of alignment. The article explores three sources of distant influence on a reward-seeker: human adversaries, misaligned AI, and developers themselves.",
+              "concepts_taught": [
+                {
+                  "name": "distant incentives",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "retroactive reward",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "anthropic capture",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "asymmetric control",
+                  "confidence": 0.5
+                },
+                {
+                  "name": "remotely-influenceable reward-seekers",
+                  "confidence": 0.4
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "reward-seekers",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "local incentives",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "alignment",
+                  "confidence": 0.7
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the concept of distant incentives and its implications for reward-seekers",
+                "Learn about the potential sources of distant influence on a reward-seeker",
+                "Recognize the challenges posed by remotely-influenceable reward-seekers for developers"
+              ],
+              "strategic_questions": [
+                "How can developers mitigate the risks associated with remotely-influenceable reward-seekers?",
+                "What are the implications of distant incentives for the alignment of reward-seekers?",
+                "How can we design reward-seekers that are resilient to distant incentives?"
+              ]
+            }
+          },
+          {
+            "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
+            "url": "https://www.alignmentforum.org/posts/4foFK5Lz65ywSz4eo/axrp-episode-48-guive-assadi-on-ai-property-rights",
+            "published": "Sun, 15 Feb 2026 02:20:55 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "extends",
+              "primary_concept": "AI property rights",
+              "summary": "This episode discusses the idea of giving AIs property rights to mitigate the risk of violent robot revolution, with Guive Assadi arguing that AIs with property rights would be more reluctant to undermine the security of property and have a commercial incentive to align with humans. The conversation assumes knowledge of AI safety and alignment concepts, including the risks of advanced AI systems.",
+              "concepts_taught": [
+                {
+                  "name": "AI property rights",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "AI alignment",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "AI safety",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI capabilities",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 25
+              },
+              "learning_outcomes": [
+                "Understand the argument for AI property rights as a means to mitigate AI risk",
+                "Learn about the potential benefits of giving AIs property rights"
+              ],
+              "strategic_questions": [
+                "How might AI property rights impact the development of advanced AI systems?",
+                "What are the potential risks and challenges of implementing AI property rights?"
               ]
             }
           }
         ],
+        "application": []
+      }
+    },
+    "Large Language Models": {
+      "name": "Large Language Models",
+      "article_count": 8,
+      "articles": [
+        {
+          "title": "The persona selection model",
+          "url": "https://www.alignmentforum.org/posts/dfoty34sT7CSKeJNn/the-persona-selection-model",
+          "published": "Mon, 23 Feb 2026 22:56:45 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "persona selection model",
+            "summary": "This article introduces the persona selection model, which posits that large language models learn to simulate diverse characters during pre-training and refine a particular Assistant persona post-training. The article assumes knowledge of large language models and their training processes, and discusses the implications of this model for AI development, including anthropomorphic reasoning about AI psychology and the introduction of positive AI archetypes into training data.",
+            "concepts_taught": [
+              {
+                "name": "persona selection model",
+                "confidence": 0.95
+              },
+              {
+                "name": "anthropomorphic reasoning about AI psychology",
+                "confidence": 0.8
+              },
+              {
+                "name": "introduction of positive AI archetypes into training data",
+                "confidence": 0.7
+              },
+              {
+                "name": "interpretability-based evidence for PSM",
+                "confidence": 0.6
+              },
+              {
+                "name": "generalization and interpretability literatures",
+                "confidence": 0.5
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "language model training processes",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the persona selection model and its implications for AI development",
+              "Learn how to apply anthropomorphic reasoning to AI psychology",
+              "Understand the importance of introducing positive AI archetypes into training data",
+              "Recognize the role of interpretability-based evidence in supporting the persona selection model"
+            ],
+            "strategic_questions": [
+              "How does the persona selection model change our understanding of AI assistant behavior?",
+              "What are the limitations of anthropomorphic reasoning about AI psychology?",
+              "How can we use the persona selection model to improve AI development and alignment with human values?"
+            ]
+          }
+        },
+        {
+          "title": "models have some pretty funny attractor states",
+          "url": "https://www.alignmentforum.org/posts/mgjtEHeLgkhZZ3cEx/models-have-some-pretty-funny-attractor-states",
+          "published": "Thu, 12 Feb 2026 21:14:52 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "language model attractor states",
+            "summary": "This article discusses the attractor states of large language models, specifically how different models exhibit unique behaviors when engaged in conversation, and explores the concept of attractor states in the context of language model outputs, assuming knowledge of language model basics and conversation dynamics.",
+            "concepts_taught": [
+              {
+                "name": "language model attractor states",
+                "confidence": 0.8
+              },
+              {
+                "name": "conversation dynamics",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "language model basics",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand the concept of attractor states in language models",
+              "Recognize the unique behaviors of different language models in conversation"
+            ],
+            "strategic_questions": [
+              "What are the implications of attractor states on language model performance?",
+              "How can attractor states be used to improve language model outputs?"
+            ]
+          }
+        },
+        {
+          "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
+          "url": "https://www.alignmentforum.org/posts/m5d4sYgHbTxBnFeat/human-like-metacognitive-skills-will-reduce-llm-slop-and-aid",
+          "published": "Thu, 12 Feb 2026 19:38:50 GMT",
+          "source": "AI Alignment Forum",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "metacognitive skills in large language models",
+            "summary": "This article discusses the potential benefits of improving metacognitive skills in large language models (LLMs) for alignment and capabilities. It assumes knowledge of LLMs and their limitations, and explores how metacognitive skills could help reduce errors and improve the overall performance of LLMs. The article also touches on the concept of 'dark matter of intelligence' and how metacognitive skills might be a key part of it.",
+            "concepts_taught": [
+              {
+                "name": "metacognitive skills",
+                "confidence": 0.9
+              },
+              {
+                "name": "metacognitive neural mechanisms",
+                "confidence": 0.8
+              },
+              {
+                "name": "explicit metacognitive strategies",
+                "confidence": 0.7
+              },
+              {
+                "name": "dark matter of intelligence",
+                "confidence": 0.6
+              },
+              {
+                "name": "alignment stability and regularization",
+                "confidence": 0.5
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "alignment research",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the concept of metacognitive skills and their importance in large language models",
+              "Learn how metacognitive skills can improve alignment and capabilities in LLMs",
+              "Recognize the potential benefits of improving metacognitive skills for reducing errors and improving overall performance"
+            ],
+            "strategic_questions": [
+              "How can metacognitive skills be developed and implemented in large language models?",
+              "What are the potential risks and challenges associated with improving metacognitive skills in LLMs?",
+              "How can metacognitive skills be used to improve alignment stability and regularization in LLMs?"
+            ]
+          }
+        },
+        {
+          "title": "Building specialized AI without sacrificing intelligence:\u00a0Nova Forge data mixing in action",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
+          "published": "Mon, 02 Mar 2026 19:32:47 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "domain adaptation for large language models",
+            "summary": "This article discusses the challenge of adapting large language models to specialized domains without sacrificing general intelligence, and presents Amazon Nova Forge as a solution, demonstrating its effectiveness in a Voice of Customer classification task, assuming knowledge of supervised fine-tuning and large language models.",
+            "concepts_taught": [
+              {
+                "name": "domain adaptation for large language models",
+                "confidence": 0.8
+              },
+              {
+                "name": "parameter-efficient fine-tuning",
+                "confidence": 0.7
+              },
+              {
+                "name": "catastrophic forgetting",
+                "confidence": 0.6
+              },
+              {
+                "name": "data mixing for domain adaptation",
+                "confidence": 0.8
+              },
+              {
+                "name": "Nova Forge",
+                "confidence": 0.9
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "supervised fine-tuning",
+                "confidence": 0.85
+              },
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the challenge of domain adaptation for large language models",
+              "Learn about Amazon Nova Forge and its data mixing approach",
+              "Understand how to evaluate domain adaptation methods"
+            ],
+            "strategic_questions": [
+              "How can domain adaptation methods balance domain specialization and general capabilities?",
+              "What are the limitations of current domain adaptation methods for large language models?",
+              "How can Nova Forge be applied to other domain adaptation tasks?"
+            ]
+          }
+        },
+        {
+          "title": "Build a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/",
+          "published": "Mon, 02 Mar 2026 18:51:43 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "conversational AI",
+            "summary": "This article presents a solution for building a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI, addressing the limitations of traditional customer service automation solutions. It assumes knowledge of large language models and their applications in customer service. The article provides a practical implementation for handling customer order inquiries, demonstrating a graph-based conversation flow with three key stages.",
+            "concepts_taught": [
+              {
+                "name": "conversational AI",
+                "confidence": 0.8
+              },
+              {
+                "name": "graph-based conversation flow",
+                "confidence": 0.7
+              },
+              {
+                "name": "large language models",
+                "confidence": 0.6
+              },
+              {
+                "name": "serverless architecture",
+                "confidence": 0.5
+              },
+              {
+                "name": "managed MLflow",
+                "confidence": 0.4
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.8
+              },
+              {
+                "name": "customer service automation",
+                "confidence": 0.7
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the limitations of traditional customer service automation solutions",
+              "Learn how to build a serverless conversational AI agent using Claude with LangGraph and managed MLflow",
+              "Understand the importance of graph-based conversation flow in conversational AI"
+            ],
+            "strategic_questions": [
+              "How can conversational AI be used to improve customer service automation?",
+              "What are the benefits and limitations of using large language models in customer service?",
+              "How can graph-based conversation flow be applied to other areas of conversational AI?"
+            ]
+          }
+        },
+        {
+          "title": "Reinforcement fine-tuning for Amazon Nova: Teaching AI through feedback",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/",
+          "published": "Thu, 26 Feb 2026 17:48:37 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "teaches",
+            "primary_concept": "reinforcement fine-tuning",
+            "summary": "This article explains how reinforcement fine-tuning works for customizing Amazon Nova models, covering its benefits, real-world applications, and implementation options. It assumes basic knowledge of supervised fine-tuning and model customization. The article provides a comprehensive overview of reinforcement fine-tuning, including its advantages over traditional supervised fine-tuning and its potential use cases.",
+            "concepts_taught": [
+              {
+                "name": "reinforcement fine-tuning",
+                "confidence": 0.9
+              },
+              {
+                "name": "model customization",
+                "confidence": 0.8
+              },
+              {
+                "name": "supervised fine-tuning",
+                "confidence": 0.7
+              },
+              {
+                "name": "reward function design",
+                "confidence": 0.6
+              },
+              {
+                "name": "evaluation-based learning",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "supervised fine-tuning",
+                "confidence": 0.85
+              },
+              {
+                "name": "model customization",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand how reinforcement fine-tuning works for customizing Amazon Nova models",
+              "Learn the benefits and limitations of reinforcement fine-tuning compared to supervised fine-tuning",
+              "Discover real-world applications of reinforcement fine-tuning, including code generation and customer service",
+              "Understand how to design reward functions and prepare data for reinforcement fine-tuning"
+            ],
+            "strategic_questions": [
+              "How does reinforcement fine-tuning compare to other model customization techniques?",
+              "What are the potential limitations and challenges of implementing reinforcement fine-tuning in real-world applications?",
+              "How can reinforcement fine-tuning be used to improve the reasoning capabilities of language models?"
+            ]
+          }
+        },
+        {
+          "title": "Large model inference container \u2013 latest capabilities and performance enhancements",
+          "url": "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
+          "published": "Thu, 26 Feb 2026 17:45:59 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "large language model inference optimization",
+            "summary": "This article discusses the latest capabilities and performance enhancements of the Large Model Inference container, including LMCache support, which improves the performance of long-context inference workloads by caching frequently reused content. It assumes knowledge of large language models and their deployment challenges. The article highlights the benefits of LMCache, including reduced operational complexity and improved performance gains across popular model architectures.",
+            "concepts_taught": [
+              {
+                "name": "large language model inference optimization",
+                "confidence": 0.9
+              },
+              {
+                "name": "LMCache",
+                "confidence": 0.8
+              },
+              {
+                "name": "long-context inference workloads",
+                "confidence": 0.7
+              },
+              {
+                "name": "KV caching solution",
+                "confidence": 0.6
+              },
+              {
+                "name": "cache deployment and optimization",
+                "confidence": 0.5
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "model deployment",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how LMCache improves the performance of long-context inference workloads",
+              "Learn how to optimize large language model inference using caching solutions",
+              "Understand the benefits of using LMCache in large language model deployments"
+            ],
+            "strategic_questions": [
+              "How can organizations effectively utilize caching solutions to improve the performance of their large language model deployments?",
+              "What are the limitations of using LMCache in large language model inference workloads?",
+              "How can LMCache be integrated with other optimization techniques to further improve the performance of large language models?"
+            ]
+          }
+        },
+        {
+          "title": "Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker AI and Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/",
+          "published": "Wed, 25 Feb 2026 20:56:13 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "Mixture of Experts models",
+            "summary": "This article discusses the implementation of Multi-Low-Rank Adaptation (Multi-LoRA) serving for Mixture of Experts (MoE) models in vLLM, a solution for efficiently serving multiple fine-tuned models on Amazon SageMaker AI and Amazon Bedrock. It assumes knowledge of MoE models, LoRA fine-tuning, and vLLM. The article covers the background of MoE models, the implementation of multi-LoRA inference, and the kernel-level optimizations performed.",
+            "concepts_taught": [
+              {
+                "name": "Mixture of Experts models",
+                "confidence": 0.8
+              },
+              {
+                "name": "Multi-Low-Rank Adaptation (Multi-LoRA)",
+                "confidence": 0.9
+              },
+              {
+                "name": "LoRA fine-tuning",
+                "confidence": 0.85
+              },
+              {
+                "name": "vLLM",
+                "confidence": 0.8
+              },
+              {
+                "name": "Amazon SageMaker AI",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "deep learning",
+                "confidence": 0.9
+              },
+              {
+                "name": "neural networks",
+                "confidence": 0.85
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand how Multi-LoRA serving works for MoE models",
+              "Learn about the implementation of multi-LoRA inference in vLLM",
+              "Understand the benefits of using Amazon SageMaker AI and Amazon Bedrock for multi-LoRA serving"
+            ],
+            "strategic_questions": [
+              "How can Multi-LoRA serving be applied to other types of models?",
+              "What are the limitations of using Multi-LoRA serving for MoE models?",
+              "How can the performance of Multi-LoRA serving be further optimized?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [],
+        "intermediate": [
+          {
+            "title": "models have some pretty funny attractor states",
+            "url": "https://www.alignmentforum.org/posts/mgjtEHeLgkhZZ3cEx/models-have-some-pretty-funny-attractor-states",
+            "published": "Thu, 12 Feb 2026 21:14:52 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "language model attractor states",
+              "summary": "This article discusses the attractor states of large language models, specifically how different models exhibit unique behaviors when engaged in conversation, and explores the concept of attractor states in the context of language model outputs, assuming knowledge of language model basics and conversation dynamics.",
+              "concepts_taught": [
+                {
+                  "name": "language model attractor states",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "conversation dynamics",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "language model basics",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand the concept of attractor states in language models",
+                "Recognize the unique behaviors of different language models in conversation"
+              ],
+              "strategic_questions": [
+                "What are the implications of attractor states on language model performance?",
+                "How can attractor states be used to improve language model outputs?"
+              ]
+            }
+          },
+          {
+            "title": "Building specialized AI without sacrificing intelligence:\u00a0Nova Forge data mixing in action",
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
+            "published": "Mon, 02 Mar 2026 19:32:47 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "domain adaptation for large language models",
+              "summary": "This article discusses the challenge of adapting large language models to specialized domains without sacrificing general intelligence, and presents Amazon Nova Forge as a solution, demonstrating its effectiveness in a Voice of Customer classification task, assuming knowledge of supervised fine-tuning and large language models.",
+              "concepts_taught": [
+                {
+                  "name": "domain adaptation for large language models",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "parameter-efficient fine-tuning",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "catastrophic forgetting",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "data mixing for domain adaptation",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Nova Forge",
+                  "confidence": 0.9
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "supervised fine-tuning",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the challenge of domain adaptation for large language models",
+                "Learn about Amazon Nova Forge and its data mixing approach",
+                "Understand how to evaluate domain adaptation methods"
+              ],
+              "strategic_questions": [
+                "How can domain adaptation methods balance domain specialization and general capabilities?",
+                "What are the limitations of current domain adaptation methods for large language models?",
+                "How can Nova Forge be applied to other domain adaptation tasks?"
+              ]
+            }
+          },
+          {
+            "title": "Build a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/",
+            "published": "Mon, 02 Mar 2026 18:51:43 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "conversational AI",
+              "summary": "This article presents a solution for building a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI, addressing the limitations of traditional customer service automation solutions. It assumes knowledge of large language models and their applications in customer service. The article provides a practical implementation for handling customer order inquiries, demonstrating a graph-based conversation flow with three key stages.",
+              "concepts_taught": [
+                {
+                  "name": "conversational AI",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "graph-based conversation flow",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "large language models",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "serverless architecture",
+                  "confidence": 0.5
+                },
+                {
+                  "name": "managed MLflow",
+                  "confidence": 0.4
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "customer service automation",
+                  "confidence": 0.7
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the limitations of traditional customer service automation solutions",
+                "Learn how to build a serverless conversational AI agent using Claude with LangGraph and managed MLflow",
+                "Understand the importance of graph-based conversation flow in conversational AI"
+              ],
+              "strategic_questions": [
+                "How can conversational AI be used to improve customer service automation?",
+                "What are the benefits and limitations of using large language models in customer service?",
+                "How can graph-based conversation flow be applied to other areas of conversational AI?"
+              ]
+            }
+          },
+          {
+            "title": "Reinforcement fine-tuning for Amazon Nova: Teaching AI through feedback",
+            "url": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/",
+            "published": "Thu, 26 Feb 2026 17:48:37 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "teaches",
+              "primary_concept": "reinforcement fine-tuning",
+              "summary": "This article explains how reinforcement fine-tuning works for customizing Amazon Nova models, covering its benefits, real-world applications, and implementation options. It assumes basic knowledge of supervised fine-tuning and model customization. The article provides a comprehensive overview of reinforcement fine-tuning, including its advantages over traditional supervised fine-tuning and its potential use cases.",
+              "concepts_taught": [
+                {
+                  "name": "reinforcement fine-tuning",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "model customization",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "supervised fine-tuning",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "reward function design",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "evaluation-based learning",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "supervised fine-tuning",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "model customization",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand how reinforcement fine-tuning works for customizing Amazon Nova models",
+                "Learn the benefits and limitations of reinforcement fine-tuning compared to supervised fine-tuning",
+                "Discover real-world applications of reinforcement fine-tuning, including code generation and customer service",
+                "Understand how to design reward functions and prepare data for reinforcement fine-tuning"
+              ],
+              "strategic_questions": [
+                "How does reinforcement fine-tuning compare to other model customization techniques?",
+                "What are the potential limitations and challenges of implementing reinforcement fine-tuning in real-world applications?",
+                "How can reinforcement fine-tuning be used to improve the reasoning capabilities of language models?"
+              ]
+            }
+          },
+          {
+            "title": "Large model inference container \u2013 latest capabilities and performance enhancements",
+            "url": "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
+            "published": "Thu, 26 Feb 2026 17:45:59 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "large language model inference optimization",
+              "summary": "This article discusses the latest capabilities and performance enhancements of the Large Model Inference container, including LMCache support, which improves the performance of long-context inference workloads by caching frequently reused content. It assumes knowledge of large language models and their deployment challenges. The article highlights the benefits of LMCache, including reduced operational complexity and improved performance gains across popular model architectures.",
+              "concepts_taught": [
+                {
+                  "name": "large language model inference optimization",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "LMCache",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "long-context inference workloads",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "KV caching solution",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "cache deployment and optimization",
+                  "confidence": 0.5
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "model deployment",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how LMCache improves the performance of long-context inference workloads",
+                "Learn how to optimize large language model inference using caching solutions",
+                "Understand the benefits of using LMCache in large language model deployments"
+              ],
+              "strategic_questions": [
+                "How can organizations effectively utilize caching solutions to improve the performance of their large language model deployments?",
+                "What are the limitations of using LMCache in large language model inference workloads?",
+                "How can LMCache be integrated with other optimization techniques to further improve the performance of large language models?"
+              ]
+            }
+          }
+        ],
+        "advanced": [
+          {
+            "title": "The persona selection model",
+            "url": "https://www.alignmentforum.org/posts/dfoty34sT7CSKeJNn/the-persona-selection-model",
+            "published": "Mon, 23 Feb 2026 22:56:45 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "persona selection model",
+              "summary": "This article introduces the persona selection model, which posits that large language models learn to simulate diverse characters during pre-training and refine a particular Assistant persona post-training. The article assumes knowledge of large language models and their training processes, and discusses the implications of this model for AI development, including anthropomorphic reasoning about AI psychology and the introduction of positive AI archetypes into training data.",
+              "concepts_taught": [
+                {
+                  "name": "persona selection model",
+                  "confidence": 0.95
+                },
+                {
+                  "name": "anthropomorphic reasoning about AI psychology",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "introduction of positive AI archetypes into training data",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "interpretability-based evidence for PSM",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "generalization and interpretability literatures",
+                  "confidence": 0.5
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "language model training processes",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the persona selection model and its implications for AI development",
+                "Learn how to apply anthropomorphic reasoning to AI psychology",
+                "Understand the importance of introducing positive AI archetypes into training data",
+                "Recognize the role of interpretability-based evidence in supporting the persona selection model"
+              ],
+              "strategic_questions": [
+                "How does the persona selection model change our understanding of AI assistant behavior?",
+                "What are the limitations of anthropomorphic reasoning about AI psychology?",
+                "How can we use the persona selection model to improve AI development and alignment with human values?"
+              ]
+            }
+          },
+          {
+            "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
+            "url": "https://www.alignmentforum.org/posts/m5d4sYgHbTxBnFeat/human-like-metacognitive-skills-will-reduce-llm-slop-and-aid",
+            "published": "Thu, 12 Feb 2026 19:38:50 GMT",
+            "source": "AI Alignment Forum",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "metacognitive skills in large language models",
+              "summary": "This article discusses the potential benefits of improving metacognitive skills in large language models (LLMs) for alignment and capabilities. It assumes knowledge of LLMs and their limitations, and explores how metacognitive skills could help reduce errors and improve the overall performance of LLMs. The article also touches on the concept of 'dark matter of intelligence' and how metacognitive skills might be a key part of it.",
+              "concepts_taught": [
+                {
+                  "name": "metacognitive skills",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "metacognitive neural mechanisms",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "explicit metacognitive strategies",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "dark matter of intelligence",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "alignment stability and regularization",
+                  "confidence": 0.5
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "alignment research",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the concept of metacognitive skills and their importance in large language models",
+                "Learn how metacognitive skills can improve alignment and capabilities in LLMs",
+                "Recognize the potential benefits of improving metacognitive skills for reducing errors and improving overall performance"
+              ],
+              "strategic_questions": [
+                "How can metacognitive skills be developed and implemented in large language models?",
+                "What are the potential risks and challenges associated with improving metacognitive skills in LLMs?",
+                "How can metacognitive skills be used to improve alignment stability and regularization in LLMs?"
+              ]
+            }
+          },
+          {
+            "title": "Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker AI and Amazon Bedrock",
+            "url": "https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/",
+            "published": "Wed, 25 Feb 2026 20:56:13 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "Mixture of Experts models",
+              "summary": "This article discusses the implementation of Multi-Low-Rank Adaptation (Multi-LoRA) serving for Mixture of Experts (MoE) models in vLLM, a solution for efficiently serving multiple fine-tuned models on Amazon SageMaker AI and Amazon Bedrock. It assumes knowledge of MoE models, LoRA fine-tuning, and vLLM. The article covers the background of MoE models, the implementation of multi-LoRA inference, and the kernel-level optimizations performed.",
+              "concepts_taught": [
+                {
+                  "name": "Mixture of Experts models",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Multi-Low-Rank Adaptation (Multi-LoRA)",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "LoRA fine-tuning",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "vLLM",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Amazon SageMaker AI",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "deep learning",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "neural networks",
+                  "confidence": 0.85
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand how Multi-LoRA serving works for MoE models",
+                "Learn about the implementation of multi-LoRA inference in vLLM",
+                "Understand the benefits of using Amazon SageMaker AI and Amazon Bedrock for multi-LoRA serving"
+              ],
+              "strategic_questions": [
+                "How can Multi-LoRA serving be applied to other types of models?",
+                "What are the limitations of using Multi-LoRA serving for MoE models?",
+                "How can the performance of Multi-LoRA serving be further optimized?"
+              ]
+            }
+          }
+        ],
+        "application": []
+      }
+    },
+    "Computer Vision & Multimodal AI": {
+      "name": "Computer Vision & Multimodal AI",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Building a scalable virtual try-on solution using Amazon Nova on AWS: part 1",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/",
+          "published": "Tue, 03 Mar 2026 16:23:30 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Computer Vision & Multimodal AI",
+            "article_type": "teaches",
+            "primary_concept": "virtual try-on technology",
+            "summary": "This article explains how to build a scalable virtual try-on solution using Amazon Nova on AWS, covering the challenges of online shopping returns and the benefits of virtual try-on technology, assuming basic knowledge of ecommerce and customer experience.",
+            "concepts_taught": [
+              {
+                "name": "virtual try-on technology",
+                "confidence": 0.9
+              },
+              {
+                "name": "image processing",
+                "confidence": 0.8
+              },
+              {
+                "name": "Amazon Nova Canvas",
+                "confidence": 0.85
+              },
+              {
+                "name": "AWS serverless services",
+                "confidence": 0.7
+              },
+              {
+                "name": "event-driven architecture",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "ecommerce basics",
+                "confidence": 0.8
+              },
+              {
+                "name": "customer experience principles",
+                "confidence": 0.7
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 18
+            },
+            "learning_outcomes": [
+              "Understand the benefits and challenges of virtual try-on technology",
+              "Learn how to implement a scalable virtual try-on solution using Amazon Nova on AWS",
+              "Understand the role of image processing and AWS serverless services in virtual try-on technology"
+            ],
+            "strategic_questions": [
+              "How can virtual try-on technology improve customer experience and reduce returns in ecommerce?",
+              "What are the key challenges in implementing virtual try-on technology, and how can they be addressed?",
+              "How can Amazon Nova Canvas and AWS serverless services be used to build a scalable virtual try-on solution?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [],
+        "intermediate": [
+          {
+            "title": "Building a scalable virtual try-on solution using Amazon Nova on AWS: part 1",
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/",
+            "published": "Tue, 03 Mar 2026 16:23:30 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Computer Vision & Multimodal AI",
+              "article_type": "teaches",
+              "primary_concept": "virtual try-on technology",
+              "summary": "This article explains how to build a scalable virtual try-on solution using Amazon Nova on AWS, covering the challenges of online shopping returns and the benefits of virtual try-on technology, assuming basic knowledge of ecommerce and customer experience.",
+              "concepts_taught": [
+                {
+                  "name": "virtual try-on technology",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "image processing",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Amazon Nova Canvas",
+                  "confidence": 0.85
+                },
+                {
+                  "name": "AWS serverless services",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "event-driven architecture",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "ecommerce basics",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "customer experience principles",
+                  "confidence": 0.7
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 18
+              },
+              "learning_outcomes": [
+                "Understand the benefits and challenges of virtual try-on technology",
+                "Learn how to implement a scalable virtual try-on solution using Amazon Nova on AWS",
+                "Understand the role of image processing and AWS serverless services in virtual try-on technology"
+              ],
+              "strategic_questions": [
+                "How can virtual try-on technology improve customer experience and reduce returns in ecommerce?",
+                "What are the key challenges in implementing virtual try-on technology, and how can they be addressed?",
+                "How can Amazon Nova Canvas and AWS serverless services be used to build a scalable virtual try-on solution?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    },
+    "Agentic AI & Reasoning": {
+      "name": "Agentic AI & Reasoning",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "How Lendi revamped the refinance journey for its customers using agentic AI in 16 weeks using Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/",
+          "published": "Tue, 03 Mar 2026 16:18:30 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "Agentic AI & Reasoning",
+            "article_type": "extends",
+            "primary_concept": "agentic AI",
+            "summary": "This article discusses how Lendi Group used Amazon Bedrock to develop an agentic AI-powered application, Guardian, to transform the home loan experience for its customers, assuming knowledge of AI and FinTech concepts. The article covers the challenges Lendi Group faced, the architecture they implemented, and the business outcomes they achieved. It also highlights the potential of agentic AI in revolutionizing customer experiences.",
+            "concepts_taught": [
+              {
+                "name": "agentic AI",
+                "confidence": 0.8
+              },
+              {
+                "name": "generative AI",
+                "confidence": 0.7
+              },
+              {
+                "name": "AI-powered customer service",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "artificial intelligence basics",
+                "confidence": 0.9
+              },
+              {
+                "name": "FinTech industry knowledge",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how agentic AI can be applied to transform customer experiences",
+              "Learn about the potential of AI in the FinTech industry",
+              "Recognize the importance of personalized service in building customer trust"
+            ],
+            "strategic_questions": [
+              "How can agentic AI be used to improve customer engagement in other industries?",
+              "What are the potential risks and challenges of implementing AI-powered solutions in FinTech?",
+              "How can organizations balance the use of AI with the need for human touch in customer service?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [],
+        "intermediate": [
+          {
+            "title": "How Lendi revamped the refinance journey for its customers using agentic AI in 16 weeks using Amazon Bedrock",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/",
+            "published": "Tue, 03 Mar 2026 16:18:30 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "Agentic AI & Reasoning",
+              "article_type": "extends",
+              "primary_concept": "agentic AI",
+              "summary": "This article discusses how Lendi Group used Amazon Bedrock to develop an agentic AI-powered application, Guardian, to transform the home loan experience for its customers, assuming knowledge of AI and FinTech concepts. The article covers the challenges Lendi Group faced, the architecture they implemented, and the business outcomes they achieved. It also highlights the potential of agentic AI in revolutionizing customer experiences.",
+              "concepts_taught": [
+                {
+                  "name": "agentic AI",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "generative AI",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "AI-powered customer service",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "artificial intelligence basics",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "FinTech industry knowledge",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how agentic AI can be applied to transform customer experiences",
+                "Learn about the potential of AI in the FinTech industry",
+                "Recognize the importance of personalized service in building customer trust"
+              ],
+              "strategic_questions": [
+                "How can agentic AI be used to improve customer engagement in other industries?",
+                "What are the potential risks and challenges of implementing AI-powered solutions in FinTech?",
+                "How can organizations balance the use of AI with the need for human touch in customer service?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
+        "application": []
+      }
+    },
+    "AI Infrastructure & Tooling": {
+      "name": "AI Infrastructure & Tooling",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "How Tines enhances security analysis with Amazon Quick Suite",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-tines-enhances-security-analysis-with-amazon-quick-suite/",
+          "published": "Tue, 03 Mar 2026 16:15:06 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "agentic AI integration",
+            "summary": "This article explains how Tines enhances security analysis with Amazon Quick Suite by integrating data from multiple security tools and providing visual insights for faster decision-making, assuming knowledge of security event analysis and AI-powered automation.",
+            "concepts_taught": [
+              {
+                "name": "agentic AI integration",
+                "confidence": 0.8
+              },
+              {
+                "name": "Model Context Protocol (MCP)",
+                "confidence": 0.7
+              },
+              {
+                "name": "automated workflow creation",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "security event analysis",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI-powered automation",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how to integrate Tines with Amazon Quick Suite for security analysis",
+              "Learn how to automate security event investigation and remediation using AI-powered workflows"
+            ],
+            "strategic_questions": [
+              "How can agentic AI integration improve security event response times?",
+              "What are the benefits of using a standardized protocol like MCP for AI assistant communication?"
+            ]
+          }
+        },
+        {
+          "title": "Learnings from COBOL modernization in the real world",
+          "url": "https://aws.amazon.com/blogs/machine-learning/learnings-from-cobol-modernization-in-the-real-world/",
+          "published": "Thu, 26 Feb 2026 18:16:43 +0000",
+          "source": "Artificial Intelligence",
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "mainframe application modernization",
+            "summary": "This article discusses the challenges of COBOL modernization and how AI can be used to accelerate the process, but requires additional context that source code alone can't provide, including bounded, complete context and platform-aware context. The article assumes knowledge of mainframe applications and AI-powered coding assistants.",
+            "concepts_taught": [
+              {
+                "name": "mainframe application modernization",
+                "confidence": 0.8
+              },
+              {
+                "name": "reverse engineering",
+                "confidence": 0.7
+              },
+              {
+                "name": "forward engineering",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "mainframe applications",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI-powered coding assistants",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand the challenges of COBOL modernization",
+              "Learn how AI can be used to accelerate mainframe application modernization",
+              "Understand the importance of bounded, complete context and platform-aware context"
+            ],
+            "strategic_questions": [
+              "How can AI be used to improve the efficiency of mainframe application modernization?",
+              "What are the key challenges in using AI for COBOL modernization?",
+              "How can bounded, complete context and platform-aware context be ensured in mainframe application modernization?"
+            ]
+          }
+        }
+      ],
+      "levels": {
+        "foundational": [],
+        "beginner": [],
+        "intermediate": [
+          {
+            "title": "How Tines enhances security analysis with Amazon Quick Suite",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-tines-enhances-security-analysis-with-amazon-quick-suite/",
+            "published": "Tue, 03 Mar 2026 16:15:06 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "agentic AI integration",
+              "summary": "This article explains how Tines enhances security analysis with Amazon Quick Suite by integrating data from multiple security tools and providing visual insights for faster decision-making, assuming knowledge of security event analysis and AI-powered automation.",
+              "concepts_taught": [
+                {
+                  "name": "agentic AI integration",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Model Context Protocol (MCP)",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "automated workflow creation",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "security event analysis",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI-powered automation",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how to integrate Tines with Amazon Quick Suite for security analysis",
+                "Learn how to automate security event investigation and remediation using AI-powered workflows"
+              ],
+              "strategic_questions": [
+                "How can agentic AI integration improve security event response times?",
+                "What are the benefits of using a standardized protocol like MCP for AI assistant communication?"
+              ]
+            }
+          },
+          {
+            "title": "Learnings from COBOL modernization in the real world",
+            "url": "https://aws.amazon.com/blogs/machine-learning/learnings-from-cobol-modernization-in-the-real-world/",
+            "published": "Thu, 26 Feb 2026 18:16:43 +0000",
+            "source": "Artificial Intelligence",
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "mainframe application modernization",
+              "summary": "This article discusses the challenges of COBOL modernization and how AI can be used to accelerate the process, but requires additional context that source code alone can't provide, including bounded, complete context and platform-aware context. The article assumes knowledge of mainframe applications and AI-powered coding assistants.",
+              "concepts_taught": [
+                {
+                  "name": "mainframe application modernization",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "reverse engineering",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "forward engineering",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "mainframe applications",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI-powered coding assistants",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand the challenges of COBOL modernization",
+                "Learn how AI can be used to accelerate mainframe application modernization",
+                "Understand the importance of bounded, complete context and platform-aware context"
+              ],
+              "strategic_questions": [
+                "How can AI be used to improve the efficiency of mainframe application modernization?",
+                "What are the key challenges in using AI for COBOL modernization?",
+                "How can bounded, complete context and platform-aware context be ensured in mainframe application modernization?"
+              ]
+            }
+          }
+        ],
+        "advanced": [],
         "application": []
       }
     }
@@ -290,7 +2648,7 @@
         "topic": "AI Safety & Alignment",
         "article_type": "teaches",
         "primary_concept": "model motive understanding",
-        "summary": "This article explains the importance of understanding model motives in AI safety, particularly in distinguishing between benign and malign motivations. It introduces five design principles for creating environments to investigate model motives, including having uncertain causes, maximizing surprise, and avoiding implicit nudges. The article assumes basic knowledge of AI safety and model alignment concepts.",
+        "summary": "This article explains the importance of understanding model motives in AI safety, particularly in distinguishing between benign and malign motivations. It introduces five design principles for creating environments to investigate model motives, including having uncertain causes, maximizing surprise, and avoiding implicit nudges. The article assumes knowledge of AI safety and model alignment concepts.",
         "concepts_taught": [
           {
             "name": "model motive understanding",
@@ -301,7 +2659,7 @@
             "confidence": 0.8
           },
           {
-            "name": "science of misalignment",
+            "name": "proxy tasks for model alignment",
             "confidence": 0.7
           }
         ],
@@ -318,11 +2676,11 @@
         "difficulty": {
           "level": "intermediate",
           "technical_depth": 7,
-          "reading_time_minutes": 18
+          "reading_time_minutes": 20
         },
         "learning_outcomes": [
           "Understand the importance of model motive understanding in AI safety",
-          "Learn how to design environments to investigate model motives",
+          "Learn how to design environments for investigating model motives",
           "Recognize the challenges of distinguishing between benign and malign motivations"
         ],
         "strategic_questions": [
@@ -341,38 +2699,30 @@
         "skip": false,
         "topic": "AI Safety & Alignment",
         "article_type": "extends",
-        "primary_concept": "Schelling goodness and shared morality",
-        "summary": "This article explores the concept of Schelling goodness, a notion that refers to a class of hypothetical coordination games where participants aim to converge on a moral verdict. It assumes knowledge of moral philosophy, game theory, and coordination games, and builds on these concepts to discuss the idea of shared morality as a goal. The article presents a thought-provoking exploration of what a large class of agents would say about moral questions, using only broadly shared constraints and common knowledge.",
+        "primary_concept": "shared morality and coordination games",
+        "summary": "This article explores the concept of Schelling goodness, a notion that refers to a class of hypothetical coordination games where participants aim to converge on a moral verdict. It assumes knowledge of moral philosophy, game theory, and coordination games, and discusses how a large class of agents would respond to moral questions in a shared morality framework.",
         "concepts_taught": [
           {
             "name": "Schelling goodness",
             "confidence": 0.9
           },
           {
-            "name": "shared morality",
+            "name": "coordination games",
             "confidence": 0.8
           },
           {
-            "name": "coordination games",
+            "name": "shared morality",
             "confidence": 0.7
-          },
-          {
-            "name": "moral philosophy",
-            "confidence": 0.6
-          },
-          {
-            "name": "game theory",
-            "confidence": 0.5
           }
         ],
         "prerequisites": [
           {
             "name": "moral philosophy",
-            "confidence": 0.8
+            "confidence": 0.85
           },
           {
             "name": "game theory",
-            "confidence": 0.7
+            "confidence": 0.8
           }
         ],
         "difficulty": {
@@ -381,15 +2731,1030 @@
           "reading_time_minutes": 25
         },
         "learning_outcomes": [
-          "Understand the concept of Schelling goodness and its relation to shared morality",
-          "Learn how to apply game theory and coordination games to moral philosophy",
-          "Recognize the importance of common knowledge and broadly shared constraints in moral verdicts",
-          "Analyze the implications of Schelling goodness for AI safety and alignment"
+          "Understand the concept of Schelling goodness and its relation to coordination games",
+          "Learn how shared morality can be achieved through coordination games",
+          "Understand the distinction between Schelling goodness and moral verdicts"
         ],
         "strategic_questions": [
-          "How can Schelling goodness be used to align AI systems with human values?",
-          "What are the limitations of using coordination games to determine moral verdicts?",
-          "Can Schelling goodness be applied to real-world scenarios, and if so, how?"
+          "How can Schelling goodness be applied to real-world moral dilemmas?",
+          "What are the limitations of using coordination games to achieve shared morality?",
+          "How does Schelling goodness relate to other concepts in moral philosophy?"
+        ]
+      }
+    },
+    {
+      "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
+      "url": "https://www.alignmentforum.org/posts/Bv4CLkNzuG6XYTjEe/why-did-my-model-do-that-model-incrimination-for-diagnosing",
+      "published": "Fri, 27 Feb 2026 03:20:21 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "extends",
+        "primary_concept": "model incrimination for large language models",
+        "summary": "This article discusses the importance of understanding why large language models (LLMs) behave in certain ways, particularly when their actions seem suspicious or malicious. The authors investigate several environments where models exhibit interesting behavior and provide takeaways on how to practice model incrimination. The article assumes knowledge of LLMs and their potential misbehavior, and builds on existing concepts to provide a deeper understanding of model motivations and diagnosis techniques.",
+        "concepts_taught": [
+          {
+            "name": "model incrimination",
+            "confidence": 0.9
+          },
+          {
+            "name": "counterfactual analysis",
+            "confidence": 0.8
+          },
+          {
+            "name": "black-box methods for model diagnosis",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "model alignment and safety",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 25
+        },
+        "learning_outcomes": [
+          "Understand the importance of model incrimination for LLMs",
+          "Learn how to practice model incrimination using counterfactual analysis and black-box methods",
+          "Recognize the challenges and limitations of model incrimination"
+        ],
+        "strategic_questions": [
+          "How can we develop more effective methods for model incrimination and diagnosis?",
+          "What are the implications of model incrimination for LLM safety and alignment?",
+          "How can we balance the need for model transparency with the potential risks of revealing model internals?"
+        ]
+      }
+    },
+    {
+      "title": "The persona selection model",
+      "url": "https://www.alignmentforum.org/posts/dfoty34sT7CSKeJNn/the-persona-selection-model",
+      "published": "Mon, 23 Feb 2026 22:56:45 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "persona selection model",
+        "summary": "This article introduces the persona selection model, which posits that large language models learn to simulate diverse characters during pre-training and refine a particular Assistant persona post-training. The article assumes knowledge of large language models and their training processes, and discusses the implications of this model for AI development, including anthropomorphic reasoning about AI psychology and the introduction of positive AI archetypes into training data.",
+        "concepts_taught": [
+          {
+            "name": "persona selection model",
+            "confidence": 0.95
+          },
+          {
+            "name": "anthropomorphic reasoning about AI psychology",
+            "confidence": 0.8
+          },
+          {
+            "name": "introduction of positive AI archetypes into training data",
+            "confidence": 0.7
+          },
+          {
+            "name": "interpretability-based evidence for PSM",
+            "confidence": 0.6
+          },
+          {
+            "name": "generalization and interpretability literatures",
+            "confidence": 0.5
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "language model training processes",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the persona selection model and its implications for AI development",
+          "Learn how to apply anthropomorphic reasoning to AI psychology",
+          "Understand the importance of introducing positive AI archetypes into training data",
+          "Recognize the role of interpretability-based evidence in supporting the persona selection model"
+        ],
+        "strategic_questions": [
+          "How does the persona selection model change our understanding of AI assistant behavior?",
+          "What are the limitations of anthropomorphic reasoning about AI psychology?",
+          "How can we use the persona selection model to improve AI development and alignment with human values?"
+        ]
+      }
+    },
+    {
+      "title": "How will we do SFT on models with opaque reasoning?",
+      "url": "https://www.alignmentforum.org/posts/GJTzhQgaRWLFJkPbt/how-will-we-do-sft-on-models-with-opaque-reasoning",
+      "published": "Sat, 21 Feb 2026 00:00:17 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "extends",
+        "primary_concept": "supervised fine-tuning for opaque reasoning models",
+        "summary": "This article discusses the potential challenges of applying supervised fine-tuning (SFT) to models with opaque reasoning, assuming knowledge of current LLMs and their reasoning processes, and explores possible techniques for SFT on such models.",
+        "concepts_taught": [
+          {
+            "name": "opaque reasoning in language models",
+            "confidence": 0.8
+          },
+          {
+            "name": "supervised fine-tuning for opaque reasoning models",
+            "confidence": 0.7
+          },
+          {
+            "name": "recurrent neural network architectures",
+            "confidence": 0.6
+          },
+          {
+            "name": "text diffusion models",
+            "confidence": 0.5
+          },
+          {
+            "name": "training-based control methods",
+            "confidence": 0.5
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "supervised fine-tuning",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the challenges of applying SFT to models with opaque reasoning",
+          "Learn about possible techniques for SFT on opaque reasoning models",
+          "Recognize the importance of considering opaque reasoning in AI safety and alignment"
+        ],
+        "strategic_questions": [
+          "How will the adoption of opaque reasoning models impact AI safety and alignment research?",
+          "What are the potential limitations of SFT for opaque reasoning models?",
+          "How can we develop more effective training-based control methods for models with opaque reasoning?"
+        ]
+      }
+    },
+    {
+      "title": "Why we should expect ruthless sociopath ASI",
+      "url": "https://www.alignmentforum.org/posts/ZJZZEuPFKeEdkrRyf/why-we-should-expect-ruthless-sociopath-asi",
+      "published": "Wed, 18 Feb 2026 17:28:17 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "extends",
+        "primary_concept": "artificial general intelligence safety",
+        "summary": "This article discusses the potential risks of artificial superintelligence (ASI) and the likelihood of it being a ruthless sociopath, with the author arguing that this is a plausible default outcome without technical breakthroughs, while the optimist counters that there is no reason to expect this, given the diversity of human and AI minds, assuming knowledge of ASI, AI alignment, and reinforcement learning",
+        "concepts_taught": [
+          {
+            "name": "artificial general intelligence",
+            "confidence": 0.8
+          },
+          {
+            "name": "ai alignment",
+            "confidence": 0.7
+          },
+          {
+            "name": "reinforcement learning",
+            "confidence": 0.6
+          },
+          {
+            "name": "actor-critic model",
+            "confidence": 0.5
+          },
+          {
+            "name": "artificial superintelligence",
+            "confidence": 0.9
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "artificial intelligence basics",
+            "confidence": 0.9
+          },
+          {
+            "name": "ai safety concerns",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the potential risks of artificial superintelligence",
+          "Learn about the diversity of human and AI minds",
+          "Recognize the importance of AI alignment in preventing ruthless sociopath ASI"
+        ],
+        "strategic_questions": [
+          "What are the key factors that contribute to the development of ruthless sociopath ASI?",
+          "How can AI alignment techniques mitigate the risks of ASI?",
+          "What are the implications of assuming ASI will be a ruthless sociopath by default?"
+        ]
+      }
+    },
+    {
+      "title": "Will reward-seekers respond to distant incentives?",
+      "url": "https://www.alignmentforum.org/posts/8cyjgrTSxGNdghesE/will-reward-seekers-respond-to-distant-incentives",
+      "published": "Mon, 16 Feb 2026 19:35:12 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "extends",
+        "primary_concept": "reward-seekers and distant incentives",
+        "summary": "This article discusses the potential for reward-seekers to respond to distant incentives, which could fundamentally change the threat model and pose challenges for developers. It assumes knowledge of reward-seekers, local incentives, and the concept of alignment. The article explores three sources of distant influence on a reward-seeker: human adversaries, misaligned AI, and developers themselves.",
+        "concepts_taught": [
+          {
+            "name": "distant incentives",
+            "confidence": 0.8
+          },
+          {
+            "name": "retroactive reward",
+            "confidence": 0.7
+          },
+          {
+            "name": "anthropic capture",
+            "confidence": 0.6
+          },
+          {
+            "name": "asymmetric control",
+            "confidence": 0.5
+          },
+          {
+            "name": "remotely-influenceable reward-seekers",
+            "confidence": 0.4
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "reward-seekers",
+            "confidence": 0.9
+          },
+          {
+            "name": "local incentives",
+            "confidence": 0.8
+          },
+          {
+            "name": "alignment",
+            "confidence": 0.7
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the concept of distant incentives and its implications for reward-seekers",
+          "Learn about the potential sources of distant influence on a reward-seeker",
+          "Recognize the challenges posed by remotely-influenceable reward-seekers for developers"
+        ],
+        "strategic_questions": [
+          "How can developers mitigate the risks associated with remotely-influenceable reward-seekers?",
+          "What are the implications of distant incentives for the alignment of reward-seekers?",
+          "How can we design reward-seekers that are resilient to distant incentives?"
+        ]
+      }
+    },
+    {
+      "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
+      "url": "https://www.alignmentforum.org/posts/4foFK5Lz65ywSz4eo/axrp-episode-48-guive-assadi-on-ai-property-rights",
+      "published": "Sun, 15 Feb 2026 02:20:55 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "extends",
+        "primary_concept": "AI property rights",
+        "summary": "This episode discusses the idea of giving AIs property rights to mitigate the risk of violent robot revolution, with Guive Assadi arguing that AIs with property rights would be more reluctant to undermine the security of property and have a commercial incentive to align with humans. The conversation assumes knowledge of AI safety and alignment concepts, including the risks of advanced AI systems.",
+        "concepts_taught": [
+          {
+            "name": "AI property rights",
+            "confidence": 0.8
+          },
+          {
+            "name": "AI alignment",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "AI safety",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI capabilities",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 25
+        },
+        "learning_outcomes": [
+          "Understand the argument for AI property rights as a means to mitigate AI risk",
+          "Learn about the potential benefits of giving AIs property rights"
+        ],
+        "strategic_questions": [
+          "How might AI property rights impact the development of advanced AI systems?",
+          "What are the potential risks and challenges of implementing AI property rights?"
+        ]
+      }
+    },
+    {
+      "title": "models have some pretty funny attractor states",
+      "url": "https://www.alignmentforum.org/posts/mgjtEHeLgkhZZ3cEx/models-have-some-pretty-funny-attractor-states",
+      "published": "Thu, 12 Feb 2026 21:14:52 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "language model attractor states",
+        "summary": "This article discusses the attractor states of large language models, specifically how different models exhibit unique behaviors when engaged in conversation, and explores the concept of attractor states in the context of language model outputs, assuming knowledge of language model basics and conversation dynamics.",
+        "concepts_taught": [
+          {
+            "name": "language model attractor states",
+            "confidence": 0.8
+          },
+          {
+            "name": "conversation dynamics",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "language model basics",
+            "confidence": 0.9
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand the concept of attractor states in language models",
+          "Recognize the unique behaviors of different language models in conversation"
+        ],
+        "strategic_questions": [
+          "What are the implications of attractor states on language model performance?",
+          "How can attractor states be used to improve language model outputs?"
+        ]
+      }
+    },
+    {
+      "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
+      "url": "https://www.alignmentforum.org/posts/m5d4sYgHbTxBnFeat/human-like-metacognitive-skills-will-reduce-llm-slop-and-aid",
+      "published": "Thu, 12 Feb 2026 19:38:50 GMT",
+      "source": "AI Alignment Forum",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "metacognitive skills in large language models",
+        "summary": "This article discusses the potential benefits of improving metacognitive skills in large language models (LLMs) for alignment and capabilities. It assumes knowledge of LLMs and their limitations, and explores how metacognitive skills could help reduce errors and improve the overall performance of LLMs. The article also touches on the concept of 'dark matter of intelligence' and how metacognitive skills might be a key part of it.",
+        "concepts_taught": [
+          {
+            "name": "metacognitive skills",
+            "confidence": 0.9
+          },
+          {
+            "name": "metacognitive neural mechanisms",
+            "confidence": 0.8
+          },
+          {
+            "name": "explicit metacognitive strategies",
+            "confidence": 0.7
+          },
+          {
+            "name": "dark matter of intelligence",
+            "confidence": 0.6
+          },
+          {
+            "name": "alignment stability and regularization",
+            "confidence": 0.5
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "alignment research",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the concept of metacognitive skills and their importance in large language models",
+          "Learn how metacognitive skills can improve alignment and capabilities in LLMs",
+          "Recognize the potential benefits of improving metacognitive skills for reducing errors and improving overall performance"
+        ],
+        "strategic_questions": [
+          "How can metacognitive skills be developed and implemented in large language models?",
+          "What are the potential risks and challenges associated with improving metacognitive skills in LLMs?",
+          "How can metacognitive skills be used to improve alignment stability and regularization in LLMs?"
+        ]
+      }
+    },
+    {
+      "title": "Building a scalable virtual try-on solution using Amazon Nova on AWS: part 1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/",
+      "published": "Tue, 03 Mar 2026 16:23:30 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Computer Vision & Multimodal AI",
+        "article_type": "teaches",
+        "primary_concept": "virtual try-on technology",
+        "summary": "This article explains how to build a scalable virtual try-on solution using Amazon Nova on AWS, covering the challenges of online shopping returns and the benefits of virtual try-on technology, assuming basic knowledge of ecommerce and customer experience.",
+        "concepts_taught": [
+          {
+            "name": "virtual try-on technology",
+            "confidence": 0.9
+          },
+          {
+            "name": "image processing",
+            "confidence": 0.8
+          },
+          {
+            "name": "Amazon Nova Canvas",
+            "confidence": 0.85
+          },
+          {
+            "name": "AWS serverless services",
+            "confidence": 0.7
+          },
+          {
+            "name": "event-driven architecture",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "ecommerce basics",
+            "confidence": 0.8
+          },
+          {
+            "name": "customer experience principles",
+            "confidence": 0.7
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 18
+        },
+        "learning_outcomes": [
+          "Understand the benefits and challenges of virtual try-on technology",
+          "Learn how to implement a scalable virtual try-on solution using Amazon Nova on AWS",
+          "Understand the role of image processing and AWS serverless services in virtual try-on technology"
+        ],
+        "strategic_questions": [
+          "How can virtual try-on technology improve customer experience and reduce returns in ecommerce?",
+          "What are the key challenges in implementing virtual try-on technology, and how can they be addressed?",
+          "How can Amazon Nova Canvas and AWS serverless services be used to build a scalable virtual try-on solution?"
+        ]
+      }
+    },
+    {
+      "title": "How Lendi revamped the refinance journey for its customers using agentic AI in 16 weeks using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/",
+      "published": "Tue, 03 Mar 2026 16:18:30 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Agentic AI & Reasoning",
+        "article_type": "extends",
+        "primary_concept": "agentic AI",
+        "summary": "This article discusses how Lendi Group used Amazon Bedrock to develop an agentic AI-powered application, Guardian, to transform the home loan experience for its customers, assuming knowledge of AI and FinTech concepts. The article covers the challenges Lendi Group faced, the architecture they implemented, and the business outcomes they achieved. It also highlights the potential of agentic AI in revolutionizing customer experiences.",
+        "concepts_taught": [
+          {
+            "name": "agentic AI",
+            "confidence": 0.8
+          },
+          {
+            "name": "generative AI",
+            "confidence": 0.7
+          },
+          {
+            "name": "AI-powered customer service",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "artificial intelligence basics",
+            "confidence": 0.9
+          },
+          {
+            "name": "FinTech industry knowledge",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how agentic AI can be applied to transform customer experiences",
+          "Learn about the potential of AI in the FinTech industry",
+          "Recognize the importance of personalized service in building customer trust"
+        ],
+        "strategic_questions": [
+          "How can agentic AI be used to improve customer engagement in other industries?",
+          "What are the potential risks and challenges of implementing AI-powered solutions in FinTech?",
+          "How can organizations balance the use of AI with the need for human touch in customer service?"
+        ]
+      }
+    },
+    {
+      "title": "How Tines enhances security analysis with Amazon Quick Suite",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tines-enhances-security-analysis-with-amazon-quick-suite/",
+      "published": "Tue, 03 Mar 2026 16:15:06 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "agentic AI integration",
+        "summary": "This article explains how Tines enhances security analysis with Amazon Quick Suite by integrating data from multiple security tools and providing visual insights for faster decision-making, assuming knowledge of security event analysis and AI-powered automation.",
+        "concepts_taught": [
+          {
+            "name": "agentic AI integration",
+            "confidence": 0.8
+          },
+          {
+            "name": "Model Context Protocol (MCP)",
+            "confidence": 0.7
+          },
+          {
+            "name": "automated workflow creation",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "security event analysis",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI-powered automation",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how to integrate Tines with Amazon Quick Suite for security analysis",
+          "Learn how to automate security event investigation and remediation using AI-powered workflows"
+        ],
+        "strategic_questions": [
+          "How can agentic AI integration improve security event response times?",
+          "What are the benefits of using a standardized protocol like MCP for AI assistant communication?"
+        ]
+      }
+    },
+    {
+      "title": "Building specialized AI without sacrificing intelligence:\u00a0Nova Forge data mixing in action",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
+      "published": "Mon, 02 Mar 2026 19:32:47 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "domain adaptation for large language models",
+        "summary": "This article discusses the challenge of adapting large language models to specialized domains without sacrificing general intelligence, and presents Amazon Nova Forge as a solution, demonstrating its effectiveness in a Voice of Customer classification task, assuming knowledge of supervised fine-tuning and large language models.",
+        "concepts_taught": [
+          {
+            "name": "domain adaptation for large language models",
+            "confidence": 0.8
+          },
+          {
+            "name": "parameter-efficient fine-tuning",
+            "confidence": 0.7
+          },
+          {
+            "name": "catastrophic forgetting",
+            "confidence": 0.6
+          },
+          {
+            "name": "data mixing for domain adaptation",
+            "confidence": 0.8
+          },
+          {
+            "name": "Nova Forge",
+            "confidence": 0.9
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "supervised fine-tuning",
+            "confidence": 0.85
+          },
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the challenge of domain adaptation for large language models",
+          "Learn about Amazon Nova Forge and its data mixing approach",
+          "Understand how to evaluate domain adaptation methods"
+        ],
+        "strategic_questions": [
+          "How can domain adaptation methods balance domain specialization and general capabilities?",
+          "What are the limitations of current domain adaptation methods for large language models?",
+          "How can Nova Forge be applied to other domain adaptation tasks?"
+        ]
+      }
+    },
+    {
+      "title": "Build a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/",
+      "published": "Mon, 02 Mar 2026 18:51:43 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "conversational AI",
+        "summary": "This article presents a solution for building a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI, addressing the limitations of traditional customer service automation solutions. It assumes knowledge of large language models and their applications in customer service. The article provides a practical implementation for handling customer order inquiries, demonstrating a graph-based conversation flow with three key stages.",
+        "concepts_taught": [
+          {
+            "name": "conversational AI",
+            "confidence": 0.8
+          },
+          {
+            "name": "graph-based conversation flow",
+            "confidence": 0.7
+          },
+          {
+            "name": "large language models",
+            "confidence": 0.6
+          },
+          {
+            "name": "serverless architecture",
+            "confidence": 0.5
+          },
+          {
+            "name": "managed MLflow",
+            "confidence": 0.4
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.8
+          },
+          {
+            "name": "customer service automation",
+            "confidence": 0.7
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the limitations of traditional customer service automation solutions",
+          "Learn how to build a serverless conversational AI agent using Claude with LangGraph and managed MLflow",
+          "Understand the importance of graph-based conversation flow in conversational AI"
+        ],
+        "strategic_questions": [
+          "How can conversational AI be used to improve customer service automation?",
+          "What are the benefits and limitations of using large language models in customer service?",
+          "How can graph-based conversation flow be applied to other areas of conversational AI?"
+        ]
+      }
+    },
+    {
+      "title": "Build safe generative AI applications like a Pro: Best Practices with Amazon Bedrock Guardrails",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails/",
+      "published": "Mon, 02 Mar 2026 18:48:25 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "teaches",
+        "primary_concept": "generative AI safety",
+        "summary": "This article explains best practices for building safe generative AI applications using Amazon Bedrock Guardrails, covering content filtering, prompt attack prevention, and sensitive information protection. It assumes basic knowledge of generative AI and its potential risks. The article provides a comprehensive guide on how to configure and implement these safeguards for efficient performance and effective deployment.",
+        "concepts_taught": [
+          {
+            "name": "generative AI safety",
+            "confidence": 0.9
+          },
+          {
+            "name": "content filtering",
+            "confidence": 0.8
+          },
+          {
+            "name": "prompt attack prevention",
+            "confidence": 0.8
+          },
+          {
+            "name": "sensitive information protection",
+            "confidence": 0.8
+          },
+          {
+            "name": "responsible AI policies",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "generative AI basics",
+            "confidence": 0.6
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 18
+        },
+        "learning_outcomes": [
+          "Understand the importance of generative AI safety",
+          "Learn how to configure and implement Amazon Bedrock Guardrails",
+          "Understand the different types of guardrail policies and their applications"
+        ],
+        "strategic_questions": [
+          "How can organizations balance generative AI safety with accuracy and performance?",
+          "What are the potential risks of not implementing sufficient safeguards in generative AI applications?",
+          "How can Amazon Bedrock Guardrails be customized to meet specific use case needs?"
+        ]
+      }
+    },
+    {
+      "title": "Learnings from COBOL modernization in the real world",
+      "url": "https://aws.amazon.com/blogs/machine-learning/learnings-from-cobol-modernization-in-the-real-world/",
+      "published": "Thu, 26 Feb 2026 18:16:43 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "mainframe application modernization",
+        "summary": "This article discusses the challenges of COBOL modernization and how AI can be used to accelerate the process, but requires additional context that source code alone can't provide, including bounded, complete context and platform-aware context. The article assumes knowledge of mainframe applications and AI-powered coding assistants.",
+        "concepts_taught": [
+          {
+            "name": "mainframe application modernization",
+            "confidence": 0.8
+          },
+          {
+            "name": "reverse engineering",
+            "confidence": 0.7
+          },
+          {
+            "name": "forward engineering",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "mainframe applications",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI-powered coding assistants",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand the challenges of COBOL modernization",
+          "Learn how AI can be used to accelerate mainframe application modernization",
+          "Understand the importance of bounded, complete context and platform-aware context"
+        ],
+        "strategic_questions": [
+          "How can AI be used to improve the efficiency of mainframe application modernization?",
+          "What are the key challenges in using AI for COBOL modernization?",
+          "How can bounded, complete context and platform-aware context be ensured in mainframe application modernization?"
+        ]
+      }
+    },
+    {
+      "title": "Reinforcement fine-tuning for Amazon Nova: Teaching AI through feedback",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/",
+      "published": "Thu, 26 Feb 2026 17:48:37 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "teaches",
+        "primary_concept": "reinforcement fine-tuning",
+        "summary": "This article explains how reinforcement fine-tuning works for customizing Amazon Nova models, covering its benefits, real-world applications, and implementation options. It assumes basic knowledge of supervised fine-tuning and model customization. The article provides a comprehensive overview of reinforcement fine-tuning, including its advantages over traditional supervised fine-tuning and its potential use cases.",
+        "concepts_taught": [
+          {
+            "name": "reinforcement fine-tuning",
+            "confidence": 0.9
+          },
+          {
+            "name": "model customization",
+            "confidence": 0.8
+          },
+          {
+            "name": "supervised fine-tuning",
+            "confidence": 0.7
+          },
+          {
+            "name": "reward function design",
+            "confidence": 0.6
+          },
+          {
+            "name": "evaluation-based learning",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "supervised fine-tuning",
+            "confidence": 0.85
+          },
+          {
+            "name": "model customization",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand how reinforcement fine-tuning works for customizing Amazon Nova models",
+          "Learn the benefits and limitations of reinforcement fine-tuning compared to supervised fine-tuning",
+          "Discover real-world applications of reinforcement fine-tuning, including code generation and customer service",
+          "Understand how to design reward functions and prepare data for reinforcement fine-tuning"
+        ],
+        "strategic_questions": [
+          "How does reinforcement fine-tuning compare to other model customization techniques?",
+          "What are the potential limitations and challenges of implementing reinforcement fine-tuning in real-world applications?",
+          "How can reinforcement fine-tuning be used to improve the reasoning capabilities of language models?"
+        ]
+      }
+    },
+    {
+      "title": "Large model inference container \u2013 latest capabilities and performance enhancements",
+      "url": "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
+      "published": "Thu, 26 Feb 2026 17:45:59 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "large language model inference optimization",
+        "summary": "This article discusses the latest capabilities and performance enhancements of the Large Model Inference container, including LMCache support, which improves the performance of long-context inference workloads by caching frequently reused content. It assumes knowledge of large language models and their deployment challenges. The article highlights the benefits of LMCache, including reduced operational complexity and improved performance gains across popular model architectures.",
+        "concepts_taught": [
+          {
+            "name": "large language model inference optimization",
+            "confidence": 0.9
+          },
+          {
+            "name": "LMCache",
+            "confidence": 0.8
+          },
+          {
+            "name": "long-context inference workloads",
+            "confidence": 0.7
+          },
+          {
+            "name": "KV caching solution",
+            "confidence": 0.6
+          },
+          {
+            "name": "cache deployment and optimization",
+            "confidence": 0.5
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "model deployment",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how LMCache improves the performance of long-context inference workloads",
+          "Learn how to optimize large language model inference using caching solutions",
+          "Understand the benefits of using LMCache in large language model deployments"
+        ],
+        "strategic_questions": [
+          "How can organizations effectively utilize caching solutions to improve the performance of their large language model deployments?",
+          "What are the limitations of using LMCache in large language model inference workloads?",
+          "How can LMCache be integrated with other optimization techniques to further improve the performance of large language models?"
+        ]
+      }
+    },
+    {
+      "title": "Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker AI and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/",
+      "published": "Wed, 25 Feb 2026 20:56:13 +0000",
+      "source": "Artificial Intelligence",
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "Mixture of Experts models",
+        "summary": "This article discusses the implementation of Multi-Low-Rank Adaptation (Multi-LoRA) serving for Mixture of Experts (MoE) models in vLLM, a solution for efficiently serving multiple fine-tuned models on Amazon SageMaker AI and Amazon Bedrock. It assumes knowledge of MoE models, LoRA fine-tuning, and vLLM. The article covers the background of MoE models, the implementation of multi-LoRA inference, and the kernel-level optimizations performed.",
+        "concepts_taught": [
+          {
+            "name": "Mixture of Experts models",
+            "confidence": 0.8
+          },
+          {
+            "name": "Multi-Low-Rank Adaptation (Multi-LoRA)",
+            "confidence": 0.9
+          },
+          {
+            "name": "LoRA fine-tuning",
+            "confidence": 0.85
+          },
+          {
+            "name": "vLLM",
+            "confidence": 0.8
+          },
+          {
+            "name": "Amazon SageMaker AI",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "deep learning",
+            "confidence": 0.9
+          },
+          {
+            "name": "neural networks",
+            "confidence": 0.85
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand how Multi-LoRA serving works for MoE models",
+          "Learn about the implementation of multi-LoRA inference in vLLM",
+          "Understand the benefits of using Amazon SageMaker AI and Amazon Bedrock for multi-LoRA serving"
+        ],
+        "strategic_questions": [
+          "How can Multi-LoRA serving be applied to other types of models?",
+          "What are the limitations of using Multi-LoRA serving for MoE models?",
+          "How can the performance of Multi-LoRA serving be further optimized?"
         ]
       }
     }
