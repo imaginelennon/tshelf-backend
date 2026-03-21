@@ -11,6 +11,10 @@ import re
 # Initialize Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
+# Cache file — persists between runs in the repo
+CACHE_FILE = "article_cache.json"
+OUTPUT_FILE = "curriculum.json"
+
 # RSS Feeds
 FEEDS = [
     # Major AI Labs
@@ -18,30 +22,29 @@ FEEDS = [
     "https://openai.com/news/rss.xml",
     "https://blog.google/technology/ai/rss/",
     "https://www.deepmind.google/blog/rss.xml",
-    
+
     # Technical Blogs & Research
     "https://huggingface.co/blog/feed.xml",
     "https://stability.ai/news/rss",
     "https://ai.meta.com/blog/feed/",
-    
+
     # AI Safety & Alignment
     "https://www.alignmentforum.org/feed.xml",
-    
+
     # Industry/Cloud ML
     "https://aws.amazon.com/blogs/machine-learning/feed/",
     "https://cloud.google.com/blog/products/ai-machine-learning/rss/",
-    
+
     # Newsletters & Analysis
     "https://importai.substack.com/feed",
     "https://www.aisnakeoil.com/feed",
     "https://thegradient.pub/rss/",
-    
+
     # Academic/Research-Heavy
     "https://distill.pub/rss.xml",
     "https://pair.withgoogle.com/feed.xml",
 ]
 
-# Updated prompt with article_type, primary_concept, and summary
 SOUL_PROMPT = """You are an AI curriculum designer analyzing technical articles.
 
 CRITICAL: You MUST return valid JSON. No markdown, no code blocks, just raw JSON.
@@ -152,29 +155,64 @@ Content: {content}
 """
 
 
-def slugify(text):
-    """Convert text to URL-friendly slug"""
-    text = text.lower().strip()
-    text = re.sub(r'[^\w\s-]', '', text)
-    text = re.sub(r'[-\s]+', '-', text)
-    return text.strip('-')
+# =============================================================================
+# CACHE
+# =============================================================================
 
+def load_cache() -> dict:
+    """
+    Load the article cache from disk.
+    Structure:
+    {
+      "https://article-url": {
+        "title": "...",
+        "url": "...",
+        "published": "...",
+        "source": "...",
+        "cached_at": "2026-03-21T00:00:00Z",
+        "curriculum": { ...groq analysis... }   # None if skipped
+        "skipped": false
+      },
+      ...
+    }
+    """
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r") as f:
+                cache = json.load(f)
+            print(f"📦 Cache loaded: {len(cache)} articles")
+            return cache
+        except Exception as e:
+            print(f"⚠️  Cache load failed ({e}), starting fresh")
+    else:
+        print("📦 No cache found, starting fresh")
+    return {}
+
+
+def save_cache(cache: dict):
+    """Save the cache back to disk."""
+    try:
+        with open(CACHE_FILE, "w") as f:
+            json.dump(cache, f, indent=2)
+        print(f"💾 Cache saved: {len(cache)} articles")
+    except Exception as e:
+        print(f"❌ Cache save failed: {e}")
+
+
+# =============================================================================
+# FEED FETCHING
+# =============================================================================
 
 def fetch_feed(url):
-    """Fetch and parse RSS feed"""
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (compatible; TShelf/1.0)'}
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; Bramble/1.0)"}
         response = requests.get(url, headers=headers, timeout=15)
-        
         if response.status_code != 200:
             print(f"    ⚠️  HTTP {response.status_code}")
             return None
-            
         feed = feedparser.parse(response.content)
-        
         if feed.bozo:
             print(f"    ⚠️  Parse warning: {feed.bozo_exception}")
-        
         return feed
     except requests.Timeout:
         print(f"    ⚠️  Timeout")
@@ -184,299 +222,354 @@ def fetch_feed(url):
         return None
 
 
-def extract_content(entry):
-    """Extract content from feed entry - try multiple fields"""
+def extract_content(entry) -> str:
     content = ""
-    
-    if hasattr(entry, 'content') and entry.content:
+    if hasattr(entry, "content") and entry.content:
         content = entry.content[0].value
-    elif hasattr(entry, 'summary_detail') and entry.summary_detail:
+    elif hasattr(entry, "summary_detail") and entry.summary_detail:
         content = entry.summary_detail.value
-    elif hasattr(entry, 'summary'):
+    elif hasattr(entry, "summary"):
         content = entry.summary
-    elif hasattr(entry, 'description'):
+    elif hasattr(entry, "description"):
         content = entry.description
-    
-    # HTML cleanup
-    content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL)
-    content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL)
-    content = re.sub(r'<[^>]+>', ' ', content)
-    content = re.sub(r'\s+', ' ', content)
-    content = content.strip()
-    
-    # Limit length for API
+
+    content = re.sub(r"<script[^>]*>.*?</script>", "", content, flags=re.DOTALL)
+    content = re.sub(r"<style[^>]*>.*?</style>", "", content, flags=re.DOTALL)
+    content = re.sub(r"<[^>]+>", " ", content)
+    content = re.sub(r"\s+", " ", content).strip()
+
     if len(content) > 4000:
         content = content[:4000] + "..."
-    
     return content
 
 
-def analyze_article(title, content):
-    """Analyze article with Groq"""
+# =============================================================================
+# GROQ ANALYSIS
+# =============================================================================
+
+def analyze_article(title: str, content: str) -> dict | None:
     try:
         prompt = SOUL_PROMPT.format(title=title, content=content)
-        
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
-            max_tokens=4000
+            max_tokens=4000,
         )
-        
         result = response.choices[0].message.content.strip()
-        
-        # Handle markdown code blocks
+
+        # Strip markdown code fences if present
         if result.startswith("```"):
-            lines = result.split('\n')
-            result = '\n'.join(lines[1:-1]) if len(lines) > 2 else result
+            lines = result.split("\n")
+            result = "\n".join(lines[1:-1]) if len(lines) > 2 else result
             if result.startswith("json"):
                 result = result[4:].strip()
-        
-        # Parse JSON
+
         parsed = json.loads(result)
-        
-        # Validate
-        if parsed.get('skip') == True:
-            return {'skip': True}
-        
-        if not parsed.get('skip') and parsed.get('topic'):
-            # Ensure new fields have defaults
-            if 'article_type' not in parsed:
-                parsed['article_type'] = 'teaches'
-            if 'primary_concept' not in parsed:
-                # Fallback to first concept taught
-                if parsed.get('concepts_taught'):
-                    parsed['primary_concept'] = parsed['concepts_taught'][0]['name']
+
+        if parsed.get("skip") is True:
+            return {"skip": True}
+
+        if parsed.get("topic"):
+            parsed.setdefault("article_type", "teaches")
+            if "primary_concept" not in parsed:
+                if parsed.get("concepts_taught"):
+                    parsed["primary_concept"] = parsed["concepts_taught"][0]["name"]
                 else:
-                    parsed['primary_concept'] = 'general'
-            if 'summary' not in parsed:
-                parsed['summary'] = ''
+                    parsed["primary_concept"] = "general"
+            parsed.setdefault("summary", "")
             return parsed
-        else:
-            print(f"    ⚠️  Invalid structure")
-            return None
-        
+
+        print(f"    ⚠️  Invalid structure")
+        return None
+
     except json.JSONDecodeError as e:
         print(f"    ❌ JSON error: {e}")
-        print(f"    Response: {result[:200]}")
         return None
     except Exception as e:
         print(f"    ❌ Error: {e}")
         return None
 
 
-def build_concept_registry(articles):
-    """Build concept registry from analyzed articles"""
+# =============================================================================
+# CONCEPT REGISTRY
+# =============================================================================
+
+def slugify(text: str) -> str:
+    text = text.lower().strip()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"[-\s]+", "-", text)
+    return text.strip("-")
+
+
+def build_concept_registry(articles: list) -> dict:
     concepts = {}
-    
     for article in articles:
-        curriculum = article['curriculum']
-        primary = curriculum.get('primary_concept', '')
+        curriculum = article["curriculum"]
+        primary = curriculum.get("primary_concept", "")
         if not primary:
             continue
-            
+
         concept_id = slugify(primary)
-        article_type = curriculum.get('article_type', 'teaches')
-        topic = curriculum.get('topic', '')
-        
+        article_type = curriculum.get("article_type", "teaches")
+        topic = curriculum.get("topic", "")
+
         if concept_id not in concepts:
             concepts[concept_id] = {
-                'id': concept_id,
-                'name': primary,
-                'aliases': set([primary]),
-                'topic': topic,
-                'teaches': [],
-                'extends': [],
-                'prerequisite_concepts': set()
+                "id": concept_id,
+                "name": primary,
+                "aliases": set([primary]),
+                "topic": topic,
+                "teaches": [],
+                "extends": [],
+                "prerequisite_concepts": set(),
             }
         else:
-            # Add alias if different casing/wording
-            concepts[concept_id]['aliases'].add(primary)
-        
-        # Add article to appropriate list
-        if article_type == 'teaches':
-            concepts[concept_id]['teaches'].append(article['url'])
+            concepts[concept_id]["aliases"].add(primary)
+
+        if article_type == "teaches":
+            concepts[concept_id]["teaches"].append(article["url"])
         else:
-            concepts[concept_id]['extends'].append(article['url'])
-        
-        # Extract prerequisite concepts
-        for prereq in curriculum.get('prerequisites', []):
-            prereq_id = slugify(prereq['name'])
+            concepts[concept_id]["extends"].append(article["url"])
+
+        for prereq in curriculum.get("prerequisites", []):
+            prereq_id = slugify(prereq["name"])
             if prereq_id and prereq_id != concept_id:
-                concepts[concept_id]['prerequisite_concepts'].add(prereq_id)
-    
-    # Convert sets to lists for JSON serialization
-    for concept_id in concepts:
-        concepts[concept_id]['aliases'] = list(concepts[concept_id]['aliases'])
-        concepts[concept_id]['prerequisite_concepts'] = list(concepts[concept_id]['prerequisite_concepts'])
-    
+                concepts[concept_id]["prerequisite_concepts"].add(prereq_id)
+
+    for cid in concepts:
+        concepts[cid]["aliases"] = list(concepts[cid]["aliases"])
+        concepts[cid]["prerequisite_concepts"] = list(concepts[cid]["prerequisite_concepts"])
+
     return concepts
 
 
 # =============================================================================
-# MAIN EXECUTION
+# MAIN
 # =============================================================================
 
-print("🔄 Fetching RSS feeds...")
-print(f"📡 Total feeds: {len(FEEDS)}\n")
+print("🌿 Bramble pipeline starting...")
+print(f"📡 Feeds: {len(FEEDS)}\n")
 
-articles = []
+# ── Step 1: Load cache ──────────────────────────────────────────────────────
+cache = load_cache()
+cache_hits = 0
+new_analyses = 0
+skipped_count = 0
+error_count = 0
+
+# ── Step 2: Fetch all feeds and collect raw articles ────────────────────────
+print("\n🔄 Fetching RSS feeds...")
+raw_articles = []   # All candidate articles from feeds this run
 feed_stats = {}
 
 for feed_url in FEEDS:
-    feed_name = feed_url.split('/')[2]
+    feed_name = feed_url.split("/")[2]
     print(f"  📰 {feed_name}")
-    
+
     feed = fetch_feed(feed_url)
-    
-    if not feed or not hasattr(feed, 'entries'):
+    if not feed or not hasattr(feed, "entries"):
         print(f"    ❌ Failed to fetch")
         feed_stats[feed_name] = 0
         continue
-    
+
     count = 0
     for entry in feed.entries[:15]:
+        if not hasattr(entry, "link") or not entry.link:
+            continue
+
         content = extract_content(entry)
-        
-        # Minimum 300 words to ensure substantive content
         word_count = len(content.split())
         if word_count < 300:
             continue
-        
-        articles.append({
-            'title': entry.title,
-            'url': entry.link,
-            'published': entry.get('published', entry.get('updated', '')),
-            'source': feed.feed.title if hasattr(feed.feed, 'title') else feed_name,
-            'content': content
+
+        raw_articles.append({
+            "title": getattr(entry, "title", "Untitled"),
+            "url": entry.link,
+            "published": entry.get("published", entry.get("updated", "")),
+            "source": feed.feed.title if hasattr(feed.feed, "title") else feed_name,
+            "content": content,
         })
         count += 1
-    
+
     feed_stats[feed_name] = count
     print(f"    ✅ {count} articles")
-    
     time.sleep(0.3)
 
-print(f"\n📚 Total articles fetched: {len(articles)}")
-print(f"📊 Articles per source:")
-for source, count in sorted(feed_stats.items(), key=lambda x: x[1], reverse=True):
-    if count > 0:
-        print(f"   • {source}: {count}")
+print(f"\n📚 Total fetched this run: {len(raw_articles)}")
 
-# Analyze articles
-print("\n🤖 Analyzing with Llama 3.3 70B...")
-analyzed = []
-skipped = []
-errors = []
+# ── Step 3: Analyze only uncached articles ───────────────────────────────────
+print("\n🤖 Analyzing new articles with Llama 3.3 70B...")
 
-for i, article in enumerate(articles, 1):
-    print(f"  [{i}/{len(articles)}] {article['title'][:60]}...")
-    
-    analysis = analyze_article(article['title'], article['content'])
-    
-    if not analysis:
-        errors.append(article['title'])
-        print(f"    ❌ Analysis failed")
+new_article_count = sum(1 for a in raw_articles if a["url"] not in cache)
+print(f"   Cache hits: {len(raw_articles) - new_article_count} articles (skipping Groq)")
+print(f"   New articles to analyze: {new_article_count}\n")
+
+for i, article in enumerate(raw_articles, 1):
+    url = article["url"]
+
+    # ── Cache hit — skip Groq entirely ──────────────────────────────────────
+    if url in cache:
+        cache_hits += 1
+        print(f"  [{i}/{len(raw_articles)}] 💾 cached  {article['title'][:55]}...")
+        # Update metadata in case title/source changed (URL is the key)
+        cache[url]["title"] = article["title"]
+        cache[url]["published"] = article["published"]
+        cache[url]["source"] = article["source"]
         continue
-    
-    if analysis.get('skip'):
-        skipped.append(article['title'])
-        print(f"    ⏭️  Skipped")
+
+    # ── New article — call Groq ──────────────────────────────────────────────
+    print(f"  [{i}/{len(raw_articles)}] 🤖 new     {article['title'][:55]}...")
+    analysis = analyze_article(article["title"], article["content"])
+
+    if analysis is None:
+        error_count += 1
+        print(f"    ❌ Analysis failed — not caching")
         continue
-    
-    # Add to results
-    analyzed.append({
-        'title': article['title'],
-        'url': article['url'],
-        'published': article['published'],
-        'source': article['source'],
-        'curriculum': analysis
-    })
-    
-    article_type = analysis.get('article_type', 'teaches')
-    primary = analysis.get('primary_concept', 'unknown')[:30]
+
+    if analysis.get("skip"):
+        skipped_count += 1
+        # Cache the skip so we don't retry it every run
+        cache[url] = {
+            "title": article["title"],
+            "url": url,
+            "published": article["published"],
+            "source": article["source"],
+            "cached_at": datetime.utcnow().isoformat() + "Z",
+            "skipped": True,
+            "curriculum": None,
+        }
+        print(f"    ⏭️  Skipped (cached)")
+        continue
+
+    # Valid analysis — cache it
+    cache[url] = {
+        "title": article["title"],
+        "url": url,
+        "published": article["published"],
+        "source": article["source"],
+        "cached_at": datetime.utcnow().isoformat() + "Z",
+        "skipped": False,
+        "curriculum": analysis,
+    }
+    new_analyses += 1
+
+    article_type = analysis.get("article_type", "teaches")
+    primary = analysis.get("primary_concept", "unknown")[:35]
     print(f"    ✅ {article_type} | {primary} | {analysis['difficulty']['level']}")
-    
+
     time.sleep(0.3)
 
-# Build concept registry
+# ── Step 4: Save updated cache immediately ───────────────────────────────────
+save_cache(cache)
+
+# ── Step 5: Build curriculum from cache (all valid articles, not just today's fetch) ──
+print("\n📦 Building curriculum from full cache...")
+
+# Pull every non-skipped article from the cache (not just this run's articles)
+# This means curriculum.json always reflects the full historical archive
+analyzed = [
+    {
+        "title": entry["title"],
+        "url": entry["url"],
+        "published": entry["published"],
+        "source": entry["source"],
+        "curriculum": entry["curriculum"],
+    }
+    for entry in cache.values()
+    if not entry.get("skipped") and entry.get("curriculum") is not None
+]
+
+print(f"   Total valid articles in archive: {len(analyzed)}")
+
+# ── Step 6: Build concept registry ──────────────────────────────────────────
 print("\n🧠 Building concept registry...")
 concepts = build_concept_registry(analyzed)
 print(f"   Found {len(concepts)} unique concepts")
 
-# Count teaches vs extends
-teaches_count = sum(1 for a in analyzed if a['curriculum'].get('article_type') == 'teaches')
-extends_count = sum(1 for a in analyzed if a['curriculum'].get('article_type') == 'extends')
-print(f"   • {teaches_count} articles teach concepts")
-print(f"   • {extends_count} articles extend concepts")
+teaches_count = sum(1 for a in analyzed if a["curriculum"].get("article_type") == "teaches")
+extends_count = sum(1 for a in analyzed if a["curriculum"].get("article_type") == "extends")
+orphaned = [c for c in concepts.values() if len(c["teaches"]) == 0 and len(c["extends"]) > 0]
+print(f"   • {teaches_count} teach concepts")
+print(f"   • {extends_count} extend concepts")
+print(f"   • {len(orphaned)} orphaned concepts")
 
-# Count orphaned concepts (extends but no teaches)
-orphaned = [c for c in concepts.values() if len(c['teaches']) == 0 and len(c['extends']) > 0]
-print(f"   • {len(orphaned)} orphaned concepts (extensions without foundational content)")
-
-# Build curriculum JSON
-print("\n📦 Building curriculum...")
-
-curriculum = {
-    'generated_at': datetime.utcnow().isoformat() + 'Z',
-    'total_articles': len(analyzed),
-    'total_concepts': len(concepts),
-    'concepts': concepts,
-    'topics': {},
-    'articles': analyzed
-}
-
-# Group by topic (for backward compatibility)
+# ── Step 7: Group into topics ────────────────────────────────────────────────
 topic_counts = {}
+topics = {}
+
 for article in analyzed:
-    topic = article['curriculum']['topic']
-    
-    if topic not in curriculum['topics']:
-        curriculum['topics'][topic] = {
-            'name': topic,
-            'article_count': 0,
-            'articles': [],
-            'levels': {
-                'foundational': [],
-                'beginner': [],
-                'intermediate': [],
-                'advanced': [],
-                'application': []
-            }
+    topic = article["curriculum"]["topic"]
+
+    if topic not in topics:
+        topics[topic] = {
+            "name": topic,
+            "article_count": 0,
+            "articles": [],
+            "levels": {
+                "foundational": [],
+                "beginner": [],
+                "intermediate": [],
+                "advanced": [],
+                "application": [],
+            },
         }
-    
-    curriculum['topics'][topic]['articles'].append(article)
-    curriculum['topics'][topic]['article_count'] += 1
-    
-    level = article['curriculum']['difficulty']['level'].lower()
-    if level in curriculum['topics'][topic]['levels']:
-        curriculum['topics'][topic]['levels'][level].append(article)
-    
+
+    topics[topic]["articles"].append(article)
+    topics[topic]["article_count"] += 1
+    level = article["curriculum"]["difficulty"]["level"].lower()
+    if level in topics[topic]["levels"]:
+        topics[topic]["levels"][level].append(article)
     topic_counts[topic] = topic_counts.get(topic, 0) + 1
 
-# Save
-with open('curriculum.json', 'w') as f:
+# ── Step 8: Write curriculum.json ───────────────────────────────────────────
+curriculum = {
+    "generated_at": datetime.utcnow().isoformat() + "Z",
+    "total_articles": len(analyzed),
+    "total_concepts": len(concepts),
+    "concepts": concepts,
+    "topics": topics,
+    "articles": analyzed,
+}
+
+with open(OUTPUT_FILE, "w") as f:
     json.dump(curriculum, f, indent=2)
 
-print(f"\n📝 Curriculum saved to curriculum.json")
+print(f"\n✅ {OUTPUT_FILE} written")
 
-# Stats
-print(f"\n📊 Processing Stats:")
-print(f"   • Fetched: {len(articles)} articles")
-print(f"   • Analyzed: {len(analyzed)} articles ({len(analyzed)/len(articles)*100:.1f}%)" if articles else "   • Analyzed: 0 articles")
-print(f"   • Skipped: {len(skipped)} articles")
-print(f"   • Errors: {len(errors)} articles")
+# ── Step 9: Summary ──────────────────────────────────────────────────────────
+print(f"""
+╔══════════════════════════════════════════╗
+║           Bramble Pipeline Done          ║
+╠══════════════════════════════════════════╣
+║  This run                                ║
+║    Fetched from feeds : {len(raw_articles):<17} ║
+║    Cache hits (saved) : {cache_hits:<17} ║
+║    New analyses       : {new_analyses:<17} ║
+║    Skipped            : {skipped_count:<17} ║
+║    Errors             : {error_count:<17} ║
+╠══════════════════════════════════════════╣
+║  Archive                                 ║
+║    Total cached       : {len(cache):<17} ║
+║    In curriculum      : {len(analyzed):<17} ║
+║    Concepts           : {len(concepts):<17} ║
+╚══════════════════════════════════════════╝
+""")
 
-print(f"\n📚 Topics discovered:")
+print("📚 Topics in curriculum:")
 for topic, count in sorted(topic_counts.items(), key=lambda x: x[1], reverse=True):
     print(f"   • {topic}: {count} articles")
 
-print(f"\n🧠 Top concepts by coverage:")
-sorted_concepts = sorted(concepts.values(), key=lambda c: len(c['teaches']) + len(c['extends']), reverse=True)
+print("\n🧠 Top concepts by coverage:")
+sorted_concepts = sorted(
+    concepts.values(),
+    key=lambda c: len(c["teaches"]) + len(c["extends"]),
+    reverse=True,
+)
 for concept in sorted_concepts[:10]:
-    teaches = len(concept['teaches'])
-    extends = len(concept['extends'])
-    status = "✅" if teaches > 0 else "⚠️ orphan"
-    print(f"   • {concept['name']}: {teaches} teach, {extends} extend {status}")
+    t = len(concept["teaches"])
+    e = len(concept["extends"])
+    status = "✅" if t > 0 else "⚠️  orphan"
+    print(f"   • {concept['name']}: {t} teach, {e} extend {status}")
 
-print("\n✨ Done!")
+print("\n🌿 Done!")
