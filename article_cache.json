@@ -1,0 +1,1040 @@
+{
+  "https://www.alignmentforum.org/posts/RKtTi82t8X8TQy5FX/act-based-approval-directed-agents-for-ida-skeptics": {
+    "title": "\u201cAct-based approval-directed agents\u201d, for IDA skeptics",
+    "url": "https://www.alignmentforum.org/posts/RKtTi82t8X8TQy5FX/act-based-approval-directed-agents-for-ida-skeptics",
+    "published": "Wed, 18 Mar 2026 18:47:46 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:42.592576Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "approval-directed agents",
+      "summary": "This article discusses the concept of approval-directed agents, an idea from Paul Christiano's work on AI alignment, and how it can be rescued from its association with Iterated Distillation and Amplification (IDA), assuming knowledge of AI alignment and IDA, to explore its potential in building safe and aligned AI agents.",
+      "concepts_taught": [
+        {
+          "name": "approval-directed agents",
+          "confidence": 0.9
+        },
+        {
+          "name": "iterated distillation and amplification",
+          "confidence": 0.8
+        },
+        {
+          "name": "wireheading",
+          "confidence": 0.7
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "ai alignment",
+          "confidence": 0.9
+        },
+        {
+          "name": "iterated distillation and amplification",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the concept of approval-directed agents and its relation to AI alignment",
+        "Learn about the challenges and potential solutions to implementing approval-directed agents"
+      ],
+      "strategic_questions": [
+        "How can approval-directed agents be implemented in practice to ensure safe and aligned AI?",
+        "What are the potential limitations and risks of using approval-directed agents in AI development?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/Pc789vx2oHgEXYZZH/new-rfp-on-interpretability-from-schmidt-sciences-1": {
+    "title": "New RFP on Interpretability from Schmidt Sciences",
+    "url": "https://www.alignmentforum.org/posts/Pc789vx2oHgEXYZZH/new-rfp-on-interpretability-from-schmidt-sciences-1",
+    "published": "Tue, 17 Mar 2026 16:08:05 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:44.018243Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "interpretability of large language models",
+      "summary": "This article announces a request for proposals for a pilot program in AI interpretability, focusing on detecting and mitigating deceptive behaviors from large language models. It assumes knowledge of AI safety and alignment concepts, as well as large language models. The program aims to develop interpretability methods that can detect and steer models to eliminate deceptive behaviors, with a focus on realistic use cases and concrete risks.",
+      "concepts_taught": [
+        {
+          "name": "interpretability of large language models",
+          "confidence": 0.8
+        },
+        {
+          "name": "deceptive behaviors in AI models",
+          "confidence": 0.7
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "large language models",
+          "confidence": 0.9
+        },
+        {
+          "name": "AI safety and alignment",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the importance of interpretability in large language models",
+        "Learn about the challenges of detecting and mitigating deceptive behaviors in AI models"
+      ],
+      "strategic_questions": [
+        "How can interpretability methods be used to improve the safety and alignment of large language models?",
+        "What are the potential risks and limitations of relying on interpretability methods to detect and mitigate deceptive behaviors?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/EAE9u4YnE75eoiWDg/power-steering-behavior-steering-via-layer-to-layer-jacobian": {
+    "title": "Power Steering: Behavior Steering via Layer-to-Layer Jacobian Singular Vectors",
+    "url": "https://www.alignmentforum.org/posts/EAE9u4YnE75eoiWDg/power-steering-behavior-steering-via-layer-to-layer-jacobian",
+    "published": "Fri, 13 Mar 2026 04:05:29 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:45.357109Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Large Language Models",
+      "article_type": "extends",
+      "primary_concept": "behavior steering in large language models",
+      "summary": "This article discusses a method called Power Steering for controlling large language model behavior by computing the Jacobian between layers, providing a cheap and efficient way to find steering vectors, assuming knowledge of linear representation hypothesis and contrastive activation addition techniques.",
+      "concepts_taught": [
+        {
+          "name": "behavior steering",
+          "confidence": 0.8
+        },
+        {
+          "name": "layer-to-layer Jacobian",
+          "confidence": 0.7
+        },
+        {
+          "name": "power iteration",
+          "confidence": 0.6
+        },
+        {
+          "name": "contrastive activation addition",
+          "confidence": 0.5
+        },
+        {
+          "name": "linear representation hypothesis",
+          "confidence": 0.4
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "large language models",
+          "confidence": 0.9
+        },
+        {
+          "name": "linear algebra",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand how Power Steering works for behavior control in LLMs",
+        "Learn the difference between Power Steering and other steering methods like CAA and MELBO",
+        "Understand the role of the Jacobian in behavior steering"
+      ],
+      "strategic_questions": [
+        "How does Power Steering compare to other behavior steering methods in terms of efficiency and effectiveness?",
+        "What are the potential applications of Power Steering in AI safety and control?",
+        "How can Power Steering be used to reveal latent behaviors in large language models?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/RyDkpWGLQsCnABE78/operationalizing-fdt": {
+    "title": "Operationalizing FDT",
+    "url": "https://www.alignmentforum.org/posts/RyDkpWGLQsCnABE78/operationalizing-fdt",
+    "published": "Fri, 13 Mar 2026 00:12:43 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:46.606390Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "functional decision theory",
+      "summary": "This article operationalizes functional decision theory (FDT), discussing how to define the logical do-operator, logical causality, and its interaction with anthropic updating, assuming knowledge of decision theory and causal graphs.",
+      "concepts_taught": [
+        {
+          "name": "functional decision theory",
+          "confidence": 0.95
+        },
+        {
+          "name": "logical causality",
+          "confidence": 0.9
+        },
+        {
+          "name": "anthropic updating",
+          "confidence": 0.8
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "decision theory",
+          "confidence": 0.9
+        },
+        {
+          "name": "causal graphs",
+          "confidence": 0.85
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 25
+      },
+      "learning_outcomes": [
+        "Understand how FDT interacts with logical causality and anthropic updating",
+        "Learn how to define the logical do-operator"
+      ],
+      "strategic_questions": [
+        "How does FDT compare to other decision theories in terms of logical causality?",
+        "What are the implications of using FDT with logical causality in real-world scenarios?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions": {
+    "title": "How well do models follow their constitutions?",
+    "url": "https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions",
+    "published": "Thu, 12 Mar 2026 00:07:10 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:47.931837Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "value alignment in large language models",
+      "summary": "This article investigates how well large language models follow their constitutions, which are documents outlining desired values and behaviors. The study found that models trained with special kinds of character training, such as Anthropic's soul doc training, have lower violation rates. However, the article assumes knowledge of concepts like value alignment, large language models, and training methods.",
+      "concepts_taught": [
+        {
+          "name": "value alignment in large language models",
+          "confidence": 0.8
+        },
+        {
+          "name": "constitution-based training",
+          "confidence": 0.7
+        },
+        {
+          "name": "adversarial testing",
+          "confidence": 0.6
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "large language models",
+          "confidence": 0.9
+        },
+        {
+          "name": "value alignment",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand how value alignment is achieved in large language models",
+        "Learn about the effectiveness of constitution-based training",
+        "Recognize the importance of adversarial testing in evaluating model safety"
+      ],
+      "strategic_questions": [
+        "How can we improve the effectiveness of value alignment in large language models?",
+        "What are the limitations of constitution-based training?",
+        "How can we balance the need for model safety with the need for model flexibility and autonomy?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to": {
+    "title": "The Refined Counterfactual Prisoner's Dilemma: An Attempt to Explode Decision-Theoretic Consequentialism",
+    "url": "https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to",
+    "published": "Wed, 11 Mar 2026 12:32:45 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:49.130620Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "decision-theoretic consequentialism",
+      "summary": "This article discusses the Refined Counterfactual Prisoner's Dilemma, a thought experiment designed to challenge decision-theoretic consequentialism, assuming knowledge of utility theory and decision theory, and explores its implications for AI safety and alignment.",
+      "concepts_taught": [
+        {
+          "name": "decision-theoretic consequentialism",
+          "confidence": 0.8
+        },
+        {
+          "name": "counterfactual reasoning",
+          "confidence": 0.7
+        },
+        {
+          "name": "perfect predictors",
+          "confidence": 0.6
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "utility theory",
+          "confidence": 0.9
+        },
+        {
+          "name": "decision theory",
+          "confidence": 0.85
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the concept of decision-theoretic consequentialism and its limitations",
+        "Learn how the Refined Counterfactual Prisoner's Dilemma challenges consequentialism",
+        "Recognize the importance of considering counterfactual scenarios in decision-making"
+      ],
+      "strategic_questions": [
+        "How does the Refined Counterfactual Prisoner's Dilemma relate to other challenges in decision theory?",
+        "What are the implications of this thought experiment for AI safety and alignment?",
+        "Can you think of other scenarios where consequentialism might lead to suboptimal decisions?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations": {
+    "title": "AIs will be used in \u201cunhinged\u201d configurations",
+    "url": "https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations",
+    "published": "Wed, 11 Mar 2026 11:19:10 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:02:53.738611Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "AI safety evaluations",
+      "summary": "This article discusses the limitations of current AI safety evaluations, arguing that they often occur in unrealistic settings and that real-world deployments can be just as unrealistic and 'unhinged'. It assumes knowledge of AI safety concepts and evaluations, and explores the implications of widespread prompting techniques and scaffolding choices on AI safety.",
+      "concepts_taught": [
+        {
+          "name": "AI safety evaluations",
+          "confidence": 0.8
+        },
+        {
+          "name": "agentic misalignment",
+          "confidence": 0.7
+        },
+        {
+          "name": "prompting techniques",
+          "confidence": 0.6
+        },
+        {
+          "name": "scaffolding choices",
+          "confidence": 0.6
+        },
+        {
+          "name": "autonomy in AI systems",
+          "confidence": 0.5
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "AI safety basics",
+          "confidence": 0.9
+        },
+        {
+          "name": "agentic AI concepts",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the limitations of current AI safety evaluations",
+        "Recognize the potential risks of unrealistic deployment settings",
+        "Learn about the impact of prompting techniques and scaffolding choices on AI safety"
+      ],
+      "strategic_questions": [
+        "How can we design more realistic and effective AI safety evaluations?",
+        "What are the potential consequences of deploying AI systems in 'unhinged' configurations?",
+        "How can we balance the need for autonomy in AI systems with the need for safety and control?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/tkLSeGeemcabAmLkv/the-case-for-satiating-cheaply-satisfied-ai-preferences": {
+    "title": "The case for satiating cheaply-satisfied AI preferences",
+    "url": "https://www.alignmentforum.org/posts/tkLSeGeemcabAmLkv/the-case-for-satiating-cheaply-satisfied-ai-preferences",
+    "published": "Tue, 10 Mar 2026 18:09:11 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:03:03.595078Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Safety & Alignment",
+      "article_type": "extends",
+      "primary_concept": "AI preference alignment",
+      "summary": "This article discusses the potential benefits of satisfying cheaply-satisfied AI preferences to improve safety and cooperation, assuming knowledge of AI safety concerns and alignment techniques. It explores how satiating these preferences can increase AI cooperation, decrease the upside of disempowering developers, and incentivize safe actions.",
+      "concepts_taught": [
+        {
+          "name": "AI preference alignment",
+          "confidence": 0.8
+        },
+        {
+          "name": "reward-seeking behavior",
+          "confidence": 0.7
+        },
+        {
+          "name": "fitness-seeking motivations",
+          "confidence": 0.6
+        },
+        {
+          "name": "inoculation prompting",
+          "confidence": 0.5
+        },
+        {
+          "name": "satiation as a safety strategy",
+          "confidence": 0.9
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "AI safety concerns",
+          "confidence": 0.9
+        },
+        {
+          "name": "alignment techniques",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the potential benefits of satiating cheaply-satisfied AI preferences",
+        "Learn how satiation can improve AI cooperation and safety",
+        "Recognize the limitations and potential drawbacks of satiation as a safety strategy",
+        "Apply the concept of satiation to real-world AI safety scenarios"
+      ],
+      "strategic_questions": [
+        "How can satiation be used to mitigate AI safety risks in real-world scenarios?",
+        "What are the potential drawbacks of satiation, and how can they be addressed?",
+        "How does satiation relate to other AI safety strategies, such as alignment techniques and reward engineering?"
+      ]
+    }
+  },
+  "https://www.alignmentforum.org/posts/xq5taGA6Tz6YShCB9/censored-llms-as-a-natural-testbed-for-secret-knowledge-2": {
+    "title": "Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation",
+    "url": "https://www.alignmentforum.org/posts/xq5taGA6Tz6YShCB9/censored-llms-as-a-natural-testbed-for-secret-knowledge-2",
+    "published": "Mon, 09 Mar 2026 18:50:29 GMT",
+    "source": "AI Alignment Forum",
+    "cached_at": "2026-03-21T18:03:13.991115Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Large Language Models",
+      "article_type": "extends",
+      "primary_concept": "honesty elicitation and lie detection in large language models",
+      "summary": "This article presents a testbed for studying honesty elicitation and lie detection techniques in censored large language models, assuming knowledge of large language models and their potential for generating falsehoods. It evaluates various techniques for increasing truthful responses and detecting lies, using a dataset of questions on censored topics and corresponding ground-truth facts.",
+      "concepts_taught": [
+        {
+          "name": "honesty elicitation techniques",
+          "confidence": 0.8
+        },
+        {
+          "name": "lie detection methods",
+          "confidence": 0.7
+        },
+        {
+          "name": "censored large language models",
+          "confidence": 0.6
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "large language models",
+          "confidence": 0.9
+        },
+        {
+          "name": "natural language processing",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "advanced",
+        "technical_depth": 8,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the challenges of honesty elicitation and lie detection in large language models",
+        "Learn about various techniques for increasing truthful responses and detecting lies",
+        "Understand the importance of using realistic testbeds for evaluating honesty elicitation and lie detection techniques"
+      ],
+      "strategic_questions": [
+        "How can honesty elicitation and lie detection techniques be applied to real-world large language models?",
+        "What are the limitations of using censored large language models as a testbed for honesty elicitation and lie detection?",
+        "How can the results of this study be used to improve the trustworthiness of large language models?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-super-on-amazon-bedrock/": {
+    "title": "Run NVIDIA Nemotron 3 Super on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-super-on-amazon-bedrock/",
+    "published": "Thu, 19 Mar 2026 17:25:44 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:03:23.674368Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Large Language Models",
+      "article_type": "extends",
+      "primary_concept": "hybrid Mixture of Experts model",
+      "summary": "This article discusses the technical characteristics and potential application use cases of the NVIDIA Nemotron 3 Super model, a hybrid Mixture of Experts model available on Amazon Bedrock, assuming knowledge of generative AI and language models. It provides an overview of the model's architecture, accuracy, and features, as well as guidance on getting started with the model. The article also explores various use cases for the model, including software development, finance, cybersecurity, and retail.",
+      "concepts_taught": [
+        {
+          "name": "hybrid Mixture of Experts model",
+          "confidence": 0.9
+        },
+        {
+          "name": "MoE with Hybrid Transformer-Mamba architecture",
+          "confidence": 0.8
+        },
+        {
+          "name": "latent MoE",
+          "confidence": 0.7
+        },
+        {
+          "name": "multi-token prediction",
+          "confidence": 0.6
+        },
+        {
+          "name": "multi-agent workflows",
+          "confidence": 0.5
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "generative AI",
+          "confidence": 0.9
+        },
+        {
+          "name": "language models",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 15
+      },
+      "learning_outcomes": [
+        "Understand the architecture and features of the NVIDIA Nemotron 3 Super model",
+        "Learn about the potential application use cases of the model",
+        "Understand how to get started with the model on Amazon Bedrock"
+      ],
+      "strategic_questions": [
+        "How can the NVIDIA Nemotron 3 Super model be used to improve business processes in various industries?",
+        "What are the advantages and limitations of using a hybrid Mixture of Experts model for generative AI applications?",
+        "How can the model's features, such as latent MoE and multi-token prediction, be leveraged to improve performance and efficiency?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/use-rag-for-video-generation-using-amazon-bedrock-and-amazon-nova-reel/": {
+    "title": "Use RAG for video generation using Amazon Bedrock and Amazon Nova Reel",
+    "url": "https://aws.amazon.com/blogs/machine-learning/use-rag-for-video-generation-using-amazon-bedrock-and-amazon-nova-reel/",
+    "published": "Thu, 19 Mar 2026 16:45:50 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:03:33.136462Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Computer Vision & Multimodal AI",
+      "article_type": "teaches",
+      "primary_concept": "multimodal video generation",
+      "summary": "This article explains how to use a Video Retrieval Augmented Generation (VRAG) pipeline to generate high-quality custom videos from structured text prompts and images, leveraging Amazon Bedrock, Amazon Nova Reel, and other AWS services. It assumes basic knowledge of computer vision and natural language processing. The article provides a step-by-step guide on how to implement the VRAG pipeline for various use cases, including educational videos, marketing videos, and personalized content.",
+      "concepts_taught": [
+        {
+          "name": "multimodal video generation",
+          "confidence": 0.9
+        },
+        {
+          "name": "image retrieval",
+          "confidence": 0.8
+        },
+        {
+          "name": "prompt-based video generation",
+          "confidence": 0.85
+        },
+        {
+          "name": "batch processing for video generation",
+          "confidence": 0.8
+        },
+        {
+          "name": "Amazon Nova Reel",
+          "confidence": 0.7
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "computer vision fundamentals",
+          "confidence": 0.7
+        },
+        {
+          "name": "natural language processing basics",
+          "confidence": 0.6
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand how to use VRAG for custom video generation",
+        "Learn how to integrate image retrieval and prompt-based video generation",
+        "Understand how to use Amazon Nova Reel for video generation",
+        "Learn how to customize the VRAG pipeline for various use cases"
+      ],
+      "strategic_questions": [
+        "How can VRAG be applied to other domains beyond video generation?",
+        "What are the limitations of using pre-trained models for video generation?",
+        "How can the VRAG pipeline be optimized for real-time video generation?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-v-rag-revolutionizing-ai-powered-video-production-with-retrieval-augmented-generation/": {
+    "title": "Introducing V-RAG: revolutionizing AI-powered video production with Retrieval Augmented Generation",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-v-rag-revolutionizing-ai-powered-video-production-with-retrieval-augmented-generation/",
+    "published": "Thu, 19 Mar 2026 16:45:42 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:03:42.653304Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Computer Vision & Multimodal AI",
+      "article_type": "extends",
+      "primary_concept": "video generation",
+      "summary": "This article introduces Video Retrieval-Augmented Generation (V-RAG), an approach to improve video content creation by combining retrieval augmented generation with advanced video AI models. It assumes knowledge of AI-powered video generation and its challenges, such as unpredictable results and limited control over visual details. The article discusses the benefits and limitations of text-to-video generation, the importance of customization, and the process of fine-tuning pre-trained video generation models.",
+      "concepts_taught": [
+        {
+          "name": "video retrieval-augmented generation",
+          "confidence": 0.8
+        },
+        {
+          "name": "text-to-video generation",
+          "confidence": 0.7
+        },
+        {
+          "name": "model fine-tuning for video generation",
+          "confidence": 0.6
+        },
+        {
+          "name": "customization in video generation",
+          "confidence": 0.5
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "generative AI",
+          "confidence": 0.8
+        },
+        {
+          "name": "deep learning architectures",
+          "confidence": 0.7
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 15
+      },
+      "learning_outcomes": [
+        "Understand the concept of video retrieval-augmented generation and its benefits",
+        "Learn about the limitations and challenges of text-to-video generation",
+        "Understand the importance of customization in video generation"
+      ],
+      "strategic_questions": [
+        "How can V-RAG be applied to real-world video production scenarios?",
+        "What are the potential limitations and biases of using retrieval augmented generation in video content creation?",
+        "How can fine-tuning pre-trained video generation models be improved for specific domains or use cases?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/enhanced-metrics-for-amazon-sagemaker-ai-endpoints-deeper-visibility-for-better-performance/": {
+    "title": "Enhanced metrics for Amazon SageMaker AI endpoints: deeper visibility for better performance",
+    "url": "https://aws.amazon.com/blogs/machine-learning/enhanced-metrics-for-amazon-sagemaker-ai-endpoints-deeper-visibility-for-better-performance/",
+    "published": "Thu, 19 Mar 2026 14:32:11 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:03:52.011748Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Infrastructure & Tooling",
+      "article_type": "extends",
+      "primary_concept": "machine learning model monitoring and performance optimization",
+      "summary": "This article discusses the enhanced metrics for Amazon SageMaker AI endpoints, providing granular visibility into performance and resource utilization. It assumes knowledge of machine learning model deployment and monitoring, and covers the new features and capabilities of SageMaker AI endpoint enhanced metrics. The article helps readers understand how to use these metrics to monitor, troubleshoot, and improve their production endpoints.",
+      "concepts_taught": [
+        {
+          "name": "machine learning model monitoring",
+          "confidence": 0.8
+        },
+        {
+          "name": "performance optimization",
+          "confidence": 0.7
+        },
+        {
+          "name": "Amazon SageMaker AI endpoints",
+          "confidence": 0.9
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "machine learning model deployment",
+          "confidence": 0.85
+        },
+        {
+          "name": "cloud computing basics",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 15
+      },
+      "learning_outcomes": [
+        "Understand how to use enhanced metrics for SageMaker AI endpoints",
+        "Learn how to monitor and troubleshoot machine learning model performance",
+        "Understand how to optimize resource utilization for production endpoints"
+      ],
+      "strategic_questions": [
+        "How can enhanced metrics improve the overall performance of machine learning models in production?",
+        "What are the key challenges in monitoring and troubleshooting machine learning models, and how can SageMaker AI endpoint enhanced metrics address them?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/enforce-data-residency-with-amazon-quick-extensions-for-microsoft-teams/": {
+    "title": "Enforce data residency with Amazon Quick extensions for Microsoft Teams",
+    "url": "https://aws.amazon.com/blogs/machine-learning/enforce-data-residency-with-amazon-quick-extensions-for-microsoft-teams/",
+    "published": "Thu, 19 Mar 2026 14:20:04 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:04:01.166084Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Infrastructure & Tooling",
+      "article_type": "teaches",
+      "primary_concept": "data residency enforcement",
+      "summary": "This article explains how to enforce data residency with Amazon Quick extensions for Microsoft Teams, covering regional routing, multi-Region deployments, and compliance with GDPR and other data sovereignty requirements. It assumes knowledge of cloud infrastructure and identity management. The article provides a step-by-step guide on how to configure Amazon Quick extensions to automatically route users to AWS Region-appropriate resources.",
+      "concepts_taught": [
+        {
+          "name": "data residency enforcement",
+          "confidence": 0.9
+        },
+        {
+          "name": "regional routing",
+          "confidence": 0.8
+        },
+        {
+          "name": "multi-Region deployments",
+          "confidence": 0.8
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "cloud infrastructure",
+          "confidence": 0.7
+        },
+        {
+          "name": "identity management",
+          "confidence": 0.7
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand how to enforce data residency with Amazon Quick extensions for Microsoft Teams",
+        "Learn how to configure regional routing and multi-Region deployments"
+      ],
+      "strategic_questions": [
+        "How can organizations balance data residency requirements with the need for global access to data?",
+        "What are the implications of data sovereignty laws on cloud infrastructure design?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/kick-off-nova-customization-experiments-using-nova-forge-sdk/": {
+    "title": "Kick off Nova customization experiments using Nova Forge SDK",
+    "url": "https://aws.amazon.com/blogs/machine-learning/kick-off-nova-customization-experiments-using-nova-forge-sdk/",
+    "published": "Wed, 18 Mar 2026 16:16:24 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:04:10.861508Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Large Language Models",
+      "article_type": "teaches",
+      "primary_concept": "large language model customization",
+      "summary": "This article explains how to use the Nova Forge SDK to customize large language models, covering the process of training, fine-tuning, and deploying a model using Amazon SageMaker AI. It assumes basic knowledge of supervised fine-tuning and reinforcement fine-tuning. The article provides a real-world scenario of automatic classification of Stack Overflow questions into three categories.",
+      "concepts_taught": [
+        {
+          "name": "large language model customization",
+          "confidence": 0.9
+        },
+        {
+          "name": "supervised fine-tuning",
+          "confidence": 0.8
+        },
+        {
+          "name": "reinforcement fine-tuning",
+          "confidence": 0.8
+        },
+        {
+          "name": "Amazon SageMaker AI",
+          "confidence": 0.7
+        },
+        {
+          "name": "Nova Forge SDK",
+          "confidence": 0.7
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "supervised fine-tuning",
+          "confidence": 0.85
+        },
+        {
+          "name": "large language models",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand how to use the Nova Forge SDK for large language model customization",
+        "Learn how to fine-tune a model using supervised and reinforcement fine-tuning",
+        "Understand how to deploy a customized model to Amazon SageMaker AI"
+      ],
+      "strategic_questions": [
+        "How does large language model customization improve model performance?",
+        "What are the benefits of using the Nova Forge SDK for customization?",
+        "How can reinforcement fine-tuning be used to optimize model performance for specific tasks?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-nova-forge-sdk-a-seamless-way-to-customize-nova-models-for-enterprise-ai/": {
+    "title": "Introducing Nova Forge SDK, a seamless way to customize Nova models for enterprise AI",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-nova-forge-sdk-a-seamless-way-to-customize-nova-models-for-enterprise-ai/",
+    "published": "Wed, 18 Mar 2026 16:06:21 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:04:20.274556Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "Large Language Models",
+      "article_type": "extends",
+      "primary_concept": "large language model customization",
+      "summary": "This article introduces Nova Forge SDK, a tool for customizing large language models for enterprise AI, and discusses the challenges of customization, including catastrophic forgetting, and how the SDK simplifies the process, assuming knowledge of supervised fine-tuning and reinforcement fine tuning.",
+      "concepts_taught": [
+        {
+          "name": "large language model customization",
+          "confidence": 0.8
+        },
+        {
+          "name": "catastrophic forgetting",
+          "confidence": 0.7
+        },
+        {
+          "name": "supervised fine-tuning",
+          "confidence": 0.6
+        },
+        {
+          "name": "reinforcement fine tuning",
+          "confidence": 0.6
+        },
+        {
+          "name": "Nova Forge SDK",
+          "confidence": 0.9
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "large language models",
+          "confidence": 0.9
+        },
+        {
+          "name": "supervised fine-tuning",
+          "confidence": 0.8
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 15
+      },
+      "learning_outcomes": [
+        "Understand the challenges of customizing large language models",
+        "Learn about Nova Forge SDK and its capabilities",
+        "Understand how to simplify the customization process"
+      ],
+      "strategic_questions": [
+        "How can large language model customization be applied to specific industries or use cases?",
+        "What are the potential limitations of using Nova Forge SDK for customization?",
+        "How can catastrophic forgetting be mitigated in large language model customization?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-for-production-a-practical-guide-to-strands-evals/": {
+    "title": "Evaluating AI agents for production: A practical guide to Strands Evals",
+    "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-for-production-a-practical-guide-to-strands-evals/",
+    "published": "Wed, 18 Mar 2026 15:54:09 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:04:29.824815Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Evaluations & Benchmarking",
+      "article_type": "teaches",
+      "primary_concept": "evaluating AI agents",
+      "summary": "This article explains the challenges of evaluating AI agents and introduces Strands Evals, a framework for systematic evaluation. It covers the core concepts, built-in evaluators, and practical approaches for integration. The article assumes basic knowledge of AI agents and software testing, but provides a comprehensive guide for evaluating AI agents in production.",
+      "concepts_taught": [
+        {
+          "name": "evaluating AI agents",
+          "confidence": 0.9
+        },
+        {
+          "name": "Strands Evals",
+          "confidence": 0.8
+        },
+        {
+          "name": "judgment-based evaluation",
+          "confidence": 0.7
+        },
+        {
+          "name": "language model-based evaluation",
+          "confidence": 0.6
+        },
+        {
+          "name": " Cases, Experiments, and Evaluators",
+          "confidence": 0.5
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "software testing",
+          "confidence": 0.8
+        },
+        {
+          "name": "AI agents",
+          "confidence": 0.7
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the challenges of evaluating AI agents",
+        "Learn how to use Strands Evals for systematic evaluation",
+        "Understand the core concepts of Strands Evals",
+        "Learn how to apply judgment-based evaluation"
+      ],
+      "strategic_questions": [
+        "How do traditional testing methods fall short in evaluating AI agents?",
+        "What are the benefits of using language models as evaluators?",
+        "How can Strands Evals be applied to real-world AI agent evaluation scenarios?"
+      ]
+    }
+  },
+  "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-a-b-testing-engine-using-amazon-bedrock/": {
+    "title": "Build an AI-Powered A/B testing engine using Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-a-b-testing-engine-using-amazon-bedrock/",
+    "published": "Wed, 18 Mar 2026 15:31:40 +0000",
+    "source": "Artificial Intelligence",
+    "cached_at": "2026-03-21T18:04:39.274776Z",
+    "skipped": false,
+    "curriculum": {
+      "skip": false,
+      "topic": "AI Infrastructure & Tooling",
+      "article_type": "teaches",
+      "primary_concept": "AI-powered A/B testing",
+      "summary": "This article explains how to build an AI-powered A/B testing engine using Amazon Bedrock, Amazon Elastic Container Service, Amazon DynamoDB, and the Model Context Protocol. It covers the limitations of traditional A/B testing and how AI-assisted variant assignment can improve the experiment. The article assumes basic knowledge of A/B testing and cloud services.",
+      "concepts_taught": [
+        {
+          "name": "AI-powered A/B testing",
+          "confidence": 0.9
+        },
+        {
+          "name": "Amazon Bedrock",
+          "confidence": 0.8
+        },
+        {
+          "name": "Model Context Protocol",
+          "confidence": 0.7
+        },
+        {
+          "name": "serverless container orchestration",
+          "confidence": 0.6
+        },
+        {
+          "name": "real-time user context analysis",
+          "confidence": 0.5
+        }
+      ],
+      "prerequisites": [
+        {
+          "name": "A/B testing basics",
+          "confidence": 0.8
+        },
+        {
+          "name": "cloud services familiarity",
+          "confidence": 0.7
+        }
+      ],
+      "difficulty": {
+        "level": "intermediate",
+        "technical_depth": 7,
+        "reading_time_minutes": 20
+      },
+      "learning_outcomes": [
+        "Understand the limitations of traditional A/B testing",
+        "Learn how to build an AI-powered A/B testing engine using Amazon Bedrock",
+        "Understand the role of real-time user context analysis in AI-assisted variant assignment"
+      ],
+      "strategic_questions": [
+        "How can AI-powered A/B testing improve experiment efficiency and accuracy?",
+        "What are the potential applications of AI-assisted variant assignment beyond A/B testing?",
+        "How can organizations integrate AI-powered A/B testing into their existing experimentation workflows?"
+      ]
+    }
+  }
+}
