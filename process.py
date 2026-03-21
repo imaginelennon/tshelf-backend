@@ -3,7 +3,7 @@ import feedparser
 import requests
 import json
 import time
-from groq import Groq
+from groq import Groq, RateLimitError
 import os
 from datetime import datetime
 import re
@@ -320,6 +320,12 @@ def analyze_article(title: str, content: str) -> dict | None:
     except json.JSONDecodeError as e:
         print(f"    ❌ JSON error: {e}")
         return None
+    except RateLimitError:
+        print(f"    ⛔ Groq rate limit hit")
+        # Set flag so the main loop can stop gracefully
+        global rate_limit_hit
+        rate_limit_hit = True
+        return None
     except Exception as e:
         print(f"    ❌ Error: {e}")
         return None
@@ -392,6 +398,7 @@ new_analyses   = 0
 new_embeddings = 0
 skipped_count  = 0
 error_count    = 0
+rate_limit_hit = False
 
 # ── Step 2: Fetch feeds ──────────────────────────────────────────────────────
 print("\n🔄 Fetching RSS feeds...")
@@ -449,6 +456,11 @@ for i, article in enumerate(raw_articles, 1):
     analysis = analyze_article(article["title"], article["content"])
 
     if analysis is None:
+        # Check if we hit the rate limit — stop gracefully if so
+        if rate_limit_hit:
+            print(f"\n⛔ Rate limit reached — stopping analysis, saving progress")
+            save_cache(cache)
+            break
         error_count += 1
         print(f"    ❌ Failed")
         continue
