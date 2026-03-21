@@ -2,8 +2,8 @@ name: Update Curriculum
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # Run daily at 9am UTC
-  workflow_dispatch:      # Allow manual trigger from GitHub UI
+    - cron: '0 9 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -19,7 +19,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser groq requests
+        run: |
+          pip install feedparser groq requests numpy
+          pip install sentence-transformers --quiet
 
       - name: Run processing script
         env:
