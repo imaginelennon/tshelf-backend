@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T09:35:33.651466Z",
+  "generated_at": "2026-03-30T10:15:33.695215Z",
   "total_articles": 69,
   "total_concepts": 63,
   "concepts": {
@@ -46,8 +46,8 @@
         "https://www.alignmentforum.org/posts/EAE9u4YnE75eoiWDg/power-steering-behavior-steering-via-layer-to-layer-jacobian"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "linear-representation-hypothesis"
+        "linear-representation-hypothesis",
+        "large-language-models"
       ]
     },
     "functional-decision-theory": {
@@ -62,8 +62,8 @@
         "https://www.alignmentforum.org/posts/RyDkpWGLQsCnABE78/operationalizing-fdt"
       ],
       "prerequisite_concepts": [
-        "decision-theory",
-        "causal-graphs"
+        "causal-graphs",
+        "decision-theory"
       ]
     },
     "value-alignment": {
@@ -109,8 +109,8 @@
         "https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations"
       ],
       "prerequisite_concepts": [
-        "machine-learning-fundamentals",
-        "ai-safety-basics"
+        "ai-safety-basics",
+        "machine-learning-fundamentals"
       ]
     },
     "ai-preference-satiation": {
@@ -141,8 +141,8 @@
         "https://www.alignmentforum.org/posts/xq5taGA6Tz6YShCB9/censored-llms-as-a-natural-testbed-for-secret-knowledge-2"
       ],
       "prerequisite_concepts": [
-        "language-model-training",
-        "language-model-evaluation"
+        "language-model-evaluation",
+        "language-model-training"
       ]
     },
     "hybrid-mixture-of-experts-model": {
@@ -173,8 +173,8 @@
         "https://aws.amazon.com/blogs/machine-learning/use-rag-for-video-generation-using-amazon-bedrock-and-amazon-nova-reel/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "computer-vision"
+        "computer-vision",
+        "natural-language-processing"
       ]
     },
     "video-generation": {
@@ -189,8 +189,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-v-rag-revolutionizing-ai-powered-video-production-with-retrieval-augmented-generation/"
       ],
       "prerequisite_concepts": [
-        "computer-vision",
-        "deep-learning-architectures"
+        "deep-learning-architectures",
+        "computer-vision"
       ]
     },
     "machine-learning-model-monitoring": {
@@ -221,8 +221,8 @@
         "https://aws.amazon.com/blogs/machine-learning/enforce-data-residency-with-amazon-quick-extensions-for-microsoft-teams/"
       ],
       "prerequisite_concepts": [
-        "microsoft-teams",
-        "amazon-quick"
+        "amazon-quick",
+        "microsoft-teams"
       ]
     },
     "customization-of-large-language-models": {
@@ -254,8 +254,8 @@
         "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-for-production-a-practical-guide-to-strands-evals/"
       ],
       "prerequisite_concepts": [
-        "traditional-software-testing",
-        "ai-agents"
+        "ai-agents",
+        "traditional-software-testing"
       ]
     },
     "ab-testing-engine": {
@@ -305,11 +305,11 @@
         "https://thegradient.pub/car-gpt/"
       ],
       "prerequisite_concepts": [
-        "amazon-bedrock",
         "autonomous-driving-basics",
-        "neural-networks",
+        "quantitative-trading",
         "amazon-nova-1-models",
-        "quantitative-trading"
+        "amazon-bedrock",
+        "neural-networks"
       ]
     },
     "fine-tuning-large-language-models": {
@@ -325,11 +325,11 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-llm-fine-tuning-with-unstructured-data-using-sagemaker-unified-studio-and-s3/"
       ],
       "prerequisite_concepts": [
-        "ai-fundamentals",
-        "large-language-models",
         "amazon-sagemaker",
-        "machine-learning-basics",
-        "fine-tuning"
+        "fine-tuning",
+        "large-language-models",
+        "ai-fundamentals",
+        "machine-learning-basics"
       ]
     },
     "accelerated-computing-infrastructure": {
@@ -424,8 +424,8 @@
         "https://www.normaltech.ai/p/fact-checking-moravecs-paradox"
       ],
       "prerequisite_concepts": [
-        "machine-learning-fundamentals",
-        "artificial-intelligence-basics"
+        "artificial-intelligence-basics",
+        "machine-learning-fundamentals"
       ]
     },
     "ai-as-normal-technology": {
@@ -440,8 +440,8 @@
         "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal"
       ],
       "prerequisite_concepts": [
-        "basic-understanding-of-ai",
-        "familiarity-with-ai-safety-concepts"
+        "familiarity-with-ai-safety-concepts",
+        "basic-understanding-of-ai"
       ]
     },
     "production-progress-paradox": {
@@ -473,9 +473,9 @@
         "https://thegradient.pub/agi-is-not-multimodal/"
       ],
       "prerequisite_concepts": [
-        "generative-ai-models",
-        "machine-learning-fundamentals",
         "artificial-intelligence-basics",
+        "machine-learning-fundamentals",
+        "generative-ai-models",
         "language-models"
       ]
     },
@@ -491,8 +491,8 @@
         "https://www.normaltech.ai/p/ai-as-normal-technology"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "ai-policy-and-ethics"
+        "ai-policy-and-ethics",
+        "ai-basics"
       ]
     },
     "artificial-intelligence-progress": {
@@ -523,8 +523,8 @@
         "https://www.normaltech.ai/p/we-looked-at-78-election-deepfakes"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "political-communication"
+        "political-communication",
+        "ai-basics"
       ]
     },
     "predictive-algorithms-in-decision-making": {
@@ -556,8 +556,8 @@
         "https://www.normaltech.ai/p/starting-reading-the-ai-snake-oil"
       ],
       "prerequisite_concepts": [
-        "basic-artificial-intelligence-concepts",
-        "artificial-intelligence-basics"
+        "artificial-intelligence-basics",
+        "basic-artificial-intelligence-concepts"
       ]
     },
     "computational-reproducibility": {
@@ -588,8 +588,8 @@
         "https://www.normaltech.ai/p/ai-companies-are-pivoting-from-creating"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "ai-applications"
+        "ai-applications",
+        "large-language-models"
       ]
     },
     "existential-risk-from-artificial-intelligence": {
@@ -604,8 +604,8 @@
         "https://www.normaltech.ai/p/ai-existential-risk-probabilities"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-safety",
-        "risk-assessment"
+        "risk-assessment",
+        "artificial-intelligence-safety"
       ]
     },
     "eudaimonic-rationality": {
@@ -621,8 +621,8 @@
       ],
       "prerequisite_concepts": [
         "consequentialist-rationality",
-        "human-values",
-        "ai-alignment"
+        "ai-alignment",
+        "human-values"
       ]
     },
     "mathematics-in-machine-learning": {
@@ -637,8 +637,8 @@
         "https://thegradient.pub/shape-symmetry-structure/"
       ],
       "prerequisite_concepts": [
-        "deep-learning-basics",
-        "machine-learning-fundamentals"
+        "machine-learning-fundamentals",
+        "deep-learning-basics"
       ]
     },
     "purposeful-dialogue": {
@@ -653,8 +653,8 @@
         "https://thegradient.pub/dialog/"
       ],
       "prerequisite_concepts": [
-        "benchmarking-for-dialogue-systems",
-        "large-language-models"
+        "large-language-models",
+        "benchmarking-for-dialogue-systems"
       ]
     },
     "beneficial-ai": {
@@ -669,8 +669,8 @@
         "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/"
       ],
       "prerequisite_concepts": [
-        "human-values",
-        "ai-alignment"
+        "ai-alignment",
+        "human-values"
       ]
     },
     "gender-bias-in-ai": {
@@ -685,8 +685,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "natural-language-processing"
+        "natural-language-processing",
+        "machine-learning-basics"
       ]
     },
     "state-space-models": {
@@ -733,8 +733,8 @@
         "https://thegradient.pub/why-doesnt-my-model-work/"
       ],
       "prerequisite_concepts": [
-        "supervised-learning",
-        "model-training"
+        "model-training",
+        "supervised-learning"
       ]
     },
     "single-cell-sequencing": {
@@ -749,8 +749,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "molecular-biology",
-        "genetics"
+        "genetics",
+        "molecular-biology"
       ]
     },
     "human-in-the-loop-dataset-production": {
@@ -797,8 +797,8 @@
         "https://thegradient.pub/the-artificiality-of-alignment/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "ai-existential-risk"
+        "ai-existential-risk",
+        "machine-learning-basics"
       ]
     },
     "generative-ai-capabilities": {
@@ -813,8 +813,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-reco-transforms-security-alerts-using-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "security-operations"
+        "security-operations",
+        "ai-basics"
       ]
     },
     "amazon-bedrock-agentcore-integration-with-slack": {
@@ -829,8 +829,8 @@
         "https://aws.amazon.com/blogs/machine-learning/integrating-amazon-bedrock-agentcore-with-slack/"
       ],
       "prerequisite_concepts": [
-        "slack-api",
-        "ai-agents"
+        "ai-agents",
+        "slack-api"
       ]
     },
     "deterministic-language-models": {
@@ -845,8 +845,8 @@
         "https://aws.amazon.com/blogs/machine-learning/overcoming-llm-hallucinations-in-regulated-industries-artificial-geniuss-deterministic-models-on-amazon-nova/"
       ],
       "prerequisite_concepts": [
-        "generative-models",
-        "large-language-models"
+        "large-language-models",
+        "generative-models"
       ]
     },
     "amazon-sagemaker-ai-training-plans": {
@@ -893,8 +893,8 @@
         "https://www.alignmentforum.org/posts/LhXW8ziwnn7Dd8edm/a-toy-environment-for-exploring-reasoning-about-reward"
       ],
       "prerequisite_concepts": [
-        "language-model-training",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "language-model-training"
       ]
     },
     "multimodal-foundation-models": {
@@ -909,8 +909,8 @@
         "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/"
       ],
       "prerequisite_concepts": [
-        "machine-learning",
-        "computer-vision"
+        "computer-vision",
+        "machine-learning"
       ]
     },
     "streaming-architectures-for-voice-agents": {
@@ -925,8 +925,8 @@
         "https://aws.amazon.com/blogs/machine-learning/deploy-voice-agents-with-pipecat-and-amazon-bedrock-agentcore-runtime-part-1/"
       ],
       "prerequisite_concepts": [
-        "cascaded-voice-agent-architectures",
-        "speech-to-speech-models"
+        "speech-to-speech-models",
+        "cascaded-voice-agent-architectures"
       ]
     },
     "reinforcement-fine-tuning": {
@@ -957,8 +957,8 @@
         "https://www.alignmentforum.org/posts/tDJWZLQNN7poqCwKa/test-your-best-methods-on-our-hard-cot-interp-tasks"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "safety-techniques"
+        "safety-techniques",
+        "language-models"
       ]
     },
     "cross-region-inference": {
@@ -973,8 +973,8 @@
         "https://aws.amazon.com/blogs/machine-learning/run-generative-ai-inference-with-amazon-bedrock-in-asia-pacific-new-zealand/"
       ],
       "prerequisite_concepts": [
-        "amazon-web-services-aws",
-        "foundation-models"
+        "foundation-models",
+        "amazon-web-services-aws"
       ]
     },
     "context-aware-ai-safety": {
@@ -1005,8 +1005,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-polly-bidirectional-streaming-real-time-speech-synthesis-for-conversational-ai/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "text-to-speech-apis"
+        "text-to-speech-apis",
+        "large-language-models"
       ]
     },
     "superintelligence-risk-mitigation": {
@@ -1021,8 +1021,8 @@
         "https://www.alignmentforum.org/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "risk-assessment"
+        "risk-assessment",
+        "ai-basics"
       ]
     }
   },
