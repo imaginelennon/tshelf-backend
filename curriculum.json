@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T11:23:17.594738Z",
-  "total_articles": 202,
-  "total_concepts": 179,
+  "generated_at": "2026-05-13T11:30:22.296368Z",
+  "total_articles": 205,
+  "total_concepts": 180,
   "concepts": {
     "approval-directed-agents": {
       "id": "approval-directed-agents",
@@ -15,8 +15,8 @@
         "https://www.alignmentforum.org/posts/RKtTi82t8X8TQy5FX/act-based-approval-directed-agents-for-ida-skeptics"
       ],
       "prerequisite_concepts": [
-        "iterated-distillation-and-amplification",
-        "ai-alignment"
+        "ai-alignment",
+        "iterated-distillation-and-amplification"
       ]
     },
     "interpretability": {
@@ -46,8 +46,8 @@
         "https://www.alignmentforum.org/posts/EAE9u4YnE75eoiWDg/power-steering-behavior-steering-via-layer-to-layer-jacobian"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "linear-representation-hypothesis"
+        "linear-representation-hypothesis",
+        "large-language-models"
       ]
     },
     "functional-decision-theory": {
@@ -62,8 +62,8 @@
         "https://www.alignmentforum.org/posts/RyDkpWGLQsCnABE78/operationalizing-fdt"
       ],
       "prerequisite_concepts": [
-        "decision-theory",
-        "causal-graphs"
+        "causal-graphs",
+        "decision-theory"
       ]
     },
     "value-alignment": {
@@ -80,8 +80,8 @@
       ],
       "prerequisite_concepts": [
         "human-values",
-        "artificial-intelligence-safety",
-        "language-model-training"
+        "language-model-training",
+        "artificial-intelligence-safety"
       ]
     },
     "decision-theoretic-consequentialism": {
@@ -96,8 +96,8 @@
         "https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to"
       ],
       "prerequisite_concepts": [
-        "decision-theory",
-        "utility-theory"
+        "utility-theory",
+        "decision-theory"
       ]
     },
     "ai-safety-evaluations": {
@@ -112,8 +112,8 @@
         "https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations"
       ],
       "prerequisite_concepts": [
-        "ai-safety-basics",
-        "machine-learning-fundamentals"
+        "machine-learning-fundamentals",
+        "ai-safety-basics"
       ]
     },
     "ai-preference-satiation": {
@@ -128,8 +128,8 @@
         "https://www.alignmentforum.org/posts/tkLSeGeemcabAmLkv/the-case-for-satiating-cheaply-satisfied-ai-preferences"
       ],
       "prerequisite_concepts": [
-        "unintended-preferences",
-        "ai-safety-concerns"
+        "ai-safety-concerns",
+        "unintended-preferences"
       ]
     },
     "honesty-elicitation-and-lie-detection": {
@@ -241,8 +241,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-nova-forge-sdk-a-seamless-way-to-customize-nova-models-for-enterprise-ai/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "supervised-fine-tuning"
+        "supervised-fine-tuning",
+        "large-language-models"
       ]
     },
     "evaluation-of-ai-agents": {
@@ -273,8 +273,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-a-b-testing-engine-using-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "aws-services",
-        "ab-testing"
+        "ab-testing",
+        "aws-services"
       ]
     },
     "ai-powered-content-generation": {
@@ -289,8 +289,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-bark-com-and-aws-collaborated-to-build-a-scalable-video-generation-solution/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing",
-        "content-creation"
+        "content-creation",
+        "cloud-computing"
       ]
     },
     "large-language-models": {
@@ -308,11 +308,11 @@
         "https://thegradient.pub/car-gpt/"
       ],
       "prerequisite_concepts": [
-        "amazon-nova-1-models",
-        "quantitative-trading",
-        "neural-networks",
         "amazon-bedrock",
-        "autonomous-driving-basics"
+        "autonomous-driving-basics",
+        "quantitative-trading",
+        "amazon-nova-1-models",
+        "neural-networks"
       ]
     },
     "fine-tuning-large-language-models": {
@@ -329,12 +329,12 @@
         "https://aws.amazon.com/blogs/machine-learning/nova-forge-sdk-series-part-2-practical-guide-to-fine-tune-nova-models-using-data-mixing-capabilities/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "ai-fundamentals",
-        "fine-tuning",
         "amazon-sagemaker",
+        "fine-tuning",
         "machine-learning-basics",
-        "supervised-fine-tuning"
+        "supervised-fine-tuning",
+        "large-language-models",
+        "ai-fundamentals"
       ]
     },
     "accelerated-computing-infrastructure": {
@@ -349,8 +349,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aws-and-nvidia-deepen-strategic-collaboration-to-accelerate-ai-from-pilot-to-production/"
       ],
       "prerequisite_concepts": [
-        "ai-compute-demand",
-        "production-ready-ai-solutions"
+        "production-ready-ai-solutions",
+        "ai-compute-demand"
       ]
     },
     "agentic-ai": {
@@ -369,14 +369,14 @@
         "https://aws.amazon.com/blogs/machine-learning/from-hours-to-minutes-how-agentic-ai-gave-marketers-time-back-for-what-matters/"
       ],
       "prerequisite_concepts": [
-        "machine-learning",
-        "operational-management",
-        "content-management-systems",
         "natural-language-processing",
-        "marketing-workflows",
-        "java-development",
         "agentic-ai-basics",
-        "spring-boot"
+        "marketing-workflows",
+        "operational-management",
+        "spring-boot",
+        "content-management-systems",
+        "java-development",
+        "machine-learning"
       ]
     },
     "disaggregated-inference": {
@@ -391,8 +391,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-disaggregated-inference-on-aws-powered-by-llm-d/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "inference-processes"
+        "inference-processes",
+        "large-language-models"
       ]
     },
     "ai-agent-reliability": {
@@ -407,8 +407,8 @@
         "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai"
       ],
       "prerequisite_concepts": [
-        "machine-learning",
-        "ai-systems"
+        "ai-systems",
+        "machine-learning"
       ]
     },
     "adoption-of-artificial-intelligence-in-legal-services": {
@@ -423,8 +423,8 @@
         "https://www.normaltech.ai/p/ai-wont-automatically-make-legal"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence",
-        "legal-services-industry"
+        "legal-services-industry",
+        "artificial-intelligence"
       ]
     },
     "moravecs-paradox": {
@@ -439,8 +439,8 @@
         "https://www.normaltech.ai/p/fact-checking-moravecs-paradox"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-basics",
-        "machine-learning-fundamentals"
+        "machine-learning-fundamentals",
+        "artificial-intelligence-basics"
       ]
     },
     "ai-as-normal-technology": {
@@ -455,8 +455,8 @@
         "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal"
       ],
       "prerequisite_concepts": [
-        "basic-understanding-of-ai",
-        "familiarity-with-ai-safety-concepts"
+        "familiarity-with-ai-safety-concepts",
+        "basic-understanding-of-ai"
       ]
     },
     "production-progress-paradox": {
@@ -471,8 +471,8 @@
         "https://www.normaltech.ai/p/could-ai-slow-science"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence",
-        "scientific-research-methods"
+        "scientific-research-methods",
+        "artificial-intelligence"
       ]
     },
     "artificial-general-intelligence": {
@@ -489,9 +489,9 @@
       ],
       "prerequisite_concepts": [
         "generative-ai-models",
+        "machine-learning-fundamentals",
         "language-models",
-        "artificial-intelligence-basics",
-        "machine-learning-fundamentals"
+        "artificial-intelligence-basics"
       ]
     },
     "artificial-intelligence-as-normal-technology": {
@@ -506,8 +506,8 @@
         "https://www.normaltech.ai/p/ai-as-normal-technology"
       ],
       "prerequisite_concepts": [
-        "ai-policy-and-ethics",
-        "ai-basics"
+        "ai-basics",
+        "ai-policy-and-ethics"
       ]
     },
     "artificial-intelligence-progress": {
@@ -522,8 +522,8 @@
         "https://www.normaltech.ai/p/is-ai-progress-slowing-down"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "deep-learning"
+        "deep-learning",
+        "large-language-models"
       ]
     },
     "political-misinformation-and-ai": {
@@ -538,8 +538,8 @@
         "https://www.normaltech.ai/p/we-looked-at-78-election-deepfakes"
       ],
       "prerequisite_concepts": [
-        "political-communication",
-        "ai-basics"
+        "ai-basics",
+        "political-communication"
       ]
     },
     "predictive-algorithms-in-decision-making": {
@@ -571,8 +571,8 @@
         "https://www.normaltech.ai/p/starting-reading-the-ai-snake-oil"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-basics",
-        "basic-artificial-intelligence-concepts"
+        "basic-artificial-intelligence-concepts",
+        "artificial-intelligence-basics"
       ]
     },
     "computational-reproducibility": {
@@ -587,8 +587,8 @@
         "https://www.normaltech.ai/p/can-ai-automate-computational-reproducibility"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence",
-        "scientific-research-methods"
+        "scientific-research-methods",
+        "artificial-intelligence"
       ]
     },
     "product-market-fit-for-large-language-models": {
@@ -603,8 +603,8 @@
         "https://www.normaltech.ai/p/ai-companies-are-pivoting-from-creating"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "ai-applications"
+        "ai-applications",
+        "large-language-models"
       ]
     },
     "existential-risk-from-artificial-intelligence": {
@@ -619,8 +619,8 @@
         "https://www.normaltech.ai/p/ai-existential-risk-probabilities"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-safety",
-        "risk-assessment"
+        "risk-assessment",
+        "artificial-intelligence-safety"
       ]
     },
     "eudaimonic-rationality": {
@@ -635,9 +635,9 @@
         "https://thegradient.pub/virtue-ethics-ai-alignment/"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
+        "human-values",
         "consequentialist-rationality",
-        "human-values"
+        "ai-alignment"
       ]
     },
     "mathematics-in-machine-learning": {
@@ -668,8 +668,8 @@
         "https://thegradient.pub/dialog/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "benchmarking-for-dialogue-systems"
+        "benchmarking-for-dialogue-systems",
+        "large-language-models"
       ]
     },
     "beneficial-ai": {
@@ -684,8 +684,8 @@
         "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "human-values"
+        "human-values",
+        "ai-alignment"
       ]
     },
     "gender-bias-in-ai": {
@@ -716,8 +716,8 @@
         "https://thegradient.pub/mamba-explained/"
       ],
       "prerequisite_concepts": [
-        "deep-learning",
-        "transformers"
+        "transformers",
+        "deep-learning"
       ]
     },
     "text-embeddings": {
@@ -732,8 +732,8 @@
         "https://thegradient.pub/text-embedding-inversion/"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "natural-language-processing"
+        "natural-language-processing",
+        "neural-networks"
       ]
     },
     "machine-learning-model-evaluation": {
@@ -748,8 +748,8 @@
         "https://thegradient.pub/why-doesnt-my-model-work/"
       ],
       "prerequisite_concepts": [
-        "model-training",
-        "supervised-learning"
+        "supervised-learning",
+        "model-training"
       ]
     },
     "single-cell-sequencing": {
@@ -780,8 +780,8 @@
         "https://thegradient.pub/salmon-in-the-loop/"
       ],
       "prerequisite_concepts": [
-        "environmental-science",
-        "dataset-production"
+        "dataset-production",
+        "environmental-science"
       ]
     },
     "neural-algorithmic-reasoning": {
@@ -796,8 +796,8 @@
         "https://thegradient.pub/neural-algorithmic-reasoning/"
       ],
       "prerequisite_concepts": [
-        "deep-learning",
-        "classical-computation"
+        "classical-computation",
+        "deep-learning"
       ]
     },
     "ai-alignment": {
@@ -814,8 +814,8 @@
       ],
       "prerequisite_concepts": [
         "ai-existential-risk",
-        "machine-learning-basics",
         "machine-learning-fundamentals",
+        "machine-learning-basics",
         "artificial-intelligence-basics"
       ]
     },
@@ -863,8 +863,8 @@
         "https://aws.amazon.com/blogs/machine-learning/overcoming-llm-hallucinations-in-regulated-industries-artificial-geniuss-deterministic-models-on-amazon-nova/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "generative-models"
+        "generative-models",
+        "large-language-models"
       ]
     },
     "amazon-sagemaker-ai-training-plans": {
@@ -879,8 +879,8 @@
         "https://aws.amazon.com/blogs/machine-learning/deploy-sagemaker-ai-inference-endpoints-with-set-gpu-capacity-using-training-plans/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "amazon-sagemaker"
+        "amazon-sagemaker",
+        "large-language-models"
       ]
     },
     "custom-entity-recognition": {
@@ -943,8 +943,8 @@
         "https://aws.amazon.com/blogs/machine-learning/deploy-voice-agents-with-pipecat-and-amazon-bedrock-agentcore-runtime-part-1/"
       ],
       "prerequisite_concepts": [
-        "speech-to-speech-models",
-        "cascaded-voice-agent-architectures"
+        "cascaded-voice-agent-architectures",
+        "speech-to-speech-models"
       ]
     },
     "reinforcement-fine-tuning": {
@@ -961,10 +961,10 @@
         "https://aws.amazon.com/blogs/machine-learning/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
         "amazon-nova-models",
+        "foundation-models",
         "supervised-fine-tuning",
-        "foundation-models"
+        "large-language-models"
       ]
     },
     "chain-of-thought-interpretability": {
@@ -979,8 +979,8 @@
         "https://www.alignmentforum.org/posts/tDJWZLQNN7poqCwKa/test-your-best-methods-on-our-hard-cot-interp-tasks"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "safety-techniques"
+        "safety-techniques",
+        "language-models"
       ]
     },
     "cross-region-inference": {
@@ -995,8 +995,8 @@
         "https://aws.amazon.com/blogs/machine-learning/run-generative-ai-inference-with-amazon-bedrock-in-asia-pacific-new-zealand/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "amazon-web-services-aws"
+        "amazon-web-services-aws",
+        "foundation-models"
       ]
     },
     "context-aware-ai-safety": {
@@ -1011,8 +1011,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-age-responsive-context-aware-ai-with-amazon-bedrock-guardrails/"
       ],
       "prerequisite_concepts": [
-        "prompt-engineering-and-application-level-logic",
-        "ai-safety-and-compliance-requirements"
+        "ai-safety-and-compliance-requirements",
+        "prompt-engineering-and-application-level-logic"
       ]
     },
     "text-to-speech-synthesis": {
@@ -1044,10 +1044,10 @@
         "https://www.alignmentforum.org/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report-our-progress-toward-an"
       ],
       "prerequisite_concepts": [
+        "risk-assessment",
         "existential-risk",
-        "artificial-intelligence-basics",
         "ai-basics",
-        "risk-assessment"
+        "artificial-intelligence-basics"
       ]
     },
     "emergent-misalignment-from-reward-hacking": {
@@ -1062,8 +1062,8 @@
         "https://www.alignmentforum.org/posts/2ANCyejqxfqK2obEj/some-natural-emergent-misalignment-from-reward-hacking-in"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "language-models"
       ]
     },
     "retrieval-augmented-generation": {
@@ -1079,10 +1079,10 @@
         "https://aws.amazon.com/blogs/machine-learning/building-intelligent-search-with-amazon-bedrock-and-amazon-opensearch-for-hybrid-rag-solutions/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "natural-language-processing",
         "content-management",
-        "chatbot-architecture"
+        "chatbot-architecture",
+        "natural-language-processing",
+        "large-language-models"
       ]
     },
     "generative-ai": {
@@ -1097,17 +1097,19 @@
         "https://aws.amazon.com/blogs/machine-learning/reimagine-marketing-at-volkswagen-group-with-generative-ai/",
         "https://aws.amazon.com/blogs/machine-learning/how-popsa-used-amazon-nova-to-inspire-customers-with-personalised-title-suggestions/",
         "https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/",
-        "https://aws.amazon.com/blogs/machine-learning/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai/"
+        "https://aws.amazon.com/blogs/machine-learning/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai/",
+        "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/"
       ],
       "prerequisite_concepts": [
-        "customer-feedback-analysis",
-        "marketing-asset-production",
-        "ai-fundamentals",
         "ai-applications",
         "brand-management",
+        "customer-feedback-analysis",
         "design-automation",
-        "workflow-configuration",
-        "seismic-data-analysis"
+        "regulatory-compliance",
+        "seismic-data-analysis",
+        "marketing-asset-production",
+        "ai-fundamentals",
+        "workflow-configuration"
       ]
     },
     "anomaly-detection-in-time-series-data": {
@@ -1138,8 +1140,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/"
       ],
       "prerequisite_concepts": [
-        "software-testing",
-        "ai-agent-development"
+        "ai-agent-development",
+        "software-testing"
       ]
     },
     "conversational-ai-agents": {
@@ -1154,9 +1156,9 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-finops-agent-using-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
+        "aws-services",
         "cloud-computing",
-        "cost-management",
-        "aws-services"
+        "cost-management"
       ]
     },
     "compliance-evidence-collection-automation": {
@@ -1187,8 +1189,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act/"
       ],
       "prerequisite_concepts": [
-        "traditional-qa-automation",
-        "software-development-lifecycle"
+        "software-development-lifecycle",
+        "traditional-qa-automation"
       ]
     },
     "autonomous-systems": {
@@ -1219,8 +1221,8 @@
         "https://aws.amazon.com/blogs/machine-learning/can-your-governance-keep-pace-with-your-ai-ambitions-ai-risk-intelligence-in-the-agentic-era/"
       ],
       "prerequisite_concepts": [
-        "devops",
-        "it-governance-frameworks"
+        "it-governance-frameworks",
+        "devops"
       ]
     },
     "research-methodology": {
@@ -1237,9 +1239,9 @@
         "https://www.alignmentforum.org/posts/dYHFtEnKc4BdJEYY4/my-most-common-research-advice-do-quick-sanity-checks"
       ],
       "prerequisite_concepts": [
-        "basic-research-concepts",
         "research-principles",
-        "data-analysis-basics"
+        "data-analysis-basics",
+        "basic-research-concepts"
       ]
     },
     "chain-of-thought-monitoring": {
@@ -1254,8 +1256,8 @@
         "https://www.alignmentforum.org/posts/SvxaKP5KdkksZPcG7/predicting-when-rl-training-breaks-chain-of-thought"
       ],
       "prerequisite_concepts": [
-        "ai-safety",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "ai-safety"
       ]
     },
     "browser-automation": {
@@ -1271,9 +1273,9 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/"
       ],
       "prerequisite_concepts": [
+        "web-automation",
         "browser-based-ai-agents",
         "ecommerce",
-        "web-automation",
         "competitive-analysis"
       ]
     },
@@ -1305,8 +1307,8 @@
         "https://aws.amazon.com/blogs/machine-learning/scaling-seismic-foundation-models-on-aws-distributed-training-with-amazon-sagemaker-hyperpod-and-expanding-context-windows/"
       ],
       "prerequisite_concepts": [
-        "deep-learning-fundamentals",
-        "seismic-data-analysis"
+        "seismic-data-analysis",
+        "deep-learning-fundamentals"
       ]
     },
     "domain-based-filtering-for-ai-agents": {
@@ -1334,11 +1336,14 @@
       "topic": "AI Infrastructure & Tooling",
       "teaches": [],
       "extends": [
-        "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/"
+        "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
+        "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/"
       ],
       "prerequisite_concepts": [
         "automation-needs",
-        "document-processing-challenges"
+        "document-processing",
+        "document-processing-challenges",
+        "information-extraction"
       ]
     },
     "agentic-coding-assistants": {
@@ -1353,8 +1358,8 @@
         "https://aws.amazon.com/blogs/machine-learning/persist-session-state-with-filesystem-configuration-and-execute-shell-commands/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "development-workflows"
+        "development-workflows",
+        "large-language-models"
       ]
     },
     "ai-safety-funding-and-scaling": {
@@ -1369,8 +1374,8 @@
         "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety"
       ],
       "prerequisite_concepts": [
-        "importance-of-rapid-ai-progress",
-        "ai-safety-challenges"
+        "ai-safety-challenges",
+        "importance-of-rapid-ai-progress"
       ]
     },
     "compositional-learning-theory": {
@@ -1385,8 +1390,8 @@
         "https://www.alignmentforum.org/posts/EEvHYKLsq92LmQ78a/paper-stringological-sequence-prediction-i-1"
       ],
       "prerequisite_concepts": [
-        "agent-foundations-research",
-        "learning-theoretic-alignment"
+        "learning-theoretic-alignment",
+        "agent-foundations-research"
       ]
     },
     "ai-timelines-and-progress": {
@@ -1433,8 +1438,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "supervised-fine-tuning",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "supervised-fine-tuning"
       ]
     },
     "agentic-maritime-anomaly-analysis": {
@@ -1465,8 +1470,8 @@
         "https://aws.amazon.com/blogs/machine-learning/connecting-mcp-servers-to-amazon-bedrock-agentcore-gateway-using-authorization-code-flow/"
       ],
       "prerequisite_concepts": [
-        "oauth-20",
-        "mcp-servers"
+        "mcp-servers",
+        "oauth-20"
       ]
     },
     "unsupervised-elicitation": {
@@ -1481,8 +1486,8 @@
         "https://www.alignmentforum.org/posts/ASoFTyk3bzBE62dyn/my-unsupervised-elicitation-challenge"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "natural-language-processing"
+        "natural-language-processing",
+        "language-models"
       ]
     },
     "ai-research-and-development-acceleration": {
@@ -1513,8 +1518,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "ai-workloads",
-        "amazon-web-services"
+        "amazon-web-services",
+        "ai-workloads"
       ]
     },
     "conversational-ai": {
@@ -1545,8 +1550,8 @@
         "https://aws.amazon.com/blogs/machine-learning/text-to-sql-solution-powered-by-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "business-intelligence",
-        "data-analytics"
+        "data-analytics",
+        "business-intelligence"
       ]
     },
     "model-fine-tuning": {
@@ -1577,8 +1582,8 @@
         "https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences/"
       ],
       "prerequisite_concepts": [
-        "agentic-automation",
-        "ai-agents"
+        "ai-agents",
+        "agentic-automation"
       ]
     },
     "audio-embeddings": {
@@ -1593,8 +1598,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "text-based-approaches",
-        "traditional-search-methods"
+        "traditional-search-methods",
+        "text-based-approaches"
       ]
     },
     "model-lifecycle-management": {
@@ -1625,8 +1630,8 @@
         "https://aws.amazon.com/blogs/machine-learning/the-future-of-managing-agents-at-scale-aws-agent-registry-now-in-preview/"
       ],
       "prerequisite_concepts": [
-        "agent-development",
-        "cloud-computing"
+        "cloud-computing",
+        "agent-development"
       ]
     },
     "ai-browser-agent-integration": {
@@ -1641,8 +1646,8 @@
         "https://aws.amazon.com/blogs/machine-learning/embed-a-live-ai-browser-agent-in-your-react-app-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-powered-application-development",
-        "react-development"
+        "react-development",
+        "ai-powered-application-development"
       ]
     },
     "model-context-protocol": {
@@ -1688,8 +1693,8 @@
         "https://aws.amazon.com/blogs/machine-learning/navigating-the-generative-ai-journey-the-path-to-value-framework-from-aws/"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-basics",
-        "machine-learning-fundamentals"
+        "machine-learning-fundamentals",
+        "artificial-intelligence-basics"
       ]
     },
     "optimized-deployments-for-ai-models": {
@@ -1721,8 +1726,8 @@
         "https://aws.amazon.com/blogs/machine-learning/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-models",
-        "cloud-infrastructure"
+        "cloud-infrastructure",
+        "machine-learning-models"
       ]
     },
     "ai-generated-content": {
@@ -1737,8 +1742,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-guidesly-built-ai-generated-trip-reports-for-outdoor-guides-on-aws/"
       ],
       "prerequisite_concepts": [
-        "content-generation",
-        "cloud-computing"
+        "cloud-computing",
+        "content-generation"
       ]
     },
     "business-intelligence-dashboard-customization": {
@@ -1769,8 +1774,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "autoregressive-decoding"
+        "autoregressive-decoding",
+        "large-language-models"
       ]
     },
     "multi-agent-ai-systems": {
@@ -1833,8 +1838,8 @@
         "https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/"
       ],
       "prerequisite_concepts": [
-        "aws-command-line-interface",
-        "aws-account-setup"
+        "aws-account-setup",
+        "aws-command-line-interface"
       ]
     },
     "automated-reasoning": {
@@ -1865,8 +1870,8 @@
         "https://www.normaltech.ai/p/open-world-evaluations-for-measuring"
       ],
       "prerequisite_concepts": [
-        "ai-benchmarking",
-        "ai-evaluation-methods"
+        "ai-evaluation-methods",
+        "ai-benchmarking"
       ]
     },
     "chain-of-thought-controllability": {
@@ -1913,8 +1918,8 @@
         "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "supervised-fine-tuning",
-        "multimodal-learning"
+        "multimodal-learning",
+        "supervised-fine-tuning"
       ]
     },
     "multimodal-embeddings": {
@@ -1930,9 +1935,9 @@
         "https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/"
       ],
       "prerequisite_concepts": [
+        "text-retrieval-systems",
         "natural-language-processing",
         "computer-vision",
-        "text-retrieval-systems",
         "image-processing"
       ]
     },
@@ -1948,8 +1953,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-basics",
-        "gpu-acceleration-fundamentals"
+        "gpu-acceleration-fundamentals",
+        "cloud-computing-basics"
       ]
     },
     "tool-simulation-framework": {
@@ -1964,9 +1969,9 @@
         "https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/"
       ],
       "prerequisite_concepts": [
-        "python-programming",
+        "ai-agents-and-tool-calling-concepts",
         "pydantic-models",
-        "ai-agents-and-tool-calling-concepts"
+        "python-programming"
       ]
     },
     "omnichannel-ordering-system": {
@@ -1997,8 +2002,8 @@
         "https://www.alignmentforum.org/posts/TnAR5Sf5hphfnzNTr/preventing-extinction-from-asi-on-a-usd50m-yearly-budget"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-basics",
-        "ai-safety-and-ethics"
+        "ai-safety-and-ethics",
+        "artificial-intelligence-basics"
       ]
     },
     "large-language-model-integration": {
@@ -2013,8 +2018,8 @@
         "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "supervised-fine-tuning"
+        "supervised-fine-tuning",
+        "large-language-models"
       ]
     },
     "end-to-end-lineage": {
@@ -2029,8 +2034,8 @@
         "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-workflows",
-        "data-versioning-concepts"
+        "data-versioning-concepts",
+        "machine-learning-workflows"
       ]
     },
     "neural-computation-in-superposition": {
@@ -2045,8 +2050,8 @@
         "https://www.alignmentforum.org/posts/kYkbcEo6YyjQiztpi/a-lay-introduction-to-on-the-complexity-of-neural"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "theoretical-machine-learning"
+        "theoretical-machine-learning",
+        "neural-networks"
       ]
     },
     "training-based-control-measures": {
@@ -2077,8 +2082,8 @@
         "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-basics",
         "automatic-speech-recognition-basics",
+        "cloud-computing-basics",
         "containerization-basics"
       ]
     },
@@ -2126,8 +2131,8 @@
         "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "ai-chatbots"
+        "ai-chatbots",
+        "natural-language-processing"
       ]
     },
     "marketing-automation": {
@@ -2157,8 +2162,8 @@
         "https://aws.amazon.com/blogs/machine-learning/applying-multimodal-biological-foundation-models-across-therapeutics-and-patient-care/"
       ],
       "prerequisite_concepts": [
-        "biological-data-analysis",
-        "artificial-intelligence-in-healthcare"
+        "artificial-intelligence-in-healthcare",
+        "biological-data-analysis"
       ]
     },
     "agentic-ai-workspace": {
@@ -2189,8 +2194,8 @@
         "https://www.alignmentforum.org/posts/cmaJ76Sy9DfZ4EHaZ/language-models-know-what-matters-and-the-foundations-of"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "language-models"
       ]
     },
     "automated-workflow-creation": {
@@ -2205,8 +2210,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "familiarity-with-ai-powered-tools",
-        "basic-understanding-of-workflow-automation"
+        "basic-understanding-of-workflow-automation",
+        "familiarity-with-ai-powered-tools"
       ]
     },
     "event-driven-architecture": {
@@ -2237,8 +2242,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "ai-agents"
+        "ai-agents",
+        "foundation-models"
       ]
     },
     "recursive-forecasting": {
@@ -2253,8 +2258,8 @@
         "https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from"
       ],
       "prerequisite_concepts": [
-        "reward-modeling",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "reward-modeling"
       ]
     },
     "backdoor-attacks-in-language-models": {
@@ -2319,8 +2324,8 @@
         "https://aws.amazon.com/blogs/machine-learning/migrating-a-text-agent-to-a-voice-assistant-with-amazon-nova-2-sonic/"
       ],
       "prerequisite_concepts": [
-        "voice-assistant-fundamentals",
-        "text-agent-development"
+        "text-agent-development",
+        "voice-assistant-fundamentals"
       ]
     },
     "multimodal-large-language-models": {
@@ -2335,8 +2340,8 @@
         "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-omni-model-now-available-on-amazon-sagemaker-jumpstart/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "multimodal-processing"
+        "multimodal-processing",
+        "large-language-models"
       ]
     },
     "ai-sabotage-in-research-codebases": {
@@ -2383,8 +2388,8 @@
         "https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/"
       ],
       "prerequisite_concepts": [
-        "ai-agents-and-memory-management",
-        "amazon-bedrock-agentcore-memory"
+        "amazon-bedrock-agentcore-memory",
+        "ai-agents-and-memory-management"
       ]
     },
     "ai-ready-data-infrastructure": {
@@ -2399,8 +2404,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-ai-ready-data-vanguards-virtual-analyst-journey/"
       ],
       "prerequisite_concepts": [
-        "conversational-ai",
-        "foundation-models"
+        "foundation-models",
+        "conversational-ai"
       ]
     },
     "model-context-protocol-mcp-proxy": {
@@ -2431,8 +2436,8 @@
         "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "reinforcement-fine-tuning"
+        "reinforcement-fine-tuning",
+        "large-language-models"
       ]
     },
     "large-language-model-migration": {
@@ -2447,8 +2452,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aws-generative-ai-model-agility-solution-a-comprehensive-guide-to-migrating-llms-for-generative-ai-production/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "generative-ai"
+        "generative-ai",
+        "large-language-models"
       ]
     },
     "automated-identity-verification": {
@@ -2463,8 +2468,8 @@
         "https://aws.amazon.com/blogs/machine-learning/sun-finance-automates-id-extraction-and-fraud-detection-with-generative-ai-on-aws/"
       ],
       "prerequisite_concepts": [
-        "manual-review-queues",
-        "traditional-optical-character-recognition"
+        "traditional-optical-character-recognition",
+        "manual-review-queues"
       ]
     },
     "agentic-ai-analytics": {
@@ -2479,8 +2484,8 @@
         "https://aws.amazon.com/blogs/machine-learning/unleashing-agentic-ai-analytics-on-amazon-sagemaker-with-amazon-athena-and-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "data-warehousing",
-        "business-intelligence"
+        "business-intelligence",
+        "data-warehousing"
       ]
     },
     "amazon-bedrock-agentcore-gateway": {
@@ -2495,8 +2500,8 @@
         "https://aws.amazon.com/blogs/machine-learning/configuring-amazon-bedrock-agentcore-gateway-for-secure-access-to-private-resources/"
       ],
       "prerequisite_concepts": [
-        "amazon-virtual-private-cloud-vpc",
-        "ai-agents-in-production-environments"
+        "ai-agents-in-production-environments",
+        "amazon-virtual-private-cloud-vpc"
       ]
     },
     "fitness-seeking-ai": {
@@ -2575,8 +2580,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/"
       ],
       "prerequisite_concepts": [
-        "agent-development",
-        "ai-deployment"
+        "ai-deployment",
+        "agent-development"
       ]
     },
     "agent-guided-workflows": {
@@ -2592,8 +2597,8 @@
       ],
       "prerequisite_concepts": [
         "reinforcement-learning-verifiable-rewards-rlvr",
-        "direct-preference-optimization-dpo",
-        "supervised-fine-tuning-sft"
+        "supervised-fine-tuning-sft",
+        "direct-preference-optimization-dpo"
       ]
     },
     "natural-language-processing-for-dashboard-generation": {
@@ -2720,8 +2725,8 @@
         "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-amazon-bedrock-agentcore-identity-on-amazon-ecs/"
       ],
       "prerequisite_concepts": [
-        "secure-access-to-external-services",
-        "ai-agents"
+        "ai-agents",
+        "secure-access-to-external-services"
       ]
     },
     "generative-ai-techniques-for-business-protection-and-enhancement": {
@@ -2736,8 +2741,8 @@
         "https://aws.amazon.com/blogs/machine-learning/intelligence-driven-message-defense-and-insights-using-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "brokerage-business-operations",
-        "messaging-systems"
+        "messaging-systems",
+        "brokerage-business-operations"
       ]
     },
     "agent-quality-optimization": {
@@ -2752,8 +2757,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/"
       ],
       "prerequisite_concepts": [
-        "machine-learning",
-        "software-development"
+        "software-development",
+        "machine-learning"
       ]
     },
     "vision-language-models": {
@@ -2784,8 +2789,8 @@
         "https://www.alignmentforum.org/posts/oeYesesaxjzMAktCM/natural-language-autoencoders-produce-unsupervised"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "large-language-models"
       ]
     },
     "mechanistic-estimation-for-neural-networks": {
@@ -2800,8 +2805,8 @@
         "https://www.alignmentforum.org/posts/fsG4m6sRMpomd7Rk6/mechanistic-estimation-for-wide-random-mlps"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "multilayer-perceptrons"
+        "multilayer-perceptrons",
+        "neural-networks"
       ]
     },
     "gpu-capacity-management-for-machine-learning-workloads": {
@@ -2816,8 +2821,8 @@
         "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "cloud-computing-fundamentals"
+        "cloud-computing-fundamentals",
+        "machine-learning-basics"
       ]
     },
     "reinforcement-learning-with-verifiable-rewards": {
@@ -2848,8 +2853,8 @@
         "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/"
       ],
       "prerequisite_concepts": [
-        "autonomous-agents",
-        "api-integration"
+        "api-integration",
+        "autonomous-agents"
       ]
     },
     "behavioral-selection-model": {
@@ -2880,8 +2885,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-web-search-enabled-agents-with-strands-and-exa/"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "ai-agents"
+        "ai-agents",
+        "language-models"
       ]
     },
     "cloud-based-language-model-platforms": {
@@ -2896,8 +2901,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/"
       ],
       "prerequisite_concepts": [
-        "language-model-fundamentals",
-        "cloud-computing-basics"
+        "cloud-computing-basics",
+        "language-model-fundamentals"
       ]
     },
     "automated-bug-triaging": {
@@ -2912,8 +2917,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/"
       ],
       "prerequisite_concepts": [
-        "large-language-models",
-        "natural-language-processing"
+        "natural-language-processing",
+        "large-language-models"
       ]
     },
     "conversational-ai-for-enterprise-data-analysis": {
@@ -2930,6 +2935,22 @@
       "prerequisite_concepts": [
         "enterprise-data-analysis",
         "ai-powered-decision-making"
+      ]
+    },
+    "compliance-tracking-for-large-language-models": {
+      "id": "compliance-tracking-for-large-language-models",
+      "name": "compliance tracking for large language models",
+      "aliases": [
+        "compliance tracking for large language models"
+      ],
+      "topic": "AI Infrastructure & Tooling",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/"
+      ],
+      "prerequisite_concepts": [
+        "fine-tuning-concepts",
+        "large-language-models"
       ]
     }
   },
@@ -35617,7 +35638,7 @@
     },
     "Large Language Models": {
       "name": "Large Language Models",
-      "article_count": 37,
+      "article_count": 38,
       "articles": [
         {
           "title": "Power Steering: Behavior Steering via Layer-to-Layer Jacobian Singular Vectors",
@@ -51941,6 +51962,453 @@
               "What are the benefits and challenges of integrating AI platforms with existing cloud infrastructure?"
             ]
           }
+        },
+        {
+          "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/",
+          "published": "Tue, 12 May 2026 16:41:33 +0000",
+          "source": "Artificial Intelligence",
+          "embedding": [
+            -0.0059,
+            -0.0233,
+            -0.0101,
+            0.0423,
+            0.0873,
+            0.0122,
+            0.0474,
+            -0.032,
+            0.0372,
+            0.0074,
+            -0.0879,
+            -0.0465,
+            0.015,
+            -0.0223,
+            0.0196,
+            0.0164,
+            0.0268,
+            -0.0288,
+            -0.0534,
+            -0.0666,
+            0.0243,
+            0.1034,
+            -0.0121,
+            -0.011,
+            -0.1167,
+            0.0313,
+            -0.0419,
+            -0.0343,
+            0.0607,
+            -0.0414,
+            0.0644,
+            0.0507,
+            0.0548,
+            0.0953,
+            -0.0225,
+            0.0264,
+            -0.056,
+            0.0103,
+            0.0093,
+            -0.0288,
+            0.0232,
+            -0.0504,
+            -0.0321,
+            -0.026,
+            0.0468,
+            -0.0378,
+            -0.0431,
+            0.0048,
+            0.0465,
+            0.0555,
+            -0.0913,
+            -0.0669,
+            0.0516,
+            0.0167,
+            0.0589,
+            0.0615,
+            0.0114,
+            -0.0455,
+            0.0135,
+            -0.0752,
+            0.1,
+            -0.148,
+            -0.0184,
+            0.0024,
+            -0.012,
+            0.0559,
+            -0.0391,
+            0.0158,
+            0.0342,
+            -0.102,
+            -0.0445,
+            0.0102,
+            -0.0369,
+            0.0487,
+            -0.0052,
+            0.0976,
+            -0.0314,
+            -0.0153,
+            0.0967,
+            -0.029,
+            -0.0276,
+            -0.0527,
+            0.0074,
+            0.0866,
+            -0.0076,
+            -0.0483,
+            0.0427,
+            -0.0068,
+            0.0573,
+            0.0965,
+            -0.004,
+            -0.072,
+            0.1518,
+            -0.0364,
+            0.0021,
+            0.0246,
+            -0.0196,
+            -0.0622,
+            -0.0025,
+            -0.0048,
+            0.0349,
+            0.0718,
+            -0.0502,
+            -0.0863,
+            -0.0556,
+            -0.0041,
+            0.0125,
+            0.0363,
+            0.063,
+            0.0044,
+            -0.0584,
+            0.038,
+            0.1062,
+            -0.0623,
+            -0.0009,
+            0.0569,
+            -0.0735,
+            0.0101,
+            0.0254,
+            0.023,
+            0.0215,
+            -0.021,
+            0.0244,
+            -0.0267,
+            0.1025,
+            0.0709,
+            -0.0208,
+            0.0,
+            0.0045,
+            0.0103,
+            -0.0538,
+            0.0112,
+            0.0287,
+            0.0352,
+            -0.0306,
+            0.0501,
+            -0.1073,
+            -0.0548,
+            -0.0631,
+            0.0443,
+            -0.0692,
+            -0.0069,
+            0.0307,
+            -0.0113,
+            -0.0452,
+            0.0176,
+            0.0427,
+            -0.0282,
+            0.0481,
+            -0.0795,
+            -0.0157,
+            0.0641,
+            0.0745,
+            -0.0523,
+            0.0116,
+            -0.0156,
+            0.0981,
+            0.025,
+            -0.0274,
+            -0.0016,
+            0.0266,
+            -0.0042,
+            0.0048,
+            -0.0104,
+            -0.0096,
+            0.0252,
+            -0.0121,
+            0.0567,
+            0.0094,
+            0.0319,
+            0.021,
+            -0.0049,
+            -0.11,
+            0.0123,
+            -0.0282,
+            -0.001,
+            0.0712,
+            0.0024,
+            -0.024,
+            0.0319,
+            0.06,
+            -0.0835,
+            0.0688,
+            -0.0143,
+            -0.0666,
+            0.018,
+            -0.0226,
+            -0.0559,
+            -0.0418,
+            0.0159,
+            -0.012,
+            0.1244,
+            -0.0011,
+            0.0461,
+            0.0277,
+            0.0385,
+            0.0309,
+            -0.0014,
+            -0.0269,
+            0.0203,
+            0.0324,
+            -0.0057,
+            -0.0371,
+            -0.0525,
+            -0.0715,
+            -0.0341,
+            0.0249,
+            0.0359,
+            -0.0579,
+            -0.0198,
+            -0.0414,
+            0.0797,
+            0.0043,
+            -0.0435,
+            0.0377,
+            0.0173,
+            0.0303,
+            -0.0281,
+            -0.0476,
+            -0.0269,
+            -0.0653,
+            0.0757,
+            0.0186,
+            -0.0,
+            -0.051,
+            -0.068,
+            -0.0311,
+            0.0463,
+            0.0095,
+            0.0076,
+            -0.0444,
+            0.0082,
+            -0.0054,
+            -0.0246,
+            -0.0409,
+            -0.0332,
+            0.0167,
+            -0.0443,
+            -0.047,
+            -0.0032,
+            -0.0572,
+            -0.0838,
+            -0.0029,
+            0.0342,
+            0.0104,
+            -0.0329,
+            -0.072,
+            0.0049,
+            0.0322,
+            0.0403,
+            -0.0649,
+            0.0509,
+            0.024,
+            0.0341,
+            -0.018,
+            0.008,
+            -0.0027,
+            0.0508,
+            -0.1109,
+            0.0031,
+            0.0836,
+            -0.0221,
+            -0.0401,
+            0.0266,
+            0.0535,
+            -0.0562,
+            -0.1211,
+            -0.0181,
+            -0.0048,
+            -0.0044,
+            -0.0252,
+            0.0655,
+            0.0165,
+            -0.0138,
+            -0.0109,
+            0.0229,
+            0.0044,
+            -0.0464,
+            -0.0717,
+            -0.0223,
+            0.0572,
+            0.043,
+            0.029,
+            0.0308,
+            -0.0164,
+            -0.0383,
+            0.0632,
+            -0.0344,
+            0.0303,
+            -0.0061,
+            0.0337,
+            0.0716,
+            0.0011,
+            -0.024,
+            0.0064,
+            -0.0495,
+            -0.0312,
+            0.0011,
+            0.1024,
+            0.0933,
+            -0.0589,
+            -0.0895,
+            -0.0942,
+            -0.0181,
+            -0.0261,
+            0.06,
+            0.0584,
+            0.1032,
+            0.0871,
+            0.0355,
+            0.0403,
+            0.0145,
+            0.0488,
+            0.0803,
+            -0.1102,
+            -0.0968,
+            -0.0954,
+            0.0258,
+            -0.081,
+            -0.0,
+            -0.0875,
+            -0.0327,
+            0.0487,
+            0.0947,
+            0.1027,
+            0.0552,
+            -0.0678,
+            0.0284,
+            -0.0067,
+            -0.0752,
+            0.0125,
+            -0.0604,
+            -0.0699,
+            -0.0059,
+            0.0939,
+            -0.0358,
+            0.0216,
+            0.0722,
+            -0.036,
+            -0.0056,
+            0.0524,
+            -0.0172,
+            0.0081,
+            0.0327,
+            0.0514,
+            -0.0473,
+            0.0278,
+            0.0193,
+            -0.0081,
+            0.053,
+            -0.0347,
+            -0.0069,
+            0.0118,
+            0.0072,
+            0.0048,
+            0.0078,
+            -0.03,
+            -0.1004,
+            -0.0287,
+            -0.0444,
+            0.0191,
+            0.0787,
+            -0.093,
+            -0.009,
+            0.0325,
+            -0.0211,
+            -0.0379,
+            -0.044,
+            0.0665,
+            -0.0093,
+            0.0512,
+            -0.1377,
+            0.0707,
+            0.1414,
+            0.1235,
+            -0.002,
+            0.0542,
+            -0.0476,
+            0.0484,
+            0.0296,
+            0.0827,
+            0.0525,
+            0.026,
+            -0.0603
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "Large Language Models",
+            "article_type": "extends",
+            "primary_concept": "generative AI",
+            "summary": "This article explains how Amazon FinTech teams use generative AI on AWS to streamline regulatory inquiries, assuming knowledge of AI applications and regulatory compliance. The solution implements Retrieval Augmented Generation with Amazon Bedrock Knowledge Bases and Amazon OpenSearch Serverless. The system provides contextually-aware multi-turn conversations and comprehensive observability for continuous monitoring and improvement.",
+            "accessible_title": "How to automate regulatory responses \u2014 the AI approach",
+            "concepts_taught": [
+              {
+                "name": "Retrieval Augmented Generation",
+                "confidence": 0.8
+              },
+              {
+                "name": "generative AI",
+                "confidence": 0.7
+              },
+              {
+                "name": "conversational AI",
+                "confidence": 0.6
+              },
+              {
+                "name": "knowledge base management",
+                "confidence": 0.5
+              },
+              {
+                "name": "observability in AI systems",
+                "confidence": 0.4
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "regulatory compliance",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI applications",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how generative AI can be applied to regulatory inquiries",
+              "Learn about the importance of knowledge base management in AI systems",
+              "Understand the role of observability in AI systems for continuous improvement"
+            ],
+            "strategic_questions": [
+              "How can generative AI be used to improve regulatory compliance in other industries?",
+              "What are the potential risks and challenges of implementing AI-powered regulatory response systems?",
+              "How can organizations ensure the accuracy and reliability of AI-generated responses in high-stakes applications?"
+            ]
+          }
         }
       ],
       "levels": {
@@ -66943,6 +67411,453 @@
                 "What are the benefits and challenges of integrating AI platforms with existing cloud infrastructure?"
               ]
             }
+          },
+          {
+            "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/",
+            "published": "Tue, 12 May 2026 16:41:33 +0000",
+            "source": "Artificial Intelligence",
+            "embedding": [
+              -0.0059,
+              -0.0233,
+              -0.0101,
+              0.0423,
+              0.0873,
+              0.0122,
+              0.0474,
+              -0.032,
+              0.0372,
+              0.0074,
+              -0.0879,
+              -0.0465,
+              0.015,
+              -0.0223,
+              0.0196,
+              0.0164,
+              0.0268,
+              -0.0288,
+              -0.0534,
+              -0.0666,
+              0.0243,
+              0.1034,
+              -0.0121,
+              -0.011,
+              -0.1167,
+              0.0313,
+              -0.0419,
+              -0.0343,
+              0.0607,
+              -0.0414,
+              0.0644,
+              0.0507,
+              0.0548,
+              0.0953,
+              -0.0225,
+              0.0264,
+              -0.056,
+              0.0103,
+              0.0093,
+              -0.0288,
+              0.0232,
+              -0.0504,
+              -0.0321,
+              -0.026,
+              0.0468,
+              -0.0378,
+              -0.0431,
+              0.0048,
+              0.0465,
+              0.0555,
+              -0.0913,
+              -0.0669,
+              0.0516,
+              0.0167,
+              0.0589,
+              0.0615,
+              0.0114,
+              -0.0455,
+              0.0135,
+              -0.0752,
+              0.1,
+              -0.148,
+              -0.0184,
+              0.0024,
+              -0.012,
+              0.0559,
+              -0.0391,
+              0.0158,
+              0.0342,
+              -0.102,
+              -0.0445,
+              0.0102,
+              -0.0369,
+              0.0487,
+              -0.0052,
+              0.0976,
+              -0.0314,
+              -0.0153,
+              0.0967,
+              -0.029,
+              -0.0276,
+              -0.0527,
+              0.0074,
+              0.0866,
+              -0.0076,
+              -0.0483,
+              0.0427,
+              -0.0068,
+              0.0573,
+              0.0965,
+              -0.004,
+              -0.072,
+              0.1518,
+              -0.0364,
+              0.0021,
+              0.0246,
+              -0.0196,
+              -0.0622,
+              -0.0025,
+              -0.0048,
+              0.0349,
+              0.0718,
+              -0.0502,
+              -0.0863,
+              -0.0556,
+              -0.0041,
+              0.0125,
+              0.0363,
+              0.063,
+              0.0044,
+              -0.0584,
+              0.038,
+              0.1062,
+              -0.0623,
+              -0.0009,
+              0.0569,
+              -0.0735,
+              0.0101,
+              0.0254,
+              0.023,
+              0.0215,
+              -0.021,
+              0.0244,
+              -0.0267,
+              0.1025,
+              0.0709,
+              -0.0208,
+              0.0,
+              0.0045,
+              0.0103,
+              -0.0538,
+              0.0112,
+              0.0287,
+              0.0352,
+              -0.0306,
+              0.0501,
+              -0.1073,
+              -0.0548,
+              -0.0631,
+              0.0443,
+              -0.0692,
+              -0.0069,
+              0.0307,
+              -0.0113,
+              -0.0452,
+              0.0176,
+              0.0427,
+              -0.0282,
+              0.0481,
+              -0.0795,
+              -0.0157,
+              0.0641,
+              0.0745,
+              -0.0523,
+              0.0116,
+              -0.0156,
+              0.0981,
+              0.025,
+              -0.0274,
+              -0.0016,
+              0.0266,
+              -0.0042,
+              0.0048,
+              -0.0104,
+              -0.0096,
+              0.0252,
+              -0.0121,
+              0.0567,
+              0.0094,
+              0.0319,
+              0.021,
+              -0.0049,
+              -0.11,
+              0.0123,
+              -0.0282,
+              -0.001,
+              0.0712,
+              0.0024,
+              -0.024,
+              0.0319,
+              0.06,
+              -0.0835,
+              0.0688,
+              -0.0143,
+              -0.0666,
+              0.018,
+              -0.0226,
+              -0.0559,
+              -0.0418,
+              0.0159,
+              -0.012,
+              0.1244,
+              -0.0011,
+              0.0461,
+              0.0277,
+              0.0385,
+              0.0309,
+              -0.0014,
+              -0.0269,
+              0.0203,
+              0.0324,
+              -0.0057,
+              -0.0371,
+              -0.0525,
+              -0.0715,
+              -0.0341,
+              0.0249,
+              0.0359,
+              -0.0579,
+              -0.0198,
+              -0.0414,
+              0.0797,
+              0.0043,
+              -0.0435,
+              0.0377,
+              0.0173,
+              0.0303,
+              -0.0281,
+              -0.0476,
+              -0.0269,
+              -0.0653,
+              0.0757,
+              0.0186,
+              -0.0,
+              -0.051,
+              -0.068,
+              -0.0311,
+              0.0463,
+              0.0095,
+              0.0076,
+              -0.0444,
+              0.0082,
+              -0.0054,
+              -0.0246,
+              -0.0409,
+              -0.0332,
+              0.0167,
+              -0.0443,
+              -0.047,
+              -0.0032,
+              -0.0572,
+              -0.0838,
+              -0.0029,
+              0.0342,
+              0.0104,
+              -0.0329,
+              -0.072,
+              0.0049,
+              0.0322,
+              0.0403,
+              -0.0649,
+              0.0509,
+              0.024,
+              0.0341,
+              -0.018,
+              0.008,
+              -0.0027,
+              0.0508,
+              -0.1109,
+              0.0031,
+              0.0836,
+              -0.0221,
+              -0.0401,
+              0.0266,
+              0.0535,
+              -0.0562,
+              -0.1211,
+              -0.0181,
+              -0.0048,
+              -0.0044,
+              -0.0252,
+              0.0655,
+              0.0165,
+              -0.0138,
+              -0.0109,
+              0.0229,
+              0.0044,
+              -0.0464,
+              -0.0717,
+              -0.0223,
+              0.0572,
+              0.043,
+              0.029,
+              0.0308,
+              -0.0164,
+              -0.0383,
+              0.0632,
+              -0.0344,
+              0.0303,
+              -0.0061,
+              0.0337,
+              0.0716,
+              0.0011,
+              -0.024,
+              0.0064,
+              -0.0495,
+              -0.0312,
+              0.0011,
+              0.1024,
+              0.0933,
+              -0.0589,
+              -0.0895,
+              -0.0942,
+              -0.0181,
+              -0.0261,
+              0.06,
+              0.0584,
+              0.1032,
+              0.0871,
+              0.0355,
+              0.0403,
+              0.0145,
+              0.0488,
+              0.0803,
+              -0.1102,
+              -0.0968,
+              -0.0954,
+              0.0258,
+              -0.081,
+              -0.0,
+              -0.0875,
+              -0.0327,
+              0.0487,
+              0.0947,
+              0.1027,
+              0.0552,
+              -0.0678,
+              0.0284,
+              -0.0067,
+              -0.0752,
+              0.0125,
+              -0.0604,
+              -0.0699,
+              -0.0059,
+              0.0939,
+              -0.0358,
+              0.0216,
+              0.0722,
+              -0.036,
+              -0.0056,
+              0.0524,
+              -0.0172,
+              0.0081,
+              0.0327,
+              0.0514,
+              -0.0473,
+              0.0278,
+              0.0193,
+              -0.0081,
+              0.053,
+              -0.0347,
+              -0.0069,
+              0.0118,
+              0.0072,
+              0.0048,
+              0.0078,
+              -0.03,
+              -0.1004,
+              -0.0287,
+              -0.0444,
+              0.0191,
+              0.0787,
+              -0.093,
+              -0.009,
+              0.0325,
+              -0.0211,
+              -0.0379,
+              -0.044,
+              0.0665,
+              -0.0093,
+              0.0512,
+              -0.1377,
+              0.0707,
+              0.1414,
+              0.1235,
+              -0.002,
+              0.0542,
+              -0.0476,
+              0.0484,
+              0.0296,
+              0.0827,
+              0.0525,
+              0.026,
+              -0.0603
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "Large Language Models",
+              "article_type": "extends",
+              "primary_concept": "generative AI",
+              "summary": "This article explains how Amazon FinTech teams use generative AI on AWS to streamline regulatory inquiries, assuming knowledge of AI applications and regulatory compliance. The solution implements Retrieval Augmented Generation with Amazon Bedrock Knowledge Bases and Amazon OpenSearch Serverless. The system provides contextually-aware multi-turn conversations and comprehensive observability for continuous monitoring and improvement.",
+              "accessible_title": "How to automate regulatory responses \u2014 the AI approach",
+              "concepts_taught": [
+                {
+                  "name": "Retrieval Augmented Generation",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "generative AI",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "conversational AI",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "knowledge base management",
+                  "confidence": 0.5
+                },
+                {
+                  "name": "observability in AI systems",
+                  "confidence": 0.4
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "regulatory compliance",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI applications",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how generative AI can be applied to regulatory inquiries",
+                "Learn about the importance of knowledge base management in AI systems",
+                "Understand the role of observability in AI systems for continuous improvement"
+              ],
+              "strategic_questions": [
+                "How can generative AI be used to improve regulatory compliance in other industries?",
+                "What are the potential risks and challenges of implementing AI-powered regulatory response systems?",
+                "How can organizations ensure the accuracy and reliability of AI-generated responses in high-stakes applications?"
+              ]
+            }
           }
         ],
         "advanced": [
@@ -76252,7 +77167,7 @@
     },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
-      "article_count": 75,
+      "article_count": 77,
       "articles": [
         {
           "title": "Enhanced metrics for Amazon SageMaker AI endpoints: deeper visibility for better performance",
@@ -109366,6 +110281,888 @@
               "How can conversational AI improve enterprise data analysis and decision-making?",
               "What are the key challenges in implementing AI-powered decision-making for large enterprise datasets?",
               "How can Amazon Quick and similar tools address these challenges and enable faster, more accurate AI insights?"
+            ]
+          }
+        },
+        {
+          "title": "Automate schema generation for intelligent document processing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/",
+          "published": "Tue, 12 May 2026 15:54:08 +0000",
+          "source": "Artificial Intelligence",
+          "embedding": [
+            -0.0372,
+            0.0283,
+            -0.0232,
+            0.042,
+            0.0795,
+            -0.0103,
+            -0.0263,
+            -0.0142,
+            -0.0132,
+            -0.0166,
+            0.0508,
+            -0.0134,
+            0.0846,
+            0.047,
+            -0.0584,
+            0.0619,
+            0.01,
+            0.0092,
+            -0.0163,
+            -0.0537,
+            -0.0337,
+            0.0088,
+            0.0192,
+            -0.0567,
+            0.0463,
+            0.1209,
+            0.0235,
+            -0.0424,
+            0.0216,
+            0.0177,
+            0.0852,
+            0.0091,
+            0.0442,
+            0.0089,
+            0.0383,
+            0.0449,
+            0.0336,
+            0.079,
+            -0.0218,
+            -0.0374,
+            0.0098,
+            -0.055,
+            -0.0527,
+            0.0455,
+            0.0566,
+            -0.0025,
+            -0.1635,
+            0.0637,
+            -0.066,
+            0.0698,
+            -0.1129,
+            -0.0429,
+            -0.0524,
+            0.019,
+            0.0331,
+            0.0939,
+            0.0114,
+            -0.0634,
+            -0.0428,
+            -0.0136,
+            0.0015,
+            -0.0398,
+            0.0571,
+            -0.0079,
+            0.0116,
+            0.0617,
+            0.0083,
+            0.0279,
+            0.0364,
+            -0.0656,
+            -0.0326,
+            0.088,
+            -0.0187,
+            0.0018,
+            -0.0146,
+            0.0301,
+            -0.0508,
+            -0.0698,
+            0.0693,
+            -0.1368,
+            -0.0379,
+            0.0224,
+            -0.0073,
+            0.0362,
+            0.0443,
+            -0.0375,
+            0.021,
+            -0.0396,
+            -0.0185,
+            0.0206,
+            0.0141,
+            -0.1093,
+            0.054,
+            -0.0077,
+            -0.0024,
+            -0.0038,
+            -0.0002,
+            -0.0622,
+            0.0686,
+            -0.0052,
+            0.0084,
+            0.1011,
+            0.0715,
+            -0.0883,
+            -0.0799,
+            -0.0517,
+            0.0199,
+            0.0018,
+            -0.0275,
+            -0.0684,
+            -0.0063,
+            0.0118,
+            -0.0355,
+            -0.0634,
+            -0.0369,
+            0.0442,
+            0.0248,
+            0.0039,
+            0.0633,
+            0.0279,
+            0.0121,
+            -0.0204,
+            -0.0189,
+            0.0603,
+            0.0187,
+            -0.0284,
+            -0.0452,
+            0.0,
+            -0.0157,
+            -0.0651,
+            -0.0336,
+            0.0585,
+            0.0191,
+            -0.0214,
+            -0.0652,
+            0.0246,
+            -0.1237,
+            -0.0313,
+            -0.077,
+            0.0129,
+            0.0174,
+            0.0555,
+            0.0027,
+            -0.0058,
+            -0.0647,
+            0.0812,
+            -0.0311,
+            -0.0345,
+            0.0,
+            0.0053,
+            0.0273,
+            0.0001,
+            -0.0028,
+            0.1007,
+            0.0121,
+            -0.0483,
+            -0.0617,
+            -0.0021,
+            -0.0117,
+            0.0282,
+            -0.0115,
+            0.0467,
+            -0.0802,
+            0.0515,
+            -0.0171,
+            -0.0735,
+            0.0146,
+            0.062,
+            -0.0408,
+            0.0288,
+            0.0468,
+            -0.0797,
+            0.0008,
+            0.1346,
+            0.0251,
+            -0.0085,
+            0.0412,
+            -0.1134,
+            0.0644,
+            0.0323,
+            0.0536,
+            0.0558,
+            0.0643,
+            -0.002,
+            -0.0516,
+            0.0162,
+            0.1404,
+            -0.0301,
+            -0.043,
+            0.0011,
+            -0.0876,
+            0.082,
+            -0.0386,
+            -0.0075,
+            0.0748,
+            0.095,
+            0.0595,
+            0.0452,
+            0.018,
+            0.0706,
+            -0.0402,
+            -0.0369,
+            -0.0459,
+            -0.0446,
+            0.0127,
+            -0.0361,
+            -0.0498,
+            0.0297,
+            -0.0728,
+            -0.0387,
+            0.038,
+            -0.1281,
+            0.0263,
+            0.0209,
+            0.0328,
+            -0.0233,
+            -0.0099,
+            -0.0904,
+            0.0499,
+            0.0152,
+            -0.0455,
+            -0.0135,
+            0.0943,
+            -0.0,
+            0.0334,
+            -0.0357,
+            -0.0184,
+            0.0471,
+            0.0308,
+            0.0207,
+            -0.0321,
+            0.0288,
+            -0.0354,
+            -0.0025,
+            0.0058,
+            -0.0609,
+            -0.0407,
+            -0.0902,
+            0.0347,
+            0.0231,
+            0.073,
+            -0.0128,
+            0.0108,
+            0.0711,
+            -0.0116,
+            -0.0735,
+            -0.0242,
+            0.0099,
+            0.0934,
+            0.046,
+            0.0034,
+            -0.0681,
+            -0.0416,
+            -0.0131,
+            -0.009,
+            -0.0104,
+            -0.0138,
+            -0.028,
+            -0.0226,
+            -0.007,
+            0.0078,
+            0.0574,
+            -0.0276,
+            0.0457,
+            0.0117,
+            0.101,
+            -0.0701,
+            0.0757,
+            -0.0007,
+            -0.012,
+            -0.0301,
+            0.0964,
+            0.0366,
+            -0.0245,
+            -0.031,
+            -0.0522,
+            -0.0078,
+            -0.1206,
+            -0.0354,
+            0.0141,
+            0.0138,
+            0.0554,
+            -0.0622,
+            0.0036,
+            0.0068,
+            -0.0292,
+            0.0252,
+            0.0228,
+            0.0301,
+            -0.1142,
+            -0.0404,
+            0.0084,
+            -0.0981,
+            -0.0308,
+            -0.0513,
+            -0.0,
+            -0.0314,
+            0.0088,
+            0.0493,
+            -0.0058,
+            0.0014,
+            0.0302,
+            0.0279,
+            -0.0601,
+            0.0708,
+            0.0342,
+            0.096,
+            0.0615,
+            -0.0039,
+            -0.0087,
+            -0.002,
+            0.0699,
+            0.0424,
+            0.0077,
+            -0.0612,
+            0.0314,
+            -0.0507,
+            0.0348,
+            -0.0167,
+            -0.0,
+            -0.0453,
+            -0.0399,
+            -0.0066,
+            -0.0413,
+            0.0121,
+            0.0214,
+            -0.0122,
+            0.1601,
+            -0.0369,
+            -0.0896,
+            0.0324,
+            -0.0767,
+            -0.0468,
+            -0.0436,
+            0.0173,
+            -0.0005,
+            0.0034,
+            -0.0171,
+            -0.0119,
+            -0.0284,
+            0.0445,
+            -0.0048,
+            0.0614,
+            0.0636,
+            -0.0003,
+            -0.0399,
+            -0.0491,
+            0.0345,
+            0.0303,
+            -0.1175,
+            -0.058,
+            -0.0141,
+            0.0275,
+            0.0341,
+            0.1431,
+            0.1203,
+            0.0429,
+            -0.0115,
+            -0.0706,
+            -0.0669,
+            0.0397,
+            0.0143,
+            0.0212,
+            -0.0454,
+            0.0549,
+            -0.0423,
+            -0.0001,
+            -0.0423,
+            0.0635,
+            -0.0005,
+            -0.0504,
+            -0.0976,
+            0.0731,
+            0.0524,
+            0.0373,
+            0.0284,
+            0.0049,
+            0.0014,
+            0.1513,
+            -0.0427,
+            -0.0154,
+            0.0276,
+            0.0523,
+            0.0053
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "intelligent document processing",
+            "summary": "This article assumes knowledge of document processing and information extraction, and extends it by introducing a multi-document discovery feature that automates schema generation for intelligent document processing. It uses visual embeddings for automatic clustering and agents for schema generation, and is integrated into the IDP Accelerator's existing Discovery Module.",
+            "accessible_title": "How to automate document processing \u2014 the schema generation approach",
+            "concepts_taught": [
+              {
+                "name": "visual embeddings",
+                "confidence": 0.8
+              },
+              {
+                "name": "document clustering",
+                "confidence": 0.7
+              },
+              {
+                "name": "schema generation",
+                "confidence": 0.9
+              },
+              {
+                "name": "intelligent document processing",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "information extraction",
+                "confidence": 0.8
+              },
+              {
+                "name": "document processing",
+                "confidence": 0.7
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how to automate schema generation for intelligent document processing",
+              "Learn how to use visual embeddings for document clustering",
+              "Discover how to integrate the multi-document discovery feature into the IDP Accelerator"
+            ],
+            "strategic_questions": [
+              "How can automated schema generation improve the efficiency of document processing initiatives?",
+              "What are the benefits of using visual embeddings for document clustering?",
+              "How can the multi-document discovery feature be applied to other areas of document processing?"
+            ]
+          }
+        },
+        {
+          "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
+          "published": "Tue, 12 May 2026 15:48:52 +0000",
+          "source": "Artificial Intelligence",
+          "embedding": [
+            -0.0651,
+            -0.0377,
+            -0.0239,
+            -0.0065,
+            0.0134,
+            0.018,
+            -0.0167,
+            -0.0142,
+            -0.04,
+            -0.005,
+            -0.0499,
+            -0.0583,
+            0.0155,
+            -0.0041,
+            -0.0132,
+            -0.0137,
+            -0.0258,
+            -0.0163,
+            -0.0744,
+            -0.0489,
+            0.0748,
+            0.0172,
+            0.0022,
+            0.0074,
+            -0.1127,
+            0.0082,
+            -0.0628,
+            -0.0799,
+            0.0104,
+            -0.0298,
+            -0.0229,
+            0.0155,
+            0.0936,
+            0.0802,
+            0.0256,
+            -0.001,
+            -0.035,
+            -0.0793,
+            0.0361,
+            0.014,
+            0.0067,
+            -0.0679,
+            -0.0448,
+            -0.008,
+            0.1245,
+            0.0161,
+            -0.0098,
+            0.0363,
+            -0.0662,
+            0.0573,
+            -0.1249,
+            -0.0605,
+            0.0813,
+            -0.0195,
+            -0.0234,
+            -0.0098,
+            0.1007,
+            0.0387,
+            0.0335,
+            -0.0533,
+            0.0191,
+            -0.0592,
+            -0.0431,
+            0.0223,
+            -0.0105,
+            0.0734,
+            -0.07,
+            0.0445,
+            -0.0635,
+            0.0448,
+            -0.0926,
+            -0.0244,
+            -0.0261,
+            0.0631,
+            -0.0339,
+            0.0317,
+            -0.0368,
+            -0.018,
+            0.0303,
+            -0.1307,
+            -0.0708,
+            -0.0549,
+            -0.0171,
+            0.0423,
+            0.0593,
+            0.0147,
+            0.0946,
+            -0.0157,
+            0.1405,
+            0.0216,
+            0.0439,
+            -0.101,
+            0.099,
+            0.0253,
+            0.0511,
+            0.0624,
+            0.0228,
+            0.0011,
+            -0.0116,
+            0.0288,
+            0.0209,
+            0.0611,
+            0.0259,
+            -0.0239,
+            -0.0637,
+            -0.0011,
+            0.0411,
+            0.0267,
+            -0.0038,
+            -0.0308,
+            0.0477,
+            0.0384,
+            0.0443,
+            -0.0537,
+            0.0771,
+            0.0113,
+            -0.013,
+            -0.0228,
+            -0.0071,
+            0.0618,
+            0.009,
+            0.0479,
+            0.0518,
+            0.0314,
+            0.0209,
+            0.0397,
+            -0.0192,
+            0.0,
+            -0.009,
+            0.0429,
+            -0.0768,
+            -0.056,
+            -0.004,
+            -0.0137,
+            -0.0176,
+            0.0448,
+            -0.048,
+            0.0196,
+            0.0059,
+            0.0781,
+            -0.0402,
+            0.0092,
+            -0.0351,
+            0.025,
+            0.0651,
+            0.0937,
+            0.0186,
+            0.0048,
+            0.096,
+            -0.1383,
+            0.065,
+            -0.0181,
+            0.0681,
+            0.0862,
+            0.0392,
+            -0.0349,
+            0.0839,
+            0.0328,
+            0.0048,
+            -0.0346,
+            0.0049,
+            -0.0134,
+            -0.0094,
+            0.0163,
+            -0.085,
+            -0.0189,
+            0.04,
+            -0.0228,
+            -0.0305,
+            0.0324,
+            0.0406,
+            -0.0116,
+            -0.0744,
+            -0.0057,
+            0.0091,
+            -0.01,
+            0.1086,
+            -0.0304,
+            -0.0139,
+            -0.0059,
+            0.0259,
+            -0.0253,
+            0.0762,
+            -0.0571,
+            0.0006,
+            -0.0039,
+            -0.0004,
+            0.022,
+            0.0295,
+            0.0118,
+            -0.0329,
+            0.0757,
+            -0.0279,
+            0.0259,
+            -0.0341,
+            0.0995,
+            0.051,
+            -0.0304,
+            -0.0325,
+            -0.0006,
+            -0.031,
+            0.0515,
+            -0.069,
+            -0.0572,
+            0.0155,
+            -0.0781,
+            -0.0287,
+            -0.0339,
+            -0.1284,
+            -0.0267,
+            0.0226,
+            -0.0066,
+            -0.0077,
+            -0.037,
+            -0.0224,
+            0.0736,
+            0.0014,
+            -0.0294,
+            -0.0172,
+            -0.047,
+            -0.0477,
+            -0.017,
+            0.011,
+            -0.0,
+            -0.0497,
+            -0.0141,
+            -0.0163,
+            0.0854,
+            -0.0546,
+            -0.0296,
+            -0.0526,
+            0.0406,
+            0.0827,
+            -0.0082,
+            -0.0741,
+            -0.0911,
+            -0.0033,
+            -0.0067,
+            0.0673,
+            -0.0401,
+            -0.0491,
+            0.0066,
+            0.0903,
+            0.0548,
+            0.0249,
+            -0.0273,
+            -0.0497,
+            0.0653,
+            -0.026,
+            0.0148,
+            -0.0595,
+            -0.0526,
+            0.0352,
+            0.0274,
+            -0.0205,
+            -0.0075,
+            -0.0878,
+            0.099,
+            -0.0486,
+            -0.1068,
+            0.046,
+            0.0115,
+            0.0116,
+            0.046,
+            0.116,
+            -0.0016,
+            -0.1068,
+            0.0169,
+            -0.0418,
+            -0.0013,
+            -0.0622,
+            0.0426,
+            -0.0479,
+            -0.1173,
+            0.0037,
+            -0.0709,
+            0.0281,
+            -0.0781,
+            -0.0827,
+            0.049,
+            0.0177,
+            -0.0039,
+            0.0024,
+            -0.002,
+            -0.0432,
+            -0.0081,
+            0.0481,
+            -0.0671,
+            -0.0149,
+            -0.0035,
+            0.0279,
+            0.0623,
+            -0.0211,
+            -0.0234,
+            0.014,
+            -0.0772,
+            -0.0587,
+            0.0823,
+            -0.0453,
+            0.0013,
+            -0.0401,
+            -0.0742,
+            0.0211,
+            -0.0297,
+            0.0525,
+            0.033,
+            0.037,
+            0.0339,
+            0.0419,
+            0.0552,
+            0.0126,
+            -0.0003,
+            0.0015,
+            0.0934,
+            -0.0512,
+            0.0223,
+            -0.0147,
+            0.064,
+            -0.1266,
+            -0.0,
+            -0.0549,
+            0.0255,
+            0.0422,
+            0.1127,
+            0.0565,
+            0.0364,
+            -0.0572,
+            0.0062,
+            0.0019,
+            -0.0199,
+            0.0371,
+            -0.058,
+            -0.0235,
+            -0.0132,
+            0.0051,
+            0.0181,
+            -0.043,
+            0.1276,
+            -0.0445,
+            0.058,
+            0.0442,
+            0.0554,
+            0.0476,
+            0.0055,
+            0.0393,
+            -0.059,
+            -0.0006,
+            0.1055,
+            -0.002,
+            -0.0005,
+            0.0529,
+            -0.003,
+            0.0462,
+            -0.0273,
+            0.029,
+            0.0557,
+            -0.0778,
+            -0.029,
+            0.0539,
+            0.0107,
+            0.0256,
+            0.058,
+            -0.0263,
+            -0.0084,
+            0.0631,
+            -0.066,
+            -0.1095,
+            -0.1214,
+            0.0521,
+            -0.0192,
+            0.002,
+            -0.0655,
+            0.0554,
+            0.1378,
+            0.0263,
+            0.0477,
+            0.0092,
+            -0.0642,
+            0.0449,
+            0.0576,
+            0.0706,
+            0.0068,
+            0.0469,
+            0.0052
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "compliance tracking for large language models",
+            "summary": "This article explains how to navigate EU AI Act requirements for fine-tuning large language models on Amazon SageMaker AI, assuming knowledge of large language models and fine-tuning concepts. It covers the use of the Fine-Tuning FLOPs Meter toolkit to track computational resources and determine compliance obligations. The article provides a step-by-step guide on how to set up FLOPs tracking and generate audit-ready documentation.",
+            "accessible_title": "How to comply with EU AI regulations \u2014 the tracking approach",
+            "concepts_taught": [
+              {
+                "name": "compliance tracking for large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "Fine-Tuning FLOPs Meter",
+                "confidence": 0.8
+              },
+              {
+                "name": "EU AI Act requirements",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "fine-tuning concepts",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand EU AI Act requirements for fine-tuning large language models",
+              "Learn how to use the Fine-Tuning FLOPs Meter toolkit for compliance tracking",
+              "Determine compliance obligations based on computational resources"
+            ],
+            "strategic_questions": [
+              "How do EU AI Act requirements impact the development and deployment of large language models?",
+              "What are the key considerations for compliance tracking in large language model fine-tuning?",
+              "How can organizations ensure transparency and accountability in their AI systems?"
             ]
           }
         }
@@ -142487,6 +144284,888 @@
                 "How can conversational AI improve enterprise data analysis and decision-making?",
                 "What are the key challenges in implementing AI-powered decision-making for large enterprise datasets?",
                 "How can Amazon Quick and similar tools address these challenges and enable faster, more accurate AI insights?"
+              ]
+            }
+          },
+          {
+            "title": "Automate schema generation for intelligent document processing",
+            "url": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/",
+            "published": "Tue, 12 May 2026 15:54:08 +0000",
+            "source": "Artificial Intelligence",
+            "embedding": [
+              -0.0372,
+              0.0283,
+              -0.0232,
+              0.042,
+              0.0795,
+              -0.0103,
+              -0.0263,
+              -0.0142,
+              -0.0132,
+              -0.0166,
+              0.0508,
+              -0.0134,
+              0.0846,
+              0.047,
+              -0.0584,
+              0.0619,
+              0.01,
+              0.0092,
+              -0.0163,
+              -0.0537,
+              -0.0337,
+              0.0088,
+              0.0192,
+              -0.0567,
+              0.0463,
+              0.1209,
+              0.0235,
+              -0.0424,
+              0.0216,
+              0.0177,
+              0.0852,
+              0.0091,
+              0.0442,
+              0.0089,
+              0.0383,
+              0.0449,
+              0.0336,
+              0.079,
+              -0.0218,
+              -0.0374,
+              0.0098,
+              -0.055,
+              -0.0527,
+              0.0455,
+              0.0566,
+              -0.0025,
+              -0.1635,
+              0.0637,
+              -0.066,
+              0.0698,
+              -0.1129,
+              -0.0429,
+              -0.0524,
+              0.019,
+              0.0331,
+              0.0939,
+              0.0114,
+              -0.0634,
+              -0.0428,
+              -0.0136,
+              0.0015,
+              -0.0398,
+              0.0571,
+              -0.0079,
+              0.0116,
+              0.0617,
+              0.0083,
+              0.0279,
+              0.0364,
+              -0.0656,
+              -0.0326,
+              0.088,
+              -0.0187,
+              0.0018,
+              -0.0146,
+              0.0301,
+              -0.0508,
+              -0.0698,
+              0.0693,
+              -0.1368,
+              -0.0379,
+              0.0224,
+              -0.0073,
+              0.0362,
+              0.0443,
+              -0.0375,
+              0.021,
+              -0.0396,
+              -0.0185,
+              0.0206,
+              0.0141,
+              -0.1093,
+              0.054,
+              -0.0077,
+              -0.0024,
+              -0.0038,
+              -0.0002,
+              -0.0622,
+              0.0686,
+              -0.0052,
+              0.0084,
+              0.1011,
+              0.0715,
+              -0.0883,
+              -0.0799,
+              -0.0517,
+              0.0199,
+              0.0018,
+              -0.0275,
+              -0.0684,
+              -0.0063,
+              0.0118,
+              -0.0355,
+              -0.0634,
+              -0.0369,
+              0.0442,
+              0.0248,
+              0.0039,
+              0.0633,
+              0.0279,
+              0.0121,
+              -0.0204,
+              -0.0189,
+              0.0603,
+              0.0187,
+              -0.0284,
+              -0.0452,
+              0.0,
+              -0.0157,
+              -0.0651,
+              -0.0336,
+              0.0585,
+              0.0191,
+              -0.0214,
+              -0.0652,
+              0.0246,
+              -0.1237,
+              -0.0313,
+              -0.077,
+              0.0129,
+              0.0174,
+              0.0555,
+              0.0027,
+              -0.0058,
+              -0.0647,
+              0.0812,
+              -0.0311,
+              -0.0345,
+              0.0,
+              0.0053,
+              0.0273,
+              0.0001,
+              -0.0028,
+              0.1007,
+              0.0121,
+              -0.0483,
+              -0.0617,
+              -0.0021,
+              -0.0117,
+              0.0282,
+              -0.0115,
+              0.0467,
+              -0.0802,
+              0.0515,
+              -0.0171,
+              -0.0735,
+              0.0146,
+              0.062,
+              -0.0408,
+              0.0288,
+              0.0468,
+              -0.0797,
+              0.0008,
+              0.1346,
+              0.0251,
+              -0.0085,
+              0.0412,
+              -0.1134,
+              0.0644,
+              0.0323,
+              0.0536,
+              0.0558,
+              0.0643,
+              -0.002,
+              -0.0516,
+              0.0162,
+              0.1404,
+              -0.0301,
+              -0.043,
+              0.0011,
+              -0.0876,
+              0.082,
+              -0.0386,
+              -0.0075,
+              0.0748,
+              0.095,
+              0.0595,
+              0.0452,
+              0.018,
+              0.0706,
+              -0.0402,
+              -0.0369,
+              -0.0459,
+              -0.0446,
+              0.0127,
+              -0.0361,
+              -0.0498,
+              0.0297,
+              -0.0728,
+              -0.0387,
+              0.038,
+              -0.1281,
+              0.0263,
+              0.0209,
+              0.0328,
+              -0.0233,
+              -0.0099,
+              -0.0904,
+              0.0499,
+              0.0152,
+              -0.0455,
+              -0.0135,
+              0.0943,
+              -0.0,
+              0.0334,
+              -0.0357,
+              -0.0184,
+              0.0471,
+              0.0308,
+              0.0207,
+              -0.0321,
+              0.0288,
+              -0.0354,
+              -0.0025,
+              0.0058,
+              -0.0609,
+              -0.0407,
+              -0.0902,
+              0.0347,
+              0.0231,
+              0.073,
+              -0.0128,
+              0.0108,
+              0.0711,
+              -0.0116,
+              -0.0735,
+              -0.0242,
+              0.0099,
+              0.0934,
+              0.046,
+              0.0034,
+              -0.0681,
+              -0.0416,
+              -0.0131,
+              -0.009,
+              -0.0104,
+              -0.0138,
+              -0.028,
+              -0.0226,
+              -0.007,
+              0.0078,
+              0.0574,
+              -0.0276,
+              0.0457,
+              0.0117,
+              0.101,
+              -0.0701,
+              0.0757,
+              -0.0007,
+              -0.012,
+              -0.0301,
+              0.0964,
+              0.0366,
+              -0.0245,
+              -0.031,
+              -0.0522,
+              -0.0078,
+              -0.1206,
+              -0.0354,
+              0.0141,
+              0.0138,
+              0.0554,
+              -0.0622,
+              0.0036,
+              0.0068,
+              -0.0292,
+              0.0252,
+              0.0228,
+              0.0301,
+              -0.1142,
+              -0.0404,
+              0.0084,
+              -0.0981,
+              -0.0308,
+              -0.0513,
+              -0.0,
+              -0.0314,
+              0.0088,
+              0.0493,
+              -0.0058,
+              0.0014,
+              0.0302,
+              0.0279,
+              -0.0601,
+              0.0708,
+              0.0342,
+              0.096,
+              0.0615,
+              -0.0039,
+              -0.0087,
+              -0.002,
+              0.0699,
+              0.0424,
+              0.0077,
+              -0.0612,
+              0.0314,
+              -0.0507,
+              0.0348,
+              -0.0167,
+              -0.0,
+              -0.0453,
+              -0.0399,
+              -0.0066,
+              -0.0413,
+              0.0121,
+              0.0214,
+              -0.0122,
+              0.1601,
+              -0.0369,
+              -0.0896,
+              0.0324,
+              -0.0767,
+              -0.0468,
+              -0.0436,
+              0.0173,
+              -0.0005,
+              0.0034,
+              -0.0171,
+              -0.0119,
+              -0.0284,
+              0.0445,
+              -0.0048,
+              0.0614,
+              0.0636,
+              -0.0003,
+              -0.0399,
+              -0.0491,
+              0.0345,
+              0.0303,
+              -0.1175,
+              -0.058,
+              -0.0141,
+              0.0275,
+              0.0341,
+              0.1431,
+              0.1203,
+              0.0429,
+              -0.0115,
+              -0.0706,
+              -0.0669,
+              0.0397,
+              0.0143,
+              0.0212,
+              -0.0454,
+              0.0549,
+              -0.0423,
+              -0.0001,
+              -0.0423,
+              0.0635,
+              -0.0005,
+              -0.0504,
+              -0.0976,
+              0.0731,
+              0.0524,
+              0.0373,
+              0.0284,
+              0.0049,
+              0.0014,
+              0.1513,
+              -0.0427,
+              -0.0154,
+              0.0276,
+              0.0523,
+              0.0053
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "intelligent document processing",
+              "summary": "This article assumes knowledge of document processing and information extraction, and extends it by introducing a multi-document discovery feature that automates schema generation for intelligent document processing. It uses visual embeddings for automatic clustering and agents for schema generation, and is integrated into the IDP Accelerator's existing Discovery Module.",
+              "accessible_title": "How to automate document processing \u2014 the schema generation approach",
+              "concepts_taught": [
+                {
+                  "name": "visual embeddings",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "document clustering",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "schema generation",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "intelligent document processing",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "information extraction",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "document processing",
+                  "confidence": 0.7
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how to automate schema generation for intelligent document processing",
+                "Learn how to use visual embeddings for document clustering",
+                "Discover how to integrate the multi-document discovery feature into the IDP Accelerator"
+              ],
+              "strategic_questions": [
+                "How can automated schema generation improve the efficiency of document processing initiatives?",
+                "What are the benefits of using visual embeddings for document clustering?",
+                "How can the multi-document discovery feature be applied to other areas of document processing?"
+              ]
+            }
+          },
+          {
+            "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+            "url": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
+            "published": "Tue, 12 May 2026 15:48:52 +0000",
+            "source": "Artificial Intelligence",
+            "embedding": [
+              -0.0651,
+              -0.0377,
+              -0.0239,
+              -0.0065,
+              0.0134,
+              0.018,
+              -0.0167,
+              -0.0142,
+              -0.04,
+              -0.005,
+              -0.0499,
+              -0.0583,
+              0.0155,
+              -0.0041,
+              -0.0132,
+              -0.0137,
+              -0.0258,
+              -0.0163,
+              -0.0744,
+              -0.0489,
+              0.0748,
+              0.0172,
+              0.0022,
+              0.0074,
+              -0.1127,
+              0.0082,
+              -0.0628,
+              -0.0799,
+              0.0104,
+              -0.0298,
+              -0.0229,
+              0.0155,
+              0.0936,
+              0.0802,
+              0.0256,
+              -0.001,
+              -0.035,
+              -0.0793,
+              0.0361,
+              0.014,
+              0.0067,
+              -0.0679,
+              -0.0448,
+              -0.008,
+              0.1245,
+              0.0161,
+              -0.0098,
+              0.0363,
+              -0.0662,
+              0.0573,
+              -0.1249,
+              -0.0605,
+              0.0813,
+              -0.0195,
+              -0.0234,
+              -0.0098,
+              0.1007,
+              0.0387,
+              0.0335,
+              -0.0533,
+              0.0191,
+              -0.0592,
+              -0.0431,
+              0.0223,
+              -0.0105,
+              0.0734,
+              -0.07,
+              0.0445,
+              -0.0635,
+              0.0448,
+              -0.0926,
+              -0.0244,
+              -0.0261,
+              0.0631,
+              -0.0339,
+              0.0317,
+              -0.0368,
+              -0.018,
+              0.0303,
+              -0.1307,
+              -0.0708,
+              -0.0549,
+              -0.0171,
+              0.0423,
+              0.0593,
+              0.0147,
+              0.0946,
+              -0.0157,
+              0.1405,
+              0.0216,
+              0.0439,
+              -0.101,
+              0.099,
+              0.0253,
+              0.0511,
+              0.0624,
+              0.0228,
+              0.0011,
+              -0.0116,
+              0.0288,
+              0.0209,
+              0.0611,
+              0.0259,
+              -0.0239,
+              -0.0637,
+              -0.0011,
+              0.0411,
+              0.0267,
+              -0.0038,
+              -0.0308,
+              0.0477,
+              0.0384,
+              0.0443,
+              -0.0537,
+              0.0771,
+              0.0113,
+              -0.013,
+              -0.0228,
+              -0.0071,
+              0.0618,
+              0.009,
+              0.0479,
+              0.0518,
+              0.0314,
+              0.0209,
+              0.0397,
+              -0.0192,
+              0.0,
+              -0.009,
+              0.0429,
+              -0.0768,
+              -0.056,
+              -0.004,
+              -0.0137,
+              -0.0176,
+              0.0448,
+              -0.048,
+              0.0196,
+              0.0059,
+              0.0781,
+              -0.0402,
+              0.0092,
+              -0.0351,
+              0.025,
+              0.0651,
+              0.0937,
+              0.0186,
+              0.0048,
+              0.096,
+              -0.1383,
+              0.065,
+              -0.0181,
+              0.0681,
+              0.0862,
+              0.0392,
+              -0.0349,
+              0.0839,
+              0.0328,
+              0.0048,
+              -0.0346,
+              0.0049,
+              -0.0134,
+              -0.0094,
+              0.0163,
+              -0.085,
+              -0.0189,
+              0.04,
+              -0.0228,
+              -0.0305,
+              0.0324,
+              0.0406,
+              -0.0116,
+              -0.0744,
+              -0.0057,
+              0.0091,
+              -0.01,
+              0.1086,
+              -0.0304,
+              -0.0139,
+              -0.0059,
+              0.0259,
+              -0.0253,
+              0.0762,
+              -0.0571,
+              0.0006,
+              -0.0039,
+              -0.0004,
+              0.022,
+              0.0295,
+              0.0118,
+              -0.0329,
+              0.0757,
+              -0.0279,
+              0.0259,
+              -0.0341,
+              0.0995,
+              0.051,
+              -0.0304,
+              -0.0325,
+              -0.0006,
+              -0.031,
+              0.0515,
+              -0.069,
+              -0.0572,
+              0.0155,
+              -0.0781,
+              -0.0287,
+              -0.0339,
+              -0.1284,
+              -0.0267,
+              0.0226,
+              -0.0066,
+              -0.0077,
+              -0.037,
+              -0.0224,
+              0.0736,
+              0.0014,
+              -0.0294,
+              -0.0172,
+              -0.047,
+              -0.0477,
+              -0.017,
+              0.011,
+              -0.0,
+              -0.0497,
+              -0.0141,
+              -0.0163,
+              0.0854,
+              -0.0546,
+              -0.0296,
+              -0.0526,
+              0.0406,
+              0.0827,
+              -0.0082,
+              -0.0741,
+              -0.0911,
+              -0.0033,
+              -0.0067,
+              0.0673,
+              -0.0401,
+              -0.0491,
+              0.0066,
+              0.0903,
+              0.0548,
+              0.0249,
+              -0.0273,
+              -0.0497,
+              0.0653,
+              -0.026,
+              0.0148,
+              -0.0595,
+              -0.0526,
+              0.0352,
+              0.0274,
+              -0.0205,
+              -0.0075,
+              -0.0878,
+              0.099,
+              -0.0486,
+              -0.1068,
+              0.046,
+              0.0115,
+              0.0116,
+              0.046,
+              0.116,
+              -0.0016,
+              -0.1068,
+              0.0169,
+              -0.0418,
+              -0.0013,
+              -0.0622,
+              0.0426,
+              -0.0479,
+              -0.1173,
+              0.0037,
+              -0.0709,
+              0.0281,
+              -0.0781,
+              -0.0827,
+              0.049,
+              0.0177,
+              -0.0039,
+              0.0024,
+              -0.002,
+              -0.0432,
+              -0.0081,
+              0.0481,
+              -0.0671,
+              -0.0149,
+              -0.0035,
+              0.0279,
+              0.0623,
+              -0.0211,
+              -0.0234,
+              0.014,
+              -0.0772,
+              -0.0587,
+              0.0823,
+              -0.0453,
+              0.0013,
+              -0.0401,
+              -0.0742,
+              0.0211,
+              -0.0297,
+              0.0525,
+              0.033,
+              0.037,
+              0.0339,
+              0.0419,
+              0.0552,
+              0.0126,
+              -0.0003,
+              0.0015,
+              0.0934,
+              -0.0512,
+              0.0223,
+              -0.0147,
+              0.064,
+              -0.1266,
+              -0.0,
+              -0.0549,
+              0.0255,
+              0.0422,
+              0.1127,
+              0.0565,
+              0.0364,
+              -0.0572,
+              0.0062,
+              0.0019,
+              -0.0199,
+              0.0371,
+              -0.058,
+              -0.0235,
+              -0.0132,
+              0.0051,
+              0.0181,
+              -0.043,
+              0.1276,
+              -0.0445,
+              0.058,
+              0.0442,
+              0.0554,
+              0.0476,
+              0.0055,
+              0.0393,
+              -0.059,
+              -0.0006,
+              0.1055,
+              -0.002,
+              -0.0005,
+              0.0529,
+              -0.003,
+              0.0462,
+              -0.0273,
+              0.029,
+              0.0557,
+              -0.0778,
+              -0.029,
+              0.0539,
+              0.0107,
+              0.0256,
+              0.058,
+              -0.0263,
+              -0.0084,
+              0.0631,
+              -0.066,
+              -0.1095,
+              -0.1214,
+              0.0521,
+              -0.0192,
+              0.002,
+              -0.0655,
+              0.0554,
+              0.1378,
+              0.0263,
+              0.0477,
+              0.0092,
+              -0.0642,
+              0.0449,
+              0.0576,
+              0.0706,
+              0.0068,
+              0.0469,
+              0.0052
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "compliance tracking for large language models",
+              "summary": "This article explains how to navigate EU AI Act requirements for fine-tuning large language models on Amazon SageMaker AI, assuming knowledge of large language models and fine-tuning concepts. It covers the use of the Fine-Tuning FLOPs Meter toolkit to track computational resources and determine compliance obligations. The article provides a step-by-step guide on how to set up FLOPs tracking and generate audit-ready documentation.",
+              "accessible_title": "How to comply with EU AI regulations \u2014 the tracking approach",
+              "concepts_taught": [
+                {
+                  "name": "compliance tracking for large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Fine-Tuning FLOPs Meter",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "EU AI Act requirements",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "fine-tuning concepts",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand EU AI Act requirements for fine-tuning large language models",
+                "Learn how to use the Fine-Tuning FLOPs Meter toolkit for compliance tracking",
+                "Determine compliance obligations based on computational resources"
+              ],
+              "strategic_questions": [
+                "How do EU AI Act requirements impact the development and deployment of large language models?",
+                "What are the key considerations for compliance tracking in large language model fine-tuning?",
+                "How can organizations ensure transparency and accountability in their AI systems?"
               ]
             }
           }
@@ -270560,6 +273239,1335 @@
           "How can conversational AI improve enterprise data analysis and decision-making?",
           "What are the key challenges in implementing AI-powered decision-making for large enterprise datasets?",
           "How can Amazon Quick and similar tools address these challenges and enable faster, more accurate AI insights?"
+        ]
+      }
+    },
+    {
+      "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/",
+      "published": "Tue, 12 May 2026 16:41:33 +0000",
+      "source": "Artificial Intelligence",
+      "embedding": [
+        -0.0059,
+        -0.0233,
+        -0.0101,
+        0.0423,
+        0.0873,
+        0.0122,
+        0.0474,
+        -0.032,
+        0.0372,
+        0.0074,
+        -0.0879,
+        -0.0465,
+        0.015,
+        -0.0223,
+        0.0196,
+        0.0164,
+        0.0268,
+        -0.0288,
+        -0.0534,
+        -0.0666,
+        0.0243,
+        0.1034,
+        -0.0121,
+        -0.011,
+        -0.1167,
+        0.0313,
+        -0.0419,
+        -0.0343,
+        0.0607,
+        -0.0414,
+        0.0644,
+        0.0507,
+        0.0548,
+        0.0953,
+        -0.0225,
+        0.0264,
+        -0.056,
+        0.0103,
+        0.0093,
+        -0.0288,
+        0.0232,
+        -0.0504,
+        -0.0321,
+        -0.026,
+        0.0468,
+        -0.0378,
+        -0.0431,
+        0.0048,
+        0.0465,
+        0.0555,
+        -0.0913,
+        -0.0669,
+        0.0516,
+        0.0167,
+        0.0589,
+        0.0615,
+        0.0114,
+        -0.0455,
+        0.0135,
+        -0.0752,
+        0.1,
+        -0.148,
+        -0.0184,
+        0.0024,
+        -0.012,
+        0.0559,
+        -0.0391,
+        0.0158,
+        0.0342,
+        -0.102,
+        -0.0445,
+        0.0102,
+        -0.0369,
+        0.0487,
+        -0.0052,
+        0.0976,
+        -0.0314,
+        -0.0153,
+        0.0967,
+        -0.029,
+        -0.0276,
+        -0.0527,
+        0.0074,
+        0.0866,
+        -0.0076,
+        -0.0483,
+        0.0427,
+        -0.0068,
+        0.0573,
+        0.0965,
+        -0.004,
+        -0.072,
+        0.1518,
+        -0.0364,
+        0.0021,
+        0.0246,
+        -0.0196,
+        -0.0622,
+        -0.0025,
+        -0.0048,
+        0.0349,
+        0.0718,
+        -0.0502,
+        -0.0863,
+        -0.0556,
+        -0.0041,
+        0.0125,
+        0.0363,
+        0.063,
+        0.0044,
+        -0.0584,
+        0.038,
+        0.1062,
+        -0.0623,
+        -0.0009,
+        0.0569,
+        -0.0735,
+        0.0101,
+        0.0254,
+        0.023,
+        0.0215,
+        -0.021,
+        0.0244,
+        -0.0267,
+        0.1025,
+        0.0709,
+        -0.0208,
+        0.0,
+        0.0045,
+        0.0103,
+        -0.0538,
+        0.0112,
+        0.0287,
+        0.0352,
+        -0.0306,
+        0.0501,
+        -0.1073,
+        -0.0548,
+        -0.0631,
+        0.0443,
+        -0.0692,
+        -0.0069,
+        0.0307,
+        -0.0113,
+        -0.0452,
+        0.0176,
+        0.0427,
+        -0.0282,
+        0.0481,
+        -0.0795,
+        -0.0157,
+        0.0641,
+        0.0745,
+        -0.0523,
+        0.0116,
+        -0.0156,
+        0.0981,
+        0.025,
+        -0.0274,
+        -0.0016,
+        0.0266,
+        -0.0042,
+        0.0048,
+        -0.0104,
+        -0.0096,
+        0.0252,
+        -0.0121,
+        0.0567,
+        0.0094,
+        0.0319,
+        0.021,
+        -0.0049,
+        -0.11,
+        0.0123,
+        -0.0282,
+        -0.001,
+        0.0712,
+        0.0024,
+        -0.024,
+        0.0319,
+        0.06,
+        -0.0835,
+        0.0688,
+        -0.0143,
+        -0.0666,
+        0.018,
+        -0.0226,
+        -0.0559,
+        -0.0418,
+        0.0159,
+        -0.012,
+        0.1244,
+        -0.0011,
+        0.0461,
+        0.0277,
+        0.0385,
+        0.0309,
+        -0.0014,
+        -0.0269,
+        0.0203,
+        0.0324,
+        -0.0057,
+        -0.0371,
+        -0.0525,
+        -0.0715,
+        -0.0341,
+        0.0249,
+        0.0359,
+        -0.0579,
+        -0.0198,
+        -0.0414,
+        0.0797,
+        0.0043,
+        -0.0435,
+        0.0377,
+        0.0173,
+        0.0303,
+        -0.0281,
+        -0.0476,
+        -0.0269,
+        -0.0653,
+        0.0757,
+        0.0186,
+        -0.0,
+        -0.051,
+        -0.068,
+        -0.0311,
+        0.0463,
+        0.0095,
+        0.0076,
+        -0.0444,
+        0.0082,
+        -0.0054,
+        -0.0246,
+        -0.0409,
+        -0.0332,
+        0.0167,
+        -0.0443,
+        -0.047,
+        -0.0032,
+        -0.0572,
+        -0.0838,
+        -0.0029,
+        0.0342,
+        0.0104,
+        -0.0329,
+        -0.072,
+        0.0049,
+        0.0322,
+        0.0403,
+        -0.0649,
+        0.0509,
+        0.024,
+        0.0341,
+        -0.018,
+        0.008,
+        -0.0027,
+        0.0508,
+        -0.1109,
+        0.0031,
+        0.0836,
+        -0.0221,
+        -0.0401,
+        0.0266,
+        0.0535,
+        -0.0562,
+        -0.1211,
+        -0.0181,
+        -0.0048,
+        -0.0044,
+        -0.0252,
+        0.0655,
+        0.0165,
+        -0.0138,
+        -0.0109,
+        0.0229,
+        0.0044,
+        -0.0464,
+        -0.0717,
+        -0.0223,
+        0.0572,
+        0.043,
+        0.029,
+        0.0308,
+        -0.0164,
+        -0.0383,
+        0.0632,
+        -0.0344,
+        0.0303,
+        -0.0061,
+        0.0337,
+        0.0716,
+        0.0011,
+        -0.024,
+        0.0064,
+        -0.0495,
+        -0.0312,
+        0.0011,
+        0.1024,
+        0.0933,
+        -0.0589,
+        -0.0895,
+        -0.0942,
+        -0.0181,
+        -0.0261,
+        0.06,
+        0.0584,
+        0.1032,
+        0.0871,
+        0.0355,
+        0.0403,
+        0.0145,
+        0.0488,
+        0.0803,
+        -0.1102,
+        -0.0968,
+        -0.0954,
+        0.0258,
+        -0.081,
+        -0.0,
+        -0.0875,
+        -0.0327,
+        0.0487,
+        0.0947,
+        0.1027,
+        0.0552,
+        -0.0678,
+        0.0284,
+        -0.0067,
+        -0.0752,
+        0.0125,
+        -0.0604,
+        -0.0699,
+        -0.0059,
+        0.0939,
+        -0.0358,
+        0.0216,
+        0.0722,
+        -0.036,
+        -0.0056,
+        0.0524,
+        -0.0172,
+        0.0081,
+        0.0327,
+        0.0514,
+        -0.0473,
+        0.0278,
+        0.0193,
+        -0.0081,
+        0.053,
+        -0.0347,
+        -0.0069,
+        0.0118,
+        0.0072,
+        0.0048,
+        0.0078,
+        -0.03,
+        -0.1004,
+        -0.0287,
+        -0.0444,
+        0.0191,
+        0.0787,
+        -0.093,
+        -0.009,
+        0.0325,
+        -0.0211,
+        -0.0379,
+        -0.044,
+        0.0665,
+        -0.0093,
+        0.0512,
+        -0.1377,
+        0.0707,
+        0.1414,
+        0.1235,
+        -0.002,
+        0.0542,
+        -0.0476,
+        0.0484,
+        0.0296,
+        0.0827,
+        0.0525,
+        0.026,
+        -0.0603
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "Large Language Models",
+        "article_type": "extends",
+        "primary_concept": "generative AI",
+        "summary": "This article explains how Amazon FinTech teams use generative AI on AWS to streamline regulatory inquiries, assuming knowledge of AI applications and regulatory compliance. The solution implements Retrieval Augmented Generation with Amazon Bedrock Knowledge Bases and Amazon OpenSearch Serverless. The system provides contextually-aware multi-turn conversations and comprehensive observability for continuous monitoring and improvement.",
+        "accessible_title": "How to automate regulatory responses \u2014 the AI approach",
+        "concepts_taught": [
+          {
+            "name": "Retrieval Augmented Generation",
+            "confidence": 0.8
+          },
+          {
+            "name": "generative AI",
+            "confidence": 0.7
+          },
+          {
+            "name": "conversational AI",
+            "confidence": 0.6
+          },
+          {
+            "name": "knowledge base management",
+            "confidence": 0.5
+          },
+          {
+            "name": "observability in AI systems",
+            "confidence": 0.4
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "regulatory compliance",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI applications",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how generative AI can be applied to regulatory inquiries",
+          "Learn about the importance of knowledge base management in AI systems",
+          "Understand the role of observability in AI systems for continuous improvement"
+        ],
+        "strategic_questions": [
+          "How can generative AI be used to improve regulatory compliance in other industries?",
+          "What are the potential risks and challenges of implementing AI-powered regulatory response systems?",
+          "How can organizations ensure the accuracy and reliability of AI-generated responses in high-stakes applications?"
+        ]
+      }
+    },
+    {
+      "title": "Automate schema generation for intelligent document processing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/",
+      "published": "Tue, 12 May 2026 15:54:08 +0000",
+      "source": "Artificial Intelligence",
+      "embedding": [
+        -0.0372,
+        0.0283,
+        -0.0232,
+        0.042,
+        0.0795,
+        -0.0103,
+        -0.0263,
+        -0.0142,
+        -0.0132,
+        -0.0166,
+        0.0508,
+        -0.0134,
+        0.0846,
+        0.047,
+        -0.0584,
+        0.0619,
+        0.01,
+        0.0092,
+        -0.0163,
+        -0.0537,
+        -0.0337,
+        0.0088,
+        0.0192,
+        -0.0567,
+        0.0463,
+        0.1209,
+        0.0235,
+        -0.0424,
+        0.0216,
+        0.0177,
+        0.0852,
+        0.0091,
+        0.0442,
+        0.0089,
+        0.0383,
+        0.0449,
+        0.0336,
+        0.079,
+        -0.0218,
+        -0.0374,
+        0.0098,
+        -0.055,
+        -0.0527,
+        0.0455,
+        0.0566,
+        -0.0025,
+        -0.1635,
+        0.0637,
+        -0.066,
+        0.0698,
+        -0.1129,
+        -0.0429,
+        -0.0524,
+        0.019,
+        0.0331,
+        0.0939,
+        0.0114,
+        -0.0634,
+        -0.0428,
+        -0.0136,
+        0.0015,
+        -0.0398,
+        0.0571,
+        -0.0079,
+        0.0116,
+        0.0617,
+        0.0083,
+        0.0279,
+        0.0364,
+        -0.0656,
+        -0.0326,
+        0.088,
+        -0.0187,
+        0.0018,
+        -0.0146,
+        0.0301,
+        -0.0508,
+        -0.0698,
+        0.0693,
+        -0.1368,
+        -0.0379,
+        0.0224,
+        -0.0073,
+        0.0362,
+        0.0443,
+        -0.0375,
+        0.021,
+        -0.0396,
+        -0.0185,
+        0.0206,
+        0.0141,
+        -0.1093,
+        0.054,
+        -0.0077,
+        -0.0024,
+        -0.0038,
+        -0.0002,
+        -0.0622,
+        0.0686,
+        -0.0052,
+        0.0084,
+        0.1011,
+        0.0715,
+        -0.0883,
+        -0.0799,
+        -0.0517,
+        0.0199,
+        0.0018,
+        -0.0275,
+        -0.0684,
+        -0.0063,
+        0.0118,
+        -0.0355,
+        -0.0634,
+        -0.0369,
+        0.0442,
+        0.0248,
+        0.0039,
+        0.0633,
+        0.0279,
+        0.0121,
+        -0.0204,
+        -0.0189,
+        0.0603,
+        0.0187,
+        -0.0284,
+        -0.0452,
+        0.0,
+        -0.0157,
+        -0.0651,
+        -0.0336,
+        0.0585,
+        0.0191,
+        -0.0214,
+        -0.0652,
+        0.0246,
+        -0.1237,
+        -0.0313,
+        -0.077,
+        0.0129,
+        0.0174,
+        0.0555,
+        0.0027,
+        -0.0058,
+        -0.0647,
+        0.0812,
+        -0.0311,
+        -0.0345,
+        0.0,
+        0.0053,
+        0.0273,
+        0.0001,
+        -0.0028,
+        0.1007,
+        0.0121,
+        -0.0483,
+        -0.0617,
+        -0.0021,
+        -0.0117,
+        0.0282,
+        -0.0115,
+        0.0467,
+        -0.0802,
+        0.0515,
+        -0.0171,
+        -0.0735,
+        0.0146,
+        0.062,
+        -0.0408,
+        0.0288,
+        0.0468,
+        -0.0797,
+        0.0008,
+        0.1346,
+        0.0251,
+        -0.0085,
+        0.0412,
+        -0.1134,
+        0.0644,
+        0.0323,
+        0.0536,
+        0.0558,
+        0.0643,
+        -0.002,
+        -0.0516,
+        0.0162,
+        0.1404,
+        -0.0301,
+        -0.043,
+        0.0011,
+        -0.0876,
+        0.082,
+        -0.0386,
+        -0.0075,
+        0.0748,
+        0.095,
+        0.0595,
+        0.0452,
+        0.018,
+        0.0706,
+        -0.0402,
+        -0.0369,
+        -0.0459,
+        -0.0446,
+        0.0127,
+        -0.0361,
+        -0.0498,
+        0.0297,
+        -0.0728,
+        -0.0387,
+        0.038,
+        -0.1281,
+        0.0263,
+        0.0209,
+        0.0328,
+        -0.0233,
+        -0.0099,
+        -0.0904,
+        0.0499,
+        0.0152,
+        -0.0455,
+        -0.0135,
+        0.0943,
+        -0.0,
+        0.0334,
+        -0.0357,
+        -0.0184,
+        0.0471,
+        0.0308,
+        0.0207,
+        -0.0321,
+        0.0288,
+        -0.0354,
+        -0.0025,
+        0.0058,
+        -0.0609,
+        -0.0407,
+        -0.0902,
+        0.0347,
+        0.0231,
+        0.073,
+        -0.0128,
+        0.0108,
+        0.0711,
+        -0.0116,
+        -0.0735,
+        -0.0242,
+        0.0099,
+        0.0934,
+        0.046,
+        0.0034,
+        -0.0681,
+        -0.0416,
+        -0.0131,
+        -0.009,
+        -0.0104,
+        -0.0138,
+        -0.028,
+        -0.0226,
+        -0.007,
+        0.0078,
+        0.0574,
+        -0.0276,
+        0.0457,
+        0.0117,
+        0.101,
+        -0.0701,
+        0.0757,
+        -0.0007,
+        -0.012,
+        -0.0301,
+        0.0964,
+        0.0366,
+        -0.0245,
+        -0.031,
+        -0.0522,
+        -0.0078,
+        -0.1206,
+        -0.0354,
+        0.0141,
+        0.0138,
+        0.0554,
+        -0.0622,
+        0.0036,
+        0.0068,
+        -0.0292,
+        0.0252,
+        0.0228,
+        0.0301,
+        -0.1142,
+        -0.0404,
+        0.0084,
+        -0.0981,
+        -0.0308,
+        -0.0513,
+        -0.0,
+        -0.0314,
+        0.0088,
+        0.0493,
+        -0.0058,
+        0.0014,
+        0.0302,
+        0.0279,
+        -0.0601,
+        0.0708,
+        0.0342,
+        0.096,
+        0.0615,
+        -0.0039,
+        -0.0087,
+        -0.002,
+        0.0699,
+        0.0424,
+        0.0077,
+        -0.0612,
+        0.0314,
+        -0.0507,
+        0.0348,
+        -0.0167,
+        -0.0,
+        -0.0453,
+        -0.0399,
+        -0.0066,
+        -0.0413,
+        0.0121,
+        0.0214,
+        -0.0122,
+        0.1601,
+        -0.0369,
+        -0.0896,
+        0.0324,
+        -0.0767,
+        -0.0468,
+        -0.0436,
+        0.0173,
+        -0.0005,
+        0.0034,
+        -0.0171,
+        -0.0119,
+        -0.0284,
+        0.0445,
+        -0.0048,
+        0.0614,
+        0.0636,
+        -0.0003,
+        -0.0399,
+        -0.0491,
+        0.0345,
+        0.0303,
+        -0.1175,
+        -0.058,
+        -0.0141,
+        0.0275,
+        0.0341,
+        0.1431,
+        0.1203,
+        0.0429,
+        -0.0115,
+        -0.0706,
+        -0.0669,
+        0.0397,
+        0.0143,
+        0.0212,
+        -0.0454,
+        0.0549,
+        -0.0423,
+        -0.0001,
+        -0.0423,
+        0.0635,
+        -0.0005,
+        -0.0504,
+        -0.0976,
+        0.0731,
+        0.0524,
+        0.0373,
+        0.0284,
+        0.0049,
+        0.0014,
+        0.1513,
+        -0.0427,
+        -0.0154,
+        0.0276,
+        0.0523,
+        0.0053
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "intelligent document processing",
+        "summary": "This article assumes knowledge of document processing and information extraction, and extends it by introducing a multi-document discovery feature that automates schema generation for intelligent document processing. It uses visual embeddings for automatic clustering and agents for schema generation, and is integrated into the IDP Accelerator's existing Discovery Module.",
+        "accessible_title": "How to automate document processing \u2014 the schema generation approach",
+        "concepts_taught": [
+          {
+            "name": "visual embeddings",
+            "confidence": 0.8
+          },
+          {
+            "name": "document clustering",
+            "confidence": 0.7
+          },
+          {
+            "name": "schema generation",
+            "confidence": 0.9
+          },
+          {
+            "name": "intelligent document processing",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "information extraction",
+            "confidence": 0.8
+          },
+          {
+            "name": "document processing",
+            "confidence": 0.7
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how to automate schema generation for intelligent document processing",
+          "Learn how to use visual embeddings for document clustering",
+          "Discover how to integrate the multi-document discovery feature into the IDP Accelerator"
+        ],
+        "strategic_questions": [
+          "How can automated schema generation improve the efficiency of document processing initiatives?",
+          "What are the benefits of using visual embeddings for document clustering?",
+          "How can the multi-document discovery feature be applied to other areas of document processing?"
+        ]
+      }
+    },
+    {
+      "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
+      "published": "Tue, 12 May 2026 15:48:52 +0000",
+      "source": "Artificial Intelligence",
+      "embedding": [
+        -0.0651,
+        -0.0377,
+        -0.0239,
+        -0.0065,
+        0.0134,
+        0.018,
+        -0.0167,
+        -0.0142,
+        -0.04,
+        -0.005,
+        -0.0499,
+        -0.0583,
+        0.0155,
+        -0.0041,
+        -0.0132,
+        -0.0137,
+        -0.0258,
+        -0.0163,
+        -0.0744,
+        -0.0489,
+        0.0748,
+        0.0172,
+        0.0022,
+        0.0074,
+        -0.1127,
+        0.0082,
+        -0.0628,
+        -0.0799,
+        0.0104,
+        -0.0298,
+        -0.0229,
+        0.0155,
+        0.0936,
+        0.0802,
+        0.0256,
+        -0.001,
+        -0.035,
+        -0.0793,
+        0.0361,
+        0.014,
+        0.0067,
+        -0.0679,
+        -0.0448,
+        -0.008,
+        0.1245,
+        0.0161,
+        -0.0098,
+        0.0363,
+        -0.0662,
+        0.0573,
+        -0.1249,
+        -0.0605,
+        0.0813,
+        -0.0195,
+        -0.0234,
+        -0.0098,
+        0.1007,
+        0.0387,
+        0.0335,
+        -0.0533,
+        0.0191,
+        -0.0592,
+        -0.0431,
+        0.0223,
+        -0.0105,
+        0.0734,
+        -0.07,
+        0.0445,
+        -0.0635,
+        0.0448,
+        -0.0926,
+        -0.0244,
+        -0.0261,
+        0.0631,
+        -0.0339,
+        0.0317,
+        -0.0368,
+        -0.018,
+        0.0303,
+        -0.1307,
+        -0.0708,
+        -0.0549,
+        -0.0171,
+        0.0423,
+        0.0593,
+        0.0147,
+        0.0946,
+        -0.0157,
+        0.1405,
+        0.0216,
+        0.0439,
+        -0.101,
+        0.099,
+        0.0253,
+        0.0511,
+        0.0624,
+        0.0228,
+        0.0011,
+        -0.0116,
+        0.0288,
+        0.0209,
+        0.0611,
+        0.0259,
+        -0.0239,
+        -0.0637,
+        -0.0011,
+        0.0411,
+        0.0267,
+        -0.0038,
+        -0.0308,
+        0.0477,
+        0.0384,
+        0.0443,
+        -0.0537,
+        0.0771,
+        0.0113,
+        -0.013,
+        -0.0228,
+        -0.0071,
+        0.0618,
+        0.009,
+        0.0479,
+        0.0518,
+        0.0314,
+        0.0209,
+        0.0397,
+        -0.0192,
+        0.0,
+        -0.009,
+        0.0429,
+        -0.0768,
+        -0.056,
+        -0.004,
+        -0.0137,
+        -0.0176,
+        0.0448,
+        -0.048,
+        0.0196,
+        0.0059,
+        0.0781,
+        -0.0402,
+        0.0092,
+        -0.0351,
+        0.025,
+        0.0651,
+        0.0937,
+        0.0186,
+        0.0048,
+        0.096,
+        -0.1383,
+        0.065,
+        -0.0181,
+        0.0681,
+        0.0862,
+        0.0392,
+        -0.0349,
+        0.0839,
+        0.0328,
+        0.0048,
+        -0.0346,
+        0.0049,
+        -0.0134,
+        -0.0094,
+        0.0163,
+        -0.085,
+        -0.0189,
+        0.04,
+        -0.0228,
+        -0.0305,
+        0.0324,
+        0.0406,
+        -0.0116,
+        -0.0744,
+        -0.0057,
+        0.0091,
+        -0.01,
+        0.1086,
+        -0.0304,
+        -0.0139,
+        -0.0059,
+        0.0259,
+        -0.0253,
+        0.0762,
+        -0.0571,
+        0.0006,
+        -0.0039,
+        -0.0004,
+        0.022,
+        0.0295,
+        0.0118,
+        -0.0329,
+        0.0757,
+        -0.0279,
+        0.0259,
+        -0.0341,
+        0.0995,
+        0.051,
+        -0.0304,
+        -0.0325,
+        -0.0006,
+        -0.031,
+        0.0515,
+        -0.069,
+        -0.0572,
+        0.0155,
+        -0.0781,
+        -0.0287,
+        -0.0339,
+        -0.1284,
+        -0.0267,
+        0.0226,
+        -0.0066,
+        -0.0077,
+        -0.037,
+        -0.0224,
+        0.0736,
+        0.0014,
+        -0.0294,
+        -0.0172,
+        -0.047,
+        -0.0477,
+        -0.017,
+        0.011,
+        -0.0,
+        -0.0497,
+        -0.0141,
+        -0.0163,
+        0.0854,
+        -0.0546,
+        -0.0296,
+        -0.0526,
+        0.0406,
+        0.0827,
+        -0.0082,
+        -0.0741,
+        -0.0911,
+        -0.0033,
+        -0.0067,
+        0.0673,
+        -0.0401,
+        -0.0491,
+        0.0066,
+        0.0903,
+        0.0548,
+        0.0249,
+        -0.0273,
+        -0.0497,
+        0.0653,
+        -0.026,
+        0.0148,
+        -0.0595,
+        -0.0526,
+        0.0352,
+        0.0274,
+        -0.0205,
+        -0.0075,
+        -0.0878,
+        0.099,
+        -0.0486,
+        -0.1068,
+        0.046,
+        0.0115,
+        0.0116,
+        0.046,
+        0.116,
+        -0.0016,
+        -0.1068,
+        0.0169,
+        -0.0418,
+        -0.0013,
+        -0.0622,
+        0.0426,
+        -0.0479,
+        -0.1173,
+        0.0037,
+        -0.0709,
+        0.0281,
+        -0.0781,
+        -0.0827,
+        0.049,
+        0.0177,
+        -0.0039,
+        0.0024,
+        -0.002,
+        -0.0432,
+        -0.0081,
+        0.0481,
+        -0.0671,
+        -0.0149,
+        -0.0035,
+        0.0279,
+        0.0623,
+        -0.0211,
+        -0.0234,
+        0.014,
+        -0.0772,
+        -0.0587,
+        0.0823,
+        -0.0453,
+        0.0013,
+        -0.0401,
+        -0.0742,
+        0.0211,
+        -0.0297,
+        0.0525,
+        0.033,
+        0.037,
+        0.0339,
+        0.0419,
+        0.0552,
+        0.0126,
+        -0.0003,
+        0.0015,
+        0.0934,
+        -0.0512,
+        0.0223,
+        -0.0147,
+        0.064,
+        -0.1266,
+        -0.0,
+        -0.0549,
+        0.0255,
+        0.0422,
+        0.1127,
+        0.0565,
+        0.0364,
+        -0.0572,
+        0.0062,
+        0.0019,
+        -0.0199,
+        0.0371,
+        -0.058,
+        -0.0235,
+        -0.0132,
+        0.0051,
+        0.0181,
+        -0.043,
+        0.1276,
+        -0.0445,
+        0.058,
+        0.0442,
+        0.0554,
+        0.0476,
+        0.0055,
+        0.0393,
+        -0.059,
+        -0.0006,
+        0.1055,
+        -0.002,
+        -0.0005,
+        0.0529,
+        -0.003,
+        0.0462,
+        -0.0273,
+        0.029,
+        0.0557,
+        -0.0778,
+        -0.029,
+        0.0539,
+        0.0107,
+        0.0256,
+        0.058,
+        -0.0263,
+        -0.0084,
+        0.0631,
+        -0.066,
+        -0.1095,
+        -0.1214,
+        0.0521,
+        -0.0192,
+        0.002,
+        -0.0655,
+        0.0554,
+        0.1378,
+        0.0263,
+        0.0477,
+        0.0092,
+        -0.0642,
+        0.0449,
+        0.0576,
+        0.0706,
+        0.0068,
+        0.0469,
+        0.0052
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "compliance tracking for large language models",
+        "summary": "This article explains how to navigate EU AI Act requirements for fine-tuning large language models on Amazon SageMaker AI, assuming knowledge of large language models and fine-tuning concepts. It covers the use of the Fine-Tuning FLOPs Meter toolkit to track computational resources and determine compliance obligations. The article provides a step-by-step guide on how to set up FLOPs tracking and generate audit-ready documentation.",
+        "accessible_title": "How to comply with EU AI regulations \u2014 the tracking approach",
+        "concepts_taught": [
+          {
+            "name": "compliance tracking for large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "Fine-Tuning FLOPs Meter",
+            "confidence": 0.8
+          },
+          {
+            "name": "EU AI Act requirements",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "fine-tuning concepts",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand EU AI Act requirements for fine-tuning large language models",
+          "Learn how to use the Fine-Tuning FLOPs Meter toolkit for compliance tracking",
+          "Determine compliance obligations based on computational resources"
+        ],
+        "strategic_questions": [
+          "How do EU AI Act requirements impact the development and deployment of large language models?",
+          "What are the key considerations for compliance tracking in large language model fine-tuning?",
+          "How can organizations ensure transparency and accountability in their AI systems?"
         ]
       }
     }
