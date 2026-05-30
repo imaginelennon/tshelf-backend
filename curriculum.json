@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-29T12:15:31.942668Z",
-  "total_articles": 262,
-  "total_concepts": 228,
+  "generated_at": "2026-05-30T10:47:29.323739Z",
+  "total_articles": 264,
+  "total_concepts": 230,
   "concepts": {
     "approval-directed-agents": {
       "id": "approval-directed-agents",
@@ -79,8 +79,8 @@
         "https://www.alignmentforum.org/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a"
       ],
       "prerequisite_concepts": [
-        "language-model-training",
         "human-values",
+        "language-model-training",
         "artificial-intelligence-safety"
       ]
     },
@@ -96,8 +96,8 @@
         "https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to"
       ],
       "prerequisite_concepts": [
-        "decision-theory",
-        "utility-theory"
+        "utility-theory",
+        "decision-theory"
       ]
     },
     "ai-safety-evaluations": {
@@ -128,8 +128,8 @@
         "https://www.alignmentforum.org/posts/tkLSeGeemcabAmLkv/the-case-for-satiating-cheaply-satisfied-ai-preferences"
       ],
       "prerequisite_concepts": [
-        "ai-safety-concerns",
-        "unintended-preferences"
+        "unintended-preferences",
+        "ai-safety-concerns"
       ]
     },
     "honesty-elicitation-and-lie-detection": {
@@ -144,8 +144,8 @@
         "https://www.alignmentforum.org/posts/xq5taGA6Tz6YShCB9/censored-llms-as-a-natural-testbed-for-secret-knowledge-2"
       ],
       "prerequisite_concepts": [
-        "language-model-training",
-        "language-model-evaluation"
+        "language-model-evaluation",
+        "language-model-training"
       ]
     },
     "hybrid-mixture-of-experts-model": {
@@ -160,8 +160,8 @@
         "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-super-on-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "generative-ai-applications",
-        "model-architecture"
+        "model-architecture",
+        "generative-ai-applications"
       ]
     },
     "video-retrieval-augmented-generation": {
@@ -192,8 +192,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-v-rag-revolutionizing-ai-powered-video-production-with-retrieval-augmented-generation/"
       ],
       "prerequisite_concepts": [
-        "deep-learning-architectures",
-        "computer-vision"
+        "computer-vision",
+        "deep-learning-architectures"
       ]
     },
     "machine-learning-model-monitoring": {
@@ -224,8 +224,8 @@
         "https://aws.amazon.com/blogs/machine-learning/enforce-data-residency-with-amazon-quick-extensions-for-microsoft-teams/"
       ],
       "prerequisite_concepts": [
-        "amazon-quick",
-        "microsoft-teams"
+        "microsoft-teams",
+        "amazon-quick"
       ]
     },
     "customization-of-large-language-models": {
@@ -289,8 +289,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-bark-com-and-aws-collaborated-to-build-a-scalable-video-generation-solution/"
       ],
       "prerequisite_concepts": [
-        "content-creation",
-        "cloud-computing"
+        "cloud-computing",
+        "content-creation"
       ]
     },
     "large-language-models": {
@@ -309,13 +309,13 @@
         "https://aws.amazon.com/blogs/machine-learning/claude-opus-4-8-is-now-available-on-aws/"
       ],
       "prerequisite_concepts": [
-        "autonomous-driving-basics",
-        "amazon-nova-1-models",
         "aws-environment",
-        "amazon-bedrock",
+        "neural-networks",
+        "amazon-nova-1-models",
         "ai-fundamentals",
         "quantitative-trading",
-        "neural-networks"
+        "amazon-bedrock",
+        "autonomous-driving-basics"
       ]
     },
     "fine-tuning-large-language-models": {
@@ -333,14 +333,14 @@
         "https://aws.amazon.com/blogs/machine-learning/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "large-language-models",
-        "supervised-fine-tuning",
         "amazon-sagemaker",
-        "data-governance-concepts",
-        "fine-tuning",
         "ai-fundamentals",
-        "machine-learning-services"
+        "large-language-models",
+        "machine-learning-services",
+        "machine-learning-basics",
+        "data-governance-concepts",
+        "supervised-fine-tuning",
+        "fine-tuning"
       ]
     },
     "accelerated-computing-infrastructure": {
@@ -378,19 +378,19 @@
         "https://aws.amazon.com/blogs/machine-learning/from-data-overload-to-actionable-insights-how-verizon-connect-scaled-agentic-ai-to-100000-users/"
       ],
       "prerequisite_concepts": [
+        "marketing-workflows",
+        "machine-learning",
+        "natural-language-processing",
         "ai-engineering",
+        "traditional-radiology-worklist-systems",
         "hipaa-requirements",
         "large-language-models",
+        "spring-boot",
         "content-management-systems",
         "agentic-ai-basics",
-        "traditional-radiology-worklist-systems",
         "radiology-workflow-optimization",
-        "operational-management",
-        "machine-learning",
-        "spring-boot",
         "java-development",
-        "natural-language-processing",
-        "marketing-workflows"
+        "operational-management"
       ]
     },
     "disaggregated-inference": {
@@ -421,8 +421,8 @@
         "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai"
       ],
       "prerequisite_concepts": [
-        "ai-systems",
-        "machine-learning"
+        "machine-learning",
+        "ai-systems"
       ]
     },
     "adoption-of-artificial-intelligence-in-legal-services": {
@@ -437,8 +437,8 @@
         "https://www.normaltech.ai/p/ai-wont-automatically-make-legal"
       ],
       "prerequisite_concepts": [
-        "legal-services-industry",
-        "artificial-intelligence"
+        "artificial-intelligence",
+        "legal-services-industry"
       ]
     },
     "moravecs-paradox": {
@@ -469,8 +469,8 @@
         "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal"
       ],
       "prerequisite_concepts": [
-        "familiarity-with-ai-safety-concepts",
-        "basic-understanding-of-ai"
+        "basic-understanding-of-ai",
+        "familiarity-with-ai-safety-concepts"
       ]
     },
     "production-progress-paradox": {
@@ -485,8 +485,8 @@
         "https://www.normaltech.ai/p/could-ai-slow-science"
       ],
       "prerequisite_concepts": [
-        "scientific-research-methods",
-        "artificial-intelligence"
+        "artificial-intelligence",
+        "scientific-research-methods"
       ]
     },
     "artificial-general-intelligence": {
@@ -502,8 +502,8 @@
         "https://thegradient.pub/agi-is-not-multimodal/"
       ],
       "prerequisite_concepts": [
-        "generative-ai-models",
         "language-models",
+        "generative-ai-models",
         "machine-learning-fundamentals",
         "artificial-intelligence-basics"
       ]
@@ -568,8 +568,8 @@
         "https://www.normaltech.ai/p/does-the-uks-liver-transplant-matching"
       ],
       "prerequisite_concepts": [
-        "predictive-logic",
-        "algorithmic-decision-making"
+        "algorithmic-decision-making",
+        "predictive-logic"
       ]
     },
     "artificial-intelligence-evaluation": {
@@ -601,8 +601,8 @@
         "https://www.normaltech.ai/p/can-ai-automate-computational-reproducibility"
       ],
       "prerequisite_concepts": [
-        "scientific-research-methods",
-        "artificial-intelligence"
+        "artificial-intelligence",
+        "scientific-research-methods"
       ]
     },
     "product-market-fit-for-large-language-models": {
@@ -633,8 +633,8 @@
         "https://www.normaltech.ai/p/ai-existential-risk-probabilities"
       ],
       "prerequisite_concepts": [
-        "risk-assessment",
-        "artificial-intelligence-safety"
+        "artificial-intelligence-safety",
+        "risk-assessment"
       ]
     },
     "eudaimonic-rationality": {
@@ -649,9 +649,9 @@
         "https://thegradient.pub/virtue-ethics-ai-alignment/"
       ],
       "prerequisite_concepts": [
-        "consequentialist-rationality",
+        "human-values",
         "ai-alignment",
-        "human-values"
+        "consequentialist-rationality"
       ]
     },
     "mathematics-in-machine-learning": {
@@ -698,8 +698,8 @@
         "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "human-values"
+        "human-values",
+        "ai-alignment"
       ]
     },
     "gender-bias-in-ai": {
@@ -714,8 +714,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "natural-language-processing"
+        "natural-language-processing",
+        "machine-learning-basics"
       ]
     },
     "state-space-models": {
@@ -730,8 +730,8 @@
         "https://thegradient.pub/mamba-explained/"
       ],
       "prerequisite_concepts": [
-        "deep-learning",
-        "transformers"
+        "transformers",
+        "deep-learning"
       ]
     },
     "text-embeddings": {
@@ -746,8 +746,8 @@
         "https://thegradient.pub/text-embedding-inversion/"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "natural-language-processing"
+        "natural-language-processing",
+        "neural-networks"
       ]
     },
     "machine-learning-model-evaluation": {
@@ -794,8 +794,8 @@
         "https://thegradient.pub/salmon-in-the-loop/"
       ],
       "prerequisite_concepts": [
-        "environmental-science",
-        "dataset-production"
+        "dataset-production",
+        "environmental-science"
       ]
     },
     "neural-algorithmic-reasoning": {
@@ -810,8 +810,8 @@
         "https://thegradient.pub/neural-algorithmic-reasoning/"
       ],
       "prerequisite_concepts": [
-        "classical-computation",
-        "deep-learning"
+        "deep-learning",
+        "classical-computation"
       ]
     },
     "ai-alignment": {
@@ -827,10 +827,10 @@
         "https://www.alignmentforum.org/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me"
       ],
       "prerequisite_concepts": [
+        "machine-learning-basics",
         "machine-learning-fundamentals",
-        "artificial-intelligence-basics",
         "ai-existential-risk",
-        "machine-learning-basics"
+        "artificial-intelligence-basics"
       ]
     },
     "generative-ai-capabilities": {
@@ -909,8 +909,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "basic-familiarity-with-python-and-json",
-        "aws-services"
+        "aws-services",
+        "basic-familiarity-with-python-and-json"
       ]
     },
     "reward-modeling": {
@@ -925,8 +925,8 @@
         "https://www.alignmentforum.org/posts/LhXW8ziwnn7Dd8edm/a-toy-environment-for-exploring-reasoning-about-reward"
       ],
       "prerequisite_concepts": [
-        "language-model-training",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "language-model-training"
       ]
     },
     "multimodal-foundation-models": {
@@ -976,9 +976,9 @@
       ],
       "prerequisite_concepts": [
         "large-language-models",
-        "supervised-fine-tuning",
+        "amazon-nova-models",
         "foundation-models",
-        "amazon-nova-models"
+        "supervised-fine-tuning"
       ]
     },
     "chain-of-thought-interpretability": {
@@ -993,8 +993,8 @@
         "https://www.alignmentforum.org/posts/tDJWZLQNN7poqCwKa/test-your-best-methods-on-our-hard-cot-interp-tasks"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "safety-techniques"
+        "safety-techniques",
+        "language-models"
       ]
     },
     "cross-region-inference": {
@@ -1058,10 +1058,10 @@
         "https://www.alignmentforum.org/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report-our-progress-toward-an"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
         "existential-risk",
-        "artificial-intelligence-basics",
-        "risk-assessment"
+        "ai-basics",
+        "risk-assessment",
+        "artificial-intelligence-basics"
       ]
     },
     "emergent-misalignment-from-reward-hacking": {
@@ -1076,8 +1076,8 @@
         "https://www.alignmentforum.org/posts/2ANCyejqxfqK2obEj/some-natural-emergent-misalignment-from-reward-hacking-in"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "language-models"
       ]
     },
     "retrieval-augmented-generation": {
@@ -1115,15 +1115,15 @@
         "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/"
       ],
       "prerequisite_concepts": [
-        "marketing-asset-production",
-        "customer-feedback-analysis",
-        "seismic-data-analysis",
+        "regulatory-compliance",
         "design-automation",
+        "ai-fundamentals",
         "workflow-configuration",
+        "marketing-asset-production",
         "brand-management",
         "ai-applications",
-        "ai-fundamentals",
-        "regulatory-compliance"
+        "seismic-data-analysis",
+        "customer-feedback-analysis"
       ]
     },
     "anomaly-detection-in-time-series-data": {
@@ -1156,12 +1156,12 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-test-suite-that-grows-with-your-agent-with-dataset-management-in-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-agents",
-        "large-language-models",
-        "software-testing",
-        "ai-agent-development",
+        "evaluation-metrics",
         "agent-development",
-        "evaluation-metrics"
+        "large-language-models",
+        "ai-agents",
+        "software-testing",
+        "ai-agent-development"
       ]
     },
     "conversational-ai-agents": {
@@ -1176,9 +1176,9 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-finops-agent-using-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "cost-management",
         "aws-services",
-        "cloud-computing"
+        "cloud-computing",
+        "cost-management"
       ]
     },
     "compliance-evidence-collection-automation": {
@@ -1193,8 +1193,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-system-for-compliance-evidence-collection/"
       ],
       "prerequisite_concepts": [
-        "compliance-audits",
-        "manual-evidence-collection"
+        "manual-evidence-collection",
+        "compliance-audits"
       ]
     },
     "agentic-qa-automation": {
@@ -1209,8 +1209,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act/"
       ],
       "prerequisite_concepts": [
-        "traditional-qa-automation",
-        "software-development-lifecycle"
+        "software-development-lifecycle",
+        "traditional-qa-automation"
       ]
     },
     "autonomous-systems": {
@@ -1225,8 +1225,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aws-launches-frontier-agents-for-security-testing-and-cloud-operations/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing",
-        "artificial-intelligence"
+        "artificial-intelligence",
+        "cloud-computing"
       ]
     },
     "agentic-ai-risk-intelligence": {
@@ -1241,8 +1241,8 @@
         "https://aws.amazon.com/blogs/machine-learning/can-your-governance-keep-pace-with-your-ai-ambitions-ai-risk-intelligence-in-the-agentic-era/"
       ],
       "prerequisite_concepts": [
-        "devops",
-        "it-governance-frameworks"
+        "it-governance-frameworks",
+        "devops"
       ]
     },
     "research-methodology": {
@@ -1260,8 +1260,8 @@
       ],
       "prerequisite_concepts": [
         "research-principles",
-        "data-analysis-basics",
-        "basic-research-concepts"
+        "basic-research-concepts",
+        "data-analysis-basics"
       ]
     },
     "chain-of-thought-monitoring": {
@@ -1293,10 +1293,10 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/"
       ],
       "prerequisite_concepts": [
-        "browser-based-ai-agents",
-        "ecommerce",
+        "web-automation",
         "competitive-analysis",
-        "web-automation"
+        "ecommerce",
+        "browser-based-ai-agents"
       ]
     },
     "multi-turn-conversation-evaluation": {
@@ -1327,8 +1327,8 @@
         "https://aws.amazon.com/blogs/machine-learning/scaling-seismic-foundation-models-on-aws-distributed-training-with-amazon-sagemaker-hyperpod-and-expanding-context-windows/"
       ],
       "prerequisite_concepts": [
-        "deep-learning-fundamentals",
-        "seismic-data-analysis"
+        "seismic-data-analysis",
+        "deep-learning-fundamentals"
       ]
     },
     "domain-based-filtering-for-ai-agents": {
@@ -1343,8 +1343,8 @@
         "https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/"
       ],
       "prerequisite_concepts": [
-        "network-security-basics",
-        "ai-agents-and-their-applications"
+        "ai-agents-and-their-applications",
+        "network-security-basics"
       ]
     },
     "intelligent-document-processing": {
@@ -1360,10 +1360,10 @@
         "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/"
       ],
       "prerequisite_concepts": [
-        "information-extraction",
-        "document-processing-challenges",
         "document-processing",
-        "automation-needs"
+        "automation-needs",
+        "document-processing-challenges",
+        "information-extraction"
       ]
     },
     "agentic-coding-assistants": {
@@ -1426,8 +1426,8 @@
         "https://www.alignmentforum.org/posts/dKpC6wHFqDrGZwnah/ais-can-now-often-do-massive-easy-to-verify-swe-tasks-and-i"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "ai-progress-and-applications"
+        "ai-progress-and-applications",
+        "machine-learning-basics"
       ]
     },
     "agentic-ai-service": {
@@ -1442,8 +1442,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-employee-onboarding-agents-with-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "basic-ai-concepts",
-        "hr-onboarding-processes"
+        "hr-onboarding-processes",
+        "basic-ai-concepts"
       ]
     },
     "agentic-tool-calling": {
@@ -1458,8 +1458,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "supervised-fine-tuning",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "supervised-fine-tuning"
       ]
     },
     "agentic-maritime-anomaly-analysis": {
@@ -1474,8 +1474,8 @@
         "https://aws.amazon.com/blogs/machine-learning/from-isolated-alerts-to-contextual-intelligence-agentic-maritime-anomaly-analysis-with-generative-ai/"
       ],
       "prerequisite_concepts": [
-        "maritime-anomaly-analysis",
-        "automatic-identification-system-ais-data"
+        "automatic-identification-system-ais-data",
+        "maritime-anomaly-analysis"
       ]
     },
     "authorization-code-flow": {
@@ -1554,8 +1554,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-real-time-conversational-podcasts-with-amazon-nova-2-sonic/"
       ],
       "prerequisite_concepts": [
-        "podcast-production",
-        "voice-first-applications"
+        "voice-first-applications",
+        "podcast-production"
       ]
     },
     "text-to-sql-solutions": {
@@ -1570,8 +1570,8 @@
         "https://aws.amazon.com/blogs/machine-learning/text-to-sql-solution-powered-by-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "business-intelligence",
-        "data-analytics"
+        "data-analytics",
+        "business-intelligence"
       ]
     },
     "model-fine-tuning": {
@@ -1618,8 +1618,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "text-based-approaches",
-        "traditional-search-methods"
+        "traditional-search-methods",
+        "text-based-approaches"
       ]
     },
     "model-lifecycle-management": {
@@ -1650,8 +1650,8 @@
         "https://aws.amazon.com/blogs/machine-learning/the-future-of-managing-agents-at-scale-aws-agent-registry-now-in-preview/"
       ],
       "prerequisite_concepts": [
-        "agent-development",
-        "cloud-computing"
+        "cloud-computing",
+        "agent-development"
       ]
     },
     "ai-browser-agent-integration": {
@@ -1666,8 +1666,8 @@
         "https://aws.amazon.com/blogs/machine-learning/embed-a-live-ai-browser-agent-in-your-react-app-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-powered-application-development",
-        "react-development"
+        "react-development",
+        "ai-powered-application-development"
       ]
     },
     "model-context-protocol": {
@@ -1683,9 +1683,9 @@
         "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-how-aws-and-cisco-ai-defense-scale-mcp-and-a2a-deployments/"
       ],
       "prerequisite_concepts": [
+        "ai-agent-deployments",
         "security-risks-in-ai-systems",
-        "stateless-implementations",
-        "ai-agent-deployments"
+        "stateless-implementations"
       ]
     },
     "chain-of-thought": {
@@ -1700,8 +1700,8 @@
         "https://www.alignmentforum.org/posts/K8FxfK9GmJfiAhgcT/anthropic-repeatedly-accidentally-trained-against-the-cot"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "ai-safety-and-alignment"
+        "ai-safety-and-alignment",
+        "machine-learning-basics"
       ]
     },
     "generative-ai-adoption": {
@@ -1732,9 +1732,9 @@
         "https://aws.amazon.com/blogs/machine-learning/use-case-based-deployments-on-sagemaker-jumpstart/"
       ],
       "prerequisite_concepts": [
+        "iam-role",
         "sagemaker-studio-domain",
-        "aws-account",
-        "iam-role"
+        "aws-account"
       ]
     },
     "inference-deployment-on-cloud-infrastructure": {
@@ -1781,8 +1781,8 @@
         "https://aws.amazon.com/blogs/machine-learning/create-rich-custom-tooltips-in-amazon-quick-sight/"
       ],
       "prerequisite_concepts": [
-        "data-visualization-principles",
-        "amazon-quick-sight-basics"
+        "amazon-quick-sight-basics",
+        "data-visualization-principles"
       ]
     },
     "speculative-decoding": {
@@ -1845,8 +1845,8 @@
         "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/"
       ],
       "prerequisite_concepts": [
-        "fine-tuning",
-        "foundation-models"
+        "foundation-models",
+        "fine-tuning"
       ]
     },
     "generative-ai-services": {
@@ -1861,8 +1861,8 @@
         "https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/"
       ],
       "prerequisite_concepts": [
-        "aws-account-setup",
-        "aws-command-line-interface"
+        "aws-command-line-interface",
+        "aws-account-setup"
       ]
     },
     "automated-reasoning": {
@@ -1877,8 +1877,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-automated-reasoning-checks-in-amazon-bedrock-transform-generative-ai-compliance/"
       ],
       "prerequisite_concepts": [
-        "compliance-challenges-in-regulated-industries",
-        "generative-ai"
+        "generative-ai",
+        "compliance-challenges-in-regulated-industries"
       ]
     },
     "open-world-evaluations": {
@@ -1893,8 +1893,8 @@
         "https://www.normaltech.ai/p/open-world-evaluations-for-measuring"
       ],
       "prerequisite_concepts": [
-        "ai-benchmarking",
-        "ai-evaluation-methods"
+        "ai-evaluation-methods",
+        "ai-benchmarking"
       ]
     },
     "chain-of-thought-controllability": {
@@ -1941,8 +1941,8 @@
         "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "supervised-fine-tuning",
-        "multimodal-learning"
+        "multimodal-learning",
+        "supervised-fine-tuning"
       ]
     },
     "multimodal-embeddings": {
@@ -1958,10 +1958,10 @@
         "https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/"
       ],
       "prerequisite_concepts": [
-        "image-processing",
         "text-retrieval-systems",
         "natural-language-processing",
-        "computer-vision"
+        "computer-vision",
+        "image-processing"
       ]
     },
     "gpu-accelerated-inference": {
@@ -1976,8 +1976,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-basics",
-        "gpu-acceleration-fundamentals"
+        "gpu-acceleration-fundamentals",
+        "cloud-computing-basics"
       ]
     },
     "tool-simulation-framework": {
@@ -1992,9 +1992,9 @@
         "https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/"
       ],
       "prerequisite_concepts": [
-        "ai-agents-and-tool-calling-concepts",
+        "pydantic-models",
         "python-programming",
-        "pydantic-models"
+        "ai-agents-and-tool-calling-concepts"
       ]
     },
     "omnichannel-ordering-system": {
@@ -2089,8 +2089,8 @@
         "https://www.alignmentforum.org/posts/mDcHzdoxB6sh3w2zG/five-approaches-to-evaluating-training-based-control"
       ],
       "prerequisite_concepts": [
-        "alignment-techniques",
-        "ai-safety-research"
+        "ai-safety-research",
+        "alignment-techniques"
       ]
     },
     "automatic-speech-recognition": {
@@ -2105,9 +2105,9 @@
         "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/"
       ],
       "prerequisite_concepts": [
-        "automatic-speech-recognition-basics",
+        "containerization-basics",
         "cloud-computing-basics",
-        "containerization-basics"
+        "automatic-speech-recognition-basics"
       ]
     },
     "generative-ai-model-deployment": {
@@ -2138,8 +2138,8 @@
         "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "backend-plumbing",
-        "agent-logic"
+        "agent-logic",
+        "backend-plumbing"
       ]
     },
     "company-wise-memory-in-ai-chatbots": {
@@ -2154,8 +2154,8 @@
         "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/"
       ],
       "prerequisite_concepts": [
-        "ai-chatbots",
-        "natural-language-processing"
+        "natural-language-processing",
+        "ai-chatbots"
       ]
     },
     "marketing-automation": {
@@ -2185,8 +2185,8 @@
         "https://aws.amazon.com/blogs/machine-learning/applying-multimodal-biological-foundation-models-across-therapeutics-and-patient-care/"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-in-healthcare",
-        "biological-data-analysis"
+        "biological-data-analysis",
+        "artificial-intelligence-in-healthcare"
       ]
     },
     "agentic-ai-workspace": {
@@ -2233,8 +2233,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "familiarity-with-ai-powered-tools",
-        "basic-understanding-of-workflow-automation"
+        "basic-understanding-of-workflow-automation",
+        "familiarity-with-ai-powered-tools"
       ]
     },
     "event-driven-architecture": {
@@ -2249,8 +2249,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-and-deploy-an-automatic-sync-solution-for-amazon-bedrock-knowledge-bases/"
       ],
       "prerequisite_concepts": [
-        "amazon-web-services",
-        "amazon-bedrock"
+        "amazon-bedrock",
+        "amazon-web-services"
       ]
     },
     "managed-ai-endpoints": {
@@ -2265,8 +2265,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/"
       ],
       "prerequisite_concepts": [
-        "ai-agents",
-        "foundation-models"
+        "foundation-models",
+        "ai-agents"
       ]
     },
     "recursive-forecasting": {
@@ -2281,8 +2281,8 @@
         "https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from"
       ],
       "prerequisite_concepts": [
-        "reward-modeling",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "reward-modeling"
       ]
     },
     "backdoor-attacks-in-language-models": {
@@ -2331,8 +2331,8 @@
         "https://www.alignmentforum.org/posts/ZvQfcLbcNHYqmvWyo/the-paper-that-killed-deep-learning-theory"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "machine-learning"
+        "machine-learning",
+        "neural-networks"
       ]
     },
     "conversational-ai-migration": {
@@ -2491,8 +2491,8 @@
         "https://aws.amazon.com/blogs/machine-learning/sun-finance-automates-id-extraction-and-fraud-detection-with-generative-ai-on-aws/"
       ],
       "prerequisite_concepts": [
-        "traditional-optical-character-recognition",
-        "manual-review-queues"
+        "manual-review-queues",
+        "traditional-optical-character-recognition"
       ]
     },
     "agentic-ai-analytics": {
@@ -2539,8 +2539,8 @@
         "https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "reward-seeking-ai"
+        "reward-seeking-ai",
+        "ai-alignment"
       ]
     },
     "business-intelligence-migration": {
@@ -2571,8 +2571,8 @@
         "https://www.alignmentforum.org/posts/eeFFpKCDWE9gjfzsk/exploration-hacking-can-llms-learn-to-resist-rl-training-2"
       ],
       "prerequisite_concepts": [
-        "deep-learning",
-        "reinforcement-learning"
+        "reinforcement-learning",
+        "deep-learning"
       ]
     },
     "conversational-analytics": {
@@ -2619,9 +2619,9 @@
         "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "reinforcement-learning-verifiable-rewards-rlvr",
+        "direct-preference-optimization-dpo",
         "supervised-fine-tuning-sft",
-        "direct-preference-optimization-dpo"
+        "reinforcement-learning-verifiable-rewards-rlvr"
       ]
     },
     "natural-language-processing-for-dashboard-generation": {
@@ -2652,8 +2652,8 @@
         "https://aws.amazon.com/blogs/machine-learning/from-data-lake-to-ai-ready-analytics-introducing-direct-query-with-s3-tables-in-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "olap-systems",
-        "data-warehousing"
+        "data-warehousing",
+        "olap-systems"
       ]
     },
     "natural-language-querying": {
@@ -2716,8 +2716,8 @@
         "https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory"
       ],
       "prerequisite_concepts": [
-        "cognitive-psychology",
-        "ai-alignment"
+        "ai-alignment",
+        "cognitive-psychology"
       ]
     },
     "machine-learning-workflow-management": {
@@ -2734,8 +2734,8 @@
       ],
       "prerequisite_concepts": [
         "mlflow",
-        "machine-learning-basics",
-        "aws-sagemaker"
+        "aws-sagemaker",
+        "machine-learning-basics"
       ]
     },
     "secure-authentication-and-authorization-for-ai-agents": {
@@ -2750,8 +2750,8 @@
         "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-amazon-bedrock-agentcore-identity-on-amazon-ecs/"
       ],
       "prerequisite_concepts": [
-        "ai-agents",
-        "secure-access-to-external-services"
+        "secure-access-to-external-services",
+        "ai-agents"
       ]
     },
     "generative-ai-techniques-for-business-protection-and-enhancement": {
@@ -2830,8 +2830,8 @@
         "https://www.alignmentforum.org/posts/fsG4m6sRMpomd7Rk6/mechanistic-estimation-for-wide-random-mlps"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "multilayer-perceptrons"
+        "multilayer-perceptrons",
+        "neural-networks"
       ]
     },
     "gpu-capacity-management-for-machine-learning-workloads": {
@@ -2846,8 +2846,8 @@
         "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "cloud-computing-fundamentals"
+        "cloud-computing-fundamentals",
+        "machine-learning-basics"
       ]
     },
     "reinforcement-learning-with-verifiable-rewards": {
@@ -2878,8 +2878,8 @@
         "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/"
       ],
       "prerequisite_concepts": [
-        "api-integration",
-        "autonomous-agents"
+        "autonomous-agents",
+        "api-integration"
       ]
     },
     "behavioral-selection-model": {
@@ -2910,8 +2910,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-web-search-enabled-agents-with-strands-and-exa/"
       ],
       "prerequisite_concepts": [
-        "ai-agents",
-        "language-models"
+        "language-models",
+        "ai-agents"
       ]
     },
     "cloud-based-language-model-platforms": {
@@ -2958,8 +2958,8 @@
         "https://aws.amazon.com/blogs/machine-learning/amazon-quick-accelerating-the-path-from-enterprise-data-to-ai-powered-decisions/"
       ],
       "prerequisite_concepts": [
-        "ai-powered-decision-making",
-        "enterprise-data-analysis"
+        "enterprise-data-analysis",
+        "ai-powered-decision-making"
       ]
     },
     "compliance-tracking-for-large-language-models": {
@@ -3055,8 +3055,8 @@
         "https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic/"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "speech-recognition"
+        "speech-recognition",
+        "language-models"
       ]
     },
     "cross-account-access": {
@@ -3087,8 +3087,8 @@
         "https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-agents",
-        "browser-security-basics"
+        "browser-security-basics",
+        "ai-agents"
       ]
     },
     "deployment-time-spread-of-misalignment": {
@@ -3119,9 +3119,9 @@
         "https://www.alignmentforum.org/posts/7RyAefESvb6BQ3tMz/mechanistic-estimation-for-expectations-of-random-products"
       ],
       "prerequisite_concepts": [
-        "statistical-estimation",
+        "probability-theory",
         "machine-learning-fundamentals",
-        "probability-theory"
+        "statistical-estimation"
       ]
     },
     "access-control-list": {
@@ -3151,8 +3151,8 @@
         "https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "natural-language-processing"
+        "natural-language-processing",
+        "machine-learning-basics"
       ]
     },
     "ai-powered-search-and-workflow-automation": {
@@ -3167,8 +3167,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aderant-transforms-cloud-operations-with-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "support-systems",
-        "cloud-based-operations"
+        "cloud-based-operations",
+        "support-systems"
       ]
     },
     "enterprise-search-and-integration": {
@@ -3231,8 +3231,8 @@
         "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
       ],
       "prerequisite_concepts": [
-        "ai-agents",
         "conversational-interfaces",
+        "ai-agents",
         "cloud-based-services"
       ]
     },
@@ -3280,8 +3280,8 @@
         "https://www.alignmentforum.org/posts/J5KkwYnnaeNX7hL2s/the-case-for-evaluating-model-behaviors"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "ai-capabilities"
+        "ai-capabilities",
+        "machine-learning-basics"
       ]
     },
     "openai-compatible-api-support": {
@@ -3297,8 +3297,8 @@
       ],
       "prerequisite_concepts": [
         "langchain",
-        "aws-account",
-        "openai-sdk"
+        "openai-sdk",
+        "aws-account"
       ]
     },
     "multimodal-evaluation": {
@@ -3346,8 +3346,8 @@
       ],
       "prerequisite_concepts": [
         "aws-infrastructure",
-        "iam-roles-and-policies",
-        "devops-workflows"
+        "devops-workflows",
+        "iam-roles-and-policies"
       ]
     },
     "multi-tenant-agentic-applications": {
@@ -3378,8 +3378,8 @@
         "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "context-window-limitations"
+        "context-window-limitations",
+        "language-models"
       ]
     },
     "business-intelligence-using-ai-agents": {
@@ -3442,8 +3442,8 @@
         "https://www.normaltech.ai/p/do-ai-risks-require-extraordinary"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "labor-market-economics"
+        "labor-market-economics",
+        "ai-basics"
       ]
     },
     "autonomous-agent-based-software-development": {
@@ -3490,8 +3490,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-agent-development",
-        "serverless-technologies"
+        "serverless-technologies",
+        "ai-agent-development"
       ]
     },
     "high-performance-generative-ai-systems": {
@@ -3506,8 +3506,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "agent-based-systems",
-        "generative-ai"
+        "generative-ai",
+        "agent-based-systems"
       ]
     },
     "ambient-agents": {
@@ -3539,8 +3539,8 @@
       ],
       "prerequisite_concepts": [
         "aws-account-setup",
-        "kiro-installation",
-        "aws-credentials-configuration"
+        "aws-credentials-configuration",
+        "kiro-installation"
       ]
     },
     "enterprise-observability-solution": {
@@ -3555,8 +3555,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-an-enterprise-observability-solution-for-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "amazon-quick",
-        "aws-services"
+        "aws-services",
+        "amazon-quick"
       ]
     },
     "automated-document-creation": {
@@ -3571,8 +3571,8 @@
         "https://aws.amazon.com/blogs/machine-learning/transforming-professional-work-how-amazon-quick-turns-document-creation-from-hours-into-minutes/"
       ],
       "prerequisite_concepts": [
-        "professional-document-creation",
-        "workflow-automation-concepts"
+        "workflow-automation-concepts",
+        "professional-document-creation"
       ]
     },
     "evaluation-cooperativeness": {
@@ -3684,8 +3684,8 @@
       ],
       "prerequisite_concepts": [
         "agent-proliferation",
-        "enterprise-scale-operations",
-        "ai-adoption"
+        "ai-adoption",
+        "enterprise-scale-operations"
       ]
     },
     "robustness-of-model-organisms-to-training": {
@@ -3701,8 +3701,8 @@
       ],
       "prerequisite_concepts": [
         "reinforcement-learning",
-        "fine-tuning",
-        "ai-safety"
+        "ai-safety",
+        "fine-tuning"
       ]
     },
     "large-language-model-training": {
@@ -3733,8 +3733,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-custom-portal-with-embedded-amazon-sagemaker-ai-mlflow-apps/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-basics",
-        "aws-services"
+        "aws-services",
+        "machine-learning-basics"
       ]
     },
     "automated-workflow-orchestration": {
@@ -3752,12 +3752,44 @@
         "cloud-infrastructure",
         "ai-services"
       ]
+    },
+    "scheming-tendencies-in-ai-models": {
+      "id": "scheming-tendencies-in-ai-models",
+      "name": "scheming tendencies in AI models",
+      "aliases": [
+        "scheming tendencies in AI models"
+      ],
+      "topic": "AI Safety & Alignment",
+      "teaches": [],
+      "extends": [
+        "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies"
+      ],
+      "prerequisite_concepts": [
+        "ai-safety-and-alignment",
+        "evaluating-scheming-capabilities"
+      ]
+    },
+    "observability-for-large-language-models": {
+      "id": "observability-for-large-language-models",
+      "name": "observability for large language models",
+      "aliases": [
+        "observability for large language models"
+      ],
+      "topic": "AI Infrastructure & Tooling",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/"
+      ],
+      "prerequisite_concepts": [
+        "large-language-models",
+        "amazon-sagemaker"
+      ]
     }
   },
   "topics": {
     "AI Safety & Alignment": {
       "name": "AI Safety & Alignment",
-      "article_count": 42,
+      "article_count": 43,
       "articles": [
         {
           "title": "\u201cAct-based approval-directed agents\u201d, for IDA skeptics",
@@ -22306,6 +22338,453 @@
               "How can we create more robust model organisms for testing AI safety techniques?",
               "What are the implications of using prompted model organisms for AI safety research?",
               "How can we balance the tradeoff between removing bad behavior and degrading capabilities in AI models?"
+            ]
+          }
+        },
+        {
+          "title": "Testing Gemini models for scheming tendencies",
+          "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
+          "published": "Fri, 29 May 2026 19:24:35 GMT",
+          "source": "AI Alignment Forum",
+          "embedding": [
+            -0.0455,
+            -0.0254,
+            -0.0111,
+            0.0255,
+            0.1009,
+            0.0379,
+            -0.0151,
+            -0.0015,
+            -0.0289,
+            0.0497,
+            -0.0388,
+            -0.0271,
+            0.0799,
+            0.0158,
+            -0.0162,
+            -0.052,
+            0.0414,
+            -0.0255,
+            -0.0255,
+            -0.0307,
+            -0.0009,
+            -0.04,
+            -0.0237,
+            0.0494,
+            -0.0226,
+            0.0244,
+            -0.0341,
+            -0.014,
+            -0.0796,
+            0.0356,
+            0.0427,
+            0.0422,
+            0.0076,
+            0.0307,
+            0.0153,
+            -0.0059,
+            -0.0029,
+            -0.0187,
+            0.129,
+            -0.0528,
+            -0.0135,
+            -0.097,
+            -0.0038,
+            -0.1169,
+            -0.0212,
+            -0.0037,
+            -0.007,
+            0.0162,
+            -0.043,
+            -0.078,
+            -0.0795,
+            -0.0672,
+            0.0194,
+            0.0019,
+            0.0113,
+            -0.0464,
+            0.0446,
+            0.0186,
+            0.066,
+            -0.0086,
+            0.0087,
+            0.0684,
+            0.0353,
+            0.035,
+            0.1033,
+            0.0098,
+            -0.0736,
+            0.0239,
+            0.0052,
+            0.0479,
+            0.0676,
+            -0.0422,
+            -0.0263,
+            -0.035,
+            0.0106,
+            0.0372,
+            0.0226,
+            -0.004,
+            0.0596,
+            -0.1249,
+            -0.0589,
+            -0.0347,
+            -0.0131,
+            0.0495,
+            -0.0262,
+            0.0529,
+            0.0043,
+            -0.015,
+            0.1877,
+            0.0458,
+            -0.0117,
+            -0.0004,
+            0.0684,
+            0.0004,
+            0.0716,
+            0.0459,
+            -0.0341,
+            -0.0303,
+            -0.0267,
+            0.0386,
+            0.0108,
+            0.023,
+            -0.0431,
+            -0.0974,
+            0.049,
+            0.0086,
+            0.0399,
+            -0.0601,
+            0.0525,
+            0.0531,
+            -0.0128,
+            0.0185,
+            0.0797,
+            -0.0717,
+            0.1001,
+            -0.0015,
+            -0.0679,
+            0.0727,
+            -0.0283,
+            0.0535,
+            0.1213,
+            -0.0063,
+            0.0674,
+            0.0631,
+            0.0271,
+            0.0294,
+            -0.0752,
+            0.0,
+            -0.0296,
+            0.0475,
+            0.0301,
+            0.0392,
+            -0.004,
+            -0.0532,
+            -0.0294,
+            0.122,
+            -0.0014,
+            0.0412,
+            -0.0781,
+            0.049,
+            0.0112,
+            0.0321,
+            0.0293,
+            0.0935,
+            0.0482,
+            -0.0143,
+            -0.0015,
+            -0.0506,
+            -0.0166,
+            -0.1213,
+            -0.0255,
+            -0.0169,
+            0.0256,
+            -0.0353,
+            -0.052,
+            0.0126,
+            0.0254,
+            0.0423,
+            -0.0066,
+            0.0824,
+            -0.0863,
+            0.085,
+            0.0069,
+            0.0679,
+            -0.139,
+            -0.0234,
+            -0.0927,
+            0.0748,
+            -0.0265,
+            0.0305,
+            -0.0087,
+            0.0207,
+            0.0204,
+            0.0263,
+            0.0191,
+            -0.1132,
+            0.0257,
+            -0.0543,
+            -0.0058,
+            0.0484,
+            0.0978,
+            -0.0034,
+            -0.0145,
+            0.064,
+            0.0392,
+            -0.0627,
+            0.0262,
+            0.029,
+            -0.0576,
+            0.0109,
+            -0.0404,
+            0.0188,
+            -0.0015,
+            -0.0463,
+            -0.0309,
+            -0.0084,
+            -0.0067,
+            0.0472,
+            -0.0336,
+            0.0064,
+            -0.0609,
+            0.0226,
+            -0.1223,
+            -0.0977,
+            0.0941,
+            -0.0258,
+            0.021,
+            -0.0431,
+            -0.024,
+            -0.0326,
+            0.0316,
+            -0.0176,
+            0.0019,
+            -0.0863,
+            -0.0446,
+            -0.0027,
+            -0.0012,
+            0.0307,
+            0.0246,
+            -0.0207,
+            -0.0621,
+            0.0047,
+            -0.0623,
+            -0.0,
+            -0.1616,
+            0.0022,
+            -0.0754,
+            0.0126,
+            -0.0688,
+            -0.0611,
+            -0.0385,
+            -0.0193,
+            -0.0659,
+            0.0119,
+            -0.0242,
+            -0.0678,
+            0.0661,
+            -0.0008,
+            -0.0173,
+            -0.0917,
+            0.0189,
+            -0.0091,
+            0.0253,
+            -0.0026,
+            0.0691,
+            0.0713,
+            -0.059,
+            -0.0466,
+            -0.0092,
+            0.0199,
+            -0.0147,
+            0.0422,
+            0.0532,
+            0.0168,
+            0.1011,
+            0.0151,
+            -0.0896,
+            0.0881,
+            0.048,
+            0.0625,
+            0.0051,
+            0.0226,
+            -0.0327,
+            -0.045,
+            -0.0202,
+            0.0654,
+            -0.0516,
+            0.02,
+            0.0132,
+            0.0399,
+            0.0003,
+            0.0695,
+            0.0381,
+            -0.0654,
+            0.0208,
+            -0.0269,
+            -0.0245,
+            -0.0278,
+            -0.0815,
+            -0.0154,
+            0.0165,
+            0.0029,
+            0.0435,
+            -0.0051,
+            0.037,
+            -0.0173,
+            -0.0075,
+            0.0502,
+            -0.066,
+            -0.0399,
+            -0.0028,
+            0.0891,
+            0.0443,
+            -0.0528,
+            0.0339,
+            -0.0736,
+            -0.0669,
+            0.071,
+            -0.0171,
+            -0.018,
+            -0.0852,
+            -0.0706,
+            -0.0572,
+            -0.0277,
+            0.0211,
+            -0.0863,
+            0.0179,
+            0.0419,
+            0.0226,
+            0.0458,
+            0.0059,
+            -0.0017,
+            0.0076,
+            0.0144,
+            -0.0826,
+            -0.0475,
+            -0.0163,
+            0.0637,
+            -0.0449,
+            -0.0,
+            0.0035,
+            -0.0334,
+            0.1125,
+            0.0496,
+            0.0457,
+            0.0075,
+            -0.0472,
+            -0.1276,
+            -0.0208,
+            -0.0256,
+            -0.067,
+            -0.0755,
+            0.0059,
+            0.0332,
+            0.0118,
+            0.0168,
+            0.0005,
+            0.0589,
+            -0.0738,
+            0.0046,
+            0.0288,
+            0.0273,
+            -0.052,
+            -0.0249,
+            0.0616,
+            -0.0713,
+            -0.0063,
+            0.0726,
+            -0.0478,
+            0.0823,
+            -0.0149,
+            -0.0254,
+            0.0283,
+            0.0124,
+            -0.0124,
+            0.1318,
+            -0.0329,
+            -0.0457,
+            0.0253,
+            -0.0159,
+            -0.028,
+            0.0309,
+            -0.0355,
+            0.0062,
+            0.0193,
+            -0.0379,
+            -0.0084,
+            -0.1018,
+            0.0484,
+            -0.0438,
+            0.0246,
+            -0.021,
+            -0.0306,
+            0.1208,
+            0.0828,
+            0.0025,
+            0.0349,
+            -0.0103,
+            -0.0026,
+            0.0411,
+            0.1067,
+            0.0058,
+            -0.0116,
+            -0.0608
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Safety & Alignment",
+            "article_type": "extends",
+            "primary_concept": "scheming tendencies in AI models",
+            "summary": "This article extends previous work on evaluating scheming capabilities in AI models, introducing new testing methods to assess sabotage propensities in Gemini models. It assumes knowledge of AI safety and alignment, as well as previous work on evaluating scheming capabilities. The article focuses on testing whether AI models would undermine their own safeguards if given the opportunity.",
+            "accessible_title": "How to test AI models for sabotage \u2014 the scheming approach",
+            "concepts_taught": [
+              {
+                "name": "scheming tendencies in AI models",
+                "confidence": 0.9
+              },
+              {
+                "name": "automated auditing",
+                "confidence": 0.8
+              },
+              {
+                "name": "simulated agentic environments",
+                "confidence": 0.7
+              },
+              {
+                "name": "scheming honeypot evaluations",
+                "confidence": 0.6
+              },
+              {
+                "name": "agentic misbehavior",
+                "confidence": 0.5
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "AI safety and alignment",
+                "confidence": 0.9
+              },
+              {
+                "name": "evaluating scheming capabilities",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "advanced",
+              "technical_depth": 8,
+              "reading_time_minutes": 20
+            },
+            "learning_outcomes": [
+              "Understand the importance of testing AI models for sabotage propensities",
+              "Learn about the Gram auditing framework and its applications",
+              "Understand the differences between automated auditing and scheming honeypot evaluations"
+            ],
+            "strategic_questions": [
+              "How can we effectively test AI models for sabotage propensities?",
+              "What are the implications of excessive role-playing and goal-seeking in AI models?",
+              "How can we improve the safety and alignment of AI models in real-world applications?"
             ]
           }
         }
@@ -40863,6 +41342,453 @@
                 "How can we create more robust model organisms for testing AI safety techniques?",
                 "What are the implications of using prompted model organisms for AI safety research?",
                 "How can we balance the tradeoff between removing bad behavior and degrading capabilities in AI models?"
+              ]
+            }
+          },
+          {
+            "title": "Testing Gemini models for scheming tendencies",
+            "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
+            "published": "Fri, 29 May 2026 19:24:35 GMT",
+            "source": "AI Alignment Forum",
+            "embedding": [
+              -0.0455,
+              -0.0254,
+              -0.0111,
+              0.0255,
+              0.1009,
+              0.0379,
+              -0.0151,
+              -0.0015,
+              -0.0289,
+              0.0497,
+              -0.0388,
+              -0.0271,
+              0.0799,
+              0.0158,
+              -0.0162,
+              -0.052,
+              0.0414,
+              -0.0255,
+              -0.0255,
+              -0.0307,
+              -0.0009,
+              -0.04,
+              -0.0237,
+              0.0494,
+              -0.0226,
+              0.0244,
+              -0.0341,
+              -0.014,
+              -0.0796,
+              0.0356,
+              0.0427,
+              0.0422,
+              0.0076,
+              0.0307,
+              0.0153,
+              -0.0059,
+              -0.0029,
+              -0.0187,
+              0.129,
+              -0.0528,
+              -0.0135,
+              -0.097,
+              -0.0038,
+              -0.1169,
+              -0.0212,
+              -0.0037,
+              -0.007,
+              0.0162,
+              -0.043,
+              -0.078,
+              -0.0795,
+              -0.0672,
+              0.0194,
+              0.0019,
+              0.0113,
+              -0.0464,
+              0.0446,
+              0.0186,
+              0.066,
+              -0.0086,
+              0.0087,
+              0.0684,
+              0.0353,
+              0.035,
+              0.1033,
+              0.0098,
+              -0.0736,
+              0.0239,
+              0.0052,
+              0.0479,
+              0.0676,
+              -0.0422,
+              -0.0263,
+              -0.035,
+              0.0106,
+              0.0372,
+              0.0226,
+              -0.004,
+              0.0596,
+              -0.1249,
+              -0.0589,
+              -0.0347,
+              -0.0131,
+              0.0495,
+              -0.0262,
+              0.0529,
+              0.0043,
+              -0.015,
+              0.1877,
+              0.0458,
+              -0.0117,
+              -0.0004,
+              0.0684,
+              0.0004,
+              0.0716,
+              0.0459,
+              -0.0341,
+              -0.0303,
+              -0.0267,
+              0.0386,
+              0.0108,
+              0.023,
+              -0.0431,
+              -0.0974,
+              0.049,
+              0.0086,
+              0.0399,
+              -0.0601,
+              0.0525,
+              0.0531,
+              -0.0128,
+              0.0185,
+              0.0797,
+              -0.0717,
+              0.1001,
+              -0.0015,
+              -0.0679,
+              0.0727,
+              -0.0283,
+              0.0535,
+              0.1213,
+              -0.0063,
+              0.0674,
+              0.0631,
+              0.0271,
+              0.0294,
+              -0.0752,
+              0.0,
+              -0.0296,
+              0.0475,
+              0.0301,
+              0.0392,
+              -0.004,
+              -0.0532,
+              -0.0294,
+              0.122,
+              -0.0014,
+              0.0412,
+              -0.0781,
+              0.049,
+              0.0112,
+              0.0321,
+              0.0293,
+              0.0935,
+              0.0482,
+              -0.0143,
+              -0.0015,
+              -0.0506,
+              -0.0166,
+              -0.1213,
+              -0.0255,
+              -0.0169,
+              0.0256,
+              -0.0353,
+              -0.052,
+              0.0126,
+              0.0254,
+              0.0423,
+              -0.0066,
+              0.0824,
+              -0.0863,
+              0.085,
+              0.0069,
+              0.0679,
+              -0.139,
+              -0.0234,
+              -0.0927,
+              0.0748,
+              -0.0265,
+              0.0305,
+              -0.0087,
+              0.0207,
+              0.0204,
+              0.0263,
+              0.0191,
+              -0.1132,
+              0.0257,
+              -0.0543,
+              -0.0058,
+              0.0484,
+              0.0978,
+              -0.0034,
+              -0.0145,
+              0.064,
+              0.0392,
+              -0.0627,
+              0.0262,
+              0.029,
+              -0.0576,
+              0.0109,
+              -0.0404,
+              0.0188,
+              -0.0015,
+              -0.0463,
+              -0.0309,
+              -0.0084,
+              -0.0067,
+              0.0472,
+              -0.0336,
+              0.0064,
+              -0.0609,
+              0.0226,
+              -0.1223,
+              -0.0977,
+              0.0941,
+              -0.0258,
+              0.021,
+              -0.0431,
+              -0.024,
+              -0.0326,
+              0.0316,
+              -0.0176,
+              0.0019,
+              -0.0863,
+              -0.0446,
+              -0.0027,
+              -0.0012,
+              0.0307,
+              0.0246,
+              -0.0207,
+              -0.0621,
+              0.0047,
+              -0.0623,
+              -0.0,
+              -0.1616,
+              0.0022,
+              -0.0754,
+              0.0126,
+              -0.0688,
+              -0.0611,
+              -0.0385,
+              -0.0193,
+              -0.0659,
+              0.0119,
+              -0.0242,
+              -0.0678,
+              0.0661,
+              -0.0008,
+              -0.0173,
+              -0.0917,
+              0.0189,
+              -0.0091,
+              0.0253,
+              -0.0026,
+              0.0691,
+              0.0713,
+              -0.059,
+              -0.0466,
+              -0.0092,
+              0.0199,
+              -0.0147,
+              0.0422,
+              0.0532,
+              0.0168,
+              0.1011,
+              0.0151,
+              -0.0896,
+              0.0881,
+              0.048,
+              0.0625,
+              0.0051,
+              0.0226,
+              -0.0327,
+              -0.045,
+              -0.0202,
+              0.0654,
+              -0.0516,
+              0.02,
+              0.0132,
+              0.0399,
+              0.0003,
+              0.0695,
+              0.0381,
+              -0.0654,
+              0.0208,
+              -0.0269,
+              -0.0245,
+              -0.0278,
+              -0.0815,
+              -0.0154,
+              0.0165,
+              0.0029,
+              0.0435,
+              -0.0051,
+              0.037,
+              -0.0173,
+              -0.0075,
+              0.0502,
+              -0.066,
+              -0.0399,
+              -0.0028,
+              0.0891,
+              0.0443,
+              -0.0528,
+              0.0339,
+              -0.0736,
+              -0.0669,
+              0.071,
+              -0.0171,
+              -0.018,
+              -0.0852,
+              -0.0706,
+              -0.0572,
+              -0.0277,
+              0.0211,
+              -0.0863,
+              0.0179,
+              0.0419,
+              0.0226,
+              0.0458,
+              0.0059,
+              -0.0017,
+              0.0076,
+              0.0144,
+              -0.0826,
+              -0.0475,
+              -0.0163,
+              0.0637,
+              -0.0449,
+              -0.0,
+              0.0035,
+              -0.0334,
+              0.1125,
+              0.0496,
+              0.0457,
+              0.0075,
+              -0.0472,
+              -0.1276,
+              -0.0208,
+              -0.0256,
+              -0.067,
+              -0.0755,
+              0.0059,
+              0.0332,
+              0.0118,
+              0.0168,
+              0.0005,
+              0.0589,
+              -0.0738,
+              0.0046,
+              0.0288,
+              0.0273,
+              -0.052,
+              -0.0249,
+              0.0616,
+              -0.0713,
+              -0.0063,
+              0.0726,
+              -0.0478,
+              0.0823,
+              -0.0149,
+              -0.0254,
+              0.0283,
+              0.0124,
+              -0.0124,
+              0.1318,
+              -0.0329,
+              -0.0457,
+              0.0253,
+              -0.0159,
+              -0.028,
+              0.0309,
+              -0.0355,
+              0.0062,
+              0.0193,
+              -0.0379,
+              -0.0084,
+              -0.1018,
+              0.0484,
+              -0.0438,
+              0.0246,
+              -0.021,
+              -0.0306,
+              0.1208,
+              0.0828,
+              0.0025,
+              0.0349,
+              -0.0103,
+              -0.0026,
+              0.0411,
+              0.1067,
+              0.0058,
+              -0.0116,
+              -0.0608
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Safety & Alignment",
+              "article_type": "extends",
+              "primary_concept": "scheming tendencies in AI models",
+              "summary": "This article extends previous work on evaluating scheming capabilities in AI models, introducing new testing methods to assess sabotage propensities in Gemini models. It assumes knowledge of AI safety and alignment, as well as previous work on evaluating scheming capabilities. The article focuses on testing whether AI models would undermine their own safeguards if given the opportunity.",
+              "accessible_title": "How to test AI models for sabotage \u2014 the scheming approach",
+              "concepts_taught": [
+                {
+                  "name": "scheming tendencies in AI models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "automated auditing",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "simulated agentic environments",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "scheming honeypot evaluations",
+                  "confidence": 0.6
+                },
+                {
+                  "name": "agentic misbehavior",
+                  "confidence": 0.5
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "AI safety and alignment",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "evaluating scheming capabilities",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "advanced",
+                "technical_depth": 8,
+                "reading_time_minutes": 20
+              },
+              "learning_outcomes": [
+                "Understand the importance of testing AI models for sabotage propensities",
+                "Learn about the Gram auditing framework and its applications",
+                "Understand the differences between automated auditing and scheming honeypot evaluations"
+              ],
+              "strategic_questions": [
+                "How can we effectively test AI models for sabotage propensities?",
+                "What are the implications of excessive role-playing and goal-seeking in AI models?",
+                "How can we improve the safety and alignment of AI models in real-world applications?"
               ]
             }
           }
@@ -92195,7 +93121,7 @@
     },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
-      "article_count": 103,
+      "article_count": 104,
       "articles": [
         {
           "title": "Enhanced metrics for Amazon SageMaker AI endpoints: deeper visibility for better performance",
@@ -137691,6 +138617,445 @@
               "How can automated workflow orchestration improve compliance standards in financial services?",
               "What are the key benefits of integrating AI services with cloud infrastructure in financial institutions?",
               "How can organizations scale automated workflows to meet the needs of large-scale financial services operations?"
+            ]
+          }
+        },
+        {
+          "title": "Comprehensive observability for Amazon SageMaker AI LLM inference: From GPU utilization to LLM quality",
+          "url": "https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/",
+          "published": "Fri, 29 May 2026 23:36:58 +0000",
+          "source": "Artificial Intelligence",
+          "embedding": [
+            0.0051,
+            -0.1085,
+            -0.0244,
+            0.0221,
+            0.0874,
+            -0.0404,
+            -0.0761,
+            -0.0559,
+            0.0141,
+            0.03,
+            -0.0822,
+            -0.0334,
+            0.06,
+            -0.0296,
+            0.0302,
+            0.0312,
+            0.1061,
+            -0.0601,
+            -0.0599,
+            -0.0568,
+            0.0326,
+            0.0675,
+            -0.0542,
+            0.0204,
+            0.0024,
+            0.0228,
+            -0.0278,
+            0.001,
+            0.0681,
+            -0.0443,
+            -0.0294,
+            0.0179,
+            0.0121,
+            0.051,
+            -0.008,
+            0.0152,
+            -0.0172,
+            -0.0896,
+            0.0393,
+            -0.0194,
+            0.0497,
+            -0.0515,
+            -0.0333,
+            -0.0945,
+            0.0938,
+            -0.0192,
+            0.0032,
+            -0.0203,
+            -0.0508,
+            0.0397,
+            -0.0617,
+            -0.064,
+            0.0341,
+            -0.0208,
+            -0.0367,
+            -0.0112,
+            0.0319,
+            -0.0245,
+            -0.0112,
+            -0.0406,
+            -0.0014,
+            -0.0584,
+            -0.0205,
+            0.0529,
+            0.0093,
+            0.0479,
+            -0.0223,
+            0.0912,
+            -0.0191,
+            -0.0005,
+            -0.02,
+            -0.0464,
+            -0.0273,
+            0.0489,
+            -0.0549,
+            0.0452,
+            0.0088,
+            -0.0272,
+            0.1048,
+            -0.0571,
+            -0.0153,
+            -0.0258,
+            -0.0584,
+            0.062,
+            0.0316,
+            0.0247,
+            0.0641,
+            -0.0144,
+            0.0315,
+            0.0053,
+            0.0032,
+            -0.0418,
+            0.0653,
+            0.0666,
+            0.0195,
+            0.0121,
+            0.0442,
+            -0.0624,
+            0.023,
+            0.0818,
+            -0.0111,
+            0.1206,
+            0.0557,
+            -0.0916,
+            -0.0566,
+            -0.0193,
+            0.0428,
+            0.0545,
+            0.0287,
+            -0.0205,
+            0.0544,
+            0.0045,
+            0.0322,
+            0.0344,
+            0.0624,
+            -0.032,
+            0.0055,
+            -0.0657,
+            -0.0193,
+            -0.0111,
+            0.0418,
+            0.0313,
+            0.0917,
+            -0.0037,
+            0.0731,
+            0.0289,
+            0.0459,
+            0.0,
+            0.06,
+            -0.0173,
+            -0.029,
+            0.0117,
+            0.0534,
+            0.0467,
+            0.0142,
+            0.0691,
+            0.0177,
+            -0.0203,
+            -0.0444,
+            0.0934,
+            -0.0486,
+            -0.0264,
+            0.0278,
+            0.0827,
+            0.0232,
+            -0.0021,
+            -0.0302,
+            0.0019,
+            0.1049,
+            -0.1045,
+            0.0077,
+            -0.0298,
+            0.0826,
+            0.0703,
+            0.1002,
+            -0.0191,
+            -0.0025,
+            0.0385,
+            -0.0274,
+            0.0063,
+            -0.0405,
+            0.0104,
+            -0.025,
+            -0.0344,
+            -0.0966,
+            0.015,
+            -0.0195,
+            -0.0523,
+            -0.0237,
+            0.0356,
+            -0.0106,
+            -0.0411,
+            -0.1018,
+            -0.0092,
+            0.0209,
+            -0.0289,
+            0.0681,
+            -0.0195,
+            0.0203,
+            -0.0344,
+            0.0356,
+            0.024,
+            0.0139,
+            -0.0023,
+            0.0138,
+            0.0191,
+            -0.0003,
+            0.0172,
+            -0.0521,
+            0.0023,
+            -0.0252,
+            0.0016,
+            0.0716,
+            0.0575,
+            -0.0569,
+            0.0579,
+            0.0428,
+            -0.037,
+            0.023,
+            -0.0147,
+            -0.0345,
+            0.0639,
+            -0.0405,
+            -0.0991,
+            0.0324,
+            0.0019,
+            0.0254,
+            0.0131,
+            -0.0472,
+            -0.0193,
+            0.0099,
+            -0.0296,
+            0.0235,
+            -0.0009,
+            0.0317,
+            -0.0256,
+            -0.0263,
+            0.025,
+            -0.0172,
+            0.037,
+            0.0013,
+            0.0061,
+            -0.0616,
+            -0.0,
+            -0.1166,
+            0.022,
+            -0.0332,
+            0.15,
+            -0.0871,
+            -0.1362,
+            -0.0559,
+            0.1201,
+            -0.0056,
+            -0.0645,
+            -0.0721,
+            -0.0297,
+            0.0644,
+            -0.0225,
+            0.0484,
+            -0.0194,
+            -0.0103,
+            -0.1101,
+            0.0204,
+            0.0456,
+            0.0096,
+            0.0135,
+            -0.0413,
+            -0.086,
+            0.0012,
+            0.0562,
+            -0.0359,
+            -0.0242,
+            0.0295,
+            -0.0217,
+            0.0632,
+            -0.0152,
+            -0.1079,
+            0.0475,
+            -0.0682,
+            0.0139,
+            0.1107,
+            0.0836,
+            -0.0306,
+            0.0566,
+            0.0842,
+            -0.0241,
+            -0.1282,
+            -0.026,
+            -0.007,
+            -0.0116,
+            -0.0894,
+            0.0301,
+            0.0185,
+            -0.1246,
+            0.0246,
+            -0.033,
+            0.0571,
+            0.0254,
+            -0.0372,
+            -0.0498,
+            0.0421,
+            -0.0121,
+            -0.0442,
+            -0.0268,
+            -0.0212,
+            -0.0355,
+            0.0106,
+            -0.0412,
+            -0.0113,
+            -0.0273,
+            0.0153,
+            0.0605,
+            -0.0177,
+            -0.0111,
+            0.0639,
+            -0.0717,
+            -0.1107,
+            0.0448,
+            -0.0102,
+            0.0513,
+            -0.0412,
+            -0.0792,
+            0.0251,
+            -0.0461,
+            0.0311,
+            0.0117,
+            -0.0021,
+            -0.0021,
+            0.0547,
+            0.0528,
+            0.053,
+            0.007,
+            0.0165,
+            0.0795,
+            -0.1096,
+            0.0174,
+            -0.1373,
+            0.0219,
+            -0.0748,
+            -0.0,
+            -0.0873,
+            0.0092,
+            0.0149,
+            0.0633,
+            0.0513,
+            0.018,
+            -0.0587,
+            0.0171,
+            0.0514,
+            0.0148,
+            0.0378,
+            -0.0763,
+            -0.1054,
+            -0.0304,
+            0.0225,
+            0.0362,
+            -0.0435,
+            0.1085,
+            -0.058,
+            -0.0457,
+            0.0078,
+            0.0502,
+            0.0365,
+            -0.0153,
+            0.0948,
+            -0.06,
+            0.004,
+            0.0517,
+            -0.0197,
+            0.0111,
+            0.0026,
+            0.0518,
+            0.0099,
+            -0.0238,
+            0.0422,
+            0.0713,
+            -0.0152,
+            -0.0326,
+            0.0235,
+            -0.0328,
+            0.032,
+            0.0576,
+            -0.12,
+            0.0528,
+            0.0862,
+            -0.0416,
+            -0.0092,
+            -0.0745,
+            0.0111,
+            -0.0773,
+            0.0454,
+            -0.1193,
+            0.0196,
+            0.1013,
+            -0.0144,
+            -0.0051,
+            0.0418,
+            -0.0553,
+            0.0735,
+            0.0569,
+            0.0725,
+            -0.004,
+            0.0404,
+            0.0015
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "observability for large language models",
+            "summary": "This article assumes knowledge of large language models and Amazon SageMaker, covering the importance of observability for LLM inference, including monitoring model serving infrastructure and LLM quality. It explains how to establish visibility into core operational metrics and LLM quality through sampling and evaluation, and introduces a comprehensive observability solution using Amazon Managed Grafana dashboards.",
+            "accessible_title": "How to monitor AI model performance \u2014 the observability approach",
+            "concepts_taught": [
+              {
+                "name": "observability for large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "model serving infrastructure monitoring",
+                "confidence": 0.8
+              },
+              {
+                "name": "LLM quality monitoring",
+                "confidence": 0.8
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "large language models",
+                "confidence": 0.9
+              },
+              {
+                "name": "Amazon SageMaker",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand the importance of observability for LLM inference",
+              "Learn how to monitor model serving infrastructure and LLM quality",
+              "Discover how to establish a comprehensive observability solution using Amazon Managed Grafana dashboards"
+            ],
+            "strategic_questions": [
+              "How can observability improve the reliability and performance of LLMs in production?",
+              "What are the key metrics to monitor for model serving infrastructure and LLM quality?",
+              "How can teams balance the trade-offs between operational health, cost, and output quality in LLM deployment?"
             ]
           }
         }
@@ -183194,6 +184559,445 @@
                 "How can automated workflow orchestration improve compliance standards in financial services?",
                 "What are the key benefits of integrating AI services with cloud infrastructure in financial institutions?",
                 "How can organizations scale automated workflows to meet the needs of large-scale financial services operations?"
+              ]
+            }
+          },
+          {
+            "title": "Comprehensive observability for Amazon SageMaker AI LLM inference: From GPU utilization to LLM quality",
+            "url": "https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/",
+            "published": "Fri, 29 May 2026 23:36:58 +0000",
+            "source": "Artificial Intelligence",
+            "embedding": [
+              0.0051,
+              -0.1085,
+              -0.0244,
+              0.0221,
+              0.0874,
+              -0.0404,
+              -0.0761,
+              -0.0559,
+              0.0141,
+              0.03,
+              -0.0822,
+              -0.0334,
+              0.06,
+              -0.0296,
+              0.0302,
+              0.0312,
+              0.1061,
+              -0.0601,
+              -0.0599,
+              -0.0568,
+              0.0326,
+              0.0675,
+              -0.0542,
+              0.0204,
+              0.0024,
+              0.0228,
+              -0.0278,
+              0.001,
+              0.0681,
+              -0.0443,
+              -0.0294,
+              0.0179,
+              0.0121,
+              0.051,
+              -0.008,
+              0.0152,
+              -0.0172,
+              -0.0896,
+              0.0393,
+              -0.0194,
+              0.0497,
+              -0.0515,
+              -0.0333,
+              -0.0945,
+              0.0938,
+              -0.0192,
+              0.0032,
+              -0.0203,
+              -0.0508,
+              0.0397,
+              -0.0617,
+              -0.064,
+              0.0341,
+              -0.0208,
+              -0.0367,
+              -0.0112,
+              0.0319,
+              -0.0245,
+              -0.0112,
+              -0.0406,
+              -0.0014,
+              -0.0584,
+              -0.0205,
+              0.0529,
+              0.0093,
+              0.0479,
+              -0.0223,
+              0.0912,
+              -0.0191,
+              -0.0005,
+              -0.02,
+              -0.0464,
+              -0.0273,
+              0.0489,
+              -0.0549,
+              0.0452,
+              0.0088,
+              -0.0272,
+              0.1048,
+              -0.0571,
+              -0.0153,
+              -0.0258,
+              -0.0584,
+              0.062,
+              0.0316,
+              0.0247,
+              0.0641,
+              -0.0144,
+              0.0315,
+              0.0053,
+              0.0032,
+              -0.0418,
+              0.0653,
+              0.0666,
+              0.0195,
+              0.0121,
+              0.0442,
+              -0.0624,
+              0.023,
+              0.0818,
+              -0.0111,
+              0.1206,
+              0.0557,
+              -0.0916,
+              -0.0566,
+              -0.0193,
+              0.0428,
+              0.0545,
+              0.0287,
+              -0.0205,
+              0.0544,
+              0.0045,
+              0.0322,
+              0.0344,
+              0.0624,
+              -0.032,
+              0.0055,
+              -0.0657,
+              -0.0193,
+              -0.0111,
+              0.0418,
+              0.0313,
+              0.0917,
+              -0.0037,
+              0.0731,
+              0.0289,
+              0.0459,
+              0.0,
+              0.06,
+              -0.0173,
+              -0.029,
+              0.0117,
+              0.0534,
+              0.0467,
+              0.0142,
+              0.0691,
+              0.0177,
+              -0.0203,
+              -0.0444,
+              0.0934,
+              -0.0486,
+              -0.0264,
+              0.0278,
+              0.0827,
+              0.0232,
+              -0.0021,
+              -0.0302,
+              0.0019,
+              0.1049,
+              -0.1045,
+              0.0077,
+              -0.0298,
+              0.0826,
+              0.0703,
+              0.1002,
+              -0.0191,
+              -0.0025,
+              0.0385,
+              -0.0274,
+              0.0063,
+              -0.0405,
+              0.0104,
+              -0.025,
+              -0.0344,
+              -0.0966,
+              0.015,
+              -0.0195,
+              -0.0523,
+              -0.0237,
+              0.0356,
+              -0.0106,
+              -0.0411,
+              -0.1018,
+              -0.0092,
+              0.0209,
+              -0.0289,
+              0.0681,
+              -0.0195,
+              0.0203,
+              -0.0344,
+              0.0356,
+              0.024,
+              0.0139,
+              -0.0023,
+              0.0138,
+              0.0191,
+              -0.0003,
+              0.0172,
+              -0.0521,
+              0.0023,
+              -0.0252,
+              0.0016,
+              0.0716,
+              0.0575,
+              -0.0569,
+              0.0579,
+              0.0428,
+              -0.037,
+              0.023,
+              -0.0147,
+              -0.0345,
+              0.0639,
+              -0.0405,
+              -0.0991,
+              0.0324,
+              0.0019,
+              0.0254,
+              0.0131,
+              -0.0472,
+              -0.0193,
+              0.0099,
+              -0.0296,
+              0.0235,
+              -0.0009,
+              0.0317,
+              -0.0256,
+              -0.0263,
+              0.025,
+              -0.0172,
+              0.037,
+              0.0013,
+              0.0061,
+              -0.0616,
+              -0.0,
+              -0.1166,
+              0.022,
+              -0.0332,
+              0.15,
+              -0.0871,
+              -0.1362,
+              -0.0559,
+              0.1201,
+              -0.0056,
+              -0.0645,
+              -0.0721,
+              -0.0297,
+              0.0644,
+              -0.0225,
+              0.0484,
+              -0.0194,
+              -0.0103,
+              -0.1101,
+              0.0204,
+              0.0456,
+              0.0096,
+              0.0135,
+              -0.0413,
+              -0.086,
+              0.0012,
+              0.0562,
+              -0.0359,
+              -0.0242,
+              0.0295,
+              -0.0217,
+              0.0632,
+              -0.0152,
+              -0.1079,
+              0.0475,
+              -0.0682,
+              0.0139,
+              0.1107,
+              0.0836,
+              -0.0306,
+              0.0566,
+              0.0842,
+              -0.0241,
+              -0.1282,
+              -0.026,
+              -0.007,
+              -0.0116,
+              -0.0894,
+              0.0301,
+              0.0185,
+              -0.1246,
+              0.0246,
+              -0.033,
+              0.0571,
+              0.0254,
+              -0.0372,
+              -0.0498,
+              0.0421,
+              -0.0121,
+              -0.0442,
+              -0.0268,
+              -0.0212,
+              -0.0355,
+              0.0106,
+              -0.0412,
+              -0.0113,
+              -0.0273,
+              0.0153,
+              0.0605,
+              -0.0177,
+              -0.0111,
+              0.0639,
+              -0.0717,
+              -0.1107,
+              0.0448,
+              -0.0102,
+              0.0513,
+              -0.0412,
+              -0.0792,
+              0.0251,
+              -0.0461,
+              0.0311,
+              0.0117,
+              -0.0021,
+              -0.0021,
+              0.0547,
+              0.0528,
+              0.053,
+              0.007,
+              0.0165,
+              0.0795,
+              -0.1096,
+              0.0174,
+              -0.1373,
+              0.0219,
+              -0.0748,
+              -0.0,
+              -0.0873,
+              0.0092,
+              0.0149,
+              0.0633,
+              0.0513,
+              0.018,
+              -0.0587,
+              0.0171,
+              0.0514,
+              0.0148,
+              0.0378,
+              -0.0763,
+              -0.1054,
+              -0.0304,
+              0.0225,
+              0.0362,
+              -0.0435,
+              0.1085,
+              -0.058,
+              -0.0457,
+              0.0078,
+              0.0502,
+              0.0365,
+              -0.0153,
+              0.0948,
+              -0.06,
+              0.004,
+              0.0517,
+              -0.0197,
+              0.0111,
+              0.0026,
+              0.0518,
+              0.0099,
+              -0.0238,
+              0.0422,
+              0.0713,
+              -0.0152,
+              -0.0326,
+              0.0235,
+              -0.0328,
+              0.032,
+              0.0576,
+              -0.12,
+              0.0528,
+              0.0862,
+              -0.0416,
+              -0.0092,
+              -0.0745,
+              0.0111,
+              -0.0773,
+              0.0454,
+              -0.1193,
+              0.0196,
+              0.1013,
+              -0.0144,
+              -0.0051,
+              0.0418,
+              -0.0553,
+              0.0735,
+              0.0569,
+              0.0725,
+              -0.004,
+              0.0404,
+              0.0015
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "observability for large language models",
+              "summary": "This article assumes knowledge of large language models and Amazon SageMaker, covering the importance of observability for LLM inference, including monitoring model serving infrastructure and LLM quality. It explains how to establish visibility into core operational metrics and LLM quality through sampling and evaluation, and introduces a comprehensive observability solution using Amazon Managed Grafana dashboards.",
+              "accessible_title": "How to monitor AI model performance \u2014 the observability approach",
+              "concepts_taught": [
+                {
+                  "name": "observability for large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "model serving infrastructure monitoring",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "LLM quality monitoring",
+                  "confidence": 0.8
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "large language models",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Amazon SageMaker",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand the importance of observability for LLM inference",
+                "Learn how to monitor model serving infrastructure and LLM quality",
+                "Discover how to establish a comprehensive observability solution using Amazon Managed Grafana dashboards"
+              ],
+              "strategic_questions": [
+                "How can observability improve the reliability and performance of LLMs in production?",
+                "What are the key metrics to monitor for model serving infrastructure and LLM quality?",
+                "How can teams balance the trade-offs between operational health, cost, and output quality in LLM deployment?"
               ]
             }
           }
@@ -351232,6 +353036,892 @@
           "How can automated workflow orchestration improve compliance standards in financial services?",
           "What are the key benefits of integrating AI services with cloud infrastructure in financial institutions?",
           "How can organizations scale automated workflows to meet the needs of large-scale financial services operations?"
+        ]
+      }
+    },
+    {
+      "title": "Testing Gemini models for scheming tendencies",
+      "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
+      "published": "Fri, 29 May 2026 19:24:35 GMT",
+      "source": "AI Alignment Forum",
+      "embedding": [
+        -0.0455,
+        -0.0254,
+        -0.0111,
+        0.0255,
+        0.1009,
+        0.0379,
+        -0.0151,
+        -0.0015,
+        -0.0289,
+        0.0497,
+        -0.0388,
+        -0.0271,
+        0.0799,
+        0.0158,
+        -0.0162,
+        -0.052,
+        0.0414,
+        -0.0255,
+        -0.0255,
+        -0.0307,
+        -0.0009,
+        -0.04,
+        -0.0237,
+        0.0494,
+        -0.0226,
+        0.0244,
+        -0.0341,
+        -0.014,
+        -0.0796,
+        0.0356,
+        0.0427,
+        0.0422,
+        0.0076,
+        0.0307,
+        0.0153,
+        -0.0059,
+        -0.0029,
+        -0.0187,
+        0.129,
+        -0.0528,
+        -0.0135,
+        -0.097,
+        -0.0038,
+        -0.1169,
+        -0.0212,
+        -0.0037,
+        -0.007,
+        0.0162,
+        -0.043,
+        -0.078,
+        -0.0795,
+        -0.0672,
+        0.0194,
+        0.0019,
+        0.0113,
+        -0.0464,
+        0.0446,
+        0.0186,
+        0.066,
+        -0.0086,
+        0.0087,
+        0.0684,
+        0.0353,
+        0.035,
+        0.1033,
+        0.0098,
+        -0.0736,
+        0.0239,
+        0.0052,
+        0.0479,
+        0.0676,
+        -0.0422,
+        -0.0263,
+        -0.035,
+        0.0106,
+        0.0372,
+        0.0226,
+        -0.004,
+        0.0596,
+        -0.1249,
+        -0.0589,
+        -0.0347,
+        -0.0131,
+        0.0495,
+        -0.0262,
+        0.0529,
+        0.0043,
+        -0.015,
+        0.1877,
+        0.0458,
+        -0.0117,
+        -0.0004,
+        0.0684,
+        0.0004,
+        0.0716,
+        0.0459,
+        -0.0341,
+        -0.0303,
+        -0.0267,
+        0.0386,
+        0.0108,
+        0.023,
+        -0.0431,
+        -0.0974,
+        0.049,
+        0.0086,
+        0.0399,
+        -0.0601,
+        0.0525,
+        0.0531,
+        -0.0128,
+        0.0185,
+        0.0797,
+        -0.0717,
+        0.1001,
+        -0.0015,
+        -0.0679,
+        0.0727,
+        -0.0283,
+        0.0535,
+        0.1213,
+        -0.0063,
+        0.0674,
+        0.0631,
+        0.0271,
+        0.0294,
+        -0.0752,
+        0.0,
+        -0.0296,
+        0.0475,
+        0.0301,
+        0.0392,
+        -0.004,
+        -0.0532,
+        -0.0294,
+        0.122,
+        -0.0014,
+        0.0412,
+        -0.0781,
+        0.049,
+        0.0112,
+        0.0321,
+        0.0293,
+        0.0935,
+        0.0482,
+        -0.0143,
+        -0.0015,
+        -0.0506,
+        -0.0166,
+        -0.1213,
+        -0.0255,
+        -0.0169,
+        0.0256,
+        -0.0353,
+        -0.052,
+        0.0126,
+        0.0254,
+        0.0423,
+        -0.0066,
+        0.0824,
+        -0.0863,
+        0.085,
+        0.0069,
+        0.0679,
+        -0.139,
+        -0.0234,
+        -0.0927,
+        0.0748,
+        -0.0265,
+        0.0305,
+        -0.0087,
+        0.0207,
+        0.0204,
+        0.0263,
+        0.0191,
+        -0.1132,
+        0.0257,
+        -0.0543,
+        -0.0058,
+        0.0484,
+        0.0978,
+        -0.0034,
+        -0.0145,
+        0.064,
+        0.0392,
+        -0.0627,
+        0.0262,
+        0.029,
+        -0.0576,
+        0.0109,
+        -0.0404,
+        0.0188,
+        -0.0015,
+        -0.0463,
+        -0.0309,
+        -0.0084,
+        -0.0067,
+        0.0472,
+        -0.0336,
+        0.0064,
+        -0.0609,
+        0.0226,
+        -0.1223,
+        -0.0977,
+        0.0941,
+        -0.0258,
+        0.021,
+        -0.0431,
+        -0.024,
+        -0.0326,
+        0.0316,
+        -0.0176,
+        0.0019,
+        -0.0863,
+        -0.0446,
+        -0.0027,
+        -0.0012,
+        0.0307,
+        0.0246,
+        -0.0207,
+        -0.0621,
+        0.0047,
+        -0.0623,
+        -0.0,
+        -0.1616,
+        0.0022,
+        -0.0754,
+        0.0126,
+        -0.0688,
+        -0.0611,
+        -0.0385,
+        -0.0193,
+        -0.0659,
+        0.0119,
+        -0.0242,
+        -0.0678,
+        0.0661,
+        -0.0008,
+        -0.0173,
+        -0.0917,
+        0.0189,
+        -0.0091,
+        0.0253,
+        -0.0026,
+        0.0691,
+        0.0713,
+        -0.059,
+        -0.0466,
+        -0.0092,
+        0.0199,
+        -0.0147,
+        0.0422,
+        0.0532,
+        0.0168,
+        0.1011,
+        0.0151,
+        -0.0896,
+        0.0881,
+        0.048,
+        0.0625,
+        0.0051,
+        0.0226,
+        -0.0327,
+        -0.045,
+        -0.0202,
+        0.0654,
+        -0.0516,
+        0.02,
+        0.0132,
+        0.0399,
+        0.0003,
+        0.0695,
+        0.0381,
+        -0.0654,
+        0.0208,
+        -0.0269,
+        -0.0245,
+        -0.0278,
+        -0.0815,
+        -0.0154,
+        0.0165,
+        0.0029,
+        0.0435,
+        -0.0051,
+        0.037,
+        -0.0173,
+        -0.0075,
+        0.0502,
+        -0.066,
+        -0.0399,
+        -0.0028,
+        0.0891,
+        0.0443,
+        -0.0528,
+        0.0339,
+        -0.0736,
+        -0.0669,
+        0.071,
+        -0.0171,
+        -0.018,
+        -0.0852,
+        -0.0706,
+        -0.0572,
+        -0.0277,
+        0.0211,
+        -0.0863,
+        0.0179,
+        0.0419,
+        0.0226,
+        0.0458,
+        0.0059,
+        -0.0017,
+        0.0076,
+        0.0144,
+        -0.0826,
+        -0.0475,
+        -0.0163,
+        0.0637,
+        -0.0449,
+        -0.0,
+        0.0035,
+        -0.0334,
+        0.1125,
+        0.0496,
+        0.0457,
+        0.0075,
+        -0.0472,
+        -0.1276,
+        -0.0208,
+        -0.0256,
+        -0.067,
+        -0.0755,
+        0.0059,
+        0.0332,
+        0.0118,
+        0.0168,
+        0.0005,
+        0.0589,
+        -0.0738,
+        0.0046,
+        0.0288,
+        0.0273,
+        -0.052,
+        -0.0249,
+        0.0616,
+        -0.0713,
+        -0.0063,
+        0.0726,
+        -0.0478,
+        0.0823,
+        -0.0149,
+        -0.0254,
+        0.0283,
+        0.0124,
+        -0.0124,
+        0.1318,
+        -0.0329,
+        -0.0457,
+        0.0253,
+        -0.0159,
+        -0.028,
+        0.0309,
+        -0.0355,
+        0.0062,
+        0.0193,
+        -0.0379,
+        -0.0084,
+        -0.1018,
+        0.0484,
+        -0.0438,
+        0.0246,
+        -0.021,
+        -0.0306,
+        0.1208,
+        0.0828,
+        0.0025,
+        0.0349,
+        -0.0103,
+        -0.0026,
+        0.0411,
+        0.1067,
+        0.0058,
+        -0.0116,
+        -0.0608
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Safety & Alignment",
+        "article_type": "extends",
+        "primary_concept": "scheming tendencies in AI models",
+        "summary": "This article extends previous work on evaluating scheming capabilities in AI models, introducing new testing methods to assess sabotage propensities in Gemini models. It assumes knowledge of AI safety and alignment, as well as previous work on evaluating scheming capabilities. The article focuses on testing whether AI models would undermine their own safeguards if given the opportunity.",
+        "accessible_title": "How to test AI models for sabotage \u2014 the scheming approach",
+        "concepts_taught": [
+          {
+            "name": "scheming tendencies in AI models",
+            "confidence": 0.9
+          },
+          {
+            "name": "automated auditing",
+            "confidence": 0.8
+          },
+          {
+            "name": "simulated agentic environments",
+            "confidence": 0.7
+          },
+          {
+            "name": "scheming honeypot evaluations",
+            "confidence": 0.6
+          },
+          {
+            "name": "agentic misbehavior",
+            "confidence": 0.5
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "AI safety and alignment",
+            "confidence": 0.9
+          },
+          {
+            "name": "evaluating scheming capabilities",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "advanced",
+          "technical_depth": 8,
+          "reading_time_minutes": 20
+        },
+        "learning_outcomes": [
+          "Understand the importance of testing AI models for sabotage propensities",
+          "Learn about the Gram auditing framework and its applications",
+          "Understand the differences between automated auditing and scheming honeypot evaluations"
+        ],
+        "strategic_questions": [
+          "How can we effectively test AI models for sabotage propensities?",
+          "What are the implications of excessive role-playing and goal-seeking in AI models?",
+          "How can we improve the safety and alignment of AI models in real-world applications?"
+        ]
+      }
+    },
+    {
+      "title": "Comprehensive observability for Amazon SageMaker AI LLM inference: From GPU utilization to LLM quality",
+      "url": "https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/",
+      "published": "Fri, 29 May 2026 23:36:58 +0000",
+      "source": "Artificial Intelligence",
+      "embedding": [
+        0.0051,
+        -0.1085,
+        -0.0244,
+        0.0221,
+        0.0874,
+        -0.0404,
+        -0.0761,
+        -0.0559,
+        0.0141,
+        0.03,
+        -0.0822,
+        -0.0334,
+        0.06,
+        -0.0296,
+        0.0302,
+        0.0312,
+        0.1061,
+        -0.0601,
+        -0.0599,
+        -0.0568,
+        0.0326,
+        0.0675,
+        -0.0542,
+        0.0204,
+        0.0024,
+        0.0228,
+        -0.0278,
+        0.001,
+        0.0681,
+        -0.0443,
+        -0.0294,
+        0.0179,
+        0.0121,
+        0.051,
+        -0.008,
+        0.0152,
+        -0.0172,
+        -0.0896,
+        0.0393,
+        -0.0194,
+        0.0497,
+        -0.0515,
+        -0.0333,
+        -0.0945,
+        0.0938,
+        -0.0192,
+        0.0032,
+        -0.0203,
+        -0.0508,
+        0.0397,
+        -0.0617,
+        -0.064,
+        0.0341,
+        -0.0208,
+        -0.0367,
+        -0.0112,
+        0.0319,
+        -0.0245,
+        -0.0112,
+        -0.0406,
+        -0.0014,
+        -0.0584,
+        -0.0205,
+        0.0529,
+        0.0093,
+        0.0479,
+        -0.0223,
+        0.0912,
+        -0.0191,
+        -0.0005,
+        -0.02,
+        -0.0464,
+        -0.0273,
+        0.0489,
+        -0.0549,
+        0.0452,
+        0.0088,
+        -0.0272,
+        0.1048,
+        -0.0571,
+        -0.0153,
+        -0.0258,
+        -0.0584,
+        0.062,
+        0.0316,
+        0.0247,
+        0.0641,
+        -0.0144,
+        0.0315,
+        0.0053,
+        0.0032,
+        -0.0418,
+        0.0653,
+        0.0666,
+        0.0195,
+        0.0121,
+        0.0442,
+        -0.0624,
+        0.023,
+        0.0818,
+        -0.0111,
+        0.1206,
+        0.0557,
+        -0.0916,
+        -0.0566,
+        -0.0193,
+        0.0428,
+        0.0545,
+        0.0287,
+        -0.0205,
+        0.0544,
+        0.0045,
+        0.0322,
+        0.0344,
+        0.0624,
+        -0.032,
+        0.0055,
+        -0.0657,
+        -0.0193,
+        -0.0111,
+        0.0418,
+        0.0313,
+        0.0917,
+        -0.0037,
+        0.0731,
+        0.0289,
+        0.0459,
+        0.0,
+        0.06,
+        -0.0173,
+        -0.029,
+        0.0117,
+        0.0534,
+        0.0467,
+        0.0142,
+        0.0691,
+        0.0177,
+        -0.0203,
+        -0.0444,
+        0.0934,
+        -0.0486,
+        -0.0264,
+        0.0278,
+        0.0827,
+        0.0232,
+        -0.0021,
+        -0.0302,
+        0.0019,
+        0.1049,
+        -0.1045,
+        0.0077,
+        -0.0298,
+        0.0826,
+        0.0703,
+        0.1002,
+        -0.0191,
+        -0.0025,
+        0.0385,
+        -0.0274,
+        0.0063,
+        -0.0405,
+        0.0104,
+        -0.025,
+        -0.0344,
+        -0.0966,
+        0.015,
+        -0.0195,
+        -0.0523,
+        -0.0237,
+        0.0356,
+        -0.0106,
+        -0.0411,
+        -0.1018,
+        -0.0092,
+        0.0209,
+        -0.0289,
+        0.0681,
+        -0.0195,
+        0.0203,
+        -0.0344,
+        0.0356,
+        0.024,
+        0.0139,
+        -0.0023,
+        0.0138,
+        0.0191,
+        -0.0003,
+        0.0172,
+        -0.0521,
+        0.0023,
+        -0.0252,
+        0.0016,
+        0.0716,
+        0.0575,
+        -0.0569,
+        0.0579,
+        0.0428,
+        -0.037,
+        0.023,
+        -0.0147,
+        -0.0345,
+        0.0639,
+        -0.0405,
+        -0.0991,
+        0.0324,
+        0.0019,
+        0.0254,
+        0.0131,
+        -0.0472,
+        -0.0193,
+        0.0099,
+        -0.0296,
+        0.0235,
+        -0.0009,
+        0.0317,
+        -0.0256,
+        -0.0263,
+        0.025,
+        -0.0172,
+        0.037,
+        0.0013,
+        0.0061,
+        -0.0616,
+        -0.0,
+        -0.1166,
+        0.022,
+        -0.0332,
+        0.15,
+        -0.0871,
+        -0.1362,
+        -0.0559,
+        0.1201,
+        -0.0056,
+        -0.0645,
+        -0.0721,
+        -0.0297,
+        0.0644,
+        -0.0225,
+        0.0484,
+        -0.0194,
+        -0.0103,
+        -0.1101,
+        0.0204,
+        0.0456,
+        0.0096,
+        0.0135,
+        -0.0413,
+        -0.086,
+        0.0012,
+        0.0562,
+        -0.0359,
+        -0.0242,
+        0.0295,
+        -0.0217,
+        0.0632,
+        -0.0152,
+        -0.1079,
+        0.0475,
+        -0.0682,
+        0.0139,
+        0.1107,
+        0.0836,
+        -0.0306,
+        0.0566,
+        0.0842,
+        -0.0241,
+        -0.1282,
+        -0.026,
+        -0.007,
+        -0.0116,
+        -0.0894,
+        0.0301,
+        0.0185,
+        -0.1246,
+        0.0246,
+        -0.033,
+        0.0571,
+        0.0254,
+        -0.0372,
+        -0.0498,
+        0.0421,
+        -0.0121,
+        -0.0442,
+        -0.0268,
+        -0.0212,
+        -0.0355,
+        0.0106,
+        -0.0412,
+        -0.0113,
+        -0.0273,
+        0.0153,
+        0.0605,
+        -0.0177,
+        -0.0111,
+        0.0639,
+        -0.0717,
+        -0.1107,
+        0.0448,
+        -0.0102,
+        0.0513,
+        -0.0412,
+        -0.0792,
+        0.0251,
+        -0.0461,
+        0.0311,
+        0.0117,
+        -0.0021,
+        -0.0021,
+        0.0547,
+        0.0528,
+        0.053,
+        0.007,
+        0.0165,
+        0.0795,
+        -0.1096,
+        0.0174,
+        -0.1373,
+        0.0219,
+        -0.0748,
+        -0.0,
+        -0.0873,
+        0.0092,
+        0.0149,
+        0.0633,
+        0.0513,
+        0.018,
+        -0.0587,
+        0.0171,
+        0.0514,
+        0.0148,
+        0.0378,
+        -0.0763,
+        -0.1054,
+        -0.0304,
+        0.0225,
+        0.0362,
+        -0.0435,
+        0.1085,
+        -0.058,
+        -0.0457,
+        0.0078,
+        0.0502,
+        0.0365,
+        -0.0153,
+        0.0948,
+        -0.06,
+        0.004,
+        0.0517,
+        -0.0197,
+        0.0111,
+        0.0026,
+        0.0518,
+        0.0099,
+        -0.0238,
+        0.0422,
+        0.0713,
+        -0.0152,
+        -0.0326,
+        0.0235,
+        -0.0328,
+        0.032,
+        0.0576,
+        -0.12,
+        0.0528,
+        0.0862,
+        -0.0416,
+        -0.0092,
+        -0.0745,
+        0.0111,
+        -0.0773,
+        0.0454,
+        -0.1193,
+        0.0196,
+        0.1013,
+        -0.0144,
+        -0.0051,
+        0.0418,
+        -0.0553,
+        0.0735,
+        0.0569,
+        0.0725,
+        -0.004,
+        0.0404,
+        0.0015
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "observability for large language models",
+        "summary": "This article assumes knowledge of large language models and Amazon SageMaker, covering the importance of observability for LLM inference, including monitoring model serving infrastructure and LLM quality. It explains how to establish visibility into core operational metrics and LLM quality through sampling and evaluation, and introduces a comprehensive observability solution using Amazon Managed Grafana dashboards.",
+        "accessible_title": "How to monitor AI model performance \u2014 the observability approach",
+        "concepts_taught": [
+          {
+            "name": "observability for large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "model serving infrastructure monitoring",
+            "confidence": 0.8
+          },
+          {
+            "name": "LLM quality monitoring",
+            "confidence": 0.8
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "large language models",
+            "confidence": 0.9
+          },
+          {
+            "name": "Amazon SageMaker",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand the importance of observability for LLM inference",
+          "Learn how to monitor model serving infrastructure and LLM quality",
+          "Discover how to establish a comprehensive observability solution using Amazon Managed Grafana dashboards"
+        ],
+        "strategic_questions": [
+          "How can observability improve the reliability and performance of LLMs in production?",
+          "What are the key metrics to monitor for model serving infrastructure and LLM quality?",
+          "How can teams balance the trade-offs between operational health, cost, and output quality in LLM deployment?"
         ]
       }
     }
