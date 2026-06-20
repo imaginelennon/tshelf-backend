@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T12:44:52.046941Z",
-  "total_articles": 330,
-  "total_concepts": 281,
+  "generated_at": "2026-06-20T11:15:30.177096Z",
+  "total_articles": 332,
+  "total_concepts": 283,
   "concepts": {
     "approval-directed-agents": {
       "id": "approval-directed-agents",
@@ -79,9 +79,9 @@
         "https://www.alignmentforum.org/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a"
       ],
       "prerequisite_concepts": [
-        "human-values",
         "artificial-intelligence-safety",
-        "language-model-training"
+        "language-model-training",
+        "human-values"
       ]
     },
     "decision-theoretic-consequentialism": {
@@ -96,8 +96,8 @@
         "https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to"
       ],
       "prerequisite_concepts": [
-        "decision-theory",
-        "utility-theory"
+        "utility-theory",
+        "decision-theory"
       ]
     },
     "ai-safety-evaluations": {
@@ -144,8 +144,8 @@
         "https://www.alignmentforum.org/posts/xq5taGA6Tz6YShCB9/censored-llms-as-a-natural-testbed-for-secret-knowledge-2"
       ],
       "prerequisite_concepts": [
-        "language-model-evaluation",
-        "language-model-training"
+        "language-model-training",
+        "language-model-evaluation"
       ]
     },
     "hybrid-mixture-of-experts-model": {
@@ -176,8 +176,8 @@
         "https://aws.amazon.com/blogs/machine-learning/use-rag-for-video-generation-using-amazon-bedrock-and-amazon-nova-reel/"
       ],
       "prerequisite_concepts": [
-        "computer-vision",
-        "natural-language-processing"
+        "natural-language-processing",
+        "computer-vision"
       ]
     },
     "video-generation": {
@@ -192,8 +192,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-v-rag-revolutionizing-ai-powered-video-production-with-retrieval-augmented-generation/"
       ],
       "prerequisite_concepts": [
-        "computer-vision",
-        "deep-learning-architectures"
+        "deep-learning-architectures",
+        "computer-vision"
       ]
     },
     "machine-learning-model-monitoring": {
@@ -208,8 +208,8 @@
         "https://aws.amazon.com/blogs/machine-learning/enhanced-metrics-for-amazon-sagemaker-ai-endpoints-deeper-visibility-for-better-performance/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-basics",
-        "machine-learning-model-deployment"
+        "machine-learning-model-deployment",
+        "cloud-computing-basics"
       ]
     },
     "data-residency": {
@@ -241,8 +241,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-nova-forge-sdk-a-seamless-way-to-customize-nova-models-for-enterprise-ai/"
       ],
       "prerequisite_concepts": [
-        "supervised-fine-tuning",
-        "large-language-models"
+        "large-language-models",
+        "supervised-fine-tuning"
       ]
     },
     "evaluation-of-ai-agents": {
@@ -257,8 +257,8 @@
         "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-for-production-a-practical-guide-to-strands-evals/"
       ],
       "prerequisite_concepts": [
-        "traditional-software-testing",
-        "ai-agents"
+        "ai-agents",
+        "traditional-software-testing"
       ]
     },
     "ab-testing-engine": {
@@ -311,16 +311,16 @@
         "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-basics",
         "software-development-principles",
-        "amazon-bedrock",
-        "quantitative-trading",
-        "ai-fundamentals",
-        "amazon-nova-1-models",
-        "autonomous-driving-basics",
-        "aws-environment",
+        "neural-networks",
         "autonomous-agents",
-        "neural-networks"
+        "artificial-intelligence-basics",
+        "ai-fundamentals",
+        "quantitative-trading",
+        "autonomous-driving-basics",
+        "amazon-bedrock",
+        "aws-environment",
+        "amazon-nova-1-models"
       ]
     },
     "fine-tuning-large-language-models": {
@@ -338,14 +338,14 @@
         "https://aws.amazon.com/blogs/machine-learning/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "machine-learning-services",
-        "ai-fundamentals",
-        "machine-learning-basics",
-        "data-governance-concepts",
-        "supervised-fine-tuning",
         "amazon-sagemaker",
+        "machine-learning-services",
+        "machine-learning-basics",
+        "ai-fundamentals",
         "fine-tuning",
-        "large-language-models"
+        "large-language-models",
+        "data-governance-concepts",
+        "supervised-fine-tuning"
       ]
     },
     "accelerated-computing-infrastructure": {
@@ -360,8 +360,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aws-and-nvidia-deepen-strategic-collaboration-to-accelerate-ai-from-pilot-to-production/"
       ],
       "prerequisite_concepts": [
-        "ai-compute-demand",
-        "production-ready-ai-solutions"
+        "production-ready-ai-solutions",
+        "ai-compute-demand"
       ]
     },
     "agentic-ai": {
@@ -384,21 +384,21 @@
         "https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/"
       ],
       "prerequisite_concepts": [
-        "spring-boot",
-        "natural-language-processing",
-        "content-management-systems",
-        "natural-language-processing-basics",
         "marketing-workflows",
-        "workflow-optimization",
-        "operational-management",
         "ai-engineering",
-        "java-development",
-        "traditional-radiology-worklist-systems",
-        "hipaa-requirements",
         "machine-learning",
+        "java-development",
+        "natural-language-processing-basics",
+        "operational-management",
+        "content-management-systems",
+        "traditional-radiology-worklist-systems",
+        "spring-boot",
+        "workflow-optimization",
+        "hipaa-requirements",
+        "natural-language-processing",
         "agentic-ai-basics",
-        "radiology-workflow-optimization",
-        "large-language-models"
+        "large-language-models",
+        "radiology-workflow-optimization"
       ]
     },
     "disaggregated-inference": {
@@ -429,8 +429,8 @@
         "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai"
       ],
       "prerequisite_concepts": [
-        "machine-learning",
-        "ai-systems"
+        "ai-systems",
+        "machine-learning"
       ]
     },
     "adoption-of-artificial-intelligence-in-legal-services": {
@@ -445,8 +445,8 @@
         "https://www.normaltech.ai/p/ai-wont-automatically-make-legal"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence",
-        "legal-services-industry"
+        "legal-services-industry",
+        "artificial-intelligence"
       ]
     },
     "moravecs-paradox": {
@@ -477,8 +477,8 @@
         "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal"
       ],
       "prerequisite_concepts": [
-        "basic-understanding-of-ai",
-        "familiarity-with-ai-safety-concepts"
+        "familiarity-with-ai-safety-concepts",
+        "basic-understanding-of-ai"
       ]
     },
     "production-progress-paradox": {
@@ -510,10 +510,10 @@
         "https://thegradient.pub/agi-is-not-multimodal/"
       ],
       "prerequisite_concepts": [
-        "generative-ai-models",
         "machine-learning-fundamentals",
-        "language-models",
-        "artificial-intelligence-basics"
+        "generative-ai-models",
+        "artificial-intelligence-basics",
+        "language-models"
       ]
     },
     "artificial-intelligence-as-normal-technology": {
@@ -528,8 +528,8 @@
         "https://www.normaltech.ai/p/ai-as-normal-technology"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "ai-policy-and-ethics"
+        "ai-policy-and-ethics",
+        "ai-basics"
       ]
     },
     "artificial-intelligence-progress": {
@@ -544,8 +544,8 @@
         "https://www.normaltech.ai/p/is-ai-progress-slowing-down"
       ],
       "prerequisite_concepts": [
-        "deep-learning",
-        "large-language-models"
+        "large-language-models",
+        "deep-learning"
       ]
     },
     "political-misinformation-and-ai": {
@@ -625,8 +625,8 @@
         "https://www.normaltech.ai/p/ai-companies-are-pivoting-from-creating"
       ],
       "prerequisite_concepts": [
-        "ai-applications",
-        "large-language-models"
+        "large-language-models",
+        "ai-applications"
       ]
     },
     "existential-risk-from-artificial-intelligence": {
@@ -674,8 +674,8 @@
         "https://thegradient.pub/shape-symmetry-structure/"
       ],
       "prerequisite_concepts": [
-        "deep-learning-basics",
-        "machine-learning-fundamentals"
+        "machine-learning-fundamentals",
+        "deep-learning-basics"
       ]
     },
     "purposeful-dialogue": {
@@ -690,8 +690,8 @@
         "https://thegradient.pub/dialog/"
       ],
       "prerequisite_concepts": [
-        "benchmarking-for-dialogue-systems",
-        "large-language-models"
+        "large-language-models",
+        "benchmarking-for-dialogue-systems"
       ]
     },
     "beneficial-ai": {
@@ -722,8 +722,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "natural-language-processing"
       ]
     },
     "state-space-models": {
@@ -786,8 +786,8 @@
       ],
       "extends": [],
       "prerequisite_concepts": [
-        "genetics",
-        "molecular-biology"
+        "molecular-biology",
+        "genetics"
       ]
     },
     "human-in-the-loop-dataset-production": {
@@ -802,8 +802,8 @@
         "https://thegradient.pub/salmon-in-the-loop/"
       ],
       "prerequisite_concepts": [
-        "dataset-production",
-        "environmental-science"
+        "environmental-science",
+        "dataset-production"
       ]
     },
     "neural-algorithmic-reasoning": {
@@ -818,8 +818,8 @@
         "https://thegradient.pub/neural-algorithmic-reasoning/"
       ],
       "prerequisite_concepts": [
-        "classical-computation",
-        "deep-learning"
+        "deep-learning",
+        "classical-computation"
       ]
     },
     "ai-alignment": {
@@ -836,10 +836,10 @@
         "https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate"
       ],
       "prerequisite_concepts": [
-        "machine-learning-fundamentals",
-        "artificial-intelligence-basics",
-        "ai-basics",
         "machine-learning-basics",
+        "artificial-intelligence-basics",
+        "machine-learning-fundamentals",
+        "ai-basics",
         "ai-existential-risk"
       ]
     },
@@ -855,8 +855,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-reco-transforms-security-alerts-using-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "ai-basics",
-        "security-operations"
+        "security-operations",
+        "ai-basics"
       ]
     },
     "amazon-bedrock-agentcore-integration-with-slack": {
@@ -871,8 +871,8 @@
         "https://aws.amazon.com/blogs/machine-learning/integrating-amazon-bedrock-agentcore-with-slack/"
       ],
       "prerequisite_concepts": [
-        "slack-api",
-        "ai-agents"
+        "ai-agents",
+        "slack-api"
       ]
     },
     "deterministic-language-models": {
@@ -919,8 +919,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "basic-familiarity-with-python-and-json",
-        "aws-services"
+        "aws-services",
+        "basic-familiarity-with-python-and-json"
       ]
     },
     "reward-modeling": {
@@ -986,9 +986,9 @@
       ],
       "prerequisite_concepts": [
         "foundation-models",
-        "supervised-fine-tuning",
+        "large-language-models",
         "amazon-nova-models",
-        "large-language-models"
+        "supervised-fine-tuning"
       ]
     },
     "chain-of-thought-interpretability": {
@@ -1003,8 +1003,8 @@
         "https://www.alignmentforum.org/posts/tDJWZLQNN7poqCwKa/test-your-best-methods-on-our-hard-cot-interp-tasks"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "safety-techniques"
+        "safety-techniques",
+        "language-models"
       ]
     },
     "cross-region-inference": {
@@ -1021,10 +1021,10 @@
         "https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "amazon-web-services-aws",
+        "ai-fundamentals",
         "cloud-computing-basics",
-        "ai-fundamentals"
+        "amazon-web-services-aws",
+        "foundation-models"
       ]
     },
     "context-aware-ai-safety": {
@@ -1073,9 +1073,9 @@
       ],
       "prerequisite_concepts": [
         "existential-risk",
-        "ai-basics",
+        "artificial-intelligence-basics",
         "risk-assessment",
-        "artificial-intelligence-basics"
+        "ai-basics"
       ]
     },
     "emergent-misalignment-from-reward-hacking": {
@@ -1107,10 +1107,10 @@
         "https://aws.amazon.com/blogs/machine-learning/building-intelligent-search-with-amazon-bedrock-and-amazon-opensearch-for-hybrid-rag-solutions/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "chatbot-architecture",
+        "large-language-models",
         "content-management",
-        "large-language-models"
+        "natural-language-processing",
+        "chatbot-architecture"
       ]
     },
     "generative-ai": {
@@ -1129,15 +1129,15 @@
         "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/"
       ],
       "prerequisite_concepts": [
-        "workflow-configuration",
         "design-automation",
-        "regulatory-compliance",
-        "ai-fundamentals",
         "ai-applications",
-        "brand-management",
-        "seismic-data-analysis",
+        "marketing-asset-production",
+        "ai-fundamentals",
         "customer-feedback-analysis",
-        "marketing-asset-production"
+        "brand-management",
+        "workflow-configuration",
+        "seismic-data-analysis",
+        "regulatory-compliance"
       ]
     },
     "anomaly-detection-in-time-series-data": {
@@ -1152,8 +1152,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-solar-flare-detection-system-on-sagemaker-ai-lstm-networks-and-esa-stix-data/"
       ],
       "prerequisite_concepts": [
-        "deep-learning-basics",
-        "machine-learning-fundamentals"
+        "machine-learning-fundamentals",
+        "deep-learning-basics"
       ]
     },
     "agent-evaluation": {
@@ -1171,12 +1171,12 @@
         "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/"
       ],
       "prerequisite_concepts": [
-        "evaluation-metrics",
-        "ai-agents",
-        "ai-agent-development",
         "software-testing",
         "agent-development",
-        "large-language-models"
+        "ai-agents",
+        "large-language-models",
+        "ai-agent-development",
+        "evaluation-metrics"
       ]
     },
     "conversational-ai-agents": {
@@ -1191,8 +1191,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-finops-agent-using-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing",
         "cost-management",
+        "cloud-computing",
         "aws-services"
       ]
     },
@@ -1208,8 +1208,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-system-for-compliance-evidence-collection/"
       ],
       "prerequisite_concepts": [
-        "compliance-audits",
-        "manual-evidence-collection"
+        "manual-evidence-collection",
+        "compliance-audits"
       ]
     },
     "agentic-qa-automation": {
@@ -1224,8 +1224,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act/"
       ],
       "prerequisite_concepts": [
-        "traditional-qa-automation",
-        "software-development-lifecycle"
+        "software-development-lifecycle",
+        "traditional-qa-automation"
       ]
     },
     "autonomous-systems": {
@@ -1256,8 +1256,8 @@
         "https://aws.amazon.com/blogs/machine-learning/can-your-governance-keep-pace-with-your-ai-ambitions-ai-risk-intelligence-in-the-agentic-era/"
       ],
       "prerequisite_concepts": [
-        "devops",
-        "it-governance-frameworks"
+        "it-governance-frameworks",
+        "devops"
       ]
     },
     "research-methodology": {
@@ -1308,10 +1308,10 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/"
       ],
       "prerequisite_concepts": [
-        "web-automation",
         "ecommerce",
-        "browser-based-ai-agents",
-        "competitive-analysis"
+        "competitive-analysis",
+        "web-automation",
+        "browser-based-ai-agents"
       ]
     },
     "multi-turn-conversation-evaluation": {
@@ -1376,9 +1376,9 @@
       ],
       "prerequisite_concepts": [
         "automation-needs",
-        "document-processing-challenges",
         "information-extraction",
-        "document-processing"
+        "document-processing",
+        "document-processing-challenges"
       ]
     },
     "agentic-coding-assistants": {
@@ -1393,8 +1393,8 @@
         "https://aws.amazon.com/blogs/machine-learning/persist-session-state-with-filesystem-configuration-and-execute-shell-commands/"
       ],
       "prerequisite_concepts": [
-        "development-workflows",
-        "large-language-models"
+        "large-language-models",
+        "development-workflows"
       ]
     },
     "ai-safety-funding-and-scaling": {
@@ -1409,8 +1409,8 @@
         "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety"
       ],
       "prerequisite_concepts": [
-        "importance-of-rapid-ai-progress",
-        "ai-safety-challenges"
+        "ai-safety-challenges",
+        "importance-of-rapid-ai-progress"
       ]
     },
     "compositional-learning-theory": {
@@ -1425,8 +1425,8 @@
         "https://www.alignmentforum.org/posts/EEvHYKLsq92LmQ78a/paper-stringological-sequence-prediction-i-1"
       ],
       "prerequisite_concepts": [
-        "agent-foundations-research",
-        "learning-theoretic-alignment"
+        "learning-theoretic-alignment",
+        "agent-foundations-research"
       ]
     },
     "ai-timelines-and-progress": {
@@ -1441,8 +1441,8 @@
         "https://www.alignmentforum.org/posts/dKpC6wHFqDrGZwnah/ais-can-now-often-do-massive-easy-to-verify-swe-tasks-and-i"
       ],
       "prerequisite_concepts": [
-        "ai-progress-and-applications",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "ai-progress-and-applications"
       ]
     },
     "agentic-ai-service": {
@@ -1489,8 +1489,8 @@
         "https://aws.amazon.com/blogs/machine-learning/from-isolated-alerts-to-contextual-intelligence-agentic-maritime-anomaly-analysis-with-generative-ai/"
       ],
       "prerequisite_concepts": [
-        "automatic-identification-system-ais-data",
-        "maritime-anomaly-analysis"
+        "maritime-anomaly-analysis",
+        "automatic-identification-system-ais-data"
       ]
     },
     "authorization-code-flow": {
@@ -1537,8 +1537,8 @@
         "https://www.alignmentforum.org/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai"
       ],
       "prerequisite_concepts": [
-        "ai-tools-and-their-applications",
-        "research-engineering"
+        "research-engineering",
+        "ai-tools-and-their-applications"
       ]
     },
     "cost-attribution-for-ai-workloads": {
@@ -1587,8 +1587,8 @@
         "https://aws.amazon.com/blogs/machine-learning/text-to-sql-solution-powered-by-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "business-intelligence",
-        "data-analytics"
+        "data-analytics",
+        "business-intelligence"
       ]
     },
     "model-fine-tuning": {
@@ -1603,8 +1603,8 @@
         "https://aws.amazon.com/blogs/machine-learning/customize-amazon-nova-models-with-amazon-bedrock-fine-tuning/"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "language-models"
       ]
     },
     "human-in-the-loop-constructs": {
@@ -1651,8 +1651,8 @@
         "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/"
       ],
       "prerequisite_concepts": [
-        "ai-application-development",
-        "model-deployment-on-cloud-platforms"
+        "model-deployment-on-cloud-platforms",
+        "ai-application-development"
       ]
     },
     "agent-management": {
@@ -1683,8 +1683,8 @@
         "https://aws.amazon.com/blogs/machine-learning/embed-a-live-ai-browser-agent-in-your-react-app-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-powered-application-development",
-        "react-development"
+        "react-development",
+        "ai-powered-application-development"
       ]
     },
     "model-context-protocol": {
@@ -1701,10 +1701,10 @@
         "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/"
       ],
       "prerequisite_concepts": [
-        "security-risks-in-ai-systems",
         "enterprise-ai-infrastructure",
-        "stateless-implementations",
-        "ai-agent-deployments"
+        "security-risks-in-ai-systems",
+        "ai-agent-deployments",
+        "stateless-implementations"
       ]
     },
     "chain-of-thought": {
@@ -1719,8 +1719,8 @@
         "https://www.alignmentforum.org/posts/K8FxfK9GmJfiAhgcT/anthropic-repeatedly-accidentally-trained-against-the-cot"
       ],
       "prerequisite_concepts": [
-        "ai-safety-and-alignment",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "ai-safety-and-alignment"
       ]
     },
     "generative-ai-adoption": {
@@ -1751,9 +1751,9 @@
         "https://aws.amazon.com/blogs/machine-learning/use-case-based-deployments-on-sagemaker-jumpstart/"
       ],
       "prerequisite_concepts": [
-        "sagemaker-studio-domain",
         "iam-role",
-        "aws-account"
+        "aws-account",
+        "sagemaker-studio-domain"
       ]
     },
     "inference-deployment-on-cloud-infrastructure": {
@@ -1817,8 +1817,8 @@
         "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "speculative-decoding-techniques",
         "autoregressive-decoding",
+        "speculative-decoding-techniques",
         "large-language-models"
       ]
     },
@@ -1850,8 +1850,8 @@
         "https://www.alignmentforum.org/posts/7noKve57za3yg2LEb/you-can-only-build-safe-asi-if-asi-is-globally-banned-1"
       ],
       "prerequisite_concepts": [
-        "superintelligence-concepts",
-        "ai-risk-awareness"
+        "ai-risk-awareness",
+        "superintelligence-concepts"
       ]
     },
     "text-to-sql-generation": {
@@ -1866,8 +1866,8 @@
         "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "fine-tuning"
+        "fine-tuning",
+        "foundation-models"
       ]
     },
     "generative-ai-services": {
@@ -1882,8 +1882,8 @@
         "https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/"
       ],
       "prerequisite_concepts": [
-        "aws-account-setup",
-        "aws-command-line-interface"
+        "aws-command-line-interface",
+        "aws-account-setup"
       ]
     },
     "automated-reasoning": {
@@ -1898,8 +1898,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-automated-reasoning-checks-in-amazon-bedrock-transform-generative-ai-compliance/"
       ],
       "prerequisite_concepts": [
-        "generative-ai",
-        "compliance-challenges-in-regulated-industries"
+        "compliance-challenges-in-regulated-industries",
+        "generative-ai"
       ]
     },
     "open-world-evaluations": {
@@ -1979,10 +1979,10 @@
         "https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/"
       ],
       "prerequisite_concepts": [
-        "computer-vision",
-        "natural-language-processing",
+        "image-processing",
         "text-retrieval-systems",
-        "image-processing"
+        "natural-language-processing",
+        "computer-vision"
       ]
     },
     "gpu-accelerated-inference": {
@@ -1997,8 +1997,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/"
       ],
       "prerequisite_concepts": [
-        "gpu-acceleration-fundamentals",
-        "cloud-computing-basics"
+        "cloud-computing-basics",
+        "gpu-acceleration-fundamentals"
       ]
     },
     "tool-simulation-framework": {
@@ -2013,9 +2013,9 @@
         "https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/"
       ],
       "prerequisite_concepts": [
-        "python-programming",
+        "pydantic-models",
         "ai-agents-and-tool-calling-concepts",
-        "pydantic-models"
+        "python-programming"
       ]
     },
     "omnichannel-ordering-system": {
@@ -2062,8 +2062,8 @@
         "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "supervised-fine-tuning",
-        "large-language-models"
+        "large-language-models",
+        "supervised-fine-tuning"
       ]
     },
     "end-to-end-lineage": {
@@ -2078,8 +2078,8 @@
         "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/"
       ],
       "prerequisite_concepts": [
-        "data-versioning-concepts",
-        "machine-learning-workflows"
+        "machine-learning-workflows",
+        "data-versioning-concepts"
       ]
     },
     "neural-computation-in-superposition": {
@@ -2094,8 +2094,8 @@
         "https://www.alignmentforum.org/posts/kYkbcEo6YyjQiztpi/a-lay-introduction-to-on-the-complexity-of-neural"
       ],
       "prerequisite_concepts": [
-        "neural-networks",
-        "theoretical-machine-learning"
+        "theoretical-machine-learning",
+        "neural-networks"
       ]
     },
     "training-based-control-measures": {
@@ -2110,8 +2110,8 @@
         "https://www.alignmentforum.org/posts/mDcHzdoxB6sh3w2zG/five-approaches-to-evaluating-training-based-control"
       ],
       "prerequisite_concepts": [
-        "ai-safety-research",
-        "alignment-techniques"
+        "alignment-techniques",
+        "ai-safety-research"
       ]
     },
     "automatic-speech-recognition": {
@@ -2126,8 +2126,8 @@
         "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/"
       ],
       "prerequisite_concepts": [
-        "containerization-basics",
         "cloud-computing-basics",
+        "containerization-basics",
         "automatic-speech-recognition-basics"
       ]
     },
@@ -2143,8 +2143,8 @@
         "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/"
       ],
       "prerequisite_concepts": [
-        "performance-optimization",
-        "gpu-infrastructure"
+        "gpu-infrastructure",
+        "performance-optimization"
       ]
     },
     "agent-development": {
@@ -2159,8 +2159,8 @@
         "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "backend-plumbing",
-        "agent-logic"
+        "agent-logic",
+        "backend-plumbing"
       ]
     },
     "company-wise-memory-in-ai-chatbots": {
@@ -2175,8 +2175,8 @@
         "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "ai-chatbots"
+        "ai-chatbots",
+        "natural-language-processing"
       ]
     },
     "marketing-automation": {
@@ -2238,8 +2238,8 @@
         "https://www.alignmentforum.org/posts/cmaJ76Sy9DfZ4EHaZ/language-models-know-what-matters-and-the-foundations-of"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "language-models"
       ]
     },
     "automated-workflow-creation": {
@@ -2270,8 +2270,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-and-deploy-an-automatic-sync-solution-for-amazon-bedrock-knowledge-bases/"
       ],
       "prerequisite_concepts": [
-        "amazon-bedrock",
-        "amazon-web-services"
+        "amazon-web-services",
+        "amazon-bedrock"
       ]
     },
     "managed-ai-endpoints": {
@@ -2286,8 +2286,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "ai-agents"
+        "ai-agents",
+        "foundation-models"
       ]
     },
     "recursive-forecasting": {
@@ -2318,8 +2318,8 @@
         "https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy"
       ],
       "prerequisite_concepts": [
-        "language-model-training",
-        "alignment-techniques"
+        "alignment-techniques",
+        "language-model-training"
       ]
     },
     "deep-learning-theory": {
@@ -2368,8 +2368,8 @@
         "https://aws.amazon.com/blogs/machine-learning/migrating-a-text-agent-to-a-voice-assistant-with-amazon-nova-2-sonic/"
       ],
       "prerequisite_concepts": [
-        "text-agent-development",
-        "voice-assistant-fundamentals"
+        "voice-assistant-fundamentals",
+        "text-agent-development"
       ]
     },
     "multimodal-large-language-models": {
@@ -2384,8 +2384,8 @@
         "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-omni-model-now-available-on-amazon-sagemaker-jumpstart/"
       ],
       "prerequisite_concepts": [
-        "multimodal-processing",
-        "large-language-models"
+        "large-language-models",
+        "multimodal-processing"
       ]
     },
     "ai-sabotage-in-research-codebases": {
@@ -2416,8 +2416,8 @@
         "https://aws.amazon.com/blogs/machine-learning/extracting-contract-insights-with-pwcs-ai-driven-annotation-on-aws/"
       ],
       "prerequisite_concepts": [
-        "contract-analysis",
-        "large-language-models"
+        "large-language-models",
+        "contract-analysis"
       ]
     },
     "namespace-design-patterns-in-agentcore-memory": {
@@ -2432,8 +2432,8 @@
         "https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/"
       ],
       "prerequisite_concepts": [
-        "ai-agents-and-memory-management",
-        "amazon-bedrock-agentcore-memory"
+        "amazon-bedrock-agentcore-memory",
+        "ai-agents-and-memory-management"
       ]
     },
     "ai-ready-data-infrastructure": {
@@ -2448,8 +2448,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-ai-ready-data-vanguards-virtual-analyst-journey/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "conversational-ai"
+        "conversational-ai",
+        "foundation-models"
       ]
     },
     "model-context-protocol-mcp-proxy": {
@@ -2480,8 +2480,8 @@
         "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/"
       ],
       "prerequisite_concepts": [
-        "reinforcement-fine-tuning",
-        "large-language-models"
+        "large-language-models",
+        "reinforcement-fine-tuning"
       ]
     },
     "large-language-model-migration": {
@@ -2528,8 +2528,8 @@
         "https://aws.amazon.com/blogs/machine-learning/unleashing-agentic-ai-analytics-on-amazon-sagemaker-with-amazon-athena-and-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "business-intelligence",
-        "data-warehousing"
+        "data-warehousing",
+        "business-intelligence"
       ]
     },
     "amazon-bedrock-agentcore-gateway": {
@@ -2544,8 +2544,8 @@
         "https://aws.amazon.com/blogs/machine-learning/configuring-amazon-bedrock-agentcore-gateway-for-secure-access-to-private-resources/"
       ],
       "prerequisite_concepts": [
-        "amazon-virtual-private-cloud-vpc",
-        "ai-agents-in-production-environments"
+        "ai-agents-in-production-environments",
+        "amazon-virtual-private-cloud-vpc"
       ]
     },
     "fitness-seeking-ai": {
@@ -2560,8 +2560,8 @@
         "https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "reward-seeking-ai"
+        "reward-seeking-ai",
+        "ai-alignment"
       ]
     },
     "business-intelligence-migration": {
@@ -2576,8 +2576,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aws-transform-now-automates-bi-migration-to-amazon-quick-in-days/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing",
-        "business-intelligence-tools"
+        "business-intelligence-tools",
+        "cloud-computing"
       ]
     },
     "exploration-hacking": {
@@ -2608,8 +2608,8 @@
         "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions/"
       ],
       "prerequisite_concepts": [
-        "data-analysis",
-        "business-intelligence"
+        "business-intelligence",
+        "data-analysis"
       ]
     },
     "agent-quality-loop": {
@@ -2624,8 +2624,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/"
       ],
       "prerequisite_concepts": [
-        "agent-development",
-        "ai-deployment"
+        "ai-deployment",
+        "agent-development"
       ]
     },
     "agent-guided-workflows": {
@@ -2640,9 +2640,9 @@
         "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
+        "reinforcement-learning-verifiable-rewards-rlvr",
         "supervised-fine-tuning-sft",
-        "direct-preference-optimization-dpo",
-        "reinforcement-learning-verifiable-rewards-rlvr"
+        "direct-preference-optimization-dpo"
       ]
     },
     "natural-language-processing-for-dashboard-generation": {
@@ -2689,8 +2689,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-dataset-qa-expanding-natural-language-querying-for-structured-datasets-in-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "data-analysis",
-        "business-intelligence"
+        "business-intelligence",
+        "data-analysis"
       ]
     },
     "capacity-aware-inference": {
@@ -2737,8 +2737,8 @@
         "https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "cognitive-psychology"
+        "cognitive-psychology",
+        "ai-alignment"
       ]
     },
     "machine-learning-workflow-management": {
@@ -2754,9 +2754,9 @@
         "https://aws.amazon.com/blogs/machine-learning/streamline-external-access-to-amazon-sagemaker-mlflow-using-a-rest-api-proxy/"
       ],
       "prerequisite_concepts": [
-        "aws-sagemaker",
+        "machine-learning-basics",
         "mlflow",
-        "machine-learning-basics"
+        "aws-sagemaker"
       ]
     },
     "secure-authentication-and-authorization-for-ai-agents": {
@@ -2867,8 +2867,8 @@
         "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-fundamentals",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "cloud-computing-fundamentals"
       ]
     },
     "reinforcement-learning-with-verifiable-rewards": {
@@ -2883,8 +2883,8 @@
         "https://aws.amazon.com/blogs/machine-learning/overcoming-reward-signal-challenges-verifiable-rewards-based-reinforcement-learning-with-grpo-on-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "deep-learning",
-        "traditional-reinforcement-learning"
+        "traditional-reinforcement-learning",
+        "deep-learning"
       ]
     },
     "agentic-economy": {
@@ -2947,8 +2947,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/"
       ],
       "prerequisite_concepts": [
-        "language-model-fundamentals",
-        "cloud-computing-basics"
+        "cloud-computing-basics",
+        "language-model-fundamentals"
       ]
     },
     "automated-bug-triaging": {
@@ -2963,8 +2963,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "large-language-models"
+        "large-language-models",
+        "natural-language-processing"
       ]
     },
     "conversational-ai-for-enterprise-data-analysis": {
@@ -2979,8 +2979,8 @@
         "https://aws.amazon.com/blogs/machine-learning/amazon-quick-accelerating-the-path-from-enterprise-data-to-ai-powered-decisions/"
       ],
       "prerequisite_concepts": [
-        "enterprise-data-analysis",
-        "ai-powered-decision-making"
+        "ai-powered-decision-making",
+        "enterprise-data-analysis"
       ]
     },
     "compliance-tracking-for-large-language-models": {
@@ -2995,8 +2995,8 @@
         "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "fine-tuning-concepts",
-        "large-language-models"
+        "large-language-models",
+        "fine-tuning-concepts"
       ]
     },
     "document-understanding": {
@@ -3045,12 +3045,12 @@
         "https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "behavioral-evaluations-of-ai-systems",
-        "reinforcement-learning",
         "language-model-training",
+        "ai-alignment",
         "alignment-tests",
-        "evaluation-techniques"
+        "reinforcement-learning",
+        "evaluation-techniques",
+        "behavioral-evaluations-of-ai-systems"
       ]
     },
     "natural-language-understanding": {
@@ -3065,9 +3065,9 @@
         "https://aws.amazon.com/blogs/machine-learning/improve-bot-accuracy-with-amazon-lex-assisted-nlu/"
       ],
       "prerequisite_concepts": [
+        "intents",
         "amazon-lex-concepts",
-        "slots",
-        "intents"
+        "slots"
       ]
     },
     "real-time-voice-agents": {
@@ -3098,8 +3098,8 @@
         "https://aws.amazon.com/blogs/machine-learning/from-siloed-data-to-unified-insights-cross-account-athena-access-for-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "amazon-athena",
-        "amazon-quick"
+        "amazon-quick",
+        "amazon-athena"
       ]
     },
     "chrome-enterprise-policies": {
@@ -3114,8 +3114,8 @@
         "https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "browser-security-basics",
-        "ai-agents"
+        "ai-agents",
+        "browser-security-basics"
       ]
     },
     "deployment-time-spread-of-misalignment": {
@@ -3130,8 +3130,8 @@
         "https://www.alignmentforum.org/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of"
       ],
       "prerequisite_concepts": [
-        "ai-alignment",
-        "risk-assessment"
+        "risk-assessment",
+        "ai-alignment"
       ]
     },
     "mechanistic-estimation": {
@@ -3146,9 +3146,9 @@
         "https://www.alignmentforum.org/posts/7RyAefESvb6BQ3tMz/mechanistic-estimation-for-expectations-of-random-products"
       ],
       "prerequisite_concepts": [
+        "machine-learning-fundamentals",
         "statistical-estimation",
-        "probability-theory",
-        "machine-learning-fundamentals"
+        "probability-theory"
       ]
     },
     "access-control-list": {
@@ -3178,8 +3178,8 @@
         "https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "natural-language-processing"
       ]
     },
     "ai-powered-search-and-workflow-automation": {
@@ -3194,8 +3194,8 @@
         "https://aws.amazon.com/blogs/machine-learning/aderant-transforms-cloud-operations-with-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "support-systems",
-        "cloud-based-operations"
+        "cloud-based-operations",
+        "support-systems"
       ]
     },
     "enterprise-search-and-integration": {
@@ -3226,8 +3226,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "agentic-applications",
-        "large-language-models"
+        "large-language-models",
+        "agentic-applications"
       ]
     },
     "scalable-voice-agent-design": {
@@ -3242,8 +3242,8 @@
         "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/"
       ],
       "prerequisite_concepts": [
-        "amazon-web-services-aws",
-        "voice-agent-development"
+        "voice-agent-development",
+        "amazon-web-services-aws"
       ]
     },
     "conversational-memory": {
@@ -3291,8 +3291,8 @@
         "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "tool-calling-workflows",
-        "large-language-models"
+        "large-language-models",
+        "tool-calling-workflows"
       ]
     },
     "model-behavior-evaluation": {
@@ -3307,8 +3307,8 @@
         "https://www.alignmentforum.org/posts/J5KkwYnnaeNX7hL2s/the-case-for-evaluating-model-behaviors"
       ],
       "prerequisite_concepts": [
-        "ai-capabilities",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "ai-capabilities"
       ]
     },
     "openai-compatible-api-support": {
@@ -3323,8 +3323,8 @@
         "https://aws.amazon.com/blogs/machine-learning/announcing-openai-compatible-api-support-for-amazon-sagemaker-ai-endpoints/"
       ],
       "prerequisite_concepts": [
-        "langchain",
         "aws-account",
+        "langchain",
         "openai-sdk"
       ]
     },
@@ -3356,8 +3356,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-amazon-sagemaker-ai-and-vllm/"
       ],
       "prerequisite_concepts": [
-        "real-time-inference",
-        "speech-to-text-models"
+        "speech-to-text-models",
+        "real-time-inference"
       ]
     },
     "conversational-ai-assistant-integration": {
@@ -3372,9 +3372,9 @@
         "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
       ],
       "prerequisite_concepts": [
-        "aws-infrastructure",
         "iam-roles-and-policies",
-        "devops-workflows"
+        "devops-workflows",
+        "aws-infrastructure"
       ]
     },
     "multi-tenant-agentic-applications": {
@@ -3389,8 +3389,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-multi-tenant-agents-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "software-as-a-service-saas-architecture",
-        "agentic-applications"
+        "agentic-applications",
+        "software-as-a-service-saas-architecture"
       ]
     },
     "recursive-language-models": {
@@ -3405,8 +3405,8 @@
         "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "context-window-limitations"
+        "context-window-limitations",
+        "language-models"
       ]
     },
     "business-intelligence-using-ai-agents": {
@@ -3453,8 +3453,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "amazon-web-services-aws"
+        "amazon-web-services-aws",
+        "natural-language-processing"
       ]
     },
     "ai-risk-management": {
@@ -3485,8 +3485,8 @@
         "https://www.normaltech.ai/p/did-googles-ai-agents-really-build"
       ],
       "prerequisite_concepts": [
-        "software-development-fundamentals",
-        "artificial-intelligence-basics"
+        "artificial-intelligence-basics",
+        "software-development-fundamentals"
       ]
     },
     "agentic-commerce": {
@@ -3533,8 +3533,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "generative-ai",
-        "agent-based-systems"
+        "agent-based-systems",
+        "generative-ai"
       ]
     },
     "ambient-agents": {
@@ -3566,8 +3566,8 @@
       ],
       "prerequisite_concepts": [
         "kiro-installation",
-        "aws-account-setup",
-        "aws-credentials-configuration"
+        "aws-credentials-configuration",
+        "aws-account-setup"
       ]
     },
     "enterprise-observability-solution": {
@@ -3598,8 +3598,8 @@
         "https://aws.amazon.com/blogs/machine-learning/transforming-professional-work-how-amazon-quick-turns-document-creation-from-hours-into-minutes/"
       ],
       "prerequisite_concepts": [
-        "workflow-automation-concepts",
-        "professional-document-creation"
+        "professional-document-creation",
+        "workflow-automation-concepts"
       ]
     },
     "evaluation-cooperativeness": {
@@ -3662,8 +3662,8 @@
         "https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/"
       ],
       "prerequisite_concepts": [
-        "optical-character-recognition",
-        "data-extraction"
+        "data-extraction",
+        "optical-character-recognition"
       ]
     },
     "amazon-bedrock-agentcore": {
@@ -3678,8 +3678,8 @@
         "https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-basics",
-        "hr-system-operations"
+        "hr-system-operations",
+        "cloud-computing-basics"
       ]
     },
     "conversational-agentic-ai": {
@@ -3694,8 +3694,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-aws-smgs-uses-an-ai-powered-conversational-assistant-to-transform-business-management-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "business-intelligence",
-        "data-lake"
+        "data-lake",
+        "business-intelligence"
       ]
     },
     "agentic-ai-orchestration": {
@@ -3710,8 +3710,8 @@
         "https://aws.amazon.com/blogs/machine-learning/powering-agentic-ai-sales-strategy-with-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "ai-adoption",
         "enterprise-scale-operations",
+        "ai-adoption",
         "agent-proliferation"
       ]
     },
@@ -3727,8 +3727,8 @@
         "https://www.alignmentforum.org/posts/CmkAxJi83jRv9eXgJ/advice-for-making-robust-to-training-model-organisms-1"
       ],
       "prerequisite_concepts": [
-        "fine-tuning",
         "reinforcement-learning",
+        "fine-tuning",
         "ai-safety"
       ]
     },
@@ -3744,8 +3744,8 @@
         "https://aws.amazon.com/blogs/machine-learning/training-azerbaijani-language-models-on-amazon-sagemaker-ai/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "language-modeling"
+        "language-modeling",
+        "foundation-models"
       ]
     },
     "amazon-sagemaker-ai-mlflow-apps": {
@@ -3760,8 +3760,8 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-custom-portal-with-embedded-amazon-sagemaker-ai-mlflow-apps/"
       ],
       "prerequisite_concepts": [
-        "aws-services",
-        "machine-learning-basics"
+        "machine-learning-basics",
+        "aws-services"
       ]
     },
     "automated-workflow-orchestration": {
@@ -3872,8 +3872,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
       ],
       "prerequisite_concepts": [
-        "code-review",
-        "software-development"
+        "software-development",
+        "code-review"
       ]
     },
     "inbound-authentication": {
@@ -3904,9 +3904,9 @@
         "https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/"
       ],
       "prerequisite_concepts": [
-        "ai-agents-and-credential-management",
         "aws-secrets-manager",
-        "iam-permissions"
+        "iam-permissions",
+        "ai-agents-and-credential-management"
       ]
     },
     "integrated-research-environment": {
@@ -3921,8 +3921,8 @@
         "https://aws.amazon.com/blogs/machine-learning/transforming-rare-cancer-research-with-amazon-quick-integrating-biomedical-databases-for-breakthrough-discoveries/"
       ],
       "prerequisite_concepts": [
-        "biomedical-research-basics",
-        "data-integration-concepts"
+        "data-integration-concepts",
+        "biomedical-research-basics"
       ]
     },
     "agentic-ai-security": {
@@ -3937,8 +3937,8 @@
         "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/"
       ],
       "prerequisite_concepts": [
-        "amazon-web-services-aws",
-        "ai-agents-and-large-language-models"
+        "ai-agents-and-large-language-models",
+        "amazon-web-services-aws"
       ]
     },
     "agentic-payments": {
@@ -3985,8 +3985,8 @@
         "https://aws.amazon.com/blogs/machine-learning/accelerate-llm-model-loading-and-increase-context-windows-with-gpudirect-on-amazon-fsx-for-lustre-and-turboquant/"
       ],
       "prerequisite_concepts": [
-        "gpu-acceleration",
-        "large-language-models"
+        "large-language-models",
+        "gpu-acceleration"
       ]
     },
     "model-context-protocol-integration": {
@@ -4001,9 +4001,9 @@
         "https://aws.amazon.com/blogs/machine-learning/amazon-quick-integration-with-time-series-databases-for-market-intelligence-using-mcp/"
       ],
       "prerequisite_concepts": [
+        "amazon-web-services-aws-basics",
         "ai-powered-business-intelligence-services-basics",
-        "time-series-database-concepts",
-        "amazon-web-services-aws-basics"
+        "time-series-database-concepts"
       ]
     },
     "generative-ai-operations": {
@@ -4018,8 +4018,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/"
       ],
       "prerequisite_concepts": [
-        "amazon-bedrock",
-        "generative-ai"
+        "generative-ai",
+        "amazon-bedrock"
       ]
     },
     "large-tabular-models": {
@@ -4034,8 +4034,8 @@
         "https://aws.amazon.com/blogs/machine-learning/fundamentals-large-tabular-model-nexus-is-now-available-on-amazon-sagemaker-jumpstart/"
       ],
       "prerequisite_concepts": [
-        "traditional-machine-learning",
-        "large-language-models"
+        "large-language-models",
+        "traditional-machine-learning"
       ]
     },
     "container-image-management": {
@@ -4050,8 +4050,8 @@
         "https://aws.amazon.com/blogs/machine-learning/reducing-container-cold-start-times-using-soci-index-on-dlami-and-dlc/"
       ],
       "prerequisite_concepts": [
-        "artificial-intelligence-workloads",
-        "container-deployment"
+        "container-deployment",
+        "artificial-intelligence-workloads"
       ]
     },
     "supervised-fine-tuning": {
@@ -4068,9 +4068,9 @@
       ],
       "prerequisite_concepts": [
         "reinforcement-learning",
-        "language-models",
+        "machine-learning-basics",
         "language-model-training",
-        "machine-learning-basics"
+        "language-models"
       ]
     },
     "alignment-of-artificial-general-intelligence": {
@@ -4087,8 +4087,8 @@
       ],
       "prerequisite_concepts": [
         "artificial-general-intelligence",
-        "agent-foundations",
         "alignment-approaches",
+        "agent-foundations",
         "prosaic-alignment"
       ]
     },
@@ -4104,8 +4104,8 @@
         "https://www.alignmentforum.org/posts/mBsZTZxtjgCdN4CDA/efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model"
       ],
       "prerequisite_concepts": [
-        "risk-assessment-and-mitigation",
-        "ai-development-and-deployment"
+        "ai-development-and-deployment",
+        "risk-assessment-and-mitigation"
       ]
     },
     "cloud-based-coding-agents": {
@@ -4232,8 +4232,8 @@
         "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/"
       ],
       "prerequisite_concepts": [
-        "insurance-claims-processing",
-        "multimodal-data-interpretation"
+        "multimodal-data-interpretation",
+        "insurance-claims-processing"
       ]
     },
     "conversational-workflow-automation": {
@@ -4249,10 +4249,10 @@
         "https://aws.amazon.com/blogs/machine-learning/build-a-meeting-prep-and-follow-up-assistant-with-amazon-quick-and-cisco-webex-mcp-servers/"
       ],
       "prerequisite_concepts": [
-        "workflow-automation-principles",
         "incident-triage",
+        "conversational-ai-basics",
         "site-reliability-engineering",
-        "conversational-ai-basics"
+        "workflow-automation-principles"
       ]
     },
     "artificial-intelligence-alignment": {
@@ -4283,8 +4283,8 @@
         "https://aws.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-development/"
       ],
       "prerequisite_concepts": [
-        "ai-adoption",
-        "software-development-processes"
+        "software-development-processes",
+        "ai-adoption"
       ]
     },
     "neuron-agentic-development": {
@@ -4315,8 +4315,8 @@
         "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers"
       ],
       "prerequisite_concepts": [
-        "software-engineering-principles",
-        "artificial-intelligence-basics"
+        "artificial-intelligence-basics",
+        "software-engineering-principles"
       ]
     },
     "intelligent-document-processing-pipeline": {
@@ -4334,8 +4334,8 @@
       "prerequisite_concepts": [
         "ai-concepts",
         "generative-ai",
-        "document-processing",
-        "large-language-models"
+        "large-language-models",
+        "document-processing"
       ]
     },
     "document-field-extraction": {
@@ -4365,8 +4365,8 @@
         "https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "model-evaluation"
+        "model-evaluation",
+        "language-models"
       ]
     },
     "ai-native-development": {
@@ -4397,8 +4397,8 @@
         "https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail"
       ],
       "prerequisite_concepts": [
-        "language-models",
-        "deep-learning"
+        "deep-learning",
+        "language-models"
       ]
     },
     "activation-verbalizers": {
@@ -4413,8 +4413,8 @@
         "https://www.alignmentforum.org/posts/QQQAcKuWK6k98FivY/can-activation-verbalizers-surface-an-internal-chain-of-1"
       ],
       "prerequisite_concepts": [
-        "natural-language-processing",
-        "large-language-models"
+        "large-language-models",
+        "natural-language-processing"
       ]
     },
     "orchestrated-research-agents": {
@@ -4461,8 +4461,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/"
       ],
       "prerequisite_concepts": [
-        "foundation-models",
-        "deep-learning"
+        "deep-learning",
+        "foundation-models"
       ]
     },
     "agent-failure-detection-and-root-cause-analysis": {
@@ -4477,8 +4477,8 @@
         "https://aws.amazon.com/blogs/machine-learning/ai-agent-failure-detection-and-root-cause-analysis-with-strands-evals/"
       ],
       "prerequisite_concepts": [
-        "python-programming",
-        "ai-agent-evaluation"
+        "ai-agent-evaluation",
+        "python-programming"
       ]
     },
     "deployment-simulation-for-model-safety": {
@@ -4525,8 +4525,8 @@
         "https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/"
       ],
       "prerequisite_concepts": [
-        "productivity-tools",
-        "machine-learning"
+        "machine-learning",
+        "productivity-tools"
       ]
     },
     "context-intelligence": {
@@ -4589,8 +4589,8 @@
         "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/"
       ],
       "prerequisite_concepts": [
-        "cloud-computing-fundamentals",
-        "amazon-sagemaker-ai-basics"
+        "amazon-sagemaker-ai-basics",
+        "cloud-computing-fundamentals"
       ]
     },
     "ai-control-and-safety": {
@@ -4605,8 +4605,8 @@
         "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap"
       ],
       "prerequisite_concepts": [
-        "ai-safety-and-security-basics",
-        "cybersecurity-fundamentals"
+        "cybersecurity-fundamentals",
+        "ai-safety-and-security-basics"
       ]
     },
     "managed-inference-hosting": {
@@ -4637,8 +4637,40 @@
         "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/"
       ],
       "prerequisite_concepts": [
-        "agent-development",
-        "large-language-models"
+        "large-language-models",
+        "agent-development"
+      ]
+    },
+    "web-search-integration-for-ai-agents": {
+      "id": "web-search-integration-for-ai-agents",
+      "name": "web search integration for AI agents",
+      "aliases": [
+        "web search integration for AI agents"
+      ],
+      "topic": "AI Infrastructure & Tooling",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/"
+      ],
+      "prerequisite_concepts": [
+        "ai-agents",
+        "natural-language-processing"
+      ]
+    },
+    "marketing-automation-integration": {
+      "id": "marketing-automation-integration",
+      "name": "marketing automation integration",
+      "aliases": [
+        "marketing automation integration"
+      ],
+      "topic": "AI Infrastructure & Tooling",
+      "teaches": [],
+      "extends": [
+        "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/"
+      ],
+      "prerequisite_concepts": [
+        "ai-powered-analysis",
+        "marketing-automation"
       ]
     }
   },
@@ -111657,7 +111689,7 @@
     },
     "AI Infrastructure & Tooling": {
       "name": "AI Infrastructure & Tooling",
-      "article_count": 138,
+      "article_count": 140,
       "articles": [
         {
           "title": "Enhanced metrics for Amazon SageMaker AI endpoints: deeper visibility for better performance",
@@ -172608,6 +172640,889 @@
             "strategic_questions": [
               "How can the Amazon Bedrock AgentCore harness simplify agent development and deployment?",
               "What are the key benefits of using a managed abstraction for running agents in production?"
+            ]
+          }
+        },
+        {
+          "title": "Introducing Web Search on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/",
+          "published": "Fri, 19 Jun 2026 14:15:24 +0000",
+          "source": "Artificial Intelligence",
+          "embedding": [
+            0.0028,
+            -0.0106,
+            -0.0324,
+            0.0604,
+            0.1196,
+            0.0061,
+            -0.0357,
+            -0.0364,
+            -0.0864,
+            -0.0214,
+            0.016,
+            0.0074,
+            0.0701,
+            0.0015,
+            0.0898,
+            0.0133,
+            0.0731,
+            0.0173,
+            -0.0218,
+            -0.0532,
+            0.0744,
+            0.0598,
+            -0.0161,
+            -0.0273,
+            -0.0869,
+            0.0756,
+            -0.0453,
+            -0.0921,
+            0.0509,
+            0.0051,
+            0.0368,
+            -0.0133,
+            0.0792,
+            0.1326,
+            0.0131,
+            0.0368,
+            -0.1007,
+            0.0162,
+            -0.0075,
+            0.0016,
+            -0.0106,
+            -0.0183,
+            -0.0569,
+            -0.0222,
+            0.0564,
+            0.0592,
+            -0.1131,
+            -0.0216,
+            0.0182,
+            0.0436,
+            -0.1943,
+            -0.0385,
+            -0.0201,
+            -0.0768,
+            -0.004,
+            0.0481,
+            -0.0042,
+            -0.0143,
+            -0.0071,
+            -0.0568,
+            0.0448,
+            -0.1018,
+            0.0687,
+            0.0033,
+            0.0477,
+            -0.0177,
+            -0.0348,
+            -0.0291,
+            0.0658,
+            -0.1226,
+            0.012,
+            -0.0019,
+            -0.0585,
+            -0.0055,
+            -0.0092,
+            0.01,
+            0.0009,
+            -0.0131,
+            0.0191,
+            0.0076,
+            -0.0669,
+            -0.0141,
+            -0.0073,
+            0.0662,
+            -0.0204,
+            -0.0037,
+            0.0775,
+            -0.0447,
+            0.0658,
+            -0.0067,
+            0.0751,
+            -0.1406,
+            0.0702,
+            -0.0023,
+            0.0951,
+            0.0365,
+            -0.0235,
+            -0.0341,
+            -0.0658,
+            0.01,
+            0.003,
+            0.0148,
+            -0.032,
+            -0.0537,
+            -0.0557,
+            0.0579,
+            0.0152,
+            0.0825,
+            0.0719,
+            -0.0229,
+            -0.0344,
+            0.0593,
+            0.0288,
+            -0.0911,
+            0.041,
+            -0.0287,
+            -0.0051,
+            0.0351,
+            0.0787,
+            0.0781,
+            0.0508,
+            0.0554,
+            0.0406,
+            0.0016,
+            0.0496,
+            0.0158,
+            -0.0428,
+            0.0,
+            0.0503,
+            0.0416,
+            -0.0373,
+            -0.0233,
+            0.0684,
+            -0.0245,
+            0.0864,
+            0.0336,
+            -0.0447,
+            -0.033,
+            -0.0374,
+            0.079,
+            -0.0223,
+            0.0102,
+            -0.0221,
+            0.0021,
+            -0.0072,
+            0.0499,
+            0.0695,
+            -0.0249,
+            0.051,
+            -0.0037,
+            0.0389,
+            0.0308,
+            0.018,
+            -0.0077,
+            -0.0346,
+            -0.0137,
+            0.0792,
+            0.0082,
+            -0.0223,
+            0.0101,
+            -0.0812,
+            0.0232,
+            -0.0202,
+            0.0114,
+            -0.0738,
+            -0.035,
+            -0.0671,
+            0.0132,
+            -0.0658,
+            0.0233,
+            0.017,
+            -0.0518,
+            -0.0934,
+            -0.0902,
+            -0.1004,
+            -0.0118,
+            0.0738,
+            -0.028,
+            -0.0043,
+            0.0313,
+            0.0464,
+            -0.0273,
+            0.0679,
+            0.0499,
+            0.033,
+            0.0304,
+            0.0212,
+            -0.0051,
+            -0.0107,
+            -0.0654,
+            0.01,
+            0.0688,
+            0.0172,
+            0.0113,
+            0.042,
+            0.0548,
+            0.0495,
+            0.0041,
+            0.0404,
+            0.0347,
+            0.1124,
+            -0.0092,
+            -0.0653,
+            -0.0847,
+            -0.0392,
+            -0.0874,
+            0.0225,
+            -0.0206,
+            0.0066,
+            -0.0038,
+            0.0254,
+            -0.0082,
+            0.0066,
+            -0.0488,
+            -0.043,
+            -0.0294,
+            0.0606,
+            0.0063,
+            -0.0407,
+            -0.0051,
+            -0.0596,
+            -0.0055,
+            0.0015,
+            -0.0,
+            -0.0275,
+            -0.0997,
+            -0.033,
+            0.0493,
+            0.0226,
+            -0.0509,
+            0.0023,
+            0.0389,
+            -0.063,
+            -0.0131,
+            0.018,
+            -0.0278,
+            -0.0155,
+            -0.094,
+            -0.0763,
+            0.0999,
+            0.016,
+            -0.064,
+            0.0134,
+            0.0703,
+            -0.048,
+            -0.0436,
+            -0.0947,
+            0.01,
+            0.0301,
+            0.0088,
+            -0.0085,
+            0.0645,
+            -0.001,
+            -0.0194,
+            0.0205,
+            -0.0384,
+            -0.0817,
+            -0.0338,
+            -0.0742,
+            0.0521,
+            -0.0432,
+            0.008,
+            -0.0498,
+            0.0764,
+            0.03,
+            -0.0165,
+            -0.0178,
+            -0.0209,
+            0.0242,
+            0.02,
+            -0.0909,
+            0.0922,
+            0.0472,
+            -0.006,
+            0.0071,
+            -0.0138,
+            -0.0216,
+            -0.1007,
+            -0.0962,
+            -0.0027,
+            0.0188,
+            0.0919,
+            -0.0398,
+            -0.0041,
+            0.0017,
+            -0.0172,
+            -0.0062,
+            0.0587,
+            0.0227,
+            0.0018,
+            -0.0594,
+            0.05,
+            -0.0654,
+            -0.0255,
+            0.0226,
+            -0.029,
+            0.0272,
+            0.0187,
+            0.034,
+            0.0526,
+            -0.0058,
+            0.025,
+            0.0219,
+            -0.055,
+            -0.0261,
+            0.0914,
+            0.049,
+            0.0372,
+            0.0681,
+            0.065,
+            -0.0145,
+            0.0493,
+            -0.0141,
+            0.0096,
+            -0.0567,
+            -0.0719,
+            -0.0511,
+            0.0507,
+            -0.0692,
+            -0.0,
+            -0.056,
+            0.0193,
+            -0.0125,
+            -0.0001,
+            0.0926,
+            0.066,
+            -0.0122,
+            0.0385,
+            -0.0307,
+            -0.0241,
+            0.035,
+            -0.0257,
+            -0.077,
+            0.0279,
+            0.0666,
+            0.0278,
+            -0.018,
+            0.0039,
+            0.04,
+            -0.0962,
+            0.0621,
+            0.0012,
+            0.0109,
+            0.0308,
+            0.0804,
+            0.0336,
+            -0.0153,
+            0.0884,
+            -0.0363,
+            0.0724,
+            -0.0594,
+            -0.0348,
+            0.0176,
+            -0.0216,
+            0.1041,
+            0.0423,
+            -0.017,
+            -0.1126,
+            -0.0609,
+            -0.0634,
+            0.0656,
+            0.0784,
+            -0.0018,
+            -0.028,
+            0.1191,
+            0.0253,
+            -0.0216,
+            -0.0351,
+            0.0519,
+            0.0252,
+            -0.0354,
+            -0.044,
+            -0.0598,
+            0.0974,
+            0.1051,
+            -0.0234,
+            0.064,
+            -0.0845,
+            0.0799,
+            0.041,
+            -0.0191,
+            -0.0394,
+            0.0547,
+            0.0141
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "web search integration for AI agents",
+            "summary": "This article introduces Web Search on Amazon Bedrock AgentCore, a managed web search capability that lets AI agents get information from the web without infrastructure overhead, assuming knowledge of AI agents and their limitations. It explains how this feature addresses the gap in AI agents' knowledge being frozen at training time and provides a purpose-built web index, continual updates, and semantic snippet extraction.",
+            "accessible_title": "How to keep your AI agents up-to-date \u2014 the web search approach",
+            "concepts_taught": [
+              {
+                "name": "web search integration for AI agents",
+                "confidence": 0.9
+              },
+              {
+                "name": "Model Context Protocol (MCP)",
+                "confidence": 0.8
+              },
+              {
+                "name": "knowledge graph",
+                "confidence": 0.7
+              },
+              {
+                "name": "semantic snippet extraction",
+                "confidence": 0.7
+              },
+              {
+                "name": "managed web search capability",
+                "confidence": 0.6
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "AI agents",
+                "confidence": 0.9
+              },
+              {
+                "name": "natural language processing",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how to integrate web search into AI agents",
+              "Learn about the benefits of a purpose-built web index",
+              "Discover how to use semantic snippet extraction for model context",
+              "Understand the importance of continual updates for AI agents"
+            ],
+            "strategic_questions": [
+              "How can web search integration improve the accuracy of AI agents?",
+              "What are the benefits of using a managed web search capability for AI agents?",
+              "How can organizations balance the need for up-to-date information with the potential risks of web search integration?"
+            ]
+          }
+        },
+        {
+          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+          "published": "Fri, 19 Jun 2026 14:05:04 +0000",
+          "source": "Artificial Intelligence",
+          "embedding": [
+            0.0201,
+            -0.046,
+            -0.0752,
+            0.0015,
+            0.1115,
+            0.0167,
+            0.0227,
+            0.0141,
+            0.0317,
+            -0.0385,
+            -0.0215,
+            -0.0365,
+            0.0745,
+            0.0348,
+            0.1118,
+            0.0069,
+            0.0501,
+            -0.0657,
+            -0.0309,
+            -0.0004,
+            -0.0662,
+            -0.0122,
+            -0.0844,
+            0.0097,
+            -0.1079,
+            0.0119,
+            0.0321,
+            0.0536,
+            -0.0152,
+            0.0034,
+            0.0749,
+            -0.0003,
+            0.1043,
+            0.067,
+            0.0333,
+            0.0605,
+            -0.0248,
+            -0.0358,
+            0.0449,
+            -0.0179,
+            0.0202,
+            -0.1066,
+            -0.0597,
+            0.0185,
+            0.046,
+            -0.0385,
+            -0.0666,
+            0.0455,
+            -0.007,
+            0.063,
+            -0.1083,
+            -0.013,
+            -0.0363,
+            -0.084,
+            0.0148,
+            0.0696,
+            0.0085,
+            -0.0014,
+            0.0624,
+            0.0036,
+            -0.0033,
+            -0.0959,
+            0.0002,
+            0.0889,
+            -0.0161,
+            0.0283,
+            -0.1271,
+            0.0128,
+            -0.0016,
+            -0.078,
+            -0.0423,
+            -0.0414,
+            -0.0479,
+            -0.0427,
+            0.0023,
+            -0.0031,
+            0.0003,
+            0.0062,
+            0.0529,
+            -0.0705,
+            -0.018,
+            0.0009,
+            -0.0896,
+            0.0924,
+            -0.0606,
+            0.0115,
+            0.0385,
+            -0.0113,
+            0.0391,
+            0.1055,
+            0.0179,
+            -0.0512,
+            0.0504,
+            0.0145,
+            0.097,
+            0.0345,
+            -0.0641,
+            -0.087,
+            -0.0703,
+            0.0077,
+            -0.0424,
+            0.0097,
+            -0.0544,
+            -0.0864,
+            -0.071,
+            -0.0553,
+            0.0054,
+            0.0531,
+            0.0455,
+            0.0046,
+            -0.0258,
+            0.0006,
+            0.0429,
+            -0.0537,
+            0.0818,
+            0.0145,
+            -0.0449,
+            0.0205,
+            0.0382,
+            0.0611,
+            -0.04,
+            0.0159,
+            0.0585,
+            -0.0469,
+            0.0568,
+            -0.0088,
+            -0.0339,
+            -0.0,
+            -0.1086,
+            0.0225,
+            -0.0086,
+            0.0638,
+            0.0491,
+            -0.0183,
+            -0.007,
+            -0.0272,
+            -0.0566,
+            -0.0011,
+            0.045,
+            0.1496,
+            -0.103,
+            0.0239,
+            -0.0371,
+            0.0474,
+            0.0011,
+            0.0596,
+            0.0203,
+            0.0091,
+            0.0049,
+            -0.0624,
+            0.0291,
+            0.0434,
+            0.0386,
+            0.075,
+            0.0232,
+            0.0446,
+            0.1107,
+            0.0484,
+            -0.0705,
+            -0.0186,
+            -0.0288,
+            0.0509,
+            -0.0019,
+            -0.0072,
+            -0.0463,
+            -0.0627,
+            0.0076,
+            0.0691,
+            -0.091,
+            0.0044,
+            -0.0375,
+            -0.0011,
+            -0.1346,
+            0.0396,
+            0.014,
+            0.014,
+            0.1074,
+            0.0845,
+            0.0222,
+            -0.0333,
+            0.1341,
+            -0.0077,
+            -0.0217,
+            -0.0724,
+            -0.055,
+            -0.042,
+            0.0003,
+            -0.0708,
+            0.0008,
+            0.0421,
+            -0.0257,
+            0.0392,
+            0.0351,
+            -0.0334,
+            -0.0012,
+            0.0083,
+            0.0684,
+            0.0127,
+            0.0234,
+            0.0395,
+            0.0073,
+            -0.0038,
+            -0.0467,
+            -0.0857,
+            -0.0309,
+            0.0796,
+            0.0777,
+            0.0568,
+            -0.0278,
+            0.0051,
+            0.059,
+            0.0143,
+            0.0226,
+            -0.0268,
+            -0.0178,
+            0.0199,
+            -0.0308,
+            -0.0307,
+            -0.0161,
+            0.0158,
+            -0.055,
+            0.0669,
+            0.0225,
+            -0.0,
+            -0.0067,
+            -0.1104,
+            -0.0353,
+            0.0394,
+            0.0343,
+            -0.0088,
+            -0.0622,
+            -0.0057,
+            0.0147,
+            0.0035,
+            0.0097,
+            -0.0524,
+            -0.0498,
+            -0.1037,
+            0.0472,
+            -0.0441,
+            0.0444,
+            -0.0677,
+            -0.0017,
+            0.0096,
+            0.0566,
+            -0.0498,
+            -0.0655,
+            -0.0127,
+            0.0164,
+            0.0195,
+            -0.0125,
+            0.037,
+            0.0443,
+            -0.0303,
+            0.0123,
+            0.0068,
+            -0.0446,
+            0.0122,
+            -0.0522,
+            -0.0036,
+            0.0059,
+            0.0351,
+            0.0178,
+            0.0005,
+            0.0785,
+            -0.0862,
+            -0.0718,
+            -0.0148,
+            -0.0241,
+            0.1091,
+            0.0407,
+            0.0026,
+            -0.0049,
+            -0.0392,
+            -0.0299,
+            0.0208,
+            0.0411,
+            -0.088,
+            -0.1174,
+            -0.0012,
+            0.092,
+            0.0144,
+            0.0404,
+            0.0418,
+            0.0305,
+            0.0137,
+            0.05,
+            -0.037,
+            -0.0473,
+            0.0175,
+            0.0237,
+            0.0079,
+            -0.0795,
+            0.0162,
+            0.007,
+            -0.0463,
+            -0.0711,
+            0.005,
+            -0.0362,
+            -0.0005,
+            -0.0227,
+            -0.0824,
+            0.0224,
+            -0.0411,
+            -0.0,
+            0.0796,
+            -0.0138,
+            0.0125,
+            0.0286,
+            0.0385,
+            -0.0252,
+            -0.0175,
+            0.0095,
+            0.0429,
+            -0.0866,
+            0.0203,
+            0.0088,
+            0.0256,
+            -0.1307,
+            -0.0,
+            -0.0634,
+            -0.0014,
+            0.1168,
+            0.0117,
+            0.045,
+            0.0595,
+            -0.051,
+            0.0714,
+            0.0977,
+            0.0091,
+            -0.0172,
+            -0.1048,
+            -0.0625,
+            0.0412,
+            0.0023,
+            -0.0067,
+            0.0449,
+            0.0585,
+            0.0146,
+            -0.0345,
+            0.0363,
+            0.0434,
+            0.0298,
+            -0.0365,
+            0.0969,
+            -0.0006,
+            -0.0147,
+            0.0497,
+            -0.011,
+            -0.0195,
+            -0.0645,
+            -0.0354,
+            -0.0339,
+            -0.0098,
+            -0.0688,
+            0.0324,
+            0.0507,
+            -0.0691,
+            -0.0584,
+            -0.0758,
+            -0.0168,
+            0.0849,
+            -0.0135,
+            -0.0589,
+            -0.0342,
+            0.0558,
+            -0.0097,
+            -0.0287,
+            0.0958,
+            0.0649,
+            -0.0359,
+            -0.0015,
+            -0.0222,
+            0.0862,
+            0.0041,
+            0.0347,
+            0.0862,
+            -0.0984,
+            0.0929,
+            0.0412,
+            -0.0194,
+            0.0284,
+            0.0287,
+            0.015
+          ],
+          "curriculum": {
+            "skip": false,
+            "topic": "AI Infrastructure & Tooling",
+            "article_type": "extends",
+            "primary_concept": "marketing automation integration",
+            "summary": "This article assumes knowledge of marketing automation and AI-powered analysis, and covers the integration of Adobe Marketing Agent with Amazon Quick using Model Context Protocol (MCP) to provide campaign insights and automation. It explains how to configure the integration, authenticate using Adobe credentials, and access marketing-domain analysis. The article also highlights the importance of governance controls across the flow, including least privilege, tenant isolation, and human review for launch decisions.",
+            "accessible_title": "How to automate marketing workflows \u2014 with AI insights",
+            "concepts_taught": [
+              {
+                "name": "marketing automation integration",
+                "confidence": 0.8
+              },
+              {
+                "name": "Model Context Protocol (MCP)",
+                "confidence": 0.7
+              }
+            ],
+            "prerequisites": [
+              {
+                "name": "marketing automation",
+                "confidence": 0.9
+              },
+              {
+                "name": "AI-powered analysis",
+                "confidence": 0.8
+              }
+            ],
+            "difficulty": {
+              "level": "intermediate",
+              "technical_depth": 7,
+              "reading_time_minutes": 15
+            },
+            "learning_outcomes": [
+              "Understand how to integrate Adobe Marketing Agent with Amazon Quick",
+              "Learn how to configure MCP integration for marketing automation",
+              "Discover how to apply governance controls across the flow"
+            ],
+            "strategic_questions": [
+              "How can marketing automation integration improve campaign outcomes?",
+              "What are the key considerations for implementing MCP in marketing workflows?",
+              "How can AI-powered analysis enhance marketing decision-making?"
             ]
           }
         }
@@ -233566,6 +234481,889 @@
               "strategic_questions": [
                 "How can the Amazon Bedrock AgentCore harness simplify agent development and deployment?",
                 "What are the key benefits of using a managed abstraction for running agents in production?"
+              ]
+            }
+          },
+          {
+            "title": "Introducing Web Search on Amazon Bedrock AgentCore",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/",
+            "published": "Fri, 19 Jun 2026 14:15:24 +0000",
+            "source": "Artificial Intelligence",
+            "embedding": [
+              0.0028,
+              -0.0106,
+              -0.0324,
+              0.0604,
+              0.1196,
+              0.0061,
+              -0.0357,
+              -0.0364,
+              -0.0864,
+              -0.0214,
+              0.016,
+              0.0074,
+              0.0701,
+              0.0015,
+              0.0898,
+              0.0133,
+              0.0731,
+              0.0173,
+              -0.0218,
+              -0.0532,
+              0.0744,
+              0.0598,
+              -0.0161,
+              -0.0273,
+              -0.0869,
+              0.0756,
+              -0.0453,
+              -0.0921,
+              0.0509,
+              0.0051,
+              0.0368,
+              -0.0133,
+              0.0792,
+              0.1326,
+              0.0131,
+              0.0368,
+              -0.1007,
+              0.0162,
+              -0.0075,
+              0.0016,
+              -0.0106,
+              -0.0183,
+              -0.0569,
+              -0.0222,
+              0.0564,
+              0.0592,
+              -0.1131,
+              -0.0216,
+              0.0182,
+              0.0436,
+              -0.1943,
+              -0.0385,
+              -0.0201,
+              -0.0768,
+              -0.004,
+              0.0481,
+              -0.0042,
+              -0.0143,
+              -0.0071,
+              -0.0568,
+              0.0448,
+              -0.1018,
+              0.0687,
+              0.0033,
+              0.0477,
+              -0.0177,
+              -0.0348,
+              -0.0291,
+              0.0658,
+              -0.1226,
+              0.012,
+              -0.0019,
+              -0.0585,
+              -0.0055,
+              -0.0092,
+              0.01,
+              0.0009,
+              -0.0131,
+              0.0191,
+              0.0076,
+              -0.0669,
+              -0.0141,
+              -0.0073,
+              0.0662,
+              -0.0204,
+              -0.0037,
+              0.0775,
+              -0.0447,
+              0.0658,
+              -0.0067,
+              0.0751,
+              -0.1406,
+              0.0702,
+              -0.0023,
+              0.0951,
+              0.0365,
+              -0.0235,
+              -0.0341,
+              -0.0658,
+              0.01,
+              0.003,
+              0.0148,
+              -0.032,
+              -0.0537,
+              -0.0557,
+              0.0579,
+              0.0152,
+              0.0825,
+              0.0719,
+              -0.0229,
+              -0.0344,
+              0.0593,
+              0.0288,
+              -0.0911,
+              0.041,
+              -0.0287,
+              -0.0051,
+              0.0351,
+              0.0787,
+              0.0781,
+              0.0508,
+              0.0554,
+              0.0406,
+              0.0016,
+              0.0496,
+              0.0158,
+              -0.0428,
+              0.0,
+              0.0503,
+              0.0416,
+              -0.0373,
+              -0.0233,
+              0.0684,
+              -0.0245,
+              0.0864,
+              0.0336,
+              -0.0447,
+              -0.033,
+              -0.0374,
+              0.079,
+              -0.0223,
+              0.0102,
+              -0.0221,
+              0.0021,
+              -0.0072,
+              0.0499,
+              0.0695,
+              -0.0249,
+              0.051,
+              -0.0037,
+              0.0389,
+              0.0308,
+              0.018,
+              -0.0077,
+              -0.0346,
+              -0.0137,
+              0.0792,
+              0.0082,
+              -0.0223,
+              0.0101,
+              -0.0812,
+              0.0232,
+              -0.0202,
+              0.0114,
+              -0.0738,
+              -0.035,
+              -0.0671,
+              0.0132,
+              -0.0658,
+              0.0233,
+              0.017,
+              -0.0518,
+              -0.0934,
+              -0.0902,
+              -0.1004,
+              -0.0118,
+              0.0738,
+              -0.028,
+              -0.0043,
+              0.0313,
+              0.0464,
+              -0.0273,
+              0.0679,
+              0.0499,
+              0.033,
+              0.0304,
+              0.0212,
+              -0.0051,
+              -0.0107,
+              -0.0654,
+              0.01,
+              0.0688,
+              0.0172,
+              0.0113,
+              0.042,
+              0.0548,
+              0.0495,
+              0.0041,
+              0.0404,
+              0.0347,
+              0.1124,
+              -0.0092,
+              -0.0653,
+              -0.0847,
+              -0.0392,
+              -0.0874,
+              0.0225,
+              -0.0206,
+              0.0066,
+              -0.0038,
+              0.0254,
+              -0.0082,
+              0.0066,
+              -0.0488,
+              -0.043,
+              -0.0294,
+              0.0606,
+              0.0063,
+              -0.0407,
+              -0.0051,
+              -0.0596,
+              -0.0055,
+              0.0015,
+              -0.0,
+              -0.0275,
+              -0.0997,
+              -0.033,
+              0.0493,
+              0.0226,
+              -0.0509,
+              0.0023,
+              0.0389,
+              -0.063,
+              -0.0131,
+              0.018,
+              -0.0278,
+              -0.0155,
+              -0.094,
+              -0.0763,
+              0.0999,
+              0.016,
+              -0.064,
+              0.0134,
+              0.0703,
+              -0.048,
+              -0.0436,
+              -0.0947,
+              0.01,
+              0.0301,
+              0.0088,
+              -0.0085,
+              0.0645,
+              -0.001,
+              -0.0194,
+              0.0205,
+              -0.0384,
+              -0.0817,
+              -0.0338,
+              -0.0742,
+              0.0521,
+              -0.0432,
+              0.008,
+              -0.0498,
+              0.0764,
+              0.03,
+              -0.0165,
+              -0.0178,
+              -0.0209,
+              0.0242,
+              0.02,
+              -0.0909,
+              0.0922,
+              0.0472,
+              -0.006,
+              0.0071,
+              -0.0138,
+              -0.0216,
+              -0.1007,
+              -0.0962,
+              -0.0027,
+              0.0188,
+              0.0919,
+              -0.0398,
+              -0.0041,
+              0.0017,
+              -0.0172,
+              -0.0062,
+              0.0587,
+              0.0227,
+              0.0018,
+              -0.0594,
+              0.05,
+              -0.0654,
+              -0.0255,
+              0.0226,
+              -0.029,
+              0.0272,
+              0.0187,
+              0.034,
+              0.0526,
+              -0.0058,
+              0.025,
+              0.0219,
+              -0.055,
+              -0.0261,
+              0.0914,
+              0.049,
+              0.0372,
+              0.0681,
+              0.065,
+              -0.0145,
+              0.0493,
+              -0.0141,
+              0.0096,
+              -0.0567,
+              -0.0719,
+              -0.0511,
+              0.0507,
+              -0.0692,
+              -0.0,
+              -0.056,
+              0.0193,
+              -0.0125,
+              -0.0001,
+              0.0926,
+              0.066,
+              -0.0122,
+              0.0385,
+              -0.0307,
+              -0.0241,
+              0.035,
+              -0.0257,
+              -0.077,
+              0.0279,
+              0.0666,
+              0.0278,
+              -0.018,
+              0.0039,
+              0.04,
+              -0.0962,
+              0.0621,
+              0.0012,
+              0.0109,
+              0.0308,
+              0.0804,
+              0.0336,
+              -0.0153,
+              0.0884,
+              -0.0363,
+              0.0724,
+              -0.0594,
+              -0.0348,
+              0.0176,
+              -0.0216,
+              0.1041,
+              0.0423,
+              -0.017,
+              -0.1126,
+              -0.0609,
+              -0.0634,
+              0.0656,
+              0.0784,
+              -0.0018,
+              -0.028,
+              0.1191,
+              0.0253,
+              -0.0216,
+              -0.0351,
+              0.0519,
+              0.0252,
+              -0.0354,
+              -0.044,
+              -0.0598,
+              0.0974,
+              0.1051,
+              -0.0234,
+              0.064,
+              -0.0845,
+              0.0799,
+              0.041,
+              -0.0191,
+              -0.0394,
+              0.0547,
+              0.0141
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "web search integration for AI agents",
+              "summary": "This article introduces Web Search on Amazon Bedrock AgentCore, a managed web search capability that lets AI agents get information from the web without infrastructure overhead, assuming knowledge of AI agents and their limitations. It explains how this feature addresses the gap in AI agents' knowledge being frozen at training time and provides a purpose-built web index, continual updates, and semantic snippet extraction.",
+              "accessible_title": "How to keep your AI agents up-to-date \u2014 the web search approach",
+              "concepts_taught": [
+                {
+                  "name": "web search integration for AI agents",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "Model Context Protocol (MCP)",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "knowledge graph",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "semantic snippet extraction",
+                  "confidence": 0.7
+                },
+                {
+                  "name": "managed web search capability",
+                  "confidence": 0.6
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "AI agents",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "natural language processing",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how to integrate web search into AI agents",
+                "Learn about the benefits of a purpose-built web index",
+                "Discover how to use semantic snippet extraction for model context",
+                "Understand the importance of continual updates for AI agents"
+              ],
+              "strategic_questions": [
+                "How can web search integration improve the accuracy of AI agents?",
+                "What are the benefits of using a managed web search capability for AI agents?",
+                "How can organizations balance the need for up-to-date information with the potential risks of web search integration?"
+              ]
+            }
+          },
+          {
+            "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+            "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+            "published": "Fri, 19 Jun 2026 14:05:04 +0000",
+            "source": "Artificial Intelligence",
+            "embedding": [
+              0.0201,
+              -0.046,
+              -0.0752,
+              0.0015,
+              0.1115,
+              0.0167,
+              0.0227,
+              0.0141,
+              0.0317,
+              -0.0385,
+              -0.0215,
+              -0.0365,
+              0.0745,
+              0.0348,
+              0.1118,
+              0.0069,
+              0.0501,
+              -0.0657,
+              -0.0309,
+              -0.0004,
+              -0.0662,
+              -0.0122,
+              -0.0844,
+              0.0097,
+              -0.1079,
+              0.0119,
+              0.0321,
+              0.0536,
+              -0.0152,
+              0.0034,
+              0.0749,
+              -0.0003,
+              0.1043,
+              0.067,
+              0.0333,
+              0.0605,
+              -0.0248,
+              -0.0358,
+              0.0449,
+              -0.0179,
+              0.0202,
+              -0.1066,
+              -0.0597,
+              0.0185,
+              0.046,
+              -0.0385,
+              -0.0666,
+              0.0455,
+              -0.007,
+              0.063,
+              -0.1083,
+              -0.013,
+              -0.0363,
+              -0.084,
+              0.0148,
+              0.0696,
+              0.0085,
+              -0.0014,
+              0.0624,
+              0.0036,
+              -0.0033,
+              -0.0959,
+              0.0002,
+              0.0889,
+              -0.0161,
+              0.0283,
+              -0.1271,
+              0.0128,
+              -0.0016,
+              -0.078,
+              -0.0423,
+              -0.0414,
+              -0.0479,
+              -0.0427,
+              0.0023,
+              -0.0031,
+              0.0003,
+              0.0062,
+              0.0529,
+              -0.0705,
+              -0.018,
+              0.0009,
+              -0.0896,
+              0.0924,
+              -0.0606,
+              0.0115,
+              0.0385,
+              -0.0113,
+              0.0391,
+              0.1055,
+              0.0179,
+              -0.0512,
+              0.0504,
+              0.0145,
+              0.097,
+              0.0345,
+              -0.0641,
+              -0.087,
+              -0.0703,
+              0.0077,
+              -0.0424,
+              0.0097,
+              -0.0544,
+              -0.0864,
+              -0.071,
+              -0.0553,
+              0.0054,
+              0.0531,
+              0.0455,
+              0.0046,
+              -0.0258,
+              0.0006,
+              0.0429,
+              -0.0537,
+              0.0818,
+              0.0145,
+              -0.0449,
+              0.0205,
+              0.0382,
+              0.0611,
+              -0.04,
+              0.0159,
+              0.0585,
+              -0.0469,
+              0.0568,
+              -0.0088,
+              -0.0339,
+              -0.0,
+              -0.1086,
+              0.0225,
+              -0.0086,
+              0.0638,
+              0.0491,
+              -0.0183,
+              -0.007,
+              -0.0272,
+              -0.0566,
+              -0.0011,
+              0.045,
+              0.1496,
+              -0.103,
+              0.0239,
+              -0.0371,
+              0.0474,
+              0.0011,
+              0.0596,
+              0.0203,
+              0.0091,
+              0.0049,
+              -0.0624,
+              0.0291,
+              0.0434,
+              0.0386,
+              0.075,
+              0.0232,
+              0.0446,
+              0.1107,
+              0.0484,
+              -0.0705,
+              -0.0186,
+              -0.0288,
+              0.0509,
+              -0.0019,
+              -0.0072,
+              -0.0463,
+              -0.0627,
+              0.0076,
+              0.0691,
+              -0.091,
+              0.0044,
+              -0.0375,
+              -0.0011,
+              -0.1346,
+              0.0396,
+              0.014,
+              0.014,
+              0.1074,
+              0.0845,
+              0.0222,
+              -0.0333,
+              0.1341,
+              -0.0077,
+              -0.0217,
+              -0.0724,
+              -0.055,
+              -0.042,
+              0.0003,
+              -0.0708,
+              0.0008,
+              0.0421,
+              -0.0257,
+              0.0392,
+              0.0351,
+              -0.0334,
+              -0.0012,
+              0.0083,
+              0.0684,
+              0.0127,
+              0.0234,
+              0.0395,
+              0.0073,
+              -0.0038,
+              -0.0467,
+              -0.0857,
+              -0.0309,
+              0.0796,
+              0.0777,
+              0.0568,
+              -0.0278,
+              0.0051,
+              0.059,
+              0.0143,
+              0.0226,
+              -0.0268,
+              -0.0178,
+              0.0199,
+              -0.0308,
+              -0.0307,
+              -0.0161,
+              0.0158,
+              -0.055,
+              0.0669,
+              0.0225,
+              -0.0,
+              -0.0067,
+              -0.1104,
+              -0.0353,
+              0.0394,
+              0.0343,
+              -0.0088,
+              -0.0622,
+              -0.0057,
+              0.0147,
+              0.0035,
+              0.0097,
+              -0.0524,
+              -0.0498,
+              -0.1037,
+              0.0472,
+              -0.0441,
+              0.0444,
+              -0.0677,
+              -0.0017,
+              0.0096,
+              0.0566,
+              -0.0498,
+              -0.0655,
+              -0.0127,
+              0.0164,
+              0.0195,
+              -0.0125,
+              0.037,
+              0.0443,
+              -0.0303,
+              0.0123,
+              0.0068,
+              -0.0446,
+              0.0122,
+              -0.0522,
+              -0.0036,
+              0.0059,
+              0.0351,
+              0.0178,
+              0.0005,
+              0.0785,
+              -0.0862,
+              -0.0718,
+              -0.0148,
+              -0.0241,
+              0.1091,
+              0.0407,
+              0.0026,
+              -0.0049,
+              -0.0392,
+              -0.0299,
+              0.0208,
+              0.0411,
+              -0.088,
+              -0.1174,
+              -0.0012,
+              0.092,
+              0.0144,
+              0.0404,
+              0.0418,
+              0.0305,
+              0.0137,
+              0.05,
+              -0.037,
+              -0.0473,
+              0.0175,
+              0.0237,
+              0.0079,
+              -0.0795,
+              0.0162,
+              0.007,
+              -0.0463,
+              -0.0711,
+              0.005,
+              -0.0362,
+              -0.0005,
+              -0.0227,
+              -0.0824,
+              0.0224,
+              -0.0411,
+              -0.0,
+              0.0796,
+              -0.0138,
+              0.0125,
+              0.0286,
+              0.0385,
+              -0.0252,
+              -0.0175,
+              0.0095,
+              0.0429,
+              -0.0866,
+              0.0203,
+              0.0088,
+              0.0256,
+              -0.1307,
+              -0.0,
+              -0.0634,
+              -0.0014,
+              0.1168,
+              0.0117,
+              0.045,
+              0.0595,
+              -0.051,
+              0.0714,
+              0.0977,
+              0.0091,
+              -0.0172,
+              -0.1048,
+              -0.0625,
+              0.0412,
+              0.0023,
+              -0.0067,
+              0.0449,
+              0.0585,
+              0.0146,
+              -0.0345,
+              0.0363,
+              0.0434,
+              0.0298,
+              -0.0365,
+              0.0969,
+              -0.0006,
+              -0.0147,
+              0.0497,
+              -0.011,
+              -0.0195,
+              -0.0645,
+              -0.0354,
+              -0.0339,
+              -0.0098,
+              -0.0688,
+              0.0324,
+              0.0507,
+              -0.0691,
+              -0.0584,
+              -0.0758,
+              -0.0168,
+              0.0849,
+              -0.0135,
+              -0.0589,
+              -0.0342,
+              0.0558,
+              -0.0097,
+              -0.0287,
+              0.0958,
+              0.0649,
+              -0.0359,
+              -0.0015,
+              -0.0222,
+              0.0862,
+              0.0041,
+              0.0347,
+              0.0862,
+              -0.0984,
+              0.0929,
+              0.0412,
+              -0.0194,
+              0.0284,
+              0.0287,
+              0.015
+            ],
+            "curriculum": {
+              "skip": false,
+              "topic": "AI Infrastructure & Tooling",
+              "article_type": "extends",
+              "primary_concept": "marketing automation integration",
+              "summary": "This article assumes knowledge of marketing automation and AI-powered analysis, and covers the integration of Adobe Marketing Agent with Amazon Quick using Model Context Protocol (MCP) to provide campaign insights and automation. It explains how to configure the integration, authenticate using Adobe credentials, and access marketing-domain analysis. The article also highlights the importance of governance controls across the flow, including least privilege, tenant isolation, and human review for launch decisions.",
+              "accessible_title": "How to automate marketing workflows \u2014 with AI insights",
+              "concepts_taught": [
+                {
+                  "name": "marketing automation integration",
+                  "confidence": 0.8
+                },
+                {
+                  "name": "Model Context Protocol (MCP)",
+                  "confidence": 0.7
+                }
+              ],
+              "prerequisites": [
+                {
+                  "name": "marketing automation",
+                  "confidence": 0.9
+                },
+                {
+                  "name": "AI-powered analysis",
+                  "confidence": 0.8
+                }
+              ],
+              "difficulty": {
+                "level": "intermediate",
+                "technical_depth": 7,
+                "reading_time_minutes": 15
+              },
+              "learning_outcomes": [
+                "Understand how to integrate Adobe Marketing Agent with Amazon Quick",
+                "Learn how to configure MCP integration for marketing automation",
+                "Discover how to apply governance controls across the flow"
+              ],
+              "strategic_questions": [
+                "How can marketing automation integration improve campaign outcomes?",
+                "What are the key considerations for implementing MCP in marketing workflows?",
+                "How can AI-powered analysis enhance marketing decision-making?"
               ]
             }
           }
@@ -442240,6 +444038,889 @@
         "strategic_questions": [
           "How can the Amazon Bedrock AgentCore harness simplify agent development and deployment?",
           "What are the key benefits of using a managed abstraction for running agents in production?"
+        ]
+      }
+    },
+    {
+      "title": "Introducing Web Search on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/",
+      "published": "Fri, 19 Jun 2026 14:15:24 +0000",
+      "source": "Artificial Intelligence",
+      "embedding": [
+        0.0028,
+        -0.0106,
+        -0.0324,
+        0.0604,
+        0.1196,
+        0.0061,
+        -0.0357,
+        -0.0364,
+        -0.0864,
+        -0.0214,
+        0.016,
+        0.0074,
+        0.0701,
+        0.0015,
+        0.0898,
+        0.0133,
+        0.0731,
+        0.0173,
+        -0.0218,
+        -0.0532,
+        0.0744,
+        0.0598,
+        -0.0161,
+        -0.0273,
+        -0.0869,
+        0.0756,
+        -0.0453,
+        -0.0921,
+        0.0509,
+        0.0051,
+        0.0368,
+        -0.0133,
+        0.0792,
+        0.1326,
+        0.0131,
+        0.0368,
+        -0.1007,
+        0.0162,
+        -0.0075,
+        0.0016,
+        -0.0106,
+        -0.0183,
+        -0.0569,
+        -0.0222,
+        0.0564,
+        0.0592,
+        -0.1131,
+        -0.0216,
+        0.0182,
+        0.0436,
+        -0.1943,
+        -0.0385,
+        -0.0201,
+        -0.0768,
+        -0.004,
+        0.0481,
+        -0.0042,
+        -0.0143,
+        -0.0071,
+        -0.0568,
+        0.0448,
+        -0.1018,
+        0.0687,
+        0.0033,
+        0.0477,
+        -0.0177,
+        -0.0348,
+        -0.0291,
+        0.0658,
+        -0.1226,
+        0.012,
+        -0.0019,
+        -0.0585,
+        -0.0055,
+        -0.0092,
+        0.01,
+        0.0009,
+        -0.0131,
+        0.0191,
+        0.0076,
+        -0.0669,
+        -0.0141,
+        -0.0073,
+        0.0662,
+        -0.0204,
+        -0.0037,
+        0.0775,
+        -0.0447,
+        0.0658,
+        -0.0067,
+        0.0751,
+        -0.1406,
+        0.0702,
+        -0.0023,
+        0.0951,
+        0.0365,
+        -0.0235,
+        -0.0341,
+        -0.0658,
+        0.01,
+        0.003,
+        0.0148,
+        -0.032,
+        -0.0537,
+        -0.0557,
+        0.0579,
+        0.0152,
+        0.0825,
+        0.0719,
+        -0.0229,
+        -0.0344,
+        0.0593,
+        0.0288,
+        -0.0911,
+        0.041,
+        -0.0287,
+        -0.0051,
+        0.0351,
+        0.0787,
+        0.0781,
+        0.0508,
+        0.0554,
+        0.0406,
+        0.0016,
+        0.0496,
+        0.0158,
+        -0.0428,
+        0.0,
+        0.0503,
+        0.0416,
+        -0.0373,
+        -0.0233,
+        0.0684,
+        -0.0245,
+        0.0864,
+        0.0336,
+        -0.0447,
+        -0.033,
+        -0.0374,
+        0.079,
+        -0.0223,
+        0.0102,
+        -0.0221,
+        0.0021,
+        -0.0072,
+        0.0499,
+        0.0695,
+        -0.0249,
+        0.051,
+        -0.0037,
+        0.0389,
+        0.0308,
+        0.018,
+        -0.0077,
+        -0.0346,
+        -0.0137,
+        0.0792,
+        0.0082,
+        -0.0223,
+        0.0101,
+        -0.0812,
+        0.0232,
+        -0.0202,
+        0.0114,
+        -0.0738,
+        -0.035,
+        -0.0671,
+        0.0132,
+        -0.0658,
+        0.0233,
+        0.017,
+        -0.0518,
+        -0.0934,
+        -0.0902,
+        -0.1004,
+        -0.0118,
+        0.0738,
+        -0.028,
+        -0.0043,
+        0.0313,
+        0.0464,
+        -0.0273,
+        0.0679,
+        0.0499,
+        0.033,
+        0.0304,
+        0.0212,
+        -0.0051,
+        -0.0107,
+        -0.0654,
+        0.01,
+        0.0688,
+        0.0172,
+        0.0113,
+        0.042,
+        0.0548,
+        0.0495,
+        0.0041,
+        0.0404,
+        0.0347,
+        0.1124,
+        -0.0092,
+        -0.0653,
+        -0.0847,
+        -0.0392,
+        -0.0874,
+        0.0225,
+        -0.0206,
+        0.0066,
+        -0.0038,
+        0.0254,
+        -0.0082,
+        0.0066,
+        -0.0488,
+        -0.043,
+        -0.0294,
+        0.0606,
+        0.0063,
+        -0.0407,
+        -0.0051,
+        -0.0596,
+        -0.0055,
+        0.0015,
+        -0.0,
+        -0.0275,
+        -0.0997,
+        -0.033,
+        0.0493,
+        0.0226,
+        -0.0509,
+        0.0023,
+        0.0389,
+        -0.063,
+        -0.0131,
+        0.018,
+        -0.0278,
+        -0.0155,
+        -0.094,
+        -0.0763,
+        0.0999,
+        0.016,
+        -0.064,
+        0.0134,
+        0.0703,
+        -0.048,
+        -0.0436,
+        -0.0947,
+        0.01,
+        0.0301,
+        0.0088,
+        -0.0085,
+        0.0645,
+        -0.001,
+        -0.0194,
+        0.0205,
+        -0.0384,
+        -0.0817,
+        -0.0338,
+        -0.0742,
+        0.0521,
+        -0.0432,
+        0.008,
+        -0.0498,
+        0.0764,
+        0.03,
+        -0.0165,
+        -0.0178,
+        -0.0209,
+        0.0242,
+        0.02,
+        -0.0909,
+        0.0922,
+        0.0472,
+        -0.006,
+        0.0071,
+        -0.0138,
+        -0.0216,
+        -0.1007,
+        -0.0962,
+        -0.0027,
+        0.0188,
+        0.0919,
+        -0.0398,
+        -0.0041,
+        0.0017,
+        -0.0172,
+        -0.0062,
+        0.0587,
+        0.0227,
+        0.0018,
+        -0.0594,
+        0.05,
+        -0.0654,
+        -0.0255,
+        0.0226,
+        -0.029,
+        0.0272,
+        0.0187,
+        0.034,
+        0.0526,
+        -0.0058,
+        0.025,
+        0.0219,
+        -0.055,
+        -0.0261,
+        0.0914,
+        0.049,
+        0.0372,
+        0.0681,
+        0.065,
+        -0.0145,
+        0.0493,
+        -0.0141,
+        0.0096,
+        -0.0567,
+        -0.0719,
+        -0.0511,
+        0.0507,
+        -0.0692,
+        -0.0,
+        -0.056,
+        0.0193,
+        -0.0125,
+        -0.0001,
+        0.0926,
+        0.066,
+        -0.0122,
+        0.0385,
+        -0.0307,
+        -0.0241,
+        0.035,
+        -0.0257,
+        -0.077,
+        0.0279,
+        0.0666,
+        0.0278,
+        -0.018,
+        0.0039,
+        0.04,
+        -0.0962,
+        0.0621,
+        0.0012,
+        0.0109,
+        0.0308,
+        0.0804,
+        0.0336,
+        -0.0153,
+        0.0884,
+        -0.0363,
+        0.0724,
+        -0.0594,
+        -0.0348,
+        0.0176,
+        -0.0216,
+        0.1041,
+        0.0423,
+        -0.017,
+        -0.1126,
+        -0.0609,
+        -0.0634,
+        0.0656,
+        0.0784,
+        -0.0018,
+        -0.028,
+        0.1191,
+        0.0253,
+        -0.0216,
+        -0.0351,
+        0.0519,
+        0.0252,
+        -0.0354,
+        -0.044,
+        -0.0598,
+        0.0974,
+        0.1051,
+        -0.0234,
+        0.064,
+        -0.0845,
+        0.0799,
+        0.041,
+        -0.0191,
+        -0.0394,
+        0.0547,
+        0.0141
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "web search integration for AI agents",
+        "summary": "This article introduces Web Search on Amazon Bedrock AgentCore, a managed web search capability that lets AI agents get information from the web without infrastructure overhead, assuming knowledge of AI agents and their limitations. It explains how this feature addresses the gap in AI agents' knowledge being frozen at training time and provides a purpose-built web index, continual updates, and semantic snippet extraction.",
+        "accessible_title": "How to keep your AI agents up-to-date \u2014 the web search approach",
+        "concepts_taught": [
+          {
+            "name": "web search integration for AI agents",
+            "confidence": 0.9
+          },
+          {
+            "name": "Model Context Protocol (MCP)",
+            "confidence": 0.8
+          },
+          {
+            "name": "knowledge graph",
+            "confidence": 0.7
+          },
+          {
+            "name": "semantic snippet extraction",
+            "confidence": 0.7
+          },
+          {
+            "name": "managed web search capability",
+            "confidence": 0.6
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "AI agents",
+            "confidence": 0.9
+          },
+          {
+            "name": "natural language processing",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how to integrate web search into AI agents",
+          "Learn about the benefits of a purpose-built web index",
+          "Discover how to use semantic snippet extraction for model context",
+          "Understand the importance of continual updates for AI agents"
+        ],
+        "strategic_questions": [
+          "How can web search integration improve the accuracy of AI agents?",
+          "What are the benefits of using a managed web search capability for AI agents?",
+          "How can organizations balance the need for up-to-date information with the potential risks of web search integration?"
+        ]
+      }
+    },
+    {
+      "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+      "published": "Fri, 19 Jun 2026 14:05:04 +0000",
+      "source": "Artificial Intelligence",
+      "embedding": [
+        0.0201,
+        -0.046,
+        -0.0752,
+        0.0015,
+        0.1115,
+        0.0167,
+        0.0227,
+        0.0141,
+        0.0317,
+        -0.0385,
+        -0.0215,
+        -0.0365,
+        0.0745,
+        0.0348,
+        0.1118,
+        0.0069,
+        0.0501,
+        -0.0657,
+        -0.0309,
+        -0.0004,
+        -0.0662,
+        -0.0122,
+        -0.0844,
+        0.0097,
+        -0.1079,
+        0.0119,
+        0.0321,
+        0.0536,
+        -0.0152,
+        0.0034,
+        0.0749,
+        -0.0003,
+        0.1043,
+        0.067,
+        0.0333,
+        0.0605,
+        -0.0248,
+        -0.0358,
+        0.0449,
+        -0.0179,
+        0.0202,
+        -0.1066,
+        -0.0597,
+        0.0185,
+        0.046,
+        -0.0385,
+        -0.0666,
+        0.0455,
+        -0.007,
+        0.063,
+        -0.1083,
+        -0.013,
+        -0.0363,
+        -0.084,
+        0.0148,
+        0.0696,
+        0.0085,
+        -0.0014,
+        0.0624,
+        0.0036,
+        -0.0033,
+        -0.0959,
+        0.0002,
+        0.0889,
+        -0.0161,
+        0.0283,
+        -0.1271,
+        0.0128,
+        -0.0016,
+        -0.078,
+        -0.0423,
+        -0.0414,
+        -0.0479,
+        -0.0427,
+        0.0023,
+        -0.0031,
+        0.0003,
+        0.0062,
+        0.0529,
+        -0.0705,
+        -0.018,
+        0.0009,
+        -0.0896,
+        0.0924,
+        -0.0606,
+        0.0115,
+        0.0385,
+        -0.0113,
+        0.0391,
+        0.1055,
+        0.0179,
+        -0.0512,
+        0.0504,
+        0.0145,
+        0.097,
+        0.0345,
+        -0.0641,
+        -0.087,
+        -0.0703,
+        0.0077,
+        -0.0424,
+        0.0097,
+        -0.0544,
+        -0.0864,
+        -0.071,
+        -0.0553,
+        0.0054,
+        0.0531,
+        0.0455,
+        0.0046,
+        -0.0258,
+        0.0006,
+        0.0429,
+        -0.0537,
+        0.0818,
+        0.0145,
+        -0.0449,
+        0.0205,
+        0.0382,
+        0.0611,
+        -0.04,
+        0.0159,
+        0.0585,
+        -0.0469,
+        0.0568,
+        -0.0088,
+        -0.0339,
+        -0.0,
+        -0.1086,
+        0.0225,
+        -0.0086,
+        0.0638,
+        0.0491,
+        -0.0183,
+        -0.007,
+        -0.0272,
+        -0.0566,
+        -0.0011,
+        0.045,
+        0.1496,
+        -0.103,
+        0.0239,
+        -0.0371,
+        0.0474,
+        0.0011,
+        0.0596,
+        0.0203,
+        0.0091,
+        0.0049,
+        -0.0624,
+        0.0291,
+        0.0434,
+        0.0386,
+        0.075,
+        0.0232,
+        0.0446,
+        0.1107,
+        0.0484,
+        -0.0705,
+        -0.0186,
+        -0.0288,
+        0.0509,
+        -0.0019,
+        -0.0072,
+        -0.0463,
+        -0.0627,
+        0.0076,
+        0.0691,
+        -0.091,
+        0.0044,
+        -0.0375,
+        -0.0011,
+        -0.1346,
+        0.0396,
+        0.014,
+        0.014,
+        0.1074,
+        0.0845,
+        0.0222,
+        -0.0333,
+        0.1341,
+        -0.0077,
+        -0.0217,
+        -0.0724,
+        -0.055,
+        -0.042,
+        0.0003,
+        -0.0708,
+        0.0008,
+        0.0421,
+        -0.0257,
+        0.0392,
+        0.0351,
+        -0.0334,
+        -0.0012,
+        0.0083,
+        0.0684,
+        0.0127,
+        0.0234,
+        0.0395,
+        0.0073,
+        -0.0038,
+        -0.0467,
+        -0.0857,
+        -0.0309,
+        0.0796,
+        0.0777,
+        0.0568,
+        -0.0278,
+        0.0051,
+        0.059,
+        0.0143,
+        0.0226,
+        -0.0268,
+        -0.0178,
+        0.0199,
+        -0.0308,
+        -0.0307,
+        -0.0161,
+        0.0158,
+        -0.055,
+        0.0669,
+        0.0225,
+        -0.0,
+        -0.0067,
+        -0.1104,
+        -0.0353,
+        0.0394,
+        0.0343,
+        -0.0088,
+        -0.0622,
+        -0.0057,
+        0.0147,
+        0.0035,
+        0.0097,
+        -0.0524,
+        -0.0498,
+        -0.1037,
+        0.0472,
+        -0.0441,
+        0.0444,
+        -0.0677,
+        -0.0017,
+        0.0096,
+        0.0566,
+        -0.0498,
+        -0.0655,
+        -0.0127,
+        0.0164,
+        0.0195,
+        -0.0125,
+        0.037,
+        0.0443,
+        -0.0303,
+        0.0123,
+        0.0068,
+        -0.0446,
+        0.0122,
+        -0.0522,
+        -0.0036,
+        0.0059,
+        0.0351,
+        0.0178,
+        0.0005,
+        0.0785,
+        -0.0862,
+        -0.0718,
+        -0.0148,
+        -0.0241,
+        0.1091,
+        0.0407,
+        0.0026,
+        -0.0049,
+        -0.0392,
+        -0.0299,
+        0.0208,
+        0.0411,
+        -0.088,
+        -0.1174,
+        -0.0012,
+        0.092,
+        0.0144,
+        0.0404,
+        0.0418,
+        0.0305,
+        0.0137,
+        0.05,
+        -0.037,
+        -0.0473,
+        0.0175,
+        0.0237,
+        0.0079,
+        -0.0795,
+        0.0162,
+        0.007,
+        -0.0463,
+        -0.0711,
+        0.005,
+        -0.0362,
+        -0.0005,
+        -0.0227,
+        -0.0824,
+        0.0224,
+        -0.0411,
+        -0.0,
+        0.0796,
+        -0.0138,
+        0.0125,
+        0.0286,
+        0.0385,
+        -0.0252,
+        -0.0175,
+        0.0095,
+        0.0429,
+        -0.0866,
+        0.0203,
+        0.0088,
+        0.0256,
+        -0.1307,
+        -0.0,
+        -0.0634,
+        -0.0014,
+        0.1168,
+        0.0117,
+        0.045,
+        0.0595,
+        -0.051,
+        0.0714,
+        0.0977,
+        0.0091,
+        -0.0172,
+        -0.1048,
+        -0.0625,
+        0.0412,
+        0.0023,
+        -0.0067,
+        0.0449,
+        0.0585,
+        0.0146,
+        -0.0345,
+        0.0363,
+        0.0434,
+        0.0298,
+        -0.0365,
+        0.0969,
+        -0.0006,
+        -0.0147,
+        0.0497,
+        -0.011,
+        -0.0195,
+        -0.0645,
+        -0.0354,
+        -0.0339,
+        -0.0098,
+        -0.0688,
+        0.0324,
+        0.0507,
+        -0.0691,
+        -0.0584,
+        -0.0758,
+        -0.0168,
+        0.0849,
+        -0.0135,
+        -0.0589,
+        -0.0342,
+        0.0558,
+        -0.0097,
+        -0.0287,
+        0.0958,
+        0.0649,
+        -0.0359,
+        -0.0015,
+        -0.0222,
+        0.0862,
+        0.0041,
+        0.0347,
+        0.0862,
+        -0.0984,
+        0.0929,
+        0.0412,
+        -0.0194,
+        0.0284,
+        0.0287,
+        0.015
+      ],
+      "curriculum": {
+        "skip": false,
+        "topic": "AI Infrastructure & Tooling",
+        "article_type": "extends",
+        "primary_concept": "marketing automation integration",
+        "summary": "This article assumes knowledge of marketing automation and AI-powered analysis, and covers the integration of Adobe Marketing Agent with Amazon Quick using Model Context Protocol (MCP) to provide campaign insights and automation. It explains how to configure the integration, authenticate using Adobe credentials, and access marketing-domain analysis. The article also highlights the importance of governance controls across the flow, including least privilege, tenant isolation, and human review for launch decisions.",
+        "accessible_title": "How to automate marketing workflows \u2014 with AI insights",
+        "concepts_taught": [
+          {
+            "name": "marketing automation integration",
+            "confidence": 0.8
+          },
+          {
+            "name": "Model Context Protocol (MCP)",
+            "confidence": 0.7
+          }
+        ],
+        "prerequisites": [
+          {
+            "name": "marketing automation",
+            "confidence": 0.9
+          },
+          {
+            "name": "AI-powered analysis",
+            "confidence": 0.8
+          }
+        ],
+        "difficulty": {
+          "level": "intermediate",
+          "technical_depth": 7,
+          "reading_time_minutes": 15
+        },
+        "learning_outcomes": [
+          "Understand how to integrate Adobe Marketing Agent with Amazon Quick",
+          "Learn how to configure MCP integration for marketing automation",
+          "Discover how to apply governance controls across the flow"
+        ],
+        "strategic_questions": [
+          "How can marketing automation integration improve campaign outcomes?",
+          "What are the key considerations for implementing MCP in marketing workflows?",
+          "How can AI-powered analysis enhance marketing decision-making?"
         ]
       }
     }
